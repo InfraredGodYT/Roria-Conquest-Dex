@@ -1,18 +1,18 @@
-Pokémon Showdown Dex
+Roria Conquest Dex (forked from Pokémon Showdown Dex)
 ========================================================================
 
-Navigation: [Website][1] | [Server repository][2] | [Client repository][3] | **Dex repository**
+Navigation: [Game Link][1] | [Discord Server][2] | [Community Group][3] | **Dex repository**
 
-  [1]: http://pokemonshowdown.com/
-  [2]: https://github.com/Zarel/Pokemon-Showdown
-  [3]: https://github.com/Zarel/Pokemon-Showdown-Client
+  [1]: http://pbblegacy.com/
+  [2]: https://discord.gg/robloxpokemon
+  [3]: https://pbblegacy.com/group
 
 Introduction
 ------------------------------------------------------------------------
 
-This is a repository for [**Pokémon Showdown's Pokédex**][4].
+This is a repository for [**Roria Conquests's Pokédex**][4].
 
-This is what runs `dex.pokemonshowdown.com`.
+This is what runs `dex.pbblegacy.com`. (CURRENTLY WIP)
 
   [4]: http://dex.pokemonshowdown.com/
 
