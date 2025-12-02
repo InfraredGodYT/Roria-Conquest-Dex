@@ -2,13 +2,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var pokemon = Dex.species.get(id);
+		var pokeTier = BattlePokedex?.[id].tier;
 		this.id = id;
 		this.shortTitle = pokemon.baseSpecies;
 
 		var buf = '<div class="pfx-body dexentry">';
 
 		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<a href="/tiers/'+toID(pokemon.tier)+'" data-target="push" class="tier">'+pokemon.tier+'</a>';
+		buf += '<a href="/tiers/'+toID(pokeTier)+'" data-target="push" class="tier">'+pokeTier+'</a>';
 		buf += '<h1>';
 		if (pokemon.forme) {
 			buf += '<a href="/pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.baseSpecies+'<small>-'+pokemon.forme+'</small></a>';
