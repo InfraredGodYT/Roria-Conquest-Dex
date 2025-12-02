@@ -17,7 +17,7 @@ if (process.argv[2] === 'full') {
 }
 
 function updateFiles() {
-	let indexContents = fs.readFileSync('index.template.php', {encoding: 'utf8'});
+	let indexContents = fs.readFileSync('index.php', {encoding: 'utf8'});
 
 	// add hashes to js and css files
 	process.stdout.write("Updating hashes... ");
@@ -49,6 +49,6 @@ function replaceRoutes(url) {
 		.replace('/pokemonshowdown.com/', '/' + Config.routes.root + '/');
 }
 
-//updateFiles();
+updateFiles();
 
 child_process.execSync('node ./cms/build', {stdio: 'inherit'});

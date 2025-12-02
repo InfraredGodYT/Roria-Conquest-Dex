@@ -208,6 +208,54 @@ a.button {
 	border-color: hsl(100,30%,41%);
 }
 
+.purplebutton {
+	background: hsl(278,30%,93%);
+	background: -webkit-gradient(linear, left top, left bottom, from(hsl(278,30%,97%)), to(hsl(278,30%,84%)));
+	background: -moz-linear-gradient(top,  hsl(278,30%,97%),  hsl(278,30%,84%));
+	background: linear-gradient(top,  hsl(278,30%,97%),  hsl(278,30%,84%));
+	border-color: hsl(278,30%,70%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e3e3e3');
+}
+
+.purplebutton:hover {
+	background: hsl(278,30%,87%);
+	background: -webkit-gradient(linear, left top, left bottom, from(hsl(278,30%,94%)), to(hsl(278,30%,77%)));
+	background: -moz-linear-gradient(top,  hsl(278,30%,94%),  hsl(278,30%,77%));
+	background: linear-gradient(top,  hsl(278,30%,94%),  hsl(278,30%,77%));
+	border-color: hsl(278,30%,41%);
+}
+
+.purplebutton:active {
+	background: hsl(278,30%,77%);
+	background: -webkit-gradient(linear, left top, left bottom, from(hsl(278,30%,77%)), to(hsl(278,30%,83%)));
+	background: -moz-linear-gradient(top,  hsl(278,30%,77%),  hsl(278,30%,83%));
+	background: linear-gradient(top,  hsl(278,30%,77%),  hsl(278,30%,83%));
+	border-color: hsl(278,30%,41%);
+}
+
+.colorbutton {
+  --btn-h: 100;
+  --btn-s: 30%;
+  --btn-l: 93%;
+  --btn-l-hover: 87%;
+  --btn-l-active: 77%;
+
+  background: hsl(var(--btn-h), var(--btn-s), var(--btn-l));
+  background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l) + 4%)), hsl(var(--btn-h), var(--btn-s), var(--btn-l)));
+  border-color: hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l) - 23%));
+  color: #222;
+}
+
+.colorbutton:hover {
+  background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l-hover) + 7%)), hsl(var(--btn-h), var(--btn-s), var(--btn-l-hover)));
+  border-color: hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l-hover) - 46%));
+}
+
+.colorbutton:active {
+  background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), var(--btn-l-active)), hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l-active) + 6%)));
+  border-color: hsl(var(--btn-h), var(--btn-s), calc(var(--btn-l-active) - 46%));
+}
+
 .footer {
 	font-size: 9pt;
 	color: #999999;
