@@ -35,7 +35,7 @@ function updateFiles() {
 
 		return b + '="/' + c + '?' + hash + '"';
 	});
-	indexContents = indexContents.replace(/(src|href)="(.*?)\/(.*?)[a-z0-9]*?"/g, (match) => replaceRoutes(match));
+	//indexContents = indexContents.replace(/(src|href)="(.*?)\/(.*?)[a-z0-9]*?"/g, (match) => replaceRoutes(match));
 	console.log("DONE");
 
 	process.stdout.write("Writing new `index.php` file... ");
@@ -49,6 +49,6 @@ function replaceRoutes(url) {
 		.replace('/pokemonshowdown.com/', '/' + Config.routes.root + '/');
 }
 
-updateFiles();
+//updateFiles();
 
 child_process.execSync('node ./cms/build', {stdio: 'inherit'});
