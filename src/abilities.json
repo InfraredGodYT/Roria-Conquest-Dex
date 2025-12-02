@@ -16,6 +16,16 @@
     "desc": "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
     "shortDesc": "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5."
   },
+  "adrenaline": {
+    "onModifyAtkPriority": 5,
+    "onModifySpAPriority": 5,
+    "flags": {},
+    "name": "Adrenaline",
+    "rating": -1,
+    "num": 129,
+    "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are boosted by 50%.",
+    "shortDesc": "While this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are boosted by 50%."
+  },
   "aerilate": {
     "onModifyTypePriority": -1,
     "onBasePowerPriority": 23,
@@ -58,8 +68,8 @@
     "name": "Anger Point",
     "rating": 1,
     "num": 83,
-    "desc": "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",
-    "shortDesc": "If this Pokemon (not its substitute) takes a critical hit, its Attack is raised 12 stages."
+    "desc": "This Pokemon's moves have their power multiplied by 1+(X*0.1), where X is the total number of times the holder takes damage when this Ability became active, and X cannot be greater than 5.",
+    "shortDesc": "This Pokemon's moves have 10% more power for each attack taken while active; boost caps at 50%."
   },
   "angershell": {
     "flags": {},
@@ -74,8 +84,8 @@
     "name": "Anticipation",
     "rating": 0.5,
     "num": 107,
-    "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attacking move with a type that is super effective against this Pokemon, or any OHKO move. This effect considers Hidden Power to be its determined type, and every other move to be its original type.",
-    "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move."
+    "desc": "On switch-in, this Pokemon is alerted if any opposing Pokemon has an attacking move with a type that is super effective against this Pokemon, or any OHKO move. This effect considers Hidden Power to be its determined type, and every other move to be its original type. Shuddering reduces any damage taken by 50% on the holder's first active turn.",
+    "shortDesc": "On switch-in, this Pokemon shudders if any foe has a supereffective or OHKO move. Shuddering reduces damage by 50% on turn 1."
   },
   "arenatrap": {
     "flags": {},
@@ -171,8 +181,8 @@
     "name": "Battery",
     "rating": 0,
     "num": 217,
-    "desc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3.",
-    "shortDesc": "This Pokemon's allies have the power of their special attacks multiplied by 1.3."
+    "desc": "This Pokemon and its allies have the power of their special attacks multiplied by 1.2.",
+    "shortDesc": "This Pokemon and its allies have the power of their special attacks multiplied by 1.2."
   },
   "battlearmor": {
     "onCriticalHit": false,
@@ -232,8 +242,8 @@
     "name": "Big Pecks",
     "rating": 0.5,
     "num": 145,
-    "desc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
-    "shortDesc": "Prevents other Pokemon from lowering this Pokemon's Defense stat stage."
+    "desc": "This Pokemon's offensive stat is multiplied by 1.2 while using a Flying-type attack.",
+    "shortDesc": "This Pokemon's offensive stat is 1.2x with Flying attacks."
   },
   "blaze": {
     "onModifyAtkPriority": 5,
@@ -242,8 +252,8 @@
     "name": "Blaze",
     "rating": 2,
     "num": 66,
-    "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Fire-type attack.",
-    "shortDesc": "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Fire attacks."
+    "desc": "This Pokemon's offensive stat is boosted by 20% when using Fire attacks unless the weather is sunny.",
+    "shortDesc": "This Pokemon's offensive stat is 1.2x with Fire attacks unless the weather is sunny."
   },
   "bulletproof": {
     "flags": {
@@ -467,16 +477,6 @@
     "desc": "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect.",
     "shortDesc": "This Pokemon and its allies are protected from opposing priority moves."
   },
-  "defeatist": {
-    "onModifyAtkPriority": 5,
-    "onModifySpAPriority": 5,
-    "flags": {},
-    "name": "Defeatist",
-    "rating": -1,
-    "num": 129,
-    "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are halved.",
-    "shortDesc": "While this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are halved."
-  },
   "defiant": {
     "flags": {},
     "name": "Defiant",
@@ -587,8 +587,8 @@
     "name": "Effect Spore",
     "rating": 2,
     "num": 27,
-    "desc": "30% chance a Pokemon making contact with this Pokemon will be poisoned, paralyzed, or fall asleep.",
-    "shortDesc": "30% chance of poison/paralysis/sleep on others making contact with this Pokemon."
+    "desc": "33% chance a Pokemon making contact with this Pokemon will be badly poisoned, paralyzed, or fall asleep.",
+    "shortDesc": "33% chance of toxic/paralysis/sleep on others making contact with this Pokemon."
   },
   "electricsurge": {
     "flags": {},
@@ -708,8 +708,8 @@
     "name": "Flare Boost",
     "rating": 2,
     "num": 138,
-    "desc": "While this Pokemon is burned, the power of its special attacks is multiplied by 1.5.",
-    "shortDesc": "While this Pokemon is burned, its special attacks have 1.5x power."
+    "desc": "While this Pokemon is burned, the power of its attacks is multiplied by 1.5 while ignoring the attack drop and burn damage. Fire types with this ability can be burned.",
+    "shortDesc": "While this Pokemon is burned, its attacks have 1.5x power. Immune to Burn damage and its attack drop."
   },
   "flashfire": {
     "condition": {
@@ -740,8 +740,8 @@
     "name": "Flower Gift",
     "rating": 1,
     "num": 122,
-    "desc": "If this Pokemon is a Cherrim and Sunny Day is active, it changes to Sunshine Form and the Attack and Special Defense of it and its allies are multiplied by 1.5. These effects are prevented if the Pokemon is holding a Utility Umbrella.",
-    "shortDesc": "If user is Cherrim and Sunny Day is active, it and allies' Attack and Sp. Def are 1.5x."
+    "desc": "If this Pokemon is a Cherrim and Sunny Day is active, it changes to Sunshine Form and the Special Attack and Special Defense of it and its allies are multiplied by 1.5. These effects are prevented if the Pokemon is holding a Utility Umbrella.",
+    "shortDesc": "If user is Cherrim and Sunny Day is active, it and allies' Sp. Atk and Sp. Def are 1.5x."
   },
   "flowerveil": {
     "flags": {
@@ -750,8 +750,8 @@
     "name": "Flower Veil",
     "rating": 0,
     "num": 166,
-    "desc": "Grass-type Pokemon on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a non-volatile status condition inflicted on them by other Pokemon.",
-    "shortDesc": "This side's Grass types can't have stats lowered or status inflicted by other Pokemon."
+    "desc": "Any allies on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a non-volatile status condition inflicted on them by other Pokemon.",
+    "shortDesc": "This side's allies can't have stats lowered or status inflicted by other Pokemon."
   },
   "fluffy": {
     "flags": {
@@ -827,8 +827,8 @@
     "name": "Gale Wings",
     "rating": 1.5,
     "num": 177,
-    "desc": "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
-    "shortDesc": "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1."
+    "desc": "If this Pokemon is at more than 50% of its max HP, its Flying-type moves have their priority increased by 1.",
+    "shortDesc": "If this Pokemon is at 50% max HP or more, its Flying-type moves have their priority increased by 1."
   },
   "galvanize": {
     "onModifyTypePriority": -1,
@@ -845,8 +845,8 @@
     "name": "Gluttony",
     "rating": 1.5,
     "num": 82,
-    "desc": "When this Pokemon is holding a Berry that usually activates with 1/4 or less of its maximum HP, it is eaten at 1/2 or less of its maximum HP instead.",
-    "shortDesc": "This Pokemon eats Berries at 1/2 max HP or less instead of their usual 1/4 max HP."
+    "desc": "If this Pokemon eats a held Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect. This effect can also activate after the effects of Bug Bite, Fling, Pluck, Stuff Cheeks, and Teatime if the eaten Berry had an effect on this Pokemon.",
+    "shortDesc": "If this Pokemon eats a Berry, it restores 1/3 of its max HP after the Berry's effect."
   },
   "goodasgold": {
     "flags": {
@@ -1063,8 +1063,8 @@
     "name": "Ice Body",
     "rating": 1,
     "num": 115,
-    "desc": "If Snow is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn.",
-    "shortDesc": "If Snow is active, this Pokemon heals 1/16 of its max HP each turn."
+    "desc": "If Hail/Snow is active, this Pokemon restores 1/8 of its maximum HP, rounded down, at the end of each turn. If Hail/Snow is not active, the holder heals 1/16 of its maximum HP instead. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+    "shortDesc": "If Hail/Snow is active, this Pokemon heals 1/8 of its max HP each turn. Heals 1/16 max HP otherwise."
   },
   "iceface": {
     "onSwitchInPriority": -2,
@@ -1166,8 +1166,8 @@
     "name": "Inner Focus",
     "rating": 1,
     "num": 39,
-    "desc": "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability.",
-    "shortDesc": "This Pokemon cannot be made to flinch. Immune to Intimidate."
+    "desc": "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability and can never lose focus when using Focus Punch.",
+    "shortDesc": "This Pokemon cannot be made to flinch. Immune to Intimidate and cannot lose focus when using Focus Punch."
   },
   "insomnia": {
     "flags": {
@@ -1210,8 +1210,8 @@
     "name": "Iron Fist",
     "rating": 3,
     "num": 89,
-    "desc": "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
-    "shortDesc": "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted."
+    "desc": "This Pokemon's punch-based attacks have their power multiplied by 1.3.",
+    "shortDesc": "This Pokemon's punch-based attacks have 1.3x power. Sucker Punch is not boosted."
   },
   "justified": {
     "flags": {},
@@ -1320,16 +1320,16 @@
     "name": "Liquid Voice",
     "rating": 1.5,
     "num": 204,
-    "desc": "This Pokemon's sound-based moves become Water-type moves. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
-    "shortDesc": "This Pokemon's sound-based moves become Water type."
+    "desc": "This Pokemon's sound-based moves become Water-type moves and get a 20% base power increase. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+    "shortDesc": "This Pokemon's sound-based moves become Water type and get a 20% power boost."
   },
   "longreach": {
     "flags": {},
     "name": "Long Reach",
     "rating": 1,
     "num": 203,
-    "desc": "This Pokemon's attacks do not make contact with the target.",
-    "shortDesc": "This Pokemon's attacks do not make contact with the target."
+    "desc": "This Pokemon's attacks do not make contact with the target. Contact moves get a 20% base power increase instead.",
+    "shortDesc": "This Pokemon's attacks do not make contact with the target. Contact moves' power is multiplied by 1.2."
   },
   "magicbounce": {
     "onTryHitPriority": 1,
@@ -1355,8 +1355,8 @@
     "name": "Magician",
     "rating": 1,
     "num": 170,
-    "desc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack. Does not affect Doom Desire and Future Sight. If multiple targets are hit by an attack the item is stolen from the fastest Pokemon, while considering the effect of Trick Room and prioritizing opposing Pokemon before allies.",
-    "shortDesc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack."
+    "desc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack. If the holder has an item, it knocks the target's off. Does not affect Doom Desire and Future Sight. If multiple targets are hit by an attack the item is stolen from the fastest Pokemon, while considering the effect of Trick Room and prioritizing opposing Pokemon before allies.",
+    "shortDesc": "If this Pokemon has no item, it steals the item off a Pokemon it hits with an attack. If the holder has an item, it knocks the target's off."
   },
   "magmaarmor": {
     "flags": {
@@ -1627,8 +1627,8 @@
     "name": "Overgrow",
     "rating": 2,
     "num": 65,
-    "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Grass-type attack.",
-    "shortDesc": "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Grass attacks."
+    "desc": "This Pokemon's offensive stat is boosted by 20% when using Grass attacks unless Grassy Terrain is up.",
+    "shortDesc": "This Pokemon's offensive stat is 1.2x with Grass attacks unless Grassy Terrain is up."
   },
   "owntempo": {
     "flags": {
@@ -1826,8 +1826,8 @@
     "name": "Protean",
     "rating": 4,
     "num": 168,
-    "desc": "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type. This effect can only happen once per switch-in, and only if this Pokemon is not Terastallized.",
-    "shortDesc": "This Pokemon's type changes to the type of the move it is using. Once per switch-in."
+    "desc": "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
+    "shortDesc": "This Pokemon's type changes to the type of the move it is using."
   },
   "protosynthesis": {
     "onSwitchInPriority": -2,
@@ -1947,8 +1947,8 @@
     "name": "Rain Dish",
     "rating": 1.5,
     "num": 44,
-    "desc": "If Rain Dance is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
-    "shortDesc": "If Rain Dance is active, this Pokemon heals 1/16 of its max HP each turn."
+    "desc": "If Rain Dance is active, this Pokemon restores 1/8 of its maximum HP, rounded down, at the end of each turn. If Rain Dance is not active, the holder heals 1/16 of its maximum HP instead. This effect is prevented if this Pokemon is holding a Utility Umbrella.",
+    "shortDesc": "If Rain Dance is active, this Pokemon heals 1/8 of its max HP each turn. Heals 1/16 max HP otherwise."
   },
   "rattled": {
     "flags": {},
@@ -2014,8 +2014,8 @@
     "name": "Rivalry",
     "rating": 0,
     "num": 79,
-    "desc": "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender or multiplied by 0.75 against targets of the opposite gender. There is no modifier if either this Pokemon or the target is genderless.",
-    "shortDesc": "This Pokemon's attacks do 1.25x on same gender targets; 0.75x on opposite gender."
+    "desc": "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender. There is no modifier if either this Pokemon or the target is genderless.",
+    "shortDesc": "This Pokemon's attacks do 1.25x on same gender targets."
   },
   "rkssystem": {
     "flags": {
@@ -2281,8 +2281,8 @@
     "name": "Slow Start",
     "rating": -1,
     "num": 112,
-    "desc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
-    "shortDesc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns."
+    "desc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns. This timer never resets, even when switching.",
+    "shortDesc": "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns. The timer doesn't reset when switching."
   },
   "slushrush": {
     "flags": {},
@@ -2325,8 +2325,8 @@
     "name": "Solar Power",
     "rating": 2,
     "num": 94,
-    "desc": "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. These effects are prevented if the Pokemon is holding a Utility Umbrella.",
-    "shortDesc": "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn."
+    "desc": "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/10 of its maximum HP, rounded down, at the end of each turn. These effects are prevented if the Pokemon is holding a Utility Umbrella.",
+    "shortDesc": "If Sunny Day is active, this Pokemon's Sp. Atk is 1.5x; loses 1/10 max HP per turn."
   },
   "solidrock": {
     "flags": {
@@ -2383,8 +2383,8 @@
     "name": "Stall",
     "rating": -1,
     "num": 100,
-    "desc": "This Pokemon moves last among Pokemon using the same or greater priority moves.",
-    "shortDesc": "This Pokemon moves last among Pokemon using the same or greater priority moves."
+    "desc": "This Pokemon moves last among Pokemon using the same or greater priority moves, but ignore type and ability immunities.",
+    "shortDesc": "This Pokemon moves last among Pokemon using the same or greater priority moves, but ignore type and ability immunities."
   },
   "stalwart": {
     "onModifyMovePriority": 1,
@@ -2562,8 +2562,8 @@
     "name": "Swarm",
     "rating": 2,
     "num": 68,
-    "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Bug-type attack.",
-    "shortDesc": "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Bug attacks."
+    "desc": "This Pokemon's offensive stat is multiplied by 1.2 while using a Bug-type attack.",
+    "shortDesc": "This Pokemon's offensive stat is 1.2x with Bug attacks."
   },
   "sweetveil": {
     "flags": {
@@ -2623,8 +2623,8 @@
     "name": "Tangled Feet",
     "rating": 1,
     "num": 77,
-    "desc": "This Pokemon's evasiveness is doubled as long as it is confused.",
-    "shortDesc": "This Pokemon's evasiveness is doubled as long as it is confused."
+    "desc": "When switching in, this Pokemon is immune to entry hazards on its side of the field.",
+    "shortDesc": "This Pokemon is immune to entry hazards on switch-in."
   },
   "tanglinghair": {
     "flags": {},
@@ -2744,8 +2744,8 @@
     "name": "Torrent",
     "rating": 2,
     "num": 67,
-    "desc": "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Water-type attack.",
-    "shortDesc": "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Water attacks."
+    "desc": "This Pokemon's offensive stat is boosted by 20% when using Water attacks unless the weather is rainy.",
+    "shortDesc": "This Pokemon's offensive stat is 1.2x with Water attacks unless the weather is rainy."
   },
   "toughclaws": {
     "onBasePowerPriority": 21,
@@ -2762,8 +2762,8 @@
     "name": "Toxic Boost",
     "rating": 3,
     "num": 137,
-    "desc": "While this Pokemon is poisoned, the power of its physical attacks is multiplied by 1.5.",
-    "shortDesc": "While this Pokemon is poisoned, its physical attacks have 1.5x power."
+    "desc": "While this Pokemon is poisoned, the power of its physical attacks is multiplied by 1.5. The holder is also immune to poison damage.",
+    "shortDesc": "While this Pokemon is poisoned, its physical attacks have 1.5x power. Immune to poison damage."
   },
   "toxicchain": {
     "flags": {},
@@ -2880,8 +2880,8 @@
     "name": "Victory Star",
     "rating": 2,
     "num": 162,
-    "desc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",
-    "shortDesc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.1."
+    "desc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.3.",
+    "shortDesc": "This Pokemon and its allies' moves have their accuracy multiplied by 1.3."
   },
   "vitalspirit": {
     "flags": {
@@ -3045,8 +3045,8 @@
     "name": "Zen Mode",
     "rating": 0,
     "num": 161,
-    "desc": "If this Pokemon is a Darmanitan or Galarian Darmanitan, it changes to Zen Mode if it has 1/2 or less of its maximum HP at the end of a turn. If Darmanitan's HP is above 1/2 of its maximum HP at the end of a turn, it changes back to Standard Mode.",
-    "shortDesc": "If Darmanitan, at end of turn changes Mode to Standard if > 1/2 max HP, else Zen."
+    "desc": "If this Pokemon is a Darmanitan or Galarian Darmanitan, it changes to Zen Mode when switched in.",
+    "shortDesc": "Switches to Zen Mode on switch-in."
   },
   "zerotohero": {
     "flags": {
@@ -3095,5 +3095,44 @@
     "num": -3,
     "desc": "The duration of Gravity, Heal Block, Magic Room, Safeguard, Tailwind, Trick Room, and Wonder Room is increased by 2 turns if the effect is started by this Pokemon.",
     "shortDesc": "When used, Gravity/Heal Block/Safeguard/Tailwind/Room effects last 2 more turns."
+  },
+  "northpole": {
+    "flags": {
+      "breakable": 1
+    },
+    "name": "North Pole",
+    "rating": 3,
+    "num": -4,
+    "desc": "This Pokemon is immune to Ice-type moves and raises its Special Attack by 1 stage when hit by a Water-type move. If this Pokemon is not the target of a single-target Ice-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move. If multiple Pokemon could redirect with this Ability, it goes to the one with the highest Speed, or in the case of a tie to the one that has had this Ability active longer.",
+    "shortDesc": "This Pokemon draws Ice moves to itself to raise Sp. Atk by 1; Ice immunity."
+  },
+  "hubris": {
+    "onAnyFaintPriority": 1,
+    "flags": {},
+    "name": "Hubris",
+    "rating": 3.5,
+    "num": -5,
+    "desc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints.",
+    "shortDesc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints."
+  },
+  "inflate": {
+    "onModifyDefPriority": 6,
+    "flags": {
+      "breakable": 1
+    },
+    "name": "Inflate",
+    "rating": 2.5,
+    "num": -6,
+    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
+    "shortDesc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5."
+  },
+  "luchadorspride": {
+    "onAnyFaintPriority": 1,
+    "flags": {},
+    "name": "Luchador's Pride",
+    "rating": 3.5,
+    "num": -7,
+    "desc": "This Pokemon's Speed is raised by 1 stage when another Pokemon faints.",
+    "shortDesc": "This Pokemon's Speed is raised by 1 stage when another Pokemon faints."
   }
 }
