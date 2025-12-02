@@ -111,7 +111,7 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 
 		var vanillaAbility = window.BattleAbilitiesVanilla?.[id];
 
-		if (vanillaAbility) {
+		if (vanillaAbility && (vanillaAbility.desc != ability.desc)) {
 			var rcChanges = '';
 
 			if (vanillaAbility.shortDesc !== ability.shortDesc) {
