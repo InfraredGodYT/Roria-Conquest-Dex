@@ -1,16 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const base = path.join(__dirname, 'src');
+const base = path.join(__dirname, 'src/vanilla');
 
 const files = {
-  'pokedex.json': 'exports.BattlePokedex = ',
-  'movedex.json': 'exports.BattleMovedex = ',
-  'abilities.json': 'exports.BattleAbilities = ',
-  'learnsets.json': 'exports.BattleLearnsets = ',
+  'pokedex.json': 'exports.BattlePokedexVanilla = ',
+  'movedex.json': 'exports.BattleMovedexVanilla = ',
+  'abilities.json': 'exports.BattleAbilitiesVanilla = ',
+  'learnsets.json': 'exports.BattleLearnsetsVanilla = ',
 };
 
-const outDir = path.join(__dirname, 'data');
+const outDir = path.join(__dirname, 'data/vanilla');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 for (const [file, header] of Object.entries(files)) {

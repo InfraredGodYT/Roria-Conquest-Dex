@@ -29,7 +29,7 @@
 		this.externalFilter = false;
 		this.cur = {};
 		this.$inputEl = null;
-		this.gen = 10;
+		this.gen = 9;
 		this.mod = null;
 
 		this.engine = new DexSearch();
@@ -780,7 +780,7 @@
 		return buf;
 	};
 
-	Search.gen = 10;
+	Search.gen = 9;
 	Search.renderRow = Search.prototype.renderRow;
 	Search.renderPokemonRow = Search.prototype.renderPokemonRow;
 	Search.renderTaggedPokemonRowInner = Search.prototype.renderTaggedPokemonRowInner;

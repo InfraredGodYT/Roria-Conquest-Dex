@@ -49,6 +49,26 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 		}
 		if (pastGenChanges) buf += '</dl>';
 
+		var vanillaItem = window.BattleItemsVanilla?.[id];
+
+		if (vanillaItem && (vanillaItem.desc != item.desc)) {
+			var rcChanges = '';
+
+			var vanillaDesc = vanillaItem.desc || vanillaItem.shortDesc || '';
+			var rcDesc = item.desc || item.shortDesc || '';
+
+			if (vanillaDesc !== rcDesc) {
+				rcChanges +=
+					'<strong>Vanilla:</strong> ' + Dex.escapeHTML(vanillaDesc) + '<br />' +
+					'<strong>Roria:</strong> ' + Dex.escapeHTML(rcDesc);
+			}
+
+			if (rcChanges) {
+				buf += '<h3>Roria Conquest Changes</h3>';
+				buf += '<div class="infobox">' + rcChanges + '</div>';
+			}
+		}
+
 		buf += '</div>';
 
 		this.html(buf);
@@ -88,6 +108,23 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 			}
 		}
 		if (pastGenChanges) buf += '</dl>';
+
+		var vanillaAbility = window.BattleAbilitiesVanilla?.[id];
+
+		if (vanillaAbility) {
+			var rcChanges = '';
+
+			if (vanillaAbility.shortDesc !== ability.shortDesc) {
+				rcChanges +=
+					'<strong>Vanilla:</strong> ' + Dex.escapeHTML(vanillaAbility.shortDesc) + '<br />' +
+					'<strong>Roria:</strong> ' + Dex.escapeHTML(ability.shortDesc);
+			}
+
+			if (rcChanges) {
+				buf += '<h3>Roria Conquest Changes</h3>';
+				buf += '<div class="infobox">' + rcChanges + '</div>';
+			}
+		}
 
 		// pokemon
 		buf += '<h3>Pok&eacute;mon with this ability</h3>';
