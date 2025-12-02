@@ -208,6 +208,45 @@ a.button {
 	border-color: hsl(100,30%,41%);
 }
 
+.colorbutton {
+  /* Default color if none specified */
+  --btn-h: 100;  /* hue */
+  --btn-s: 30%;  /* saturation */
+  --btn-l-light: 93%; /* top gradient color */
+  --btn-l-dark: 84%;  /* bottom gradient color */
+  --btn-border: 70%;  /* border color */
+
+  background: hsl(var(--btn-h), var(--btn-s), var(--btn-l-light));
+  background: -webkit-gradient(linear, left top, left bottom,
+              from(hsl(var(--btn-h), var(--btn-s), var(--btn-l-light))),
+              to(hsl(var(--btn-h), var(--btn-s), var(--btn-l-dark))));
+  background: -moz-linear-gradient(top,
+              hsl(var(--btn-h), var(--btn-s), var(--btn-l-light)),
+              hsl(var(--btn-h), var(--btn-s), var(--btn-l-dark)));
+  background: linear-gradient(to bottom,
+              hsl(var(--btn-h), var(--btn-s), var(--btn-l-light)),
+              hsl(var(--btn-h), var(--btn-s), var(--btn-l-dark)));
+  border-color: hsl(var(--btn-h), var(--btn-s), var(--btn-border));
+  color: black; /* or white, depending on contrast */
+  padding: 0.5em 1em;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.colorbutton:hover {
+  --btn-l-light: 87%;
+  --btn-l-dark: 77%;
+  --btn-border: 41%;
+}
+
+.colorbutton:active {
+  --btn-l-light: 77%;
+  --btn-l-dark: 83%;
+  --btn-border: 41%;
+}
+
 .footer {
 	font-size: 9pt;
 	color: #999999;

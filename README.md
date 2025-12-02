@@ -14,7 +14,7 @@ This is a repository for [**Roria Conquests's Pokédex**][4].
 
 This is what runs `dex.pbblegacy.com`. (CURRENTLY WIP)
 
-  [4]: http://dex.pokemonshowdown.com/
+  [4]: http://dex.pbblegacy.com/
 
 Features
 ------------------------------------------------------------------------
