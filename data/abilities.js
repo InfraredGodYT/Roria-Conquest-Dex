@@ -477,6 +477,16 @@ exports.BattleAbilities = {
     "desc": "Priority moves used by opposing Pokemon targeting this Pokemon or its allies are prevented from having an effect.",
     "shortDesc": "This Pokemon and its allies are protected from opposing priority moves."
   },
+  "defeatist": {
+    "onModifyAtkPriority": 5,
+    "onModifySpAPriority": 5,
+    "flags": {},
+    "name": "Defeatist",
+    "rating": -1,
+    "num": -8,
+    "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are reduced by 50%.",
+    "shortDesc": "While this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are halved."
+  },
   "defiant": {
     "flags": {},
     "name": "Defiant",
