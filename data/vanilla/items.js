@@ -1,4 +1,4 @@
-exports.BattleItemsVanilla = {
+window.BattleItemsVanilla = {
   "abilityshield": {
     "name": "Ability Shield",
     "spritenum": 746,

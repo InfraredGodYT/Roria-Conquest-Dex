@@ -1,4 +1,4 @@
-exports.BattlePokedexVanilla = {
+window.BattlePokedexVanilla = {
   "bulbasaur": {
     "num": 1,
     "name": "Bulbasaur",

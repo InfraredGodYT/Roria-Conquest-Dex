@@ -24603,7 +24603,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Defeatist"
+      "0": "Adrenaline"
     },
     "heightm": 0.5,
     "weightkg": 9.5,
@@ -24638,7 +24638,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Defeatist"
+      "0": "Adrenaline"
     },
     "heightm": 1.4,
     "weightkg": 32,

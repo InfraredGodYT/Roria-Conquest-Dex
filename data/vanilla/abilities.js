@@ -1,4 +1,4 @@
-exports.BattleAbilitiesVanilla = {
+window.BattleAbilitiesVanilla = {
   "noability": {
     "isNonstandard": "Past",
     "flags": {},
