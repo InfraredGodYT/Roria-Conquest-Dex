@@ -1,62 +1,141 @@
 #!/usr/bin/env node
-
-/**
- * Roria Conquest – Search Index Rebuild Script
- * Rebuilds ONLY: play.pokemonshowdown.com/data/search-index.js
- */
+'use strict';
 
 const fs = require('fs');
 const path = require('path');
 
-const OUTPUT_PATH = path.resolve(__dirname, '../client/play.pokemonshowdown.com/data/search-index.js');
+const root = path.resolve(__dirname, '..');
+process.chdir(root);
 
-// Load RC data
-const {BattlePokedex} = require('../data/pokedex.js');
-const {BattleMovedex} = require('../data/movedex.js');
-const {BattleAbilities} = require('../data/abilities.js');
-const {BattleItems} = require('../data/items.js');
+// ✅ Load LOCAL compiled data only
+const {BattlePokedex}   = require('../data/pokedex');
+const {BattleMovedex}   = require('../data/movedex');
+const {BattleItems}     = require('../data/items');
+const {BattleAbilities} = require('../data/abilities');
 
-console.log('[RC] Rebuilding search-index.js (CMS compatible)...');
+// ✅ Load local typechart (or define manually if missing)
+const TypeChart = require('../data/typechart');
 
-const index = [];
+// ✅ Minimal toID replacement (Showdown-compatible)
+function toID(text) {
+	return ('' + text).toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
 
-/* ----------------- POKEMON ----------------- */
+console.log("Building `play.pokemonshowdown.com/data/search-index.js`...");
+
+let index = [];
+
+index = index.concat(Object.keys(BattlePokedex).map(x => x + ' pokemon'));
+index = index.concat(Object.keys(BattleMovedex).map(x => x + ' move'));
+index = index.concat(Object.keys(BattleItems).map(x => x + ' item'));
+index = index.concat(Object.keys(BattleAbilities).map(x => x + ' ability'));
+index = index.concat(Object.keys(TypeChart).map(x => toID(x) + ' type'));
+
+index = index.concat(['physical', 'special', 'status'].map(x => toID(x) + ' category'));
+index = index.concat([
+	'monster','water1','bug','flying','field','fairy','grass','humanlike','water3',
+	'mineral','amorphous','water2','ditto','dragon','undiscovered',
+].map(x => toID(x) + ' egggroup'));
+index = index.concat([
+	'ou','uu','ru','nu','pu','zu','lc','nfe','uber',
+	'uubl','rubl','nubl','publ','zubl',
+].map(x => toID(x) + ' tier'));
+
+// ✅ Alias generator (Dex-free)
+function generateAlias(id, name, type) {
+	const fullSplit = name.split(/ |-/).map(toID);
+	if (fullSplit.length < 2) return;
+
+	const fullAcronym =
+		fullSplit.map(x => x.charAt(0)).join('') +
+		fullSplit.at(-1).slice(1);
+
+	index.push(`${fullAcronym} ${type} ${id} 0`);
+
+	for (let i = 1; i < fullSplit.length; i++) {
+		index.push(
+			`${fullSplit.slice(i).join('')} ${type} ${id} ${
+				fullSplit.slice(0, i).join('').length
+			}`
+		);
+	}
+}
+
+// ✅ Pokémon aliases
 for (const id in BattlePokedex) {
-	const p = BattlePokedex[id];
-	let searchText = '';
-	if (p.species) searchText += p.species + ' ';
-	if (p.types) searchText += p.types.join(' ');
-	index.push([id, 'pokemon', searchText.trim()]);
+	const mon = BattlePokedex[id];
+	if (mon.isCosmeticForme) continue;
+	generateAlias(id, mon.name, 'pokemon');
 }
 
-/* ----------------- MOVES ----------------- */
+// ✅ Move aliases
 for (const id in BattleMovedex) {
-	const m = BattleMovedex[id];
-	let searchText = '';
-	if (m.name) searchText += m.name + ' ';
-	if (m.type) searchText += m.type;
-	index.push([id, 'move', searchText.trim()]);
+	generateAlias(id, BattleMovedex[id].name, 'move');
 }
 
-/* ----------------- ABILITIES ----------------- */
-for (const id in BattleAbilities) {
-	const a = BattleAbilities[id];
-	let searchText = a.name || '';
-	index.push([id, 'ability', searchText]);
-}
-
-/* ----------------- ITEMS ----------------- */
+// ✅ Item aliases
 for (const id in BattleItems) {
-	const i = BattleItems[id];
-	let searchText = i.name || '';
-	index.push([id, 'item', searchText]);
+	generateAlias(id, BattleItems[id].name, 'item');
 }
 
-/* ----------------- WRITE FILE ----------------- */
-const fileContents =
-	`"use strict";\n` +
-	`exports.BattleSearchIndex = ${JSON.stringify(index)};\n`;
+// ✅ Ability aliases
+for (const id in BattleAbilities) {
+	generateAlias(id, BattleAbilities[id].name, 'ability');
+}
 
-fs.writeFileSync(OUTPUT_PATH, fileContents, 'utf8');
+// ✅ Ultra Beast hardcodes (official compatibility)
+const ultraBeasts = {
+	ub01symbiont: "nihilego",
+	ub02absorption: "buzzwole",
+	ub02beauty: "pheromosa",
+	ub03lightning: "xurkitree",
+	ub04blade: "kartana",
+	ub04blaster: "celesteela",
+	ub05glutton: "guzzlord",
+	ubburst: "blacephalon",
+	ubassembly: "stakataka",
+	ubadhesive: "poipole",
+	ubstinger: "naganadel",
+};
+for (const [ub, id] of Object.entries(ultraBeasts)) {
+	index.push(`${ub} pokemon ${id} 0`);
+}
 
-console.log('[RC] search-index.js rebuilt successfully.');
+// ✅ Sort and finalize
+index.sort();
+
+const BattleSearchIndex = index.map(x => {
+	const parts = x.split(' ');
+	if (parts.length > 3) {
+		parts[3] = Number(parts[3]);
+		parts[2] = index.indexOf(parts[2] + ' ' + parts[1]);
+	}
+	return parts;
+});
+
+// ✅ Type counts
+const BattleSearchCountIndex = {};
+
+for (const type in TypeChart) {
+	BattleSearchCountIndex[type + ' move'] =
+		Object.keys(BattleMovedex).filter(id => BattleMovedex[id].type === type).length;
+
+	BattleSearchCountIndex[type + ' pokemon'] =
+		Object.keys(BattlePokedex).filter(id =>
+			!BattlePokedex[id].isCosmeticForme &&
+			BattlePokedex[id].types?.includes(type)
+		).length;
+}
+
+// ✅ Output exactly like Showdown
+let buf = '// DO NOT EDIT - automatically built with build-tools/build-indexes\n\n';
+buf += 'exports.BattleSearchIndex = ' + JSON.stringify(BattleSearchIndex) + ';\n\n';
+buf += 'exports.BattleSearchCountIndex = ' + JSON.stringify(BattleSearchCountIndex) + ';\n\n';
+
+fs.writeFileSync(
+	'./client/play.pokemonshowdown.com/data/search-index.js',
+	buf,
+	'utf8'
+);
+
+console.log("DONE");
