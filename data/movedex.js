@@ -23358,12 +23358,12 @@ exports.BattleMovedex = {
     "desc": "No additional effects.",
     "shortDesc": "No additional effects."
   },
-  "chilllingnibble": {
+  "chillingnibble": {
     "num": -7,
     "accuracy": 100,
     "basePower": 20,
     "category": "Physical",
-    "name": "Chillling Nibble",
+    "name": "Chilling Nibble",
     "pp": 20,
     "priority": 0,
     "flags": {
