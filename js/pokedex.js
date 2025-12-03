@@ -37,10 +37,10 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 			var curGenItem = Dex.forGen(genNum).items.get(id);
 			var changes = '';
 
-			if (nextGenItem.desc == item.desc) nextGenAbility = vanillaAbility;
-			if (curGenItem.desc == item.desc) curGenAbility = vanillaAbility;
+			if (nextGenItem.desc == item.desc) nextGenItem = vanillaItem;
+			if (curGenItem.desc == item.desc) curGenItem = vanillaItem;
 
-			if (curGenItem.shortDesc !== nextGenItem.shortDesc) {
+			if (curGenItem && nextGenItem && curGenItem.shortDesc !== nextGenItem.shortDesc) {
 				changes += curGenItem.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenItem.shortDesc + '<br />';
 			}
 
@@ -105,7 +105,7 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 			if (nextGenAbility.desc == ability.desc) nextGenAbility = vanillaAbility;
 			if (curGenAbility.desc == ability.desc) curGenAbility = vanillaAbility;
 
-			if (curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
+			if (curGenAbility && nextGenAbility && curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
 				changes += curGenAbility.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility.shortDesc + '<br />';
 			}
 
