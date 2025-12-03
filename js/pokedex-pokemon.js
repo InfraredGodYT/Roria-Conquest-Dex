@@ -36,7 +36,9 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			}
 		}
 
-		buf += '<img src="'+Dex.resourcePrefix+'sprites/gen5/' + pokemon.spriteid + '.png'+'" alt="" width="96" height="96" class="sprite" />';
+		buf += '<img src="' + Dex.resourcePrefix + 'sprites/gen5/' + pokemon.spriteid + '.png" ' +
+       'onerror="this.outerHTML=\'<span class=&quot;sprite-fallback&quot;><span class=&quot;picon&quot; style=&quot;' + Dex.getPokemonIcon(pokemon) + '&quot;></span></span>\'" ' +
+       'alt="" width="96" height="96" class="sprite" />';
 
 		buf += '<dl class="typeentry">';
 		buf += '<dt>Types:</dt> <dd>';
@@ -206,11 +208,16 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 
 		// past gens
+		var vanillaMon = window.BattlePokedexVanilla?.[id];
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
 			var nextGenSpecies = Dex.forGen(genNum + 1).species.get(id);
 			var curGenSpecies = Dex.forGen(genNum).species.get(id);
 			var changes = '';
+
+			if (!nextGenSpecies || !curGenSpecies) continue;
+			if (nextGenSpecies == pokemon && vanillaMon) continue;
+			if (curGenSpecies == pokemon && vanillaMon) continue;
 
 			var nextGenTypes = nextGenSpecies.types.join('/');
 			var curGenTypes = curGenSpecies.types.join('/');
@@ -248,6 +255,39 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			}
 		}
 		if (pastGenChanges) buf += '</dl>';
+
+		var rcChanges = '';
+		if (vanillaMon) {
+			// Type changes
+			var vTypes = vanillaMon.types.join('/');
+			var rcTypes = pokemon.types.join('/');
+			if (vTypes !== rcTypes) {
+				rcChanges += 'Type: ' + vTypes + ' <i class="fa fa-long-arrow-right"></i> ' + rcTypes + '<br />';
+			}
+
+			// Ability changes
+			var vAbility = vanillaMon.abilities['0'];
+			var rcAbility = pokemon.abilities['0'];
+			if (vAbility !== rcAbility) {
+				rcChanges += 'Ability: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+			}
+
+			// Base stats
+			for (var stat in BattleStatNames) {
+				var vStat = vanillaMon.baseStats[stat];
+				var rcStat = pokemon.baseStats[stat];
+				if (vStat !== rcStat) {
+					rcChanges += BattleStatNames[stat] + ': ' + vStat + ' <i class="fa fa-long-arrow-right"></i> ' + rcStat + '<br />';
+				}
+			}
+
+			if (rcChanges) {
+				buf += '<h3>RC changes</h3><dl>';
+				buf += '<dt>Vanilla → RC:</dt>';
+				buf += '<dd>' + rcChanges + '</dd>';
+				buf += '</dl>';
+			}
+		}
 
 		// learnset
 		if (window.BattleLearnsets && BattleLearnsets[id] && BattleLearnsets[id].eventData) {

@@ -607,7 +607,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			case 'E': // event
 				return '<h3>Event</h3>';
 			case 'F': // past gen
-				return '<h3>Past generation only</h3>';
+				return '<h3>Past generation/Roria only</h3>';
 			}
 			return '<pre>error: "'+results[i]+'"</pre>';
 		} else if (offscreen) {

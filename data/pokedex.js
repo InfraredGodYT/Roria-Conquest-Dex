@@ -2328,9 +2328,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Cute Charm",
-      "1": "Magic Guard",
-      "H": "Unaware"
+      "0": "Unaware"
     },
     "heightm": 1.7,
     "weightkg": 42.3,
@@ -6354,17 +6352,15 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 60,
-      "atk": 140,
+      "hp": 65,
+      "atk": 95,
       "def": 105,
       "spa": 130,
       "spd": 105,
       "spe": 120
     },
     "abilities": {
-      "0": "Illuminate",
-      "1": "Natural Cure",
-      "H": "Analytic"
+      "0": "Pure Power",
     },
     "heightm": 2.3,
     "weightkg": 80,
