@@ -46,6 +46,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			case 'Custom':
 				buf += 'This is a custom move, not available during normal gameplay.';
 				break;
+			case 'RC':
+				buf += 'This is a custom move only available in Roria Conquest.';
+				break;
 			}
 			buf += '</div>';
 		}
@@ -394,11 +397,17 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		}
 
 		// past gens
+		var vanillaMove = window.BattleMovedexVanilla?.[id];
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= move.gen; genNum--) {
 			var nextGenMove = Dex.forGen(genNum + 1).moves.get(id);
 			var curGenMove = Dex.forGen(genNum).moves.get(id);
 			var changes = '';
+			
+			if (move.isNonstandard && move.isNonstandard == 'RC') break;
+			if (!nextGenMove || !curGenMove) continue;
+			if (nextGenMove == move && vanillaMove) continue;
+			if (curGenMove == move && vanillaMove) continue;
 
 			var nextGenType = nextGenMove.type;
 			var curGenType = curGenMove.type;
@@ -446,6 +455,43 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			}
 		}
 		if (pastGenChanges) buf += '</dl>';
+
+		var rcChanges = '';
+
+		if (vanillaMove) {
+			if (vanillaMove.type !== move.type) {
+				rcChanges += 'Type: ' + vanillaMove.type + ' <i class="fa fa-long-arrow-right"></i> ' + move.type + '<br />';
+			}
+
+			if (vanillaMove.basePower !== move.basePower) {
+				rcChanges += 'Base Power: ' + vanillaMove.basePower + ' <i class="fa fa-long-arrow-right"></i> ' + move.basePower + '<br />';
+			}
+
+			if (vanillaMove.pp !== move.pp) {
+				rcChanges += 'PP: ' + vanillaMove.pp + ' <i class="fa fa-long-arrow-right"></i> ' + move.pp + '<br />';
+			}
+
+			if (vanillaMove.accuracy !== move.accuracy) {
+				var vAcc = (vanillaMove.accuracy === true ? 'nevermiss' : vanillaMove.accuracy + '%');
+				var mAcc = (move.accuracy === true ? 'nevermiss' : move.accuracy + '%');
+				rcChanges += 'Accuracy: ' + vAcc + ' <i class="fa fa-long-arrow-right"></i> ' + mAcc + '<br />';
+			}
+
+			if (vanillaMove.category !== move.category) {
+				rcChanges += 'Category: ' + vanillaMove.category + ' <i class="fa fa-long-arrow-right"></i> ' + move.category + '<br />';
+			}
+
+			if (vanillaMove.shortDesc !== move.shortDesc) {
+				rcChanges += vanillaMove.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + move.shortDesc + '<br />';
+			}
+
+			if (rcChanges) {
+				buf += '<h3>RC changes</h3><dl>';
+				buf += '<dt>Vanilla → RC:</dt>';
+				buf += '<dd>' + rcChanges + '</dd>';
+				buf += '</dl>';
+			}
+		}
 
 		// distribution
 		buf += '<ul class="utilichart metricchart nokbd">';

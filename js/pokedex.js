@@ -37,8 +37,8 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 			var curGenItem = Dex.forGen(genNum).items.get(id);
 			var changes = '';
 
-			if (nextGenItem.desc == item.desc) nextGenItem = vanillaItem;
-			if (curGenItem.desc == item.desc) curGenItem = vanillaItem;
+			if (nextGenItem.desc == item.desc && vanillaItem) nextGenItem = vanillaItem;
+			if (curGenItem.desc == item.desc && vanillaItem) curGenItem = vanillaItem;
 
 			if (curGenItem && nextGenItem && curGenItem.shortDesc !== nextGenItem.shortDesc) {
 				changes += curGenItem.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenItem.shortDesc + '<br />';
@@ -92,6 +92,8 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 		buf += '<h1><a href="/abilities/'+id+'" data-target="push" class="subtle">'+ability.name+'</a></h1>';
 
 		if (ability.isNonstandard && ability.id !== 'noability') buf += '<div class="warning"><strong>Note:</strong> This is a made-up ability by <a href="http://www.smogon.com/cap/" target="_blank">Smogon CAP</a>.</div>';
+		if (ability.flags.roria && ability.id !== 'noability') buf += '<div class="warning"><strong>Note:</strong> This is a custom ability only available in Roria Conquest.</div>';
+
 
 		buf += '<p>'+Dex.escapeHTML(ability.desc)+'</p>';
 
@@ -102,8 +104,8 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 			var curGenAbility = Dex.forGen(genNum).abilities.get(id);
 			var changes = '';
 
-			if (nextGenAbility.desc == ability.desc) nextGenAbility = vanillaAbility;
-			if (curGenAbility.desc == ability.desc) curGenAbility = vanillaAbility;
+			if (nextGenAbility.desc == ability.desc && vanillaAbility) nextGenAbility = vanillaAbility;
+			if (curGenAbility.desc == ability.desc && vanillaAbility) curGenAbility = vanillaAbility;
 
 			if (curGenAbility && nextGenAbility && curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
 				changes += curGenAbility.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility.shortDesc + '<br />';

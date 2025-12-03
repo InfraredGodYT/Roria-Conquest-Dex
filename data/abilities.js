@@ -484,7 +484,7 @@ exports.BattleAbilities = {
     "name": "Defeatist",
     "rating": -1,
     "num": -8,
-    "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are reduced by 50%.",
+    "desc": "While this Pokemon has 1/2 or less of its maximum HP, its Attack and Special Attack are halved.",
     "shortDesc": "While this Pokemon has 1/2 or less of its max HP, its Attack and Sp. Atk are halved."
   },
   "defiant": {
@@ -3108,17 +3108,20 @@ exports.BattleAbilities = {
   },
   "northpole": {
     "flags": {
-      "breakable": 1
+      "breakable": 1,
+      "roria": 1
     },
     "name": "North Pole",
     "rating": 3,
     "num": -4,
-    "desc": "This Pokemon is immune to Ice-type moves and raises its Special Attack by 1 stage when hit by a Water-type move. If this Pokemon is not the target of a single-target Ice-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move. If multiple Pokemon could redirect with this Ability, it goes to the one with the highest Speed, or in the case of a tie to the one that has had this Ability active longer.",
+    "desc": "This Pokemon is immune to Ice-type moves and raises its Special Attack by 1 stage when hit by a Ice-type move. If this Pokemon is not the target of a single-target Ice-type move used by another Pokemon, this Pokemon redirects that move to itself if it is within the range of that move. If multiple Pokemon could redirect with this Ability, it goes to the one with the highest Speed, or in the case of a tie to the one that has had this Ability active longer.",
     "shortDesc": "This Pokemon draws Ice moves to itself to raise Sp. Atk by 1; Ice immunity."
   },
   "hubris": {
     "onAnyFaintPriority": 1,
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Hubris",
     "rating": 3.5,
     "num": -5,
@@ -3128,7 +3131,8 @@ exports.BattleAbilities = {
   "inflate": {
     "onModifyDefPriority": 6,
     "flags": {
-      "breakable": 1
+      "breakable": 1,
+      "roria": 1
     },
     "name": "Inflate",
     "rating": 2.5,
@@ -3138,7 +3142,9 @@ exports.BattleAbilities = {
   },
   "luchadorspride": {
     "onAnyFaintPriority": 1,
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Luchador's Pride",
     "rating": 3.5,
     "num": -7,

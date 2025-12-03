@@ -271,13 +271,13 @@ a.button {
 	text-align: center;
 
 	height: 50px;
-	background: #E5ECFB;
-	background: -webkit-gradient(linear, left top, left bottom, from(#E8EEFC), to(#D7DEEA));
-	background: -moz-linear-gradient(top,  #E8EEFC,  #D7DEEA);
-	background: linear-gradient(top,  #E8EEFC,  #D7DEEA);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8EEFC', endColorstr='#D7DEEA');
+	background: #f4e5fb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f6e8fc), to(#e5d7ea));
+	background: -moz-linear-gradient(top,  #f6e8fc,  #e5d7ea);
+	background: linear-gradient(top,  #f6e8fc,  #e5d7ea);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6e8fc', endColorstr='#e5d7ea');
 	text-shadow: white 0px 1px 0;
-	border-bottom: 1px solid #2A4066;
+	border-bottom: 1px solid #662a64;
 }
 .pfx-topbar .userbar {
 	padding: 12px 15px 0 10px;
