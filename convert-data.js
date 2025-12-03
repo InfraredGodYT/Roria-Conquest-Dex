@@ -8,6 +8,7 @@ const files = {
   'movedex.json': 'exports.BattleMovedexVanilla = ',
   'abilities.json': 'exports.BattleAbilitiesVanilla = ',
   'learnsets.json': 'exports.BattleLearnsetsVanilla = ',
+  'items.json': 'exports.BattleItemsVanilla = ',
 };
 
 const outDir = path.join(__dirname, 'data/vanilla');

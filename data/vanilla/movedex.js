@@ -1,4 +1,4 @@
-window.BattleMovedexVanilla = {
+exports.BattleMovedexVanilla = {
   "10000000voltthunderbolt": {
     "num": 719,
     "accuracy": true,
