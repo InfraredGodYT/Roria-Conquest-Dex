@@ -15,6 +15,7 @@ const {BattleAbilities} = require('../data/abilities');
 
 // ✅ Load local typechart (or define manually if missing)
 const TypeChart = require('../data/typechart');
+const oldIndex = require("../client/play.pokemonshowdown.com/data/search-index.js");
 
 // ✅ Minimal toID replacement (Showdown-compatible)
 function toID(text) {
@@ -114,23 +115,16 @@ const BattleSearchIndex = index.map(x => {
 });
 
 // ✅ Type counts
-const BattleSearchCountIndex = {};
-
-for (const type in TypeChart) {
-	BattleSearchCountIndex[type + ' move'] =
-		Object.keys(BattleMovedex).filter(id => BattleMovedex[id].type === type).length;
-
-	BattleSearchCountIndex[type + ' pokemon'] =
-		Object.keys(BattlePokedex).filter(id =>
-			!BattlePokedex[id].isCosmeticForme &&
-			BattlePokedex[id].types?.includes(type)
-		).length;
-}
+const BattleSearchIndexOffset = oldIndex.BattleSearchIndexOffset;
+const BattleSearchCountIndex = oldIndex.BattleSearchCountIndex;
+const BattleArticleTitles = oldIndex.BattleArticleTitles;
 
 // ✅ Output exactly like Showdown
 let buf = '// DO NOT EDIT - automatically built with build-tools/build-indexes\n\n';
 buf += 'exports.BattleSearchIndex = ' + JSON.stringify(BattleSearchIndex) + ';\n\n';
+buf += 'exports.BattleSearchIndexOffset = ' + JSON.stringify(BattleSearchIndexOffset) + ';\n\n';
 buf += 'exports.BattleSearchCountIndex = ' + JSON.stringify(BattleSearchCountIndex) + ';\n\n';
+buf += 'exports.BattleArticleTitles = ' + JSON.stringify(BattleArticleTitles) + ';\n\n';
 
 fs.writeFileSync(
 	'./client/play.pokemonshowdown.com/data/search-index.js',
