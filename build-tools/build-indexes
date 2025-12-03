@@ -1,0 +1,62 @@
+#!/usr/bin/env node
+
+/**
+ * Roria Conquest – Search Index Rebuild Script
+ * Rebuilds ONLY: play.pokemonshowdown.com/data/search-index.js
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const OUTPUT_PATH = path.resolve(__dirname, '../client/play.pokemonshowdown.com/data/search-index.js');
+
+// Load RC data
+const {BattlePokedex} = require('../data/pokedex.js');
+const {BattleMovedex} = require('../data/movedex.js');
+const {BattleAbilities} = require('../data/abilities.js');
+const {BattleItems} = require('../data/items.js');
+
+console.log('[RC] Rebuilding search-index.js (CMS compatible)...');
+
+const index = [];
+
+/* ----------------- POKEMON ----------------- */
+for (const id in BattlePokedex) {
+	const p = BattlePokedex[id];
+	let searchText = '';
+	if (p.species) searchText += p.species + ' ';
+	if (p.types) searchText += p.types.join(' ');
+	index.push([id, 'pokemon', searchText.trim()]);
+}
+
+/* ----------------- MOVES ----------------- */
+for (const id in BattleMovedex) {
+	const m = BattleMovedex[id];
+	let searchText = '';
+	if (m.name) searchText += m.name + ' ';
+	if (m.type) searchText += m.type;
+	index.push([id, 'move', searchText.trim()]);
+}
+
+/* ----------------- ABILITIES ----------------- */
+for (const id in BattleAbilities) {
+	const a = BattleAbilities[id];
+	let searchText = a.name || '';
+	index.push([id, 'ability', searchText]);
+}
+
+/* ----------------- ITEMS ----------------- */
+for (const id in BattleItems) {
+	const i = BattleItems[id];
+	let searchText = i.name || '';
+	index.push([id, 'item', searchText]);
+}
+
+/* ----------------- WRITE FILE ----------------- */
+const fileContents =
+	`"use strict";\n` +
+	`exports.BattleSearchIndex = ${JSON.stringify(index)};\n`;
+
+fs.writeFileSync(OUTPUT_PATH, fileContents, 'utf8');
+
+console.log('[RC] search-index.js rebuilt successfully.');
