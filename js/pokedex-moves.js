@@ -617,7 +617,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			switch (results[i].charAt(0)) {
 			case 'a': // level-up move
 				desc = results[i].substr(1,3) === '001' || results[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
-				break;
+				break;	
 			case 'b': // tm/hm
 				desc = '<img src="//' + Config.routes.client + '/sprites/itemicons/tm-normal.png" style="margin-top:-3px;opacity:.7" width="24" height="24" alt="M" />';
 				break;
