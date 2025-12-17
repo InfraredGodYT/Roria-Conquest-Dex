@@ -11,10 +11,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 45,
+      "hp": 50,
       "atk": 49,
       "def": 49,
-      "spa": 65,
+      "spa": 70,
       "spd": 65,
       "spe": 45
     },
@@ -46,10 +46,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 65,
       "atk": 62,
       "def": 63,
-      "spa": 80,
+      "spa": 85,
       "spd": 80,
       "spe": 60
     },
@@ -83,10 +83,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 80,
+      "hp": 85,
       "atk": 82,
       "def": 83,
-      "spa": 100,
+      "spa": 105,
       "spd": 100,
       "spe": 80
     },
@@ -127,10 +127,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 80,
+      "hp": 85,
       "atk": 100,
       "def": 123,
-      "spa": 122,
+      "spa": 127,
       "spd": 120,
       "spe": 80
     },
@@ -145,8 +145,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "requiredItem": "Venusaurite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "venusaurgmax": {
     "num": 3,
@@ -181,8 +180,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "changesFrom": "Venusaur",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "charmander": {
     "num": 4,
@@ -196,10 +194,10 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 39,
-      "atk": 52,
-      "def": 43,
+      "atk": 73,
+      "def": 33,
       "spa": 60,
-      "spd": 50,
+      "spd": 40,
       "spe": 65
     },
     "abilities": {
@@ -230,10 +228,10 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 58,
-      "atk": 64,
-      "def": 58,
+      "atk": 85,
+      "def": 48,
       "spa": 80,
-      "spd": 65,
+      "spd": 55,
       "spe": 80
     },
     "abilities": {
@@ -266,11 +264,11 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 84,
-      "def": 78,
-      "spa": 109,
-      "spd": 85,
+      "hp": 80,
+      "atk": 100,
+      "def": 70,
+      "spa": 110,
+      "spd": 75,
       "spe": 100
     },
     "abilities": {
@@ -312,10 +310,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 130,
-      "def": 111,
-      "spa": 130,
+      "hp": 80,
+      "atk": 135,
+      "def": 120,
+      "spa": 115,
       "spd": 85,
       "spe": 100
     },
@@ -330,8 +328,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Charizardite X",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "charizardmegay": {
     "num": 6,
@@ -347,8 +344,8 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 104,
+      "hp": 80,
+      "atk": 103,
       "def": 78,
       "spa": 159,
       "spd": 115,
@@ -365,8 +362,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Charizardite Y",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "charizardgmax": {
     "num": 6,
@@ -382,11 +378,11 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 84,
-      "def": 78,
-      "spa": 109,
-      "spd": 85,
+      "hp": 80,
+      "atk": 100,
+      "def": 70,
+      "spa": 110,
+      "spd": 75,
       "spe": 100
     },
     "abilities": {
@@ -401,8 +397,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "changesFrom": "Charizard",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "squirtle": {
     "num": 7,
@@ -415,16 +410,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 44,
-      "atk": 48,
+      "hp": 55,
+      "atk": 47,
       "def": 65,
       "spa": 50,
-      "spd": 64,
+      "spd": 59,
       "spe": 43
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Rain Dish"
+      "H": "Bulletproof"
     },
     "heightm": 0.5,
     "weightkg": 9,
@@ -449,16 +444,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 59,
-      "atk": 63,
+      "hp": 70,
+      "atk": 62,
       "def": 80,
       "spa": 65,
-      "spd": 80,
+      "spd": 75,
       "spe": 58
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Rain Dish"
+      "H": "Bulletproof"
     },
     "heightm": 1,
     "weightkg": 22.5,
@@ -485,16 +480,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 83,
+      "hp": 90,
+      "atk": 82,
       "def": 100,
       "spa": 85,
-      "spd": 105,
+      "spd": 100,
       "spe": 78
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Rain Dish"
+      "H": "Bulletproof"
     },
     "heightm": 1.6,
     "weightkg": 85.5,
@@ -528,8 +523,8 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 103,
+      "hp": 90,
+      "atk": 97,
       "def": 120,
       "spa": 135,
       "spd": 115,
@@ -546,8 +541,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Blastoisinite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "blastoisegmax": {
     "num": 9,
@@ -581,8 +575,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "changesFrom": "Blastoise",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "caterpie": {
     "num": 10,
@@ -611,8 +604,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "metapod": {
     "num": 11,
@@ -642,8 +634,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "butterfree": {
     "num": 12,
@@ -673,8 +664,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "canGigantamax": "G-Max Befuddle",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "butterfreegmax": {
     "num": 12,
@@ -686,7 +676,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 110,
       "atk": 45,
       "def": 50,
       "spa": 90,
@@ -704,8 +694,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "changesFrom": "Butterfree",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "weedle": {
     "num": 13,
@@ -735,8 +724,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kakuna": {
     "num": 14,
@@ -767,8 +755,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "beedrill": {
     "num": 15,
@@ -804,8 +791,7 @@ exports.BattlePokedex = {
       "Beedrill",
       "Beedrill-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "beedrillmega": {
     "num": 15,
@@ -834,8 +820,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Beedrillite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pidgey": {
     "num": 16,
@@ -845,15 +830,15 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 40,
-      "atk": 45,
+      "hp": 50,
+      "atk": 55,
       "def": 40,
-      "spa": 35,
+      "spa": 60,
       "spd": 35,
-      "spe": 56
+      "spe": 66
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Quick Feet",
       "1": "Tangled Feet",
       "H": "Big Pecks"
     },
@@ -866,8 +851,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pidgeotto": {
     "num": 17,
@@ -878,14 +862,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 63,
-      "atk": 60,
+      "atk": 70,
       "def": 55,
-      "spa": 50,
+      "spa": 80,
       "spd": 50,
-      "spe": 71
+      "spe": 86
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Quick Feet",
       "1": "Tangled Feet",
       "H": "Big Pecks"
     },
@@ -900,8 +884,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pidgeot": {
     "num": 18,
@@ -913,13 +896,13 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 83,
       "atk": 80,
-      "def": 75,
-      "spa": 70,
+      "def": 70,
+      "spa": 100,
       "spd": 70,
-      "spe": 101
+      "spe": 106
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Quick Feet",
       "1": "Tangled Feet",
       "H": "Big Pecks"
     },
@@ -938,8 +921,7 @@ exports.BattlePokedex = {
       "Pidgeot",
       "Pidgeot-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pidgeotmega": {
     "num": 18,
@@ -953,9 +935,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 83,
       "atk": 80,
-      "def": 80,
+      "def": 95,
       "spa": 135,
-      "spd": 80,
+      "spd": 95,
       "spe": 121
     },
     "abilities": {
@@ -968,8 +950,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "requiredItem": "Pidgeotite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rattata": {
     "num": 19,
@@ -1006,8 +987,7 @@ exports.BattlePokedex = {
       "Rattata",
       "Rattata-Alola"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rattataalola": {
     "num": 19,
@@ -1040,8 +1020,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "raticate": {
     "num": 20,
@@ -1079,8 +1058,7 @@ exports.BattlePokedex = {
       "Raticate-Alola",
       "Raticate-Alola-Totem"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "raticatealola": {
     "num": 20,
@@ -1113,8 +1091,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "raticatealolatotem": {
     "num": 20,
@@ -1142,8 +1119,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "spearow": {
     "num": 21,
@@ -1173,8 +1149,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "fearow": {
     "num": 22,
@@ -1184,16 +1159,16 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 65,
-      "atk": 90,
-      "def": 65,
-      "spa": 61,
+      "hp": 80,
+      "atk": 105,
+      "def": 75,
+      "spa": 51,
       "spd": 61,
-      "spe": 100
+      "spe": 105
     },
     "abilities": {
-      "0": "Keen Eye",
-      "H": "Sniper"
+      "0": "Sniper",
+      "H": "Moxie"
     },
     "heightm": 1.2,
     "weightkg": 38,
@@ -1203,8 +1178,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ekans": {
     "num": 23,
@@ -1241,20 +1215,21 @@ exports.BattlePokedex = {
     "num": 24,
     "name": "Arbok",
     "types": [
-      "Poison"
+      "Poison",
+      "Dark"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 95,
+      "hp": 90,
+      "atk": 100,
       "def": 69,
-      "spa": 65,
-      "spd": 79,
-      "spe": 80
+      "spa": 45,
+      "spd": 100,
+      "spe": 95
     },
     "abilities": {
       "0": "Intimidate",
       "1": "Shed Skin",
-      "H": "Unnerve"
+      "H": "Guts"
     },
     "heightm": 3.5,
     "weightkg": 65,
@@ -1363,8 +1338,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachurockstar": {
     "num": 25,
@@ -1394,8 +1368,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Pikachu-Cosplay",
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachubelle": {
     "num": 25,
@@ -1425,8 +1398,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Pikachu-Cosplay",
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachupopstar": {
     "num": 25,
@@ -1456,8 +1428,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Pikachu-Cosplay",
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachuphd": {
     "num": 25,
@@ -1487,8 +1458,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Pikachu-Cosplay",
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachulibre": {
     "num": 25,
@@ -1518,8 +1488,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Pikachu-Cosplay",
     "gen": 6,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachuoriginal": {
     "num": 25,
@@ -1777,7 +1746,7 @@ exports.BattlePokedex = {
       "spe": 90
     },
     "abilities": {
-      "0": "Static",
+      "0": "Thick Fat",
       "H": "Lightning Rod"
     },
     "heightm": 21,
@@ -1788,8 +1757,7 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "changesFrom": "Pikachu",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pikachuworld": {
     "num": 25,
@@ -1871,7 +1839,7 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 85,
       "def": 50,
-      "spa": 95,
+      "spa": 90,
       "spd": 85,
       "spe": 110
     },
@@ -1966,12 +1934,12 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 100,
+      "hp": 90,
+      "atk": 110,
       "def": 110,
       "spa": 45,
       "spd": 55,
-      "spe": 65
+      "spe": 85
     },
     "abilities": {
       "0": "Sand Veil",
@@ -2056,8 +2024,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nidorina": {
     "num": 30,
@@ -2090,8 +2057,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nidoqueen": {
     "num": 31,
@@ -2106,13 +2072,13 @@ exports.BattlePokedex = {
       "atk": 92,
       "def": 87,
       "spa": 75,
-      "spd": 85,
-      "spe": 76
+      "spd": 95,
+      "spe": 91
     },
     "abilities": {
       "0": "Poison Point",
       "1": "Rivalry",
-      "H": "Sheer Force"
+      "H": "Guts"
     },
     "heightm": 1.3,
     "weightkg": 60,
@@ -2123,8 +2089,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nidoranm": {
     "num": 32,
@@ -2157,8 +2122,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "mother": "nidoranf",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nidorino": {
     "num": 33,
@@ -2192,8 +2156,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nidoking": {
     "num": 34,
@@ -2206,9 +2169,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 81,
       "atk": 102,
-      "def": 77,
+      "def": 90,
       "spa": 85,
-      "spd": 75,
+      "spd": 85,
       "spe": 85
     },
     "abilities": {
@@ -2226,8 +2189,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "clefairy": {
     "num": 35,
@@ -2338,8 +2300,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Clefablite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "vulpix": {
     "num": 37,
@@ -2427,12 +2388,12 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 73,
+      "hp": 84,
       "atk": 76,
-      "def": 75,
-      "spa": 81,
+      "def": 89,
+      "spa": 105,
       "spd": 100,
-      "spe": 100
+      "spe": 101
     },
     "abilities": {
       "0": "Flash Fire",
@@ -2470,12 +2431,12 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 73,
+      "hp": 84,
       "atk": 67,
-      "def": 75,
-      "spa": 81,
+      "def": 89,
+      "spa": 105,
       "spd": 100,
-      "spe": 109
+      "spe": 110
     },
     "abilities": {
       "0": "Snow Cloak",
@@ -2541,17 +2502,17 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 140,
-      "atk": 70,
-      "def": 45,
-      "spa": 85,
-      "spd": 50,
+      "hp": 120,
+      "atk": 30,
+      "def": 90,
+      "spa": 95,
+      "spd": 100,
       "spe": 45
     },
     "abilities": {
       "0": "Cute Charm",
       "1": "Competitive",
-      "H": "Frisk"
+      "H": "Magic Bounce"
     },
     "heightm": 1,
     "weightkg": 12,
@@ -2573,14 +2534,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 40,
-      "atk": 45,
+      "atk": 60,
       "def": 35,
-      "spa": 30,
+      "spa": 55,
       "spd": 40,
       "spe": 55
     },
     "abilities": {
       "0": "Inner Focus",
+      "1": "Sniper",
       "H": "Infiltrator"
     },
     "heightm": 0.8,
@@ -2592,8 +2554,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "golbat": {
     "num": 42,
@@ -2604,14 +2565,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 80,
-      "def": 70,
-      "spa": 65,
-      "spd": 75,
+      "atk": 95,
+      "def": 55,
+      "spa": 85,
+      "spd": 55,
       "spe": 90
     },
     "abilities": {
       "0": "Inner Focus",
+      "1": "Sniper",
       "H": "Infiltrator"
     },
     "heightm": 1.6,
@@ -2625,8 +2587,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "oddish": {
     "num": 43,
@@ -2636,15 +2597,16 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 45,
+      "hp": 55,
       "atk": 50,
       "def": 55,
-      "spa": 75,
+      "spa": 85,
       "spd": 65,
-      "spe": 30
+      "spe": 40
     },
     "abilities": {
       "0": "Chlorophyll",
+      "1": "Effect Spore",
       "H": "Run Away"
     },
     "heightm": 0.5,
@@ -2666,15 +2628,16 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 65,
       "atk": 65,
-      "def": 70,
-      "spa": 85,
-      "spd": 75,
+      "def": 80,
+      "spa": 90,
+      "spd": 80,
       "spe": 40
     },
     "abilities": {
       "0": "Chlorophyll",
+      "1": "Effect Spore",
       "H": "Stench"
     },
     "heightm": 0.8,
@@ -2699,16 +2662,17 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 80,
-      "def": 85,
+      "hp": 80,
+      "atk": 90,
+      "def": 95,
       "spa": 110,
       "spd": 90,
       "spe": 50
     },
     "abilities": {
       "0": "Chlorophyll",
-      "H": "Effect Spore"
+      "1": "Effect Spore",
+      "H": "Leaf Guard"
     },
     "heightm": 1.2,
     "weightkg": 18.6,
@@ -2751,8 +2715,7 @@ exports.BattlePokedex = {
       "Bug",
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "parasect": {
     "num": 47,
@@ -2762,17 +2725,17 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 80,
       "atk": 95,
-      "def": 80,
-      "spa": 60,
-      "spd": 80,
-      "spe": 30
+      "def": 100,
+      "spa": 45,
+      "spd": 100,
+      "spe": 70
     },
     "abilities": {
       "0": "Effect Spore",
       "1": "Dry Skin",
-      "H": "Damp"
+      "H": "Regenerator"
     },
     "heightm": 1,
     "weightkg": 29.5,
@@ -2783,8 +2746,7 @@ exports.BattlePokedex = {
       "Bug",
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "venonat": {
     "num": 48,
@@ -3098,12 +3060,12 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 40,
-      "atk": 45,
-      "def": 35,
-      "spa": 40,
-      "spd": 40,
-      "spe": 90
+      "hp": 60,
+      "atk": 65,
+      "def": 55,
+      "spa": 60,
+      "spd": 60,
+      "spe": 110
     },
     "abilities": {
       "0": "Pickup",
@@ -3117,8 +3079,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "changesFrom": "Meowth",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "persian": {
     "num": 53,
@@ -3222,15 +3183,16 @@ exports.BattlePokedex = {
     "num": 55,
     "name": "Golduck",
     "types": [
-      "Water"
+      "Water",
+      "Psychic"
     ],
     "baseStats": {
       "hp": 80,
       "atk": 82,
       "def": 78,
-      "spa": 95,
+      "spa": 105,
       "spd": 80,
-      "spe": 85
+      "spe": 95
     },
     "abilities": {
       "0": "Damp",
@@ -3331,7 +3293,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Intimidate",
       "1": "Flash Fire",
-      "H": "Justified"
+      "H": "Reckless"
     },
     "heightm": 0.7,
     "weightkg": 19,
@@ -3365,12 +3327,12 @@ exports.BattlePokedex = {
       "F": 0.25
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 75,
+      "hp": 55,
+      "atk": 70,
       "def": 45,
-      "spa": 65,
+      "spa": 70,
       "spd": 50,
-      "spe": 55
+      "spe": 60
     },
     "abilities": {
       "0": "Intimidate",
@@ -3402,14 +3364,14 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 110,
       "def": 80,
-      "spa": 100,
+      "spa": 80,
       "spd": 80,
-      "spe": 95
+      "spe": 100
     },
     "abilities": {
       "0": "Intimidate",
       "1": "Flash Fire",
-      "H": "Justified"
+      "H": "Reckless"
     },
     "heightm": 1.9,
     "weightkg": 155,
@@ -3443,7 +3405,7 @@ exports.BattlePokedex = {
       "F": 0.25
     },
     "baseStats": {
-      "hp": 95,
+      "hp": 90,
       "atk": 115,
       "def": 80,
       "spa": 95,
@@ -3537,12 +3499,12 @@ exports.BattlePokedex = {
       "Fighting"
     ],
     "baseStats": {
-      "hp": 90,
-      "atk": 95,
-      "def": 95,
+      "hp": 80,
+      "atk": 110,
+      "def": 85,
       "spa": 70,
-      "spd": 90,
-      "spe": 70
+      "spd": 85,
+      "spe": 80
     },
     "abilities": {
       "0": "Water Absorb",
@@ -3592,8 +3554,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kadabra": {
     "num": 64,
@@ -3629,8 +3590,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "alakazam": {
     "num": 65,
@@ -3670,8 +3630,7 @@ exports.BattlePokedex = {
       "Alakazam",
       "Alakazam-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "alakazammega": {
     "num": 65,
@@ -3690,7 +3649,7 @@ exports.BattlePokedex = {
       "atk": 50,
       "def": 65,
       "spa": 175,
-      "spd": 105,
+      "spd": 95,
       "spe": 150
     },
     "abilities": {
@@ -3703,8 +3662,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Alakazite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "machop": {
     "num": 66,
@@ -3738,8 +3696,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "machoke": {
     "num": 67,
@@ -3775,8 +3732,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "machamp": {
     "num": 68,
@@ -3810,8 +3766,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "canGigantamax": "G-Max Chi Strike",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "machampgmax": {
     "num": 68,
@@ -3826,12 +3781,12 @@ exports.BattlePokedex = {
       "F": 0.25
     },
     "baseStats": {
-      "hp": 90,
-      "atk": 130,
-      "def": 80,
-      "spa": 65,
-      "spd": 85,
-      "spe": 55
+      "hp": 100,
+      "atk": 140,
+      "def": 90,
+      "spa": 75,
+      "spd": 95,
+      "spe": 65
     },
     "abilities": {
       "0": "Guts",
@@ -3845,8 +3800,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "changesFrom": "Machamp",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bellsprout": {
     "num": 69,
@@ -3965,8 +3919,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Chlorophyll",
-      "H": "Gluttony"
+      "0": "Corrosion"
     },
     "heightm": 4.5,
     "weightkg": 125.5,
@@ -3976,8 +3929,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Victreebelite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tentacool": {
     "num": 72,
@@ -4020,8 +3972,8 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 80,
       "atk": 70,
-      "def": 65,
-      "spa": 80,
+      "def": 70,
+      "spa": 95,
       "spd": 120,
       "spe": 100
     },
@@ -4197,8 +4149,8 @@ exports.BattlePokedex = {
       "hp": 80,
       "atk": 120,
       "def": 130,
-      "spa": 55,
-      "spd": 65,
+      "spa": 25,
+      "spd": 105,
       "spe": 45
     },
     "abilities": {
@@ -4290,8 +4242,7 @@ exports.BattlePokedex = {
       "Ponyta",
       "Ponyta-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ponytagalar": {
     "num": 77,
@@ -4323,8 +4274,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rapidash": {
     "num": 78,
@@ -4334,14 +4284,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 65,
-      "atk": 100,
+      "atk": 115,
       "def": 70,
-      "spa": 80,
-      "spd": 80,
-      "spe": 105
+      "spa": 60,
+      "spd": 70,
+      "spe": 120
     },
     "abilities": {
-      "0": "Run Away",
+      "0": "Reckless",
       "1": "Flash Fire",
       "H": "Flame Body"
     },
@@ -4360,8 +4310,7 @@ exports.BattlePokedex = {
       "Rapidash",
       "Rapidash-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rapidashgalar": {
     "num": 78,
@@ -4393,8 +4342,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "slowpoke": {
     "num": 79,
@@ -4538,8 +4486,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Slowbronite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "slowbrogalar": {
     "num": 80,
@@ -4594,7 +4541,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Analytic"
+      "H": "Levitate"
     },
     "heightm": 0.3,
     "weightkg": 6,
@@ -4626,7 +4573,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Analytic"
+      "H": "Levitate"
     },
     "heightm": 1,
     "weightkg": 60,
@@ -4649,15 +4596,15 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 52,
-      "atk": 90,
-      "def": 55,
-      "spa": 58,
-      "spd": 62,
-      "spe": 60
+      "hp": 70,
+      "atk": 105,
+      "def": 75,
+      "spa": 40,
+      "spd": 75,
+      "spe": 85
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Sharpness",
       "1": "Inner Focus",
       "H": "Defiant"
     },
@@ -4675,8 +4622,7 @@ exports.BattlePokedex = {
       "Farfetch’d",
       "Farfetch’d-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "farfetchdgalar": {
     "num": 83,
@@ -4708,8 +4654,7 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "doduo": {
     "num": 84,
@@ -4750,17 +4695,17 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 110,
-      "def": 70,
-      "spa": 60,
-      "spd": 60,
+      "hp": 75,
+      "atk": 120,
+      "def": 90,
+      "spa": 45,
+      "spd": 50,
       "spe": 110
     },
     "abilities": {
-      "0": "Run Away",
+      "0": "Rock Head",
       "1": "Early Bird",
-      "H": "Tangled Feet"
+      "H": "Reckless"
     },
     "heightm": 1.8,
     "weightkg": 85.2,
@@ -4789,7 +4734,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Thick Fat",
       "1": "Hydration",
-      "H": "Ice Body"
+      "H": "Rain Dish"
     },
     "heightm": 1.1,
     "weightkg": 90,
@@ -4812,16 +4757,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 90,
-      "atk": 70,
-      "def": 80,
-      "spa": 70,
-      "spd": 95,
-      "spe": 70
+      "atk": 50,
+      "def": 95,
+      "spa": 85,
+      "spd": 105,
+      "spe": 90
     },
     "abilities": {
       "0": "Thick Fat",
       "1": "Hydration",
-      "H": "Ice Body"
+      "H": "Rain Dish"
     },
     "heightm": 1.7,
     "weightkg": 120,
@@ -4884,13 +4829,13 @@ exports.BattlePokedex = {
       "hp": 80,
       "atk": 80,
       "def": 50,
-      "spa": 40,
-      "spd": 50,
+      "spa": 50,
+      "spd": 60,
       "spe": 25
     },
     "abilities": {
       "0": "Poison Touch",
-      "1": "Gluttony",
+      "1": "Corrosion",
       "H": "Power of Alchemy"
     },
     "heightm": 0.7,
@@ -4952,14 +4897,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 105,
       "atk": 105,
-      "def": 75,
-      "spa": 65,
+      "def": 80,
+      "spa": 75,
       "spd": 100,
       "spe": 50
     },
     "abilities": {
       "0": "Poison Touch",
-      "1": "Gluttony",
+      "1": "Corrosion",
       "H": "Power of Alchemy"
     },
     "heightm": 1,
@@ -5109,7 +5054,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Cursed Body"
+      "0": "Levitate"
     },
     "heightm": 1.5,
     "weightkg": 40.5,
@@ -5156,8 +5101,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Gengarite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gengargmax": {
     "num": 94,
@@ -5169,15 +5113,18 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 65,
-      "def": 60,
-      "spa": 130,
-      "spd": 75,
-      "spe": 110
+      "hp": 70,
+      "atk": 75,
+      "def": 70,
+      "spa": 140,
+      "spd": 85,
+      "spe": 120
     },
     "abilities": {
-      "0": "Cursed Body"
+      "0": "Cursed Body",
+      "H": [
+        "Levitate"
+      ]
     },
     "heightm": 20,
     "weightkg": 0,
@@ -5186,8 +5133,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "changesFrom": "Gengar",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "onix": {
     "num": 95,
@@ -5218,8 +5164,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "drowzee": {
     "num": 96,
@@ -5259,16 +5204,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 85,
-      "atk": 73,
-      "def": 70,
-      "spa": 73,
+      "atk": 43,
+      "def": 90,
+      "spa": 103,
       "spd": 115,
-      "spe": 67
+      "spe": 47
     },
     "abilities": {
       "0": "Insomnia",
-      "1": "Forewarn",
-      "H": "Inner Focus"
+      "1": "Inner Focus",
+      "H": "Analytic"
     },
     "heightm": 1.6,
     "weightkg": 75.6,
@@ -5308,8 +5253,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kingler": {
     "num": 99,
@@ -5339,8 +5283,7 @@ exports.BattlePokedex = {
       "Water 3"
     ],
     "canGigantamax": "G-Max Foam Burst",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kinglergmax": {
     "num": 99,
@@ -5370,8 +5313,7 @@ exports.BattlePokedex = {
       "Water 3"
     ],
     "changesFrom": "Kingler",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "voltorb": {
     "num": 100,
@@ -5456,8 +5398,8 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 50,
       "def": 70,
-      "spa": 80,
-      "spd": 80,
+      "spa": 110,
+      "spd": 60,
       "spe": 150
     },
     "abilities": {
@@ -5496,8 +5438,8 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 50,
       "def": 70,
-      "spa": 80,
-      "spd": 80,
+      "spa": 110,
+      "spd": 60,
       "spe": 150
     },
     "abilities": {
@@ -5594,16 +5536,17 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 95,
-      "atk": 105,
-      "def": 85,
+      "hp": 105,
+      "atk": 95,
+      "def": 95,
       "spa": 125,
-      "spd": 75,
-      "spe": 45
+      "spd": 85,
+      "spe": 25
     },
     "abilities": {
       "0": "Frisk",
-      "H": "Harvest"
+      "1": "Harvest",
+      "H": "Adaptability"
     },
     "heightm": 10.9,
     "weightkg": 415.6,
@@ -5646,8 +5589,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "marowak": {
     "num": 105,
@@ -5659,9 +5601,9 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 80,
       "def": 110,
-      "spa": 50,
-      "spd": 80,
-      "spe": 45
+      "spa": 30,
+      "spd": 100,
+      "spe": 80
     },
     "abilities": {
       "0": "Rock Head",
@@ -5685,8 +5627,7 @@ exports.BattlePokedex = {
       "Marowak-Alola",
       "Marowak-Alola-Totem"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "marowakalola": {
     "num": 105,
@@ -5720,8 +5661,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "marowakalolatotem": {
     "num": 105,
@@ -5749,8 +5689,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "hitmonlee": {
     "num": 106,
@@ -5760,15 +5699,15 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 50,
+      "hp": 75,
       "atk": 120,
-      "def": 53,
-      "spa": 35,
-      "spd": 110,
-      "spe": 87
+      "def": 75,
+      "spa": 30,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
-      "0": "Limber",
+      "0": "Technician",
       "1": "Reckless",
       "H": "Unburden"
     },
@@ -5791,15 +5730,15 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 50,
+      "hp": 75,
       "atk": 105,
-      "def": 79,
-      "spa": 35,
-      "spd": 110,
-      "spe": 76
+      "def": 100,
+      "spa": 30,
+      "spd": 100,
+      "spe": 90
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Technician",
       "1": "Iron Fist",
       "H": "Inner Focus"
     },
@@ -5842,8 +5781,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "koffing": {
     "num": 109,
@@ -5961,7 +5899,7 @@ exports.BattlePokedex = {
       "spe": 25
     },
     "abilities": {
-      "0": "Lightning Rod",
+      "0": "Sap Sipper",
       "1": "Rock Head",
       "H": "Reckless"
     },
@@ -5988,12 +5926,12 @@ exports.BattlePokedex = {
       "hp": 105,
       "atk": 130,
       "def": 120,
-      "spa": 45,
-      "spd": 45,
+      "spa": 15,
+      "spd": 70,
       "spe": 40
     },
     "abilities": {
-      "0": "Lightning Rod",
+      "0": "Sap Sipper",
       "1": "Rock Head",
       "H": "Reckless"
     },
@@ -6075,8 +6013,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kangaskhan": {
     "num": 115,
@@ -6111,8 +6048,7 @@ exports.BattlePokedex = {
       "Kangaskhan",
       "Kangaskhan-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kangaskhanmega": {
     "num": 115,
@@ -6141,8 +6077,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Kangaskhanite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "horsea": {
     "num": 116,
@@ -6215,12 +6150,12 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 45,
-      "atk": 67,
-      "def": 60,
-      "spa": 35,
-      "spd": 50,
-      "spe": 63
+      "hp": 54,
+      "atk": 84,
+      "def": 65,
+      "spa": 34,
+      "spd": 53,
+      "spe": 74
     },
     "abilities": {
       "0": "Swift Swim",
@@ -6236,8 +6171,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "seaking": {
     "num": 119,
@@ -6246,12 +6180,12 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 80,
-      "atk": 92,
-      "def": 65,
-      "spa": 65,
-      "spd": 80,
-      "spe": 68
+      "hp": 90,
+      "atk": 100,
+      "def": 80,
+      "spa": 30,
+      "spd": 90,
+      "spe": 90
     },
     "abilities": {
       "0": "Swift Swim",
@@ -6266,8 +6200,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "staryu": {
     "num": 120,
@@ -6277,7 +6210,7 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 30,
+      "hp": 40,
       "atk": 45,
       "def": 55,
       "spa": 70,
@@ -6285,7 +6218,7 @@ exports.BattlePokedex = {
       "spe": 85
     },
     "abilities": {
-      "0": "Illuminate",
+      "0": "Regenerator",
       "1": "Natural Cure",
       "H": "Analytic"
     },
@@ -6298,8 +6231,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "starmie": {
     "num": 121,
@@ -6310,15 +6242,15 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 60,
-      "atk": 75,
+      "hp": 65,
+      "atk": 65,
       "def": 85,
-      "spa": 100,
+      "spa": 105,
       "spd": 85,
       "spe": 115
     },
     "abilities": {
-      "0": "Illuminate",
+      "0": "Regenerator",
       "1": "Natural Cure",
       "H": "Analytic"
     },
@@ -6338,8 +6270,7 @@ exports.BattlePokedex = {
       "Starmie",
       "Starmie-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "starmiemega": {
     "num": 121,
@@ -6360,7 +6291,7 @@ exports.BattlePokedex = {
       "spe": 120
     },
     "abilities": {
-      "0": "Pure Power",
+      "0": "Pure Power"
     },
     "heightm": 2.3,
     "weightkg": 80,
@@ -6370,8 +6301,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Starminite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mrmime": {
     "num": 122,
@@ -6410,8 +6340,7 @@ exports.BattlePokedex = {
       "Mr. Mime",
       "Mr. Mime-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mrmimegalar": {
     "num": 122,
@@ -6449,8 +6378,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "scyther": {
     "num": 123,
@@ -6493,16 +6421,16 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 65,
-      "atk": 50,
-      "def": 35,
+      "hp": 80,
+      "atk": 25,
+      "def": 65,
       "spa": 115,
       "spd": 95,
-      "spe": 95
+      "spe": 100
     },
     "abilities": {
-      "0": "Oblivious",
-      "1": "Forewarn",
+      "0": "Adaptability",
+      "1": "Snow Cloak",
       "H": "Dry Skin"
     },
     "heightm": 1.4,
@@ -6513,8 +6441,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "electabuzz": {
     "num": 125,
@@ -6618,8 +6545,7 @@ exports.BattlePokedex = {
       "Pinsir",
       "Pinsir-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pinsirmega": {
     "num": 127,
@@ -6648,8 +6574,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Pinsirite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tauros": {
     "num": 128,
@@ -6877,8 +6802,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Gyaradosite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lapras": {
     "num": 131,
@@ -6920,12 +6844,12 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 130,
-      "atk": 85,
-      "def": 80,
-      "spa": 85,
-      "spd": 95,
-      "spe": 60
+      "hp": 140,
+      "atk": 95,
+      "def": 90,
+      "spa": 95,
+      "spd": 105,
+      "spe": 70
     },
     "abilities": {
       "0": "Water Absorb",
@@ -6940,8 +6864,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "changesFrom": "Lapras",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ditto": {
     "num": 132,
@@ -6981,10 +6904,10 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 55,
+      "hp": 65,
       "atk": 55,
-      "def": 50,
-      "spa": 45,
+      "def": 60,
+      "spa": 55,
       "spd": 65,
       "spe": 55
     },
@@ -7066,12 +6989,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 55,
-      "atk": 55,
-      "def": 50,
-      "spa": 45,
-      "spd": 65,
-      "spe": 55
+      "hp": 75,
+      "atk": 75,
+      "def": 70,
+      "spa": 50,
+      "spd": 85,
+      "spe": 75
     },
     "abilities": {
       "0": "Run Away",
@@ -7085,8 +7008,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "changesFrom": "Eevee",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "vaporeon": {
     "num": 134,
@@ -7100,11 +7022,11 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 130,
-      "atk": 65,
-      "def": 60,
+      "atk": 60,
+      "def": 65,
       "spa": 110,
       "spd": 95,
-      "spe": 65
+      "spe": 80
     },
     "abilities": {
       "0": "Water Absorb",
@@ -7132,16 +7054,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 65,
-      "atk": 65,
-      "def": 60,
+      "hp": 80,
+      "atk": 60,
+      "def": 65,
       "spa": 110,
       "spd": 95,
       "spe": 130
     },
     "abilities": {
       "0": "Volt Absorb",
-      "H": "Quick Feet"
+      "H": "Electromorphosis"
     },
     "heightm": 0.8,
     "weightkg": 24.5,
@@ -7168,13 +7090,13 @@ exports.BattlePokedex = {
       "hp": 65,
       "atk": 130,
       "def": 60,
-      "spa": 95,
+      "spa": 65,
       "spd": 110,
-      "spe": 65
+      "spe": 95
     },
     "abilities": {
       "0": "Flash Fire",
-      "H": "Guts"
+      "H": "Flare Boost"
     },
     "heightm": 0.9,
     "weightkg": 25,
@@ -7252,8 +7174,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "omastar": {
     "num": 139,
@@ -7288,8 +7209,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kabuto": {
     "num": 140,
@@ -7304,10 +7224,10 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 30,
-      "atk": 80,
+      "atk": 90,
       "def": 90,
       "spa": 55,
-      "spd": 45,
+      "spd": 55,
       "spe": 55
     },
     "abilities": {
@@ -7325,8 +7245,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kabutops": {
     "num": 141,
@@ -7340,17 +7259,17 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 115,
       "def": 105,
       "spa": 65,
-      "spd": 70,
-      "spe": 80
+      "spd": 75,
+      "spe": 85
     },
     "abilities": {
       "0": "Swift Swim",
       "1": "Battle Armor",
-      "H": "Weak Armor"
+      "H": "Anger Shell"
     },
     "heightm": 1.3,
     "weightkg": 40.5,
@@ -7361,8 +7280,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aerodactyl": {
     "num": 142,
@@ -7401,8 +7319,7 @@ exports.BattlePokedex = {
       "Aerodactyl",
       "Aerodactyl-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aerodactylmega": {
     "num": 142,
@@ -7435,8 +7352,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "requiredItem": "Aerodactylite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "snorlax": {
     "num": 143,
@@ -7486,16 +7402,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 160,
-      "atk": 110,
-      "def": 65,
-      "spa": 65,
-      "spd": 110,
-      "spe": 30
+      "hp": 170,
+      "atk": 120,
+      "def": 75,
+      "spa": 75,
+      "spd": 120,
+      "spe": 40
     },
     "abilities": {
-      "0": "Immunity",
-      "1": "Thick Fat",
+      "0": "Thick Fat",
+      "1": "Immunity",
       "H": "Gluttony"
     },
     "heightm": 35,
@@ -7505,8 +7421,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "changesFrom": "Snorlax",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "articuno": {
     "num": 144,
@@ -7518,15 +7433,15 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 90,
-      "atk": 85,
-      "def": 100,
-      "spa": 95,
-      "spd": 125,
-      "spe": 85
+      "atk": 75,
+      "def": 95,
+      "spa": 125,
+      "spd": 100,
+      "spe": 95
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Snow Cloak"
+      "H": "Mountaineer"
     },
     "heightm": 1.7,
     "weightkg": 55.4,
@@ -7559,7 +7474,7 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 90,
       "atk": 85,
-      "def": 85,
+      "def": 90,
       "spa": 125,
       "spd": 100,
       "spe": 95
@@ -7826,8 +7741,7 @@ exports.BattlePokedex = {
       "spe": 100
     },
     "abilities": {
-      "0": "Inner Focus",
-      "H": "Multiscale"
+      "0": "Friend Guard"
     },
     "heightm": 2.2,
     "weightkg": 290,
@@ -7838,8 +7752,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dragoninite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mewtwo": {
     "num": 150,
@@ -7908,8 +7821,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Mewtwonite X",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mewtwomegay": {
     "num": 150,
@@ -7938,8 +7850,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Mewtwonite Y",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mew": {
     "num": 151,
@@ -7981,16 +7892,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 45,
-      "atk": 49,
-      "def": 65,
-      "spa": 49,
-      "spd": 65,
-      "spe": 45
+      "hp": 65,
+      "atk": 42,
+      "def": 55,
+      "spa": 66,
+      "spd": 70,
+      "spe": 20
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Leaf Guard"
+      "H": "Triage"
     },
     "heightm": 0.9,
     "weightkg": 6.4,
@@ -8015,16 +7926,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 62,
-      "def": 80,
-      "spa": 63,
-      "spd": 80,
-      "spe": 60
+      "hp": 80,
+      "atk": 55,
+      "def": 70,
+      "spa": 80,
+      "spd": 85,
+      "spe": 35
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Leaf Guard"
+      "H": "Triage"
     },
     "heightm": 1.2,
     "weightkg": 15.8,
@@ -8044,23 +7955,24 @@ exports.BattlePokedex = {
     "num": 154,
     "name": "Meganium",
     "types": [
-      "Grass"
+      "Grass",
+      "Fairy"
     ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 82,
+      "hp": 100,
+      "atk": 75,
       "def": 100,
-      "spa": 83,
-      "spd": 100,
-      "spe": 80
+      "spa": 100,
+      "spd": 105,
+      "spe": 55
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Leaf Guard"
+      "H": "Triage"
     },
     "heightm": 1.8,
     "weightkg": 100.5,
@@ -8094,16 +8006,15 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 92,
+      "hp": 100,
+      "atk": 107,
       "def": 115,
       "spa": 143,
       "spd": 115,
-      "spe": 80
+      "spe": 55
     },
     "abilities": {
-      "0": "Overgrow",
-      "H": "Leaf Guard"
+      "0": "Natural Cure"
     },
     "heightm": 2.4,
     "weightkg": 201,
@@ -8114,8 +8025,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Meganiumite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cyndaquil": {
     "num": 155,
@@ -8128,16 +8038,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 39,
+      "hp": 34,
       "atk": 52,
-      "def": 43,
-      "spa": 60,
-      "spd": 50,
-      "spe": 65
+      "def": 34,
+      "spa": 70,
+      "spd": 45,
+      "spe": 75
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Flash Fire"
+      "H": "Hubris"
     },
     "heightm": 0.5,
     "weightkg": 7.9,
@@ -8161,16 +8071,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 58,
+      "hp": 53,
       "atk": 64,
-      "def": 58,
-      "spa": 80,
-      "spd": 65,
-      "spe": 80
+      "def": 49,
+      "spa": 90,
+      "spd": 60,
+      "spe": 90
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Flash Fire"
+      "H": "Hubris"
     },
     "heightm": 0.9,
     "weightkg": 19,
@@ -8197,16 +8107,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
+      "hp": 73,
       "atk": 84,
-      "def": 78,
+      "def": 79,
       "spa": 109,
-      "spd": 85,
-      "spe": 100
+      "spd": 80,
+      "spe": 110
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Flash Fire"
+      "H": "Hubris"
     },
     "heightm": 1.7,
     "weightkg": 79.5,
@@ -8239,16 +8149,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 73,
-      "atk": 84,
+      "hp": 77,
+      "atk": 69,
       "def": 78,
-      "spa": 119,
+      "spa": 120,
       "spd": 85,
-      "spe": 95
+      "spe": 106
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Frisk"
+      "H": "Flash Fire"
     },
     "heightm": 1.6,
     "weightkg": 69.8,
@@ -8276,7 +8186,7 @@ exports.BattlePokedex = {
       "def": 64,
       "spa": 44,
       "spd": 48,
-      "spe": 43
+      "spe": 48
     },
     "abilities": {
       "0": "Torrent",
@@ -8305,12 +8215,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 65,
+      "hp": 80,
       "atk": 80,
       "def": 80,
-      "spa": 59,
+      "spa": 44,
       "spd": 63,
-      "spe": 58
+      "spe": 63
     },
     "abilities": {
       "0": "Torrent",
@@ -8341,12 +8251,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 85,
+      "hp": 100,
       "atk": 105,
       "def": 100,
-      "spa": 79,
+      "spa": 64,
       "spd": 83,
-      "spe": 78
+      "spe": 83
     },
     "abilities": {
       "0": "Torrent",
@@ -8384,16 +8294,15 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 85,
+      "hp": 100,
       "atk": 160,
       "def": 125,
-      "spa": 89,
+      "spa": 74,
       "spd": 93,
-      "spe": 78
+      "spe": 83
     },
     "abilities": {
-      "0": "Torrent",
-      "H": "Sheer Force"
+      "0": "Sheer Force"
     },
     "heightm": 2.3,
     "weightkg": 108.8,
@@ -8404,8 +8313,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Feraligite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sentret": {
     "num": 161,
@@ -8422,9 +8330,9 @@ exports.BattlePokedex = {
       "spe": 20
     },
     "abilities": {
-      "0": "Run Away",
-      "1": "Keen Eye",
-      "H": "Frisk"
+      "0": "Adrenaline",
+      "1": "Soundproof",
+      "H": "Scrappy"
     },
     "heightm": 0.8,
     "weightkg": 6,
@@ -8441,20 +8349,21 @@ exports.BattlePokedex = {
     "num": 162,
     "name": "Furret",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "baseStats": {
       "hp": 85,
-      "atk": 76,
-      "def": 64,
-      "spa": 45,
-      "spd": 55,
-      "spe": 90
+      "atk": 105,
+      "def": 75,
+      "spa": 30,
+      "spd": 85,
+      "spe": 110
     },
     "abilities": {
-      "0": "Run Away",
-      "1": "Keen Eye",
-      "H": "Frisk"
+      "0": "Adrenaline",
+      "1": "Soundproof",
+      "H": "Scrappy"
     },
     "heightm": 1.8,
     "weightkg": 32.5,
@@ -8482,9 +8391,9 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "Insomnia",
-      "1": "Keen Eye",
-      "H": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Tangled Feet",
+      "H": "Magic Guard"
     },
     "heightm": 0.7,
     "weightkg": 21.2,
@@ -8501,21 +8410,21 @@ exports.BattlePokedex = {
     "num": 164,
     "name": "Noctowl",
     "types": [
-      "Normal",
+      "Psychic",
       "Flying"
     ],
     "baseStats": {
       "hp": 100,
-      "atk": 50,
-      "def": 50,
-      "spa": 86,
-      "spd": 96,
-      "spe": 70
+      "atk": 20,
+      "def": 75,
+      "spa": 96,
+      "spd": 106,
+      "spe": 100
     },
     "abilities": {
-      "0": "Insomnia",
-      "1": "Keen Eye",
-      "H": "Tinted Lens"
+      "0": "Tinted Lens",
+      "1": "Tangled Feet",
+      "H": "Magic Guard"
     },
     "heightm": 1.6,
     "weightkg": 40.8,
@@ -8544,8 +8453,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Swarm",
-      "1": "Early Bird",
-      "H": "Rattled"
+      "1": "Iron Fist",
+      "H": "Technician"
     },
     "heightm": 1,
     "weightkg": 10.8,
@@ -8556,28 +8465,27 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ledian": {
     "num": 166,
     "name": "Ledian",
     "types": [
       "Bug",
-      "Flying"
+      "Fighting"
     ],
     "baseStats": {
       "hp": 55,
-      "atk": 35,
-      "def": 50,
-      "spa": 55,
-      "spd": 110,
-      "spe": 85
+      "atk": 100,
+      "def": 75,
+      "spa": 30,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "Swarm",
-      "1": "Early Bird",
-      "H": "Iron Fist"
+      "1": "Iron Fist",
+      "H": "Technician"
     },
     "heightm": 1.4,
     "weightkg": 35.6,
@@ -8587,8 +8495,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "spinarak": {
     "num": 167,
@@ -8607,8 +8514,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Swarm",
-      "1": "Insomnia",
-      "H": "Sniper"
+      "1": "Sniper",
+      "H": "Moxie"
     },
     "heightm": 0.5,
     "weightkg": 8.5,
@@ -8630,16 +8537,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 70,
-      "atk": 90,
-      "def": 70,
-      "spa": 60,
-      "spd": 70,
-      "spe": 40
+      "atk": 105,
+      "def": 80,
+      "spa": 30,
+      "spd": 90,
+      "spe": 105
     },
     "abilities": {
       "0": "Swarm",
-      "1": "Insomnia",
-      "H": "Sniper"
+      "1": "Sniper",
+      "H": "Moxie"
     },
     "heightm": 1.1,
     "weightkg": 33.5,
@@ -8661,13 +8568,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 85,
       "atk": 90,
-      "def": 80,
+      "def": 85,
       "spa": 70,
-      "spd": 80,
+      "spd": 85,
       "spe": 130
     },
     "abilities": {
       "0": "Inner Focus",
+      "1": "Sniper",
       "H": "Infiltrator"
     },
     "heightm": 1.8,
@@ -8678,8 +8586,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "chinchou": {
     "num": 170,
@@ -8689,11 +8596,11 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 38,
-      "def": 38,
+      "hp": 85,
+      "atk": 48,
+      "def": 48,
       "spa": 56,
-      "spd": 56,
+      "spd": 66,
       "spe": 67
     },
     "abilities": {
@@ -8720,11 +8627,11 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 125,
-      "atk": 58,
-      "def": 58,
-      "spa": 76,
-      "spd": 76,
+      "hp": 140,
+      "atk": 70,
+      "def": 70,
+      "spa": 86,
+      "spd": 86,
       "spe": 67
     },
     "abilities": {
@@ -8805,8 +8712,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "gen": 4,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cleffa": {
     "num": 173,
@@ -8912,8 +8818,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "togetic": {
     "num": 176,
@@ -8951,8 +8856,7 @@ exports.BattlePokedex = {
       "Flying",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "natu": {
     "num": 177,
@@ -8983,8 +8887,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "xatu": {
     "num": 178,
@@ -9014,8 +8917,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mareep": {
     "num": 179,
@@ -9024,16 +8926,17 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 55,
+      "hp": 65,
       "atk": 40,
-      "def": 40,
-      "spa": 65,
-      "spd": 45,
+      "def": 50,
+      "spa": 75,
+      "spd": 65,
       "spe": 35
     },
     "abilities": {
       "0": "Static",
-      "H": "Plus"
+      "1": "Fluffy",
+      "H": "Lightning Rod"
     },
     "heightm": 0.6,
     "weightkg": 7.8,
@@ -9054,16 +8957,17 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 80,
       "atk": 55,
-      "def": 55,
-      "spa": 80,
-      "spd": 60,
+      "def": 65,
+      "spa": 100,
+      "spd": 75,
       "spe": 45
     },
     "abilities": {
       "0": "Static",
-      "H": "Plus"
+      "1": "Fluffy",
+      "H": "Lightning Rod"
     },
     "heightm": 0.8,
     "weightkg": 13.3,
@@ -9088,14 +8992,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 90,
       "atk": 75,
-      "def": 85,
-      "spa": 115,
-      "spd": 90,
+      "def": 90,
+      "spa": 120,
+      "spd": 100,
       "spe": 55
     },
     "abilities": {
       "0": "Static",
-      "H": "Plus"
+      "1": "Volt Absorb",
+      "H": "Lightning Rod"
     },
     "heightm": 1.4,
     "weightkg": 61.5,
@@ -9126,14 +9031,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 90,
-      "atk": 95,
-      "def": 105,
+      "atk": 135,
+      "def": 95,
       "spa": 165,
       "spd": 110,
       "spe": 45
     },
     "abilities": {
-      "0": "Mold Breaker"
+      "0": "Fluffy"
     },
     "heightm": 1.4,
     "weightkg": 61.5,
@@ -9143,22 +9048,22 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Ampharosite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bellossom": {
     "num": 182,
     "name": "Bellossom",
     "types": [
-      "Grass"
+      "Grass",
+      "Fairy"
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 80,
+      "atk": 50,
       "def": 95,
-      "spa": 90,
+      "spa": 100,
       "spd": 100,
-      "spe": 50
+      "spe": 80
     },
     "abilities": {
       "0": "Chlorophyll",
@@ -9248,17 +9153,17 @@ exports.BattlePokedex = {
       "Rock"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 100,
+      "hp": 100,
+      "atk": 120,
       "def": 115,
       "spa": 30,
-      "spd": 65,
+      "spd": 105,
       "spe": 30
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Iron Fist",
       "1": "Rock Head",
-      "H": "Rattled"
+      "H": "Mold Breaker"
     },
     "heightm": 1.2,
     "weightkg": 38,
@@ -9280,8 +9185,8 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 90,
-      "atk": 75,
-      "def": 75,
+      "atk": 55,
+      "def": 100,
       "spa": 90,
       "spd": 100,
       "spe": 70
@@ -9319,7 +9224,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Leaf Guard",
+      "1": "Unburden",
       "H": "Infiltrator"
     },
     "heightm": 0.4,
@@ -9351,7 +9256,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Leaf Guard",
+      "1": "Unburden",
       "H": "Infiltrator"
     },
     "heightm": 0.6,
@@ -9377,15 +9282,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 55,
-      "def": 70,
-      "spa": 55,
-      "spd": 95,
+      "atk": 95,
+      "def": 95,
+      "spa": 30,
+      "spd": 100,
       "spe": 110
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Leaf Guard",
+      "1": "Unburden",
       "H": "Infiltrator"
     },
     "heightm": 0.8,
@@ -9446,7 +9351,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Chlorophyll",
       "1": "Solar Power",
-      "H": "Early Bird"
+      "H": "Seed Sower"
     },
     "heightm": 0.3,
     "weightkg": 1.8,
@@ -9463,20 +9368,21 @@ exports.BattlePokedex = {
     "num": 192,
     "name": "Sunflora",
     "types": [
-      "Grass"
+      "Grass",
+      "Fire"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 75,
-      "def": 55,
-      "spa": 105,
+      "hp": 85,
+      "atk": 55,
+      "def": 75,
+      "spa": 115,
       "spd": 85,
-      "spe": 30
+      "spe": 90
     },
     "abilities": {
       "0": "Chlorophyll",
       "1": "Solar Power",
-      "H": "Early Bird"
+      "H": "Seed Sower"
     },
     "heightm": 0.8,
     "weightkg": 8.5,
@@ -9601,11 +9507,11 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 95,
+      "hp": 105,
       "atk": 85,
-      "def": 85,
-      "spa": 65,
-      "spd": 65,
+      "def": 90,
+      "spa": 75,
+      "spd": 75,
       "spe": 35
     },
     "abilities": {
@@ -9669,9 +9575,9 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 95,
-      "atk": 65,
+      "atk": 60,
       "def": 110,
-      "spa": 60,
+      "spa": 80,
       "spd": 130,
       "spe": 65
     },
@@ -9706,7 +9612,7 @@ exports.BattlePokedex = {
       "spe": 91
     },
     "abilities": {
-      "0": "Insomnia",
+      "0": "Intimidate",
       "1": "Super Luck",
       "H": "Prankster"
     },
@@ -9766,8 +9672,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Slowking",
     "forme": "Galar",
     "types": [
-      "Poison",
-      "Psychic"
+      "Psychic",
+      "Poison"
     ],
     "baseStats": {
       "hp": 95,
@@ -9809,7 +9715,8 @@ exports.BattlePokedex = {
       "spe": 85
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Dazzling"
     },
     "heightm": 0.7,
     "weightkg": 1,
@@ -9906,8 +9813,7 @@ exports.BattlePokedex = {
       "Unown-Exclamation",
       "Unown-Question"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wobbuffet": {
     "num": 202,
@@ -9936,8 +9842,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "girafarig": {
     "num": 203,
@@ -10032,20 +9937,21 @@ exports.BattlePokedex = {
     "num": 206,
     "name": "Dunsparce",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "baseStats": {
       "hp": 100,
-      "atk": 70,
+      "atk": 80,
       "def": 70,
-      "spa": 65,
+      "spa": 75,
       "spd": 65,
       "spe": 45
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Run Away",
-      "H": "Rattled"
+      "1": "Sand Rush",
+      "H": "Adaptability"
     },
     "heightm": 1.5,
     "weightkg": 14,
@@ -10099,9 +10005,9 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 85,
+      "atk": 105,
       "def": 200,
-      "spa": 55,
+      "spa": 35,
       "spd": 65,
       "spe": 30
     },
@@ -10126,8 +10032,7 @@ exports.BattlePokedex = {
       "Steelix",
       "Steelix-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "steelixmega": {
     "num": 208,
@@ -10140,14 +10045,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 125,
+      "atk": 135,
       "def": 230,
-      "spa": 55,
-      "spd": 95,
+      "spa": 35,
+      "spd": 105,
       "spe": 30
     },
     "abilities": {
-      "0": "Sand Force"
+      "0": "Filter"
     },
     "heightm": 10.5,
     "weightkg": 740,
@@ -10156,8 +10061,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "requiredItem": "Steelixite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "snubbull": {
     "num": 209,
@@ -10207,15 +10111,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 90,
       "atk": 120,
-      "def": 75,
-      "spa": 60,
-      "spd": 60,
-      "spe": 45
+      "def": 85,
+      "spa": 25,
+      "spd": 85,
+      "spe": 95
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Quick Feet",
-      "H": "Rattled"
+      "1": "Strong Jaw",
+      "H": "Moxie"
     },
     "heightm": 1.4,
     "weightkg": 48.7,
@@ -10361,8 +10265,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Scizorite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "shuckle": {
     "num": 213,
@@ -10372,16 +10275,16 @@ exports.BattlePokedex = {
       "Rock"
     ],
     "baseStats": {
-      "hp": 20,
+      "hp": 40,
       "atk": 10,
-      "def": 230,
+      "def": 220,
       "spa": 10,
-      "spd": 230,
+      "spd": 220,
       "spe": 5
     },
     "abilities": {
       "0": "Sturdy",
-      "1": "Gluttony",
+      "1": "Oblivious",
       "H": "Contrary"
     },
     "heightm": 0.6,
@@ -10390,8 +10293,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "heracross": {
     "num": 214,
@@ -10409,7 +10311,7 @@ exports.BattlePokedex = {
       "spe": 85
     },
     "abilities": {
-      "0": "Swarm",
+      "0": "Skill Link",
       "1": "Guts",
       "H": "Moxie"
     },
@@ -10455,7 +10357,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Heracronite",
-    "tier": "Illegal",
+    "tier": "Illegal"
   },
   "sneasel": {
     "num": 215,
@@ -10501,8 +10403,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Sneasel",
     "forme": "Hisui",
     "types": [
-      "Fighting",
-      "Poison"
+      "Poison",
+      "Fighting"
     ],
     "baseStats": {
       "hp": 55,
@@ -10544,7 +10446,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pickup",
-      "1": "Quick Feet",
+      "1": "Defiant",
       "H": "Honey Gather"
     },
     "heightm": 0.6,
@@ -10568,14 +10470,14 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 130,
       "def": 75,
-      "spa": 75,
+      "spa": 35,
       "spd": 75,
-      "spe": 55
+      "spe": 95
     },
     "abilities": {
       "0": "Guts",
-      "1": "Quick Feet",
-      "H": "Unnerve"
+      "1": "Defiant",
+      "H": "Intimidate"
     },
     "heightm": 1.8,
     "weightkg": 125.8,
@@ -10605,7 +10507,7 @@ exports.BattlePokedex = {
       "spe": 20
     },
     "abilities": {
-      "0": "Magma Armor",
+      "0": "Solid Rock",
       "1": "Flame Body",
       "H": "Weak Armor"
     },
@@ -10625,18 +10527,18 @@ exports.BattlePokedex = {
     "name": "Magcargo",
     "types": [
       "Fire",
-      "Rock"
+      "Ground"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 50,
       "atk": 50,
       "def": 120,
-      "spa": 90,
-      "spd": 80,
+      "spa": 100,
+      "spd": 90,
       "spe": 30
     },
     "abilities": {
-      "0": "Magma Armor",
+      "0": "Solid Rock",
       "1": "Flame Body",
       "H": "Weak Armor"
     },
@@ -10667,8 +10569,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Snow Cloak",
-      "H": "Thick Fat"
+      "1": "Thick Fat",
+      "H": "Intimidate"
     },
     "heightm": 0.4,
     "weightkg": 6.5,
@@ -10698,8 +10600,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Snow Cloak",
-      "H": "Thick Fat"
+      "1": "Thick Fat",
+      "H": "Intimidate"
     },
     "heightm": 1.1,
     "weightkg": 55.8,
@@ -10726,15 +10628,15 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 65,
+      "hp": 85,
       "atk": 55,
-      "def": 95,
-      "spa": 65,
-      "spd": 95,
+      "def": 105,
+      "spa": 105,
+      "spd": 105,
       "spe": 35
     },
     "abilities": {
-      "0": "Hustle",
+      "0": "Rough Skin",
       "1": "Natural Cure",
       "H": "Regenerator"
     },
@@ -10752,8 +10654,7 @@ exports.BattlePokedex = {
       "Corsola",
       "Corsola-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "corsolagalar": {
     "num": 222,
@@ -10789,8 +10690,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "remoraid": {
     "num": 223,
@@ -10821,8 +10721,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "octillery": {
     "num": 224,
@@ -10832,11 +10731,11 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 105,
+      "atk": 65,
       "def": 75,
       "spa": 105,
       "spd": 75,
-      "spe": 45
+      "spe": 105
     },
     "abilities": {
       "0": "Suction Cups",
@@ -10852,8 +10751,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "delibird": {
     "num": 225,
@@ -10863,17 +10761,17 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 45,
+      "hp": 80,
       "atk": 55,
-      "def": 45,
-      "spa": 65,
-      "spd": 45,
-      "spe": 75
+      "def": 75,
+      "spa": 105,
+      "spd": 75,
+      "spe": 100
     },
     "abilities": {
       "0": "Vital Spirit",
-      "1": "Hustle",
-      "H": "Insomnia"
+      "1": "Adaptability",
+      "H": "Serene Grace"
     },
     "heightm": 0.9,
     "weightkg": 16,
@@ -10892,7 +10790,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 85,
+      "hp": 100,
       "atk": 40,
       "def": 70,
       "spa": 80,
@@ -10914,8 +10812,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "skarmory": {
     "num": 227,
@@ -10925,15 +10822,15 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 85,
       "atk": 80,
       "def": 140,
-      "spa": 40,
+      "spa": 20,
       "spd": 70,
       "spe": 70
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Infiltrator",
       "1": "Sturdy",
       "H": "Weak Armor"
     },
@@ -10962,17 +10859,15 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 85,
       "atk": 140,
       "def": 110,
-      "spa": 40,
+      "spa": 20,
       "spd": 100,
       "spe": 110
     },
     "abilities": {
-      "0": "Keen Eye",
-      "1": "Sturdy",
-      "H": "Weak Armor"
+      "0": "Tough Claws"
     },
     "heightm": 1.7,
     "weightkg": 40.4,
@@ -10982,7 +10877,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Skarmorite",
     "gen": 9,
-    "tier": "Illegal",
+    "tier": "Illegal"
   },
   "houndour": {
     "num": 228,
@@ -11000,9 +10895,9 @@ exports.BattlePokedex = {
       "spe": 65
     },
     "abilities": {
-      "0": "Early Bird",
-      "1": "Flash Fire",
-      "H": "Unnerve"
+      "0": "Flash Fire",
+      "1": "Solar Power",
+      "H": "Intimidate"
     },
     "heightm": 0.6,
     "weightkg": 10.8,
@@ -11031,9 +10926,9 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Early Bird",
-      "1": "Flash Fire",
-      "H": "Unnerve"
+      "0": "Flash Fire",
+      "1": "Solar Power",
+      "H": "Intimidate"
     },
     "heightm": 1.4,
     "weightkg": 35,
@@ -11079,8 +10974,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Houndoominite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kingdra": {
     "num": 230,
@@ -11090,17 +10984,17 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 95,
+      "hp": 80,
+      "atk": 100,
       "def": 95,
-      "spa": 95,
+      "spa": 100,
       "spd": 95,
       "spe": 85
     },
     "abilities": {
       "0": "Swift Swim",
       "1": "Sniper",
-      "H": "Damp"
+      "H": "Berserk"
     },
     "heightm": 1.8,
     "weightkg": 152,
@@ -11129,8 +11023,9 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Pickup",
-      "H": "Sand Veil"
+      "0": "Sturdy",
+      "1": "Sand Veil",
+      "H": "Intimidate"
     },
     "heightm": 0.5,
     "weightkg": 33.5,
@@ -11153,13 +11048,14 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 120,
       "def": 120,
-      "spa": 60,
-      "spd": 60,
+      "spa": 50,
+      "spd": 70,
       "spe": 50
     },
     "abilities": {
       "0": "Sturdy",
-      "H": "Sand Veil"
+      "1": "Sand Veil",
+      "H": "Intimidate"
     },
     "heightm": 1.1,
     "weightkg": 120,
@@ -11270,12 +11166,12 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 35,
-      "atk": 35,
+      "hp": 55,
+      "atk": 70,
       "def": 35,
       "spa": 35,
       "spd": 35,
-      "spe": 35
+      "spe": 70
     },
     "abilities": {
       "0": "Guts",
@@ -11304,17 +11200,17 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 50,
+      "hp": 75,
       "atk": 95,
       "def": 95,
       "spa": 35,
-      "spd": 110,
-      "spe": 70
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "Intimidate",
       "1": "Technician",
-      "H": "Steadfast"
+      "H": "Guts"
     },
     "heightm": 1.4,
     "weightkg": 48,
@@ -11358,8 +11254,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "elekid": {
     "num": 239,
@@ -11455,8 +11350,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "blissey": {
     "num": 242,
@@ -11505,7 +11399,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Inner Focus"
+      "H": "Volt Absorb"
     },
     "heightm": 1.9,
     "weightkg": 178,
@@ -11535,7 +11429,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Inner Focus"
+      "H": "Flash Fire"
     },
     "heightm": 2.1,
     "weightkg": 198,
@@ -11565,7 +11459,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Inner Focus"
+      "H": "Water Absorb"
     },
     "heightm": 2,
     "weightkg": 187,
@@ -11595,7 +11489,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Guts",
-      "H": "Sand Veil"
+      "H": "Intimidate"
     },
     "heightm": 0.6,
     "weightkg": 72,
@@ -11624,7 +11518,8 @@ exports.BattlePokedex = {
       "spe": 51
     },
     "abilities": {
-      "0": "Shed Skin"
+      "0": "Shed Skin",
+      "H": "Intimidate"
     },
     "heightm": 1.2,
     "weightkg": 152,
@@ -11656,7 +11551,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sand Stream",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 2,
     "weightkg": 202,
@@ -11702,8 +11597,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Tyranitarite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lugia": {
     "num": 249,
@@ -11795,8 +11689,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "treecko": {
     "num": 252,
@@ -11810,15 +11703,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 40,
-      "atk": 45,
+      "atk": 70,
       "def": 35,
-      "spa": 65,
+      "spa": 45,
       "spd": 55,
       "spe": 70
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Unburden"
+      "H": "Technician"
     },
     "heightm": 0.5,
     "weightkg": 5,
@@ -11844,15 +11737,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 50,
-      "atk": 65,
+      "atk": 90,
       "def": 45,
-      "spa": 85,
+      "spa": 65,
       "spd": 65,
       "spe": 95
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Unburden"
+      "H": "Technician"
     },
     "heightm": 0.9,
     "weightkg": 21.6,
@@ -11880,15 +11773,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 70,
-      "atk": 85,
+      "atk": 110,
       "def": 65,
-      "spa": 105,
+      "spa": 85,
       "spd": 85,
       "spe": 120
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Unburden"
+      "H": "Technician"
     },
     "heightm": 1.7,
     "weightkg": 52.2,
@@ -11923,14 +11816,14 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 70,
-      "atk": 110,
+      "atk": 135,
       "def": 75,
-      "spa": 145,
+      "spa": 125,
       "spd": 85,
       "spe": 145
     },
     "abilities": {
-      "0": "Lightning Rod"
+      "0": "Technician"
     },
     "heightm": 1.9,
     "weightkg": 55.2,
@@ -11940,8 +11833,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Sceptilite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "torchic": {
     "num": 255,
@@ -12083,8 +11975,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Blazikenite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mudkip": {
     "num": 258,
@@ -12106,7 +11997,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Damp"
+      "H": "Swift Swim"
     },
     "heightm": 0.4,
     "weightkg": 7.6,
@@ -12141,7 +12032,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Damp"
+      "H": "Swift Swim"
     },
     "heightm": 0.7,
     "weightkg": 28,
@@ -12178,7 +12069,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Damp"
+      "H": "Swift Swim"
     },
     "heightm": 1.5,
     "weightkg": 81.9,
@@ -12230,8 +12121,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Swampertite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "poochyena": {
     "num": 261,
@@ -12248,8 +12138,8 @@ exports.BattlePokedex = {
       "spe": 35
     },
     "abilities": {
-      "0": "Run Away",
-      "1": "Quick Feet",
+      "0": "Intimidate",
+      "1": "Moxie",
       "H": "Rattled"
     },
     "heightm": 0.5,
@@ -12270,17 +12160,17 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 90,
+      "hp": 85,
+      "atk": 125,
       "def": 70,
-      "spa": 60,
+      "spa": 40,
       "spd": 60,
-      "spe": 70
+      "spe": 100
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Quick Feet",
-      "H": "Moxie"
+      "1": "Moxie",
+      "H": "Strong Jaw"
     },
     "heightm": 1,
     "weightkg": 37,
@@ -12308,8 +12198,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pickup",
-      "1": "Gluttony",
-      "H": "Quick Feet"
+      "1": "Quick Feet",
+      "H": "Hustle"
     },
     "heightm": 0.4,
     "weightkg": 17.5,
@@ -12327,8 +12217,7 @@ exports.BattlePokedex = {
       "Zigzagoon",
       "Zigzagoon-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zigzagoongalar": {
     "num": 263,
@@ -12336,8 +12225,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Zigzagoon",
     "forme": "Galar",
     "types": [
-      "Dark",
-      "Normal"
+      "Normal",
+      "Dark"
     ],
     "baseStats": {
       "hp": 38,
@@ -12361,8 +12250,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "linoone": {
     "num": 264,
@@ -12371,17 +12259,17 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 78,
-      "atk": 70,
+      "hp": 85,
+      "atk": 80,
       "def": 61,
       "spa": 50,
       "spd": 61,
-      "spe": 100
+      "spe": 110
     },
     "abilities": {
       "0": "Pickup",
-      "1": "Gluttony",
-      "H": "Quick Feet"
+      "1": "Quick Feet",
+      "H": "Hustle"
     },
     "heightm": 0.5,
     "weightkg": 32.5,
@@ -12398,8 +12286,7 @@ exports.BattlePokedex = {
       "Linoone",
       "Linoone-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "linoonegalar": {
     "num": 264,
@@ -12407,8 +12294,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Linoone",
     "forme": "Galar",
     "types": [
-      "Dark",
-      "Normal"
+      "Normal",
+      "Dark"
     ],
     "baseStats": {
       "hp": 78,
@@ -12434,8 +12321,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wurmple": {
     "num": 265,
@@ -12465,8 +12351,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silcoon": {
     "num": 266,
@@ -12496,8 +12381,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "beautifly": {
     "num": 267,
@@ -12507,16 +12391,16 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 70,
+      "hp": 80,
+      "atk": 50,
       "def": 50,
-      "spa": 100,
+      "spa": 115,
       "spd": 50,
-      "spe": 65
+      "spe": 110
     },
     "abilities": {
       "0": "Swarm",
-      "H": "Rivalry"
+      "H": "Serene Grace"
     },
     "heightm": 1,
     "weightkg": 28.4,
@@ -12526,8 +12410,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cascoon": {
     "num": 268,
@@ -12557,8 +12440,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dustox": {
     "num": 269,
@@ -12569,15 +12451,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 60,
-      "atk": 50,
+      "atk": 40,
       "def": 70,
-      "spa": 50,
+      "spa": 100,
       "spd": 90,
-      "spe": 65
+      "spe": 110
     },
     "abilities": {
-      "0": "Shield Dust",
-      "H": "Compound Eyes"
+      "0": "Compound Eyes",
+      "H": "Tinted Lens"
     },
     "heightm": 1.2,
     "weightkg": 31.6,
@@ -12587,8 +12469,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lotad": {
     "num": 270,
@@ -12608,7 +12489,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Own Tempo"
+      "H": "Dancer"
     },
     "heightm": 0.5,
     "weightkg": 2.6,
@@ -12640,7 +12521,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Own Tempo"
+      "H": "Dancer"
     },
     "heightm": 1.2,
     "weightkg": 32.5,
@@ -12664,9 +12545,9 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 80,
+      "hp": 85,
       "atk": 70,
-      "def": 70,
+      "def": 85,
       "spa": 90,
       "spd": 100,
       "spe": 70
@@ -12674,7 +12555,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Own Tempo"
+      "H": "Dancer"
     },
     "heightm": 1.5,
     "weightkg": 55,
@@ -12705,7 +12586,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Chlorophyll",
       "1": "Early Bird",
-      "H": "Pickpocket"
+      "H": "Adaptability"
     },
     "heightm": 0.5,
     "weightkg": 4,
@@ -12728,16 +12609,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 70,
-      "atk": 70,
-      "def": 40,
-      "spa": 60,
-      "spd": 40,
-      "spe": 60
+      "atk": 85,
+      "def": 55,
+      "spa": 80,
+      "spd": 50,
+      "spe": 75
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Early Bird",
-      "H": "Pickpocket"
+      "1": "Wind Rider",
+      "H": "Adaptability"
     },
     "heightm": 1,
     "weightkg": 28,
@@ -12762,16 +12643,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 90,
-      "atk": 100,
+      "atk": 110,
       "def": 60,
-      "spa": 90,
+      "spa": 110,
       "spd": 60,
-      "spe": 80
+      "spe": 90
     },
     "abilities": {
       "0": "Chlorophyll",
       "1": "Wind Rider",
-      "H": "Pickpocket"
+      "H": "Adaptability"
     },
     "heightm": 1.3,
     "weightkg": 59.6,
@@ -12802,6 +12683,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Guts",
+      "1": "Reckless",
       "H": "Scrappy"
     },
     "heightm": 0.3,
@@ -12813,8 +12695,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "swellow": {
     "num": 277,
@@ -12826,13 +12707,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 60,
       "atk": 85,
-      "def": 60,
-      "spa": 75,
-      "spd": 50,
+      "def": 70,
+      "spa": 105,
+      "spd": 70,
       "spe": 125
     },
     "abilities": {
       "0": "Guts",
+      "1": "Reckless",
       "H": "Scrappy"
     },
     "heightm": 0.7,
@@ -12843,8 +12725,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wingull": {
     "num": 278,
@@ -13041,8 +12922,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Gardevoirite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "surskit": {
     "num": 283,
@@ -13080,19 +12960,19 @@ exports.BattlePokedex = {
     "name": "Masquerain",
     "types": [
       "Bug",
-      "Flying"
+      "Water"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 73,
       "atk": 60,
-      "def": 62,
-      "spa": 100,
-      "spd": 82,
-      "spe": 80
+      "def": 80,
+      "spa": 115,
+      "spd": 85,
+      "spe": 95
     },
     "abilities": {
       "0": "Intimidate",
-      "H": "Unnerve"
+      "H": "Competitive"
     },
     "heightm": 0.8,
     "weightkg": 3.6,
@@ -13182,7 +13062,9 @@ exports.BattlePokedex = {
       "spe": 30
     },
     "abilities": {
-      "0": "Truant"
+      "0": "Truant",
+      "1": "Run Away",
+      "H": "Quick Feet"
     },
     "heightm": 0.8,
     "weightkg": 24,
@@ -13210,7 +13092,9 @@ exports.BattlePokedex = {
       "spe": 90
     },
     "abilities": {
-      "0": "Vital Spirit"
+      "0": "Vital Spirit",
+      "1": "Run Away",
+      "H": "Quick Feet"
     },
     "heightm": 1.4,
     "weightkg": 46.5,
@@ -13232,15 +13116,17 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 150,
-      "atk": 160,
+      "hp": 110,
+      "atk": 120,
       "def": 100,
-      "spa": 95,
-      "spd": 65,
+      "spa": 50,
+      "spd": 85,
       "spe": 100
     },
     "abilities": {
-      "0": "Truant"
+      "0": "Truant",
+      "1": "Run Away",
+      "H": "Quick Feet"
     },
     "heightm": 2,
     "weightkg": 130.5,
@@ -13281,8 +13167,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ninjask": {
     "num": 291,
@@ -13311,8 +13196,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "shedinja": {
     "num": 292,
@@ -13324,11 +13208,11 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 1,
-      "atk": 90,
-      "def": 45,
-      "spa": 30,
-      "spd": 30,
-      "spe": 40
+      "atk": 120,
+      "def": 1,
+      "spa": 100,
+      "spd": 1,
+      "spe": 100
     },
     "maxHP": 1,
     "abilities": {
@@ -13342,8 +13226,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "whismur": {
     "num": 293,
@@ -13373,8 +13256,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "loudred": {
     "num": 294,
@@ -13406,8 +13288,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "exploud": {
     "num": 295,
@@ -13417,11 +13298,11 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 104,
-      "atk": 91,
-      "def": 63,
-      "spa": 91,
+      "atk": 51,
+      "def": 83,
+      "spa": 106,
       "spd": 73,
-      "spe": 68
+      "spe": 93
     },
     "abilities": {
       "0": "Soundproof",
@@ -13436,8 +13317,7 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "makuhita": {
     "num": 296,
@@ -13484,11 +13364,11 @@ exports.BattlePokedex = {
       "F": 0.25
     },
     "baseStats": {
-      "hp": 144,
+      "hp": 124,
       "atk": 120,
-      "def": 60,
+      "def": 85,
       "spa": 40,
-      "spd": 60,
+      "spd": 85,
       "spe": 50
     },
     "abilities": {
@@ -13605,8 +13485,7 @@ exports.BattlePokedex = {
       "Field",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "delcatty": {
     "num": 301,
@@ -13641,8 +13520,7 @@ exports.BattlePokedex = {
       "Field",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sableye": {
     "num": 302,
@@ -13655,13 +13533,13 @@ exports.BattlePokedex = {
       "hp": 50,
       "atk": 75,
       "def": 75,
-      "spa": 65,
+      "spa": 75,
       "spd": 65,
       "spe": 50
     },
     "abilities": {
-      "0": "Keen Eye",
-      "1": "Stall",
+      "0": "Synchronize",
+      "1": "Insomnia",
       "H": "Prankster"
     },
     "heightm": 0.5,
@@ -13692,7 +13570,7 @@ exports.BattlePokedex = {
       "hp": 50,
       "atk": 85,
       "def": 125,
-      "spa": 85,
+      "spa": 95,
       "spd": 115,
       "spe": 20
     },
@@ -13706,8 +13584,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Sablenite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mawile": {
     "num": 303,
@@ -13743,8 +13620,7 @@ exports.BattlePokedex = {
       "Mawile",
       "Mawile-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mawilemega": {
     "num": 303,
@@ -13774,15 +13650,14 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "requiredItem": "Mawilite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aron": {
     "num": 304,
     "name": "Aron",
     "types": [
       "Steel",
-      "Rock"
+      "Ground"
     ],
     "baseStats": {
       "hp": 50,
@@ -13806,15 +13681,14 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lairon": {
     "num": 305,
     "name": "Lairon",
     "types": [
       "Steel",
-      "Rock"
+      "Ground"
     ],
     "baseStats": {
       "hp": 60,
@@ -13825,7 +13699,7 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Heatproof",
       "1": "Rock Head",
       "H": "Heavy Metal"
     },
@@ -13840,28 +13714,27 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aggron": {
     "num": 306,
     "name": "Aggron",
     "types": [
       "Steel",
-      "Rock"
+      "Ground"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 110,
+      "hp": 80,
+      "atk": 120,
       "def": 180,
       "spa": 60,
-      "spd": 60,
+      "spd": 75,
       "spe": 50
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Heatproof",
       "1": "Rock Head",
-      "H": "Heavy Metal"
+      "H": "Sheer Force"
     },
     "heightm": 2.1,
     "weightkg": 360,
@@ -13878,8 +13751,7 @@ exports.BattlePokedex = {
       "Aggron",
       "Aggron-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aggronmega": {
     "num": 306,
@@ -13890,11 +13762,11 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 80,
       "atk": 140,
       "def": 230,
       "spa": 60,
-      "spd": 80,
+      "spd": 85,
       "spe": 50
     },
     "abilities": {
@@ -13907,8 +13779,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Aggronite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "meditite": {
     "num": 307,
@@ -14003,8 +13874,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Medichamite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "electrike": {
     "num": 309,
@@ -14023,7 +13893,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Static",
       "1": "Lightning Rod",
-      "H": "Minus"
+      "H": "Motor Drive"
     },
     "heightm": 0.6,
     "weightkg": 15.2,
@@ -14034,8 +13904,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "manectric": {
     "num": 310,
@@ -14046,15 +13915,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 70,
       "atk": 75,
-      "def": 60,
+      "def": 75,
       "spa": 105,
-      "spd": 60,
+      "spd": 75,
       "spe": 105
     },
     "abilities": {
       "0": "Static",
       "1": "Lightning Rod",
-      "H": "Minus"
+      "H": "Motor Drive"
     },
     "heightm": 1.5,
     "weightkg": 40.2,
@@ -14071,8 +13940,7 @@ exports.BattlePokedex = {
       "Manectric",
       "Manectric-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "manectricmega": {
     "num": 310,
@@ -14085,9 +13953,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 70,
       "atk": 75,
-      "def": 80,
+      "def": 95,
       "spa": 135,
-      "spd": 80,
+      "spd": 95,
       "spe": 135
     },
     "abilities": {
@@ -14100,8 +13968,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Manectite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "plusle": {
     "num": 311,
@@ -14248,8 +14115,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gulpin": {
     "num": 316,
@@ -14338,8 +14204,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sharpedo": {
     "num": 319,
@@ -14351,10 +14216,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 70,
       "atk": 120,
-      "def": 40,
+      "def": 35,
       "spa": 95,
       "spd": 40,
-      "spe": 95
+      "spe": 100
     },
     "abilities": {
       "0": "Rough Skin",
@@ -14375,8 +14240,7 @@ exports.BattlePokedex = {
       "Sharpedo",
       "Sharpedo-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sharpedomega": {
     "num": 319,
@@ -14390,10 +14254,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 70,
       "atk": 140,
-      "def": 70,
+      "def": 65,
       "spa": 110,
       "spd": 65,
-      "spe": 105
+      "spe": 110
     },
     "abilities": {
       "0": "Strong Jaw"
@@ -14405,8 +14269,7 @@ exports.BattlePokedex = {
       "Water 2"
     ],
     "requiredItem": "Sharpedonite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wailmer": {
     "num": 320,
@@ -14423,8 +14286,8 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Water Veil",
-      "1": "Oblivious",
+      "0": "Drizzle",
+      "1": "Berserk",
       "H": "Pressure"
     },
     "heightm": 2,
@@ -14437,8 +14300,7 @@ exports.BattlePokedex = {
       "Field",
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wailord": {
     "num": 321,
@@ -14447,16 +14309,16 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 170,
+      "hp": 140,
       "atk": 90,
-      "def": 45,
-      "spa": 90,
-      "spd": 45,
-      "spe": 60
+      "def": 85,
+      "spa": 100,
+      "spd": 85,
+      "spe": 30
     },
     "abilities": {
-      "0": "Water Veil",
-      "1": "Oblivious",
+      "0": "Drizzle",
+      "1": "Berserk",
       "H": "Pressure"
     },
     "heightm": 14.5,
@@ -14468,8 +14330,7 @@ exports.BattlePokedex = {
       "Field",
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "numel": {
     "num": 322,
@@ -14510,17 +14371,17 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 85,
       "atk": 100,
-      "def": 70,
+      "def": 80,
       "spa": 105,
-      "spd": 75,
+      "spd": 90,
       "spe": 40
     },
     "abilities": {
-      "0": "Magma Armor",
+      "0": "Flash Fire",
       "1": "Solid Rock",
-      "H": "Anger Point"
+      "H": "Solar Power"
     },
     "heightm": 1.9,
     "weightkg": 220,
@@ -14549,11 +14410,11 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 85,
       "atk": 120,
-      "def": 100,
+      "def": 110,
       "spa": 145,
-      "spd": 105,
+      "spd": 120,
       "spe": 20
     },
     "abilities": {
@@ -14566,8 +14427,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Cameruptite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "torkoal": {
     "num": 324,
@@ -14600,7 +14460,8 @@ exports.BattlePokedex = {
     "num": 325,
     "name": "Spoink",
     "types": [
-      "Psychic"
+      "Psychic",
+      "Normal"
     ],
     "baseStats": {
       "hp": 60,
@@ -14630,7 +14491,8 @@ exports.BattlePokedex = {
     "num": 326,
     "name": "Grumpig",
     "types": [
-      "Psychic"
+      "Psychic",
+      "Normal"
     ],
     "baseStats": {
       "hp": 80,
@@ -14681,8 +14543,7 @@ exports.BattlePokedex = {
       "Field",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "trapinch": {
     "num": 328,
@@ -14719,19 +14580,21 @@ exports.BattlePokedex = {
     "num": 329,
     "name": "Vibrava",
     "types": [
-      "Ground",
+      "Bug",
       "Dragon"
     ],
     "baseStats": {
       "hp": 50,
       "atk": 70,
       "def": 50,
-      "spa": 50,
+      "spa": 70,
       "spd": 50,
-      "spe": 70
+      "spe": 80
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Tinted Lens",
+      "1": "Sand Force",
+      "H": "Shield Dust"
     },
     "heightm": 1.1,
     "weightkg": 15.3,
@@ -14751,19 +14614,21 @@ exports.BattlePokedex = {
     "num": 330,
     "name": "Flygon",
     "types": [
-      "Ground",
+      "Bug",
       "Dragon"
     ],
     "baseStats": {
       "hp": 80,
       "atk": 100,
       "def": 80,
-      "spa": 80,
+      "spa": 100,
       "spd": 80,
-      "spe": 100
+      "spe": 110
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Tinted Lens",
+      "1": "Sand Force",
+      "H": "Shield Dust"
     },
     "heightm": 2,
     "weightkg": 82,
@@ -14791,8 +14656,8 @@ exports.BattlePokedex = {
       "spe": 35
     },
     "abilities": {
-      "0": "Sand Veil",
-      "H": "Water Absorb"
+      "0": "Sand Rush",
+      "H": "Chlorophyll"
     },
     "heightm": 0.4,
     "weightkg": 51.3,
@@ -14817,13 +14682,13 @@ exports.BattlePokedex = {
       "hp": 70,
       "atk": 115,
       "def": 60,
-      "spa": 115,
+      "spa": 105,
       "spd": 60,
-      "spe": 55
+      "spe": 90
     },
     "abilities": {
-      "0": "Sand Veil",
-      "H": "Water Absorb"
+      "0": "Sand Rush",
+      "H": "Chlorophyll"
     },
     "heightm": 1.3,
     "weightkg": 77.4,
@@ -14932,8 +14797,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Altarianite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zangoose": {
     "num": 335,
@@ -14944,13 +14808,13 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 73,
       "atk": 115,
-      "def": 60,
+      "def": 75,
       "spa": 60,
-      "spd": 60,
-      "spe": 90
+      "spd": 75,
+      "spe": 105
     },
     "abilities": {
-      "0": "Immunity",
+      "0": "Tough Claws",
       "H": "Toxic Boost"
     },
     "heightm": 1.3,
@@ -14968,16 +14832,16 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 73,
-      "atk": 100,
-      "def": 60,
-      "spa": 100,
-      "spd": 60,
-      "spe": 65
+      "hp": 83,
+      "atk": 120,
+      "def": 70,
+      "spa": 60,
+      "spd": 55,
+      "spe": 95
     },
     "abilities": {
-      "0": "Shed Skin",
-      "H": "Infiltrator"
+      "0": "Strong Jaw",
+      "H": "Corrosion"
     },
     "heightm": 2.7,
     "weightkg": 52.5,
@@ -15000,9 +14864,9 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 55,
       "def": 65,
-      "spa": 95,
-      "spd": 85,
-      "spe": 70
+      "spa": 125,
+      "spd": 95,
+      "spe": 80
     },
     "abilities": {
       "0": "Levitate"
@@ -15013,8 +14877,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "solrock": {
     "num": 338,
@@ -15026,11 +14889,11 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 90,
-      "atk": 95,
-      "def": 85,
+      "atk": 125,
+      "def": 95,
       "spa": 55,
       "spd": 65,
-      "spe": 70
+      "spe": 80
     },
     "abilities": {
       "0": "Levitate"
@@ -15041,8 +14904,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "barboach": {
     "num": 339,
@@ -15061,8 +14923,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Anticipation",
-      "H": "Hydration"
+      "1": "Sheer Force",
+      "H": "Unaware"
     },
     "heightm": 0.4,
     "weightkg": 1.9,
@@ -15083,17 +14945,17 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 110,
-      "atk": 78,
+      "hp": 140,
+      "atk": 85,
       "def": 73,
-      "spa": 76,
-      "spd": 71,
+      "spa": 65,
+      "spd": 85,
       "spe": 60
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Anticipation",
-      "H": "Hydration"
+      "1": "Sheer Force",
+      "H": "Unaware"
     },
     "heightm": 0.9,
     "weightkg": 23.6,
@@ -15195,8 +15057,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "claydol": {
     "num": 344,
@@ -15207,12 +15068,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 60,
+      "hp": 85,
       "atk": 70,
-      "def": 105,
-      "spa": 70,
-      "spd": 120,
-      "spe": 75
+      "def": 125,
+      "spa": 85,
+      "spd": 125,
+      "spe": 25
     },
     "abilities": {
       "0": "Levitate"
@@ -15225,8 +15086,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lileep": {
     "num": 345,
@@ -15248,8 +15108,8 @@ exports.BattlePokedex = {
       "spe": 23
     },
     "abilities": {
-      "0": "Suction Cups",
-      "H": "Storm Drain"
+      "0": "Storm Drain",
+      "H": "Dry Skin"
     },
     "heightm": 1,
     "weightkg": 23.8,
@@ -15260,8 +15120,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cradily": {
     "num": 346,
@@ -15275,16 +15134,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 86,
+      "hp": 95,
       "atk": 81,
-      "def": 97,
+      "def": 107,
       "spa": 81,
-      "spd": 107,
+      "spd": 120,
       "spe": 43
     },
     "abilities": {
-      "0": "Suction Cups",
-      "H": "Storm Drain"
+      "0": "Storm Drain",
+      "H": "Dry Skin"
     },
     "heightm": 1.5,
     "weightkg": 60.4,
@@ -15294,8 +15153,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "anorith": {
     "num": 347,
@@ -15317,8 +15175,8 @@ exports.BattlePokedex = {
       "spe": 75
     },
     "abilities": {
-      "0": "Battle Armor",
-      "H": "Swift Swim"
+      "0": "Swift Swim",
+      "H": "Weak Armor"
     },
     "heightm": 0.7,
     "weightkg": 12.5,
@@ -15329,8 +15187,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "armaldo": {
     "num": 348,
@@ -15346,14 +15203,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 125,
-      "def": 100,
-      "spa": 70,
+      "def": 110,
+      "spa": 30,
       "spd": 80,
-      "spe": 45
+      "spe": 75
     },
     "abilities": {
-      "0": "Battle Armor",
-      "H": "Swift Swim"
+      "0": "Swift Swim",
+      "H": "Weak Armor"
     },
     "heightm": 1.5,
     "weightkg": 68.2,
@@ -15363,8 +15220,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "feebas": {
     "num": 349,
@@ -15401,7 +15257,8 @@ exports.BattlePokedex = {
     "num": 350,
     "name": "Milotic",
     "types": [
-      "Water"
+      "Water",
+      "Fairy"
     ],
     "baseStats": {
       "hp": 95,
@@ -15414,7 +15271,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Marvel Scale",
       "1": "Competitive",
-      "H": "Cute Charm"
+      "H": "Hydration"
     },
     "heightm": 6.2,
     "weightkg": 162,
@@ -15463,8 +15320,7 @@ exports.BattlePokedex = {
       "Castform-Rainy",
       "Castform-Snowy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "castformsunny": {
     "num": 351,
@@ -15475,12 +15331,12 @@ exports.BattlePokedex = {
       "Fire"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 70,
-      "def": 70,
-      "spa": 70,
-      "spd": 70,
-      "spe": 70
+      "hp": 85,
+      "atk": 85,
+      "def": 85,
+      "spa": 85,
+      "spd": 85,
+      "spe": 85
     },
     "abilities": {
       "0": "Forecast"
@@ -15493,8 +15349,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredAbility": "Forecast",
-    "battleOnly": "Castform",
-    
+    "battleOnly": "Castform"
   },
   "castformrainy": {
     "num": 351,
@@ -15505,12 +15360,12 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 70,
-      "def": 70,
-      "spa": 70,
-      "spd": 70,
-      "spe": 70
+      "hp": 85,
+      "atk": 85,
+      "def": 85,
+      "spa": 85,
+      "spd": 85,
+      "spe": 85
     },
     "abilities": {
       "0": "Forecast"
@@ -15523,8 +15378,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredAbility": "Forecast",
-    "battleOnly": "Castform",
-    
+    "battleOnly": "Castform"
   },
   "castformsnowy": {
     "num": 351,
@@ -15535,12 +15389,12 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 70,
-      "def": 70,
-      "spa": 70,
-      "spd": 70,
-      "spe": 70
+      "hp": 85,
+      "atk": 85,
+      "def": 85,
+      "spa": 85,
+      "spd": 85,
+      "spe": 85
     },
     "abilities": {
       "0": "Forecast"
@@ -15553,8 +15407,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredAbility": "Forecast",
-    "battleOnly": "Castform",
-    
+    "battleOnly": "Castform"
   },
   "kecleon": {
     "num": 352,
@@ -15563,10 +15416,10 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 90,
-      "def": 70,
-      "spa": 60,
+      "hp": 80,
+      "atk": 95,
+      "def": 80,
+      "spa": 95,
       "spd": 120,
       "spe": 40
     },
@@ -15580,8 +15433,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "shuppet": {
     "num": 353,
@@ -15620,16 +15472,16 @@ exports.BattlePokedex = {
       "Ghost"
     ],
     "baseStats": {
-      "hp": 64,
+      "hp": 75,
       "atk": 115,
-      "def": 65,
+      "def": 75,
       "spa": 83,
-      "spd": 63,
-      "spe": 65
+      "spd": 70,
+      "spe": 75
     },
     "abilities": {
       "0": "Insomnia",
-      "1": "Frisk",
+      "1": "Technician",
       "H": "Cursed Body"
     },
     "heightm": 1.1,
@@ -15658,12 +15510,12 @@ exports.BattlePokedex = {
       "Ghost"
     ],
     "baseStats": {
-      "hp": 64,
-      "atk": 165,
-      "def": 75,
+      "hp": 75,
+      "atk": 150,
+      "def": 85,
       "spa": 93,
-      "spd": 83,
-      "spe": 75
+      "spd": 90,
+      "spe": 100
     },
     "abilities": {
       "0": "Prankster"
@@ -15675,8 +15527,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Banettite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "duskull": {
     "num": 355,
@@ -15723,7 +15574,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Frisk"
+      "H": "Iron Fist"
     },
     "heightm": 1.6,
     "weightkg": 30.6,
@@ -15743,20 +15594,20 @@ exports.BattlePokedex = {
     "name": "Tropius",
     "types": [
       "Grass",
-      "Flying"
+      "Dragon"
     ],
     "baseStats": {
-      "hp": 99,
+      "hp": 105,
       "atk": 68,
-      "def": 83,
-      "spa": 72,
-      "spd": 87,
-      "spe": 51
+      "def": 88,
+      "spa": 100,
+      "spd": 94,
+      "spe": 65
     },
     "abilities": {
       "0": "Chlorophyll",
       "1": "Solar Power",
-      "H": "Harvest"
+      "H": "Wind Rider"
     },
     "heightm": 2,
     "weightkg": 100,
@@ -15803,17 +15654,17 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 65,
-      "atk": 130,
-      "def": 60,
-      "spa": 75,
-      "spd": 60,
-      "spe": 75
+      "hp": 80,
+      "atk": 115,
+      "def": 80,
+      "spa": 55,
+      "spd": 80,
+      "spe": 90
     },
     "abilities": {
       "0": "Pressure",
       "1": "Super Luck",
-      "H": "Justified"
+      "H": "Intimidate"
     },
     "heightm": 1.2,
     "weightkg": 47,
@@ -15828,8 +15679,7 @@ exports.BattlePokedex = {
       "Absol",
       "Absol-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "absolmega": {
     "num": 359,
@@ -15840,15 +15690,15 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 80,
       "atk": 150,
-      "def": 60,
-      "spa": 115,
-      "spd": 60,
+      "def": 80,
+      "spa": 95,
+      "spd": 80,
       "spe": 115
     },
     "abilities": {
-      "0": "Magic Bounce"
+      "0": "Sharpness"
     },
     "heightm": 1.2,
     "weightkg": 49,
@@ -15857,8 +15707,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Absolite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wynaut": {
     "num": 360,
@@ -15888,8 +15737,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "snorunt": {
     "num": 361,
@@ -15907,8 +15755,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Inner Focus",
-      "1": "Ice Body",
-      "H": "Moody"
+      "1": "Strong Jaw",
+      "H": "Intimidate"
     },
     "heightm": 0.7,
     "weightkg": 16.8,
@@ -15930,17 +15778,17 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 80,
+      "hp": 100,
       "atk": 80,
       "def": 80,
       "spa": 80,
       "spd": 80,
-      "spe": 80
+      "spe": 90
     },
     "abilities": {
       "0": "Inner Focus",
-      "1": "Ice Body",
-      "H": "Moody"
+      "1": "Strong Jaw",
+      "H": "Intimidate"
     },
     "heightm": 1.5,
     "weightkg": 256.5,
@@ -15966,15 +15814,16 @@ exports.BattlePokedex = {
     "baseSpecies": "Glalie",
     "forme": "Mega",
     "types": [
-      "Ice"
+      "Ice",
+      "Dark"
     ],
     "baseStats": {
-      "hp": 80,
+      "hp": 100,
       "atk": 120,
       "def": 80,
       "spa": 120,
       "spd": 80,
-      "spe": 100
+      "spe": 110
     },
     "abilities": {
       "0": "Refrigerate"
@@ -15987,8 +15836,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "requiredItem": "Glalitite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "spheal": {
     "num": 363,
@@ -16008,7 +15856,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Thick Fat",
       "1": "Ice Body",
-      "H": "Oblivious"
+      "H": "Unaware"
     },
     "heightm": 0.8,
     "weightkg": 39.5,
@@ -16020,8 +15868,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sealeo": {
     "num": 364,
@@ -16041,7 +15888,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Thick Fat",
       "1": "Ice Body",
-      "H": "Oblivious"
+      "H": "Unaware"
     },
     "heightm": 1.1,
     "weightkg": 87.6,
@@ -16055,8 +15902,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "walrein": {
     "num": 365,
@@ -16076,7 +15922,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Thick Fat",
       "1": "Ice Body",
-      "H": "Oblivious"
+      "H": "Unaware"
     },
     "heightm": 1.4,
     "weightkg": 150.6,
@@ -16087,8 +15933,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "clamperl": {
     "num": 366,
@@ -16118,8 +15963,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "huntail": {
     "num": 367,
@@ -16148,8 +15992,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gorebyss": {
     "num": 368,
@@ -16178,8 +16021,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "relicanth": {
     "num": 369,
@@ -16194,11 +16036,11 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 100,
-      "atk": 90,
+      "atk": 110,
       "def": 130,
       "spa": 45,
       "spd": 65,
-      "spe": 55
+      "spe": 80
     },
     "abilities": {
       "0": "Swift Swim",
@@ -16212,8 +16054,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 2"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "luvdisc": {
     "num": 370,
@@ -16368,8 +16209,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Salamencite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "beldum": {
     "num": 374,
@@ -16500,8 +16340,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "requiredItem": "Metagrossite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "regirock": {
     "num": 377,
@@ -16520,7 +16359,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Clear Body",
-      "H": "Sturdy"
+      "H": "Sand Stream"
     },
     "heightm": 1.7,
     "weightkg": 230,
@@ -16550,7 +16389,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Clear Body",
-      "H": "Ice Body"
+      "H": "Snow Warning"
     },
     "heightm": 1.8,
     "weightkg": 175,
@@ -16580,7 +16419,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Clear Body",
-      "H": "Light Metal"
+      "H": "Steam Engine"
     },
     "heightm": 1.9,
     "weightkg": 205,
@@ -16658,8 +16497,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Latiasite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "latios": {
     "num": 381,
@@ -16726,8 +16564,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Latiosite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kyogre": {
     "num": 382,
@@ -16792,8 +16629,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Blue Orb",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "groudon": {
     "num": 383,
@@ -16859,8 +16695,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Red Orb",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rayquaza": {
     "num": 384,
@@ -16927,8 +16762,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredMove": "Dragon Ascent",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "jirachi": {
     "num": 385,
@@ -17102,13 +16936,13 @@ exports.BattlePokedex = {
       "hp": 55,
       "atk": 68,
       "def": 64,
-      "spa": 45,
-      "spd": 55,
+      "spa": 40,
+      "spd": 70,
       "spe": 31
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Shell Armor"
+      "H": "Thick Fat"
     },
     "heightm": 0.4,
     "weightkg": 10.2,
@@ -17136,13 +16970,13 @@ exports.BattlePokedex = {
       "hp": 75,
       "atk": 89,
       "def": 85,
-      "spa": 55,
-      "spd": 65,
+      "spa": 50,
+      "spd": 80,
       "spe": 36
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Shell Armor"
+      "H": "Thick Fat"
     },
     "heightm": 1.1,
     "weightkg": 97,
@@ -17173,13 +17007,13 @@ exports.BattlePokedex = {
       "hp": 95,
       "atk": 109,
       "def": 105,
-      "spa": 75,
-      "spd": 85,
+      "spa": 70,
+      "spd": 100,
       "spe": 56
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Shell Armor"
+      "H": "Thick Fat"
     },
     "heightm": 2.2,
     "weightkg": 310,
@@ -17212,7 +17046,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Iron Fist"
+      "H": "Tough Claws"
     },
     "heightm": 0.5,
     "weightkg": 6.2,
@@ -17247,7 +17081,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Iron Fist"
+      "H": "Tough Claws"
     },
     "heightm": 0.9,
     "weightkg": 22,
@@ -17284,7 +17118,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Iron Fist"
+      "H": "Tough Claws"
     },
     "heightm": 1.2,
     "weightkg": 55,
@@ -17311,7 +17145,7 @@ exports.BattlePokedex = {
       "hp": 53,
       "atk": 51,
       "def": 53,
-      "spa": 61,
+      "spa": 66,
       "spd": 56,
       "spe": 40
     },
@@ -17345,7 +17179,7 @@ exports.BattlePokedex = {
       "hp": 64,
       "atk": 66,
       "def": 68,
-      "spa": 81,
+      "spa": 86,
       "spd": 76,
       "spe": 50
     },
@@ -17382,7 +17216,7 @@ exports.BattlePokedex = {
       "hp": 84,
       "atk": 86,
       "def": 88,
-      "spa": 111,
+      "spa": 116,
       "spd": 101,
       "spe": 60
     },
@@ -17476,7 +17310,7 @@ exports.BattlePokedex = {
       "def": 70,
       "spa": 50,
       "spd": 60,
-      "spe": 100
+      "spe": 110
     },
     "abilities": {
       "0": "Intimidate",
@@ -17521,8 +17355,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bibarel": {
     "num": 400,
@@ -17532,11 +17365,11 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 79,
+      "hp": 86,
       "atk": 85,
-      "def": 60,
-      "spa": 55,
-      "spd": 60,
+      "def": 72,
+      "spa": 80,
+      "spd": 72,
       "spe": 71
     },
     "abilities": {
@@ -17553,8 +17386,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kricketot": {
     "num": 401,
@@ -17593,14 +17425,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 77,
-      "atk": 85,
+      "atk": 120,
       "def": 51,
       "spa": 55,
       "spd": 51,
-      "spe": 65
+      "spe": 107
     },
     "abilities": {
-      "0": "Swarm",
+      "0": "Sharpness",
       "H": "Technician"
     },
     "heightm": 1,
@@ -17628,9 +17460,9 @@ exports.BattlePokedex = {
       "spe": 45
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Reckless",
       "1": "Intimidate",
-      "H": "Guts"
+      "H": "Rock Head"
     },
     "heightm": 0.5,
     "weightkg": 9.5,
@@ -17658,9 +17490,9 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Reckless",
       "1": "Intimidate",
-      "H": "Guts"
+      "H": "Rock Head"
     },
     "heightm": 0.9,
     "weightkg": 30.5,
@@ -17679,20 +17511,21 @@ exports.BattlePokedex = {
     "num": 405,
     "name": "Luxray",
     "types": [
-      "Electric"
+      "Electric",
+      "Dark"
     ],
     "baseStats": {
       "hp": 80,
       "atk": 120,
       "def": 79,
-      "spa": 95,
+      "spa": 70,
       "spd": 79,
-      "spe": 70
+      "spe": 95
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Reckless",
       "1": "Intimidate",
-      "H": "Guts"
+      "H": "Rock Head"
     },
     "heightm": 1.4,
     "weightkg": 42,
@@ -17734,8 +17567,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "roserade": {
     "num": 407,
@@ -17745,7 +17577,7 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 70,
       "def": 65,
       "spa": 125,
@@ -17754,8 +17586,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Natural Cure",
-      "1": "Poison Point",
-      "H": "Technician"
+      "1": "Technician",
+      "H": "Dazzling"
     },
     "heightm": 0.9,
     "weightkg": 14.5,
@@ -17767,8 +17599,7 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cranidos": {
     "num": 408,
@@ -17814,12 +17645,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 97,
+      "hp": 100,
       "atk": 165,
-      "def": 60,
-      "spa": 65,
+      "def": 72,
+      "spa": 75,
       "spd": 50,
-      "spe": 58
+      "spe": 28
     },
     "abilities": {
       "0": "Mold Breaker",
@@ -17942,8 +17773,7 @@ exports.BattlePokedex = {
       "Burmy-Sandy",
       "Burmy-Trash"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "burmysandy": {
     "isCosmeticForme": true,
@@ -17997,8 +17827,7 @@ exports.BattlePokedex = {
       "Wormadam-Sandy",
       "Wormadam-Trash"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wormadamsandy": {
     "num": 413,
@@ -18030,8 +17859,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wormadamtrash": {
     "num": 413,
@@ -18063,8 +17891,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mothim": {
     "num": 414,
@@ -18094,8 +17921,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "combee": {
     "num": 415,
@@ -18140,8 +17966,8 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 70,
-      "atk": 80,
+      "hp": 80,
+      "atk": 100,
       "def": 102,
       "spa": 80,
       "spd": 102,
@@ -18149,7 +17975,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 1.2,
     "weightkg": 38.5,
@@ -18165,19 +17991,20 @@ exports.BattlePokedex = {
     "num": 417,
     "name": "Pachirisu",
     "types": [
-      "Electric"
+      "Electric",
+      "Fairy"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 80,
       "atk": 45,
-      "def": 70,
-      "spa": 45,
-      "spd": 90,
-      "spe": 95
+      "def": 85,
+      "spa": 80,
+      "spd": 95,
+      "spe": 105
     },
     "abilities": {
-      "0": "Run Away",
-      "1": "Pickup",
+      "0": "Static",
+      "1": "Cheek Pouch",
       "H": "Volt Absorb"
     },
     "heightm": 0.4,
@@ -18255,12 +18082,12 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 45,
+      "hp": 65,
       "atk": 35,
-      "def": 45,
-      "spa": 62,
-      "spd": 53,
-      "spe": 35
+      "def": 55,
+      "spa": 82,
+      "spd": 63,
+      "spe": 45
     },
     "abilities": {
       "0": "Chlorophyll"
@@ -18275,8 +18102,7 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cherrim": {
     "num": 421,
@@ -18286,11 +18112,11 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 80,
       "atk": 60,
-      "def": 70,
-      "spa": 87,
-      "spd": 78,
+      "def": 80,
+      "spa": 97,
+      "spd": 98,
       "spe": 85
     },
     "abilities": {
@@ -18312,8 +18138,7 @@ exports.BattlePokedex = {
       "Cherrim",
       "Cherrim-Sunshine"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cherrimsunshine": {
     "num": 421,
@@ -18321,15 +18146,16 @@ exports.BattlePokedex = {
     "baseSpecies": "Cherrim",
     "forme": "Sunshine",
     "types": [
-      "Grass"
+      "Grass",
+      "Fire"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 80,
       "atk": 60,
       "def": 70,
-      "spa": 87,
+      "spa": 107,
       "spd": 78,
-      "spe": 85
+      "spe": 105
     },
     "abilities": {
       "0": "Flower Gift"
@@ -18342,8 +18168,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "requiredAbility": "Flower Gift",
-    "battleOnly": "Cherrim",
-    
+    "battleOnly": "Cherrim"
   },
   "shellos": {
     "num": 422,
@@ -18363,7 +18188,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Sticky Hold",
       "1": "Storm Drain",
-      "H": "Sand Force"
+      "H": "Regenerator"
     },
     "heightm": 0.3,
     "weightkg": 6.3,
@@ -18401,16 +18226,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 111,
-      "atk": 83,
-      "def": 68,
-      "spa": 92,
+      "atk": 75,
+      "def": 75,
+      "spa": 95,
       "spd": 82,
       "spe": 39
     },
     "abilities": {
       "0": "Sticky Hold",
       "1": "Storm Drain",
-      "H": "Sand Force"
+      "H": "Regenerator"
     },
     "heightm": 0.9,
     "weightkg": 29.9,
@@ -18445,16 +18270,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 100,
-      "def": 66,
+      "atk": 113,
+      "def": 74,
       "spa": 60,
-      "spd": 66,
+      "spd": 75,
       "spe": 115
     },
     "abilities": {
       "0": "Technician",
-      "1": "Pickup",
-      "H": "Skill Link"
+      "1": "Skill Link",
+      "H": "Prankster"
     },
     "heightm": 1.2,
     "weightkg": 20.3,
@@ -18476,14 +18301,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 90,
-      "atk": 50,
-      "def": 34,
-      "spa": 60,
-      "spd": 44,
+      "atk": 55,
+      "def": 38,
+      "spa": 65,
+      "spd": 48,
       "spe": 70
     },
     "abilities": {
-      "0": "Aftermath",
+      "0": "Inflate",
       "1": "Unburden",
       "H": "Flare Boost"
     },
@@ -18506,15 +18331,15 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 150,
-      "atk": 80,
-      "def": 44,
-      "spa": 90,
-      "spd": 54,
-      "spe": 80
+      "hp": 130,
+      "atk": 75,
+      "def": 76,
+      "spa": 95,
+      "spd": 84,
+      "spe": 82
     },
     "abilities": {
-      "0": "Aftermath",
+      "0": "Inflate",
       "1": "Unburden",
       "H": "Flare Boost"
     },
@@ -18543,9 +18368,9 @@ exports.BattlePokedex = {
       "spe": 85
     },
     "abilities": {
-      "0": "Run Away",
-      "1": "Klutz",
-      "H": "Limber"
+      "0": "Limber",
+      "1": "Technician",
+      "H": "Reckless"
     },
     "heightm": 0.4,
     "weightkg": 5.5,
@@ -18557,8 +18382,7 @@ exports.BattlePokedex = {
       "Field",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lopunny": {
     "num": 428,
@@ -18575,9 +18399,9 @@ exports.BattlePokedex = {
       "spe": 105
     },
     "abilities": {
-      "0": "Cute Charm",
-      "1": "Klutz",
-      "H": "Limber"
+      "0": "Limber",
+      "1": "Technician",
+      "H": "Reckless"
     },
     "heightm": 1.2,
     "weightkg": 33.3,
@@ -18595,8 +18419,7 @@ exports.BattlePokedex = {
       "Lopunny",
       "Lopunny-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lopunnymega": {
     "num": 428,
@@ -18626,14 +18449,14 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Lopunnite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mismagius": {
     "num": 429,
     "name": "Mismagius",
     "types": [
-      "Ghost"
+      "Ghost",
+      "Fairy"
     ],
     "baseStats": {
       "hp": 60,
@@ -18644,7 +18467,8 @@ exports.BattlePokedex = {
       "spe": 105
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Dazzling"
     },
     "heightm": 0.9,
     "weightkg": 4.4,
@@ -18667,13 +18491,13 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 100,
       "atk": 125,
-      "def": 52,
-      "spa": 105,
-      "spd": 52,
+      "def": 97,
+      "spa": 55,
+      "spd": 87,
       "spe": 71
     },
     "abilities": {
-      "0": "Insomnia",
+      "0": "Intimidate",
       "1": "Super Luck",
       "H": "Moxie"
     },
@@ -18720,8 +18544,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "purugly": {
     "num": 432,
@@ -18734,12 +18557,12 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 71,
-      "atk": 82,
-      "def": 64,
+      "hp": 100,
+      "atk": 85,
+      "def": 79,
       "spa": 64,
-      "spd": 59,
-      "spe": 112
+      "spd": 74,
+      "spe": 68
     },
     "abilities": {
       "0": "Thick Fat",
@@ -18754,8 +18577,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "chingling": {
     "num": 433,
@@ -18804,7 +18626,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Stench",
       "1": "Aftermath",
-      "H": "Keen Eye"
+      "H": "Merciless"
     },
     "heightm": 0.4,
     "weightkg": 19.2,
@@ -18825,17 +18647,17 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 103,
-      "atk": 93,
-      "def": 67,
-      "spa": 71,
-      "spd": 61,
-      "spe": 84
+      "hp": 105,
+      "atk": 80,
+      "def": 77,
+      "spa": 90,
+      "spd": 73,
+      "spe": 85
     },
     "abilities": {
       "0": "Stench",
       "1": "Aftermath",
-      "H": "Keen Eye"
+      "H": "Merciless"
     },
     "heightm": 1,
     "weightkg": 38,
@@ -18888,17 +18710,17 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 67,
+      "hp": 70,
       "atk": 89,
       "def": 116,
-      "spa": 79,
+      "spa": 91,
       "spd": 116,
       "spe": 33
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Heatproof",
-      "H": "Heavy Metal"
+      "1": "Drizzle",
+      "H": "Bulletproof"
     },
     "heightm": 1.3,
     "weightkg": 187,
@@ -18972,8 +18794,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "happiny": {
     "num": 440,
@@ -19015,17 +18836,17 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 76,
+      "hp": 79,
       "atk": 65,
-      "def": 45,
-      "spa": 92,
-      "spd": 42,
-      "spe": 91
+      "def": 59,
+      "spa": 99,
+      "spd": 59,
+      "spe": 106
     },
     "abilities": {
       "0": "Keen Eye",
       "1": "Tangled Feet",
-      "H": "Big Pecks"
+      "H": "Prankster"
     },
     "heightm": 0.5,
     "weightkg": 1.9,
@@ -19033,8 +18854,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "spiritomb": {
     "num": 442,
@@ -19044,16 +18864,16 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 50,
+      "hp": 65,
       "atk": 92,
       "def": 108,
-      "spa": 92,
+      "spa": 97,
       "spd": 108,
       "spe": 35
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Infiltrator"
+      "H": "Cursed Body"
     },
     "heightm": 1,
     "weightkg": 108,
@@ -19079,7 +18899,8 @@ exports.BattlePokedex = {
       "spe": 42
     },
     "abilities": {
-      "0": "Sand Veil",
+      "0": "Infiltrator",
+      "1": "Pressure",
       "H": "Rough Skin"
     },
     "heightm": 0.7,
@@ -19110,7 +18931,8 @@ exports.BattlePokedex = {
       "spe": 82
     },
     "abilities": {
-      "0": "Sand Veil",
+      "0": "Infiltrator",
+      "1": "Pressure",
       "H": "Rough Skin"
     },
     "heightm": 1.4,
@@ -19143,7 +18965,8 @@ exports.BattlePokedex = {
       "spe": 102
     },
     "abilities": {
-      "0": "Sand Veil",
+      "0": "Infiltrator",
+      "1": "Pressure",
       "H": "Rough Skin"
     },
     "heightm": 1.9,
@@ -19192,8 +19015,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Garchompite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "munchlax": {
     "num": 446,
@@ -19278,15 +19100,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 70,
-      "atk": 110,
+      "atk": 115,
       "def": 70,
-      "spa": 115,
+      "spa": 110,
       "spd": 70,
       "spe": 90
     },
     "abilities": {
       "0": "Steadfast",
-      "1": "Inner Focus",
+      "1": "Iron Fist",
       "H": "Justified"
     },
     "heightm": 1.2,
@@ -19340,8 +19162,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Lucarionite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "hippopotas": {
     "num": 449,
@@ -19382,8 +19203,8 @@ exports.BattlePokedex = {
       "hp": 108,
       "atk": 112,
       "def": 118,
-      "spa": 68,
-      "spd": 72,
+      "spa": 60,
+      "spd": 80,
       "spe": 47
     },
     "abilities": {
@@ -19430,8 +19251,7 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "drapion": {
     "num": 452,
@@ -19441,17 +19261,17 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 90,
+      "hp": 80,
+      "atk": 100,
       "def": 110,
       "spa": 60,
-      "spd": 75,
+      "spd": 85,
       "spe": 95
     },
     "abilities": {
       "0": "Battle Armor",
       "1": "Sniper",
-      "H": "Keen Eye"
+      "H": "Tough Claws"
     },
     "heightm": 1.3,
     "weightkg": 61.5,
@@ -19462,8 +19282,7 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "croagunk": {
     "num": 453,
@@ -19481,7 +19300,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "Anticipation",
+      "0": "Technician",
       "1": "Dry Skin",
       "H": "Poison Touch"
     },
@@ -19505,14 +19324,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 83,
-      "atk": 106,
+      "atk": 116,
       "def": 65,
-      "spa": 86,
+      "spa": 90,
       "spd": 65,
-      "spe": 85
+      "spe": 96
     },
     "abilities": {
-      "0": "Anticipation",
+      "0": "Technician",
       "1": "Dry Skin",
       "H": "Poison Touch"
     },
@@ -19541,7 +19360,8 @@ exports.BattlePokedex = {
       "spe": 46
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Chlorophyll"
     },
     "heightm": 1.4,
     "weightkg": 27,
@@ -19549,8 +19369,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "finneon": {
     "num": 456,
@@ -19589,12 +19408,12 @@ exports.BattlePokedex = {
       "Water"
     ],
     "baseStats": {
-      "hp": 69,
-      "atk": 69,
-      "def": 76,
-      "spa": 69,
-      "spd": 86,
-      "spe": 91
+      "hp": 80,
+      "atk": 63,
+      "def": 85,
+      "spa": 85,
+      "spd": 105,
+      "spe": 96
     },
     "abilities": {
       "0": "Swift Swim",
@@ -19641,8 +19460,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canHatch": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "snover": {
     "num": 459,
@@ -19661,7 +19479,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Snow Warning",
-      "H": "Soundproof"
+      "H": "Slush Rush"
     },
     "heightm": 1,
     "weightkg": 50.5,
@@ -19683,16 +19501,16 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 90,
-      "atk": 92,
-      "def": 75,
-      "spa": 92,
-      "spd": 85,
+      "hp": 95,
+      "atk": 100,
+      "def": 90,
+      "spa": 100,
+      "spd": 90,
       "spe": 60
     },
     "abilities": {
       "0": "Snow Warning",
-      "H": "Soundproof"
+      "H": "Slush Rush"
     },
     "heightm": 2.2,
     "weightkg": 135.5,
@@ -19722,11 +19540,11 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 90,
-      "atk": 132,
-      "def": 105,
-      "spa": 132,
-      "spd": 105,
+      "hp": 95,
+      "atk": 130,
+      "def": 120,
+      "spa": 140,
+      "spd": 120,
       "spe": 30
     },
     "abilities": {
@@ -19740,8 +19558,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "requiredItem": "Abomasite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "weavile": {
     "num": 461,
@@ -19760,7 +19577,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Pickpocket"
+      "H": "Infiltrator"
     },
     "heightm": 1.1,
     "weightkg": 34,
@@ -19793,7 +19610,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Analytic"
+      "H": "Levitate"
     },
     "heightm": 1.2,
     "weightkg": 180,
@@ -19814,7 +19631,7 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 110,
-      "atk": 85,
+      "atk": 95,
       "def": 95,
       "spa": 80,
       "spd": 95,
@@ -19834,8 +19651,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rhyperior": {
     "num": 464,
@@ -19853,7 +19669,7 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Lightning Rod",
+      "0": "Sap Sipper",
       "1": "Solid Rock",
       "H": "Reckless"
     },
@@ -19897,14 +19713,14 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "electivire": {
     "num": 466,
     "name": "Electivire",
     "types": [
-      "Electric"
+      "Electric",
+      "Fighting"
     ],
     "genderRatio": {
       "M": 0.75,
@@ -19912,15 +19728,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 123,
+      "atk": 113,
       "def": 67,
       "spa": 95,
       "spd": 85,
-      "spe": 95
+      "spe": 105
     },
     "abilities": {
       "0": "Motor Drive",
-      "H": "Vital Spirit"
+      "H": "Iron Fist"
     },
     "heightm": 1.8,
     "weightkg": 138.6,
@@ -19945,15 +19761,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 95,
-      "def": 67,
+      "atk": 83,
+      "def": 75,
       "spa": 125,
-      "spd": 95,
-      "spe": 83
+      "spd": 83,
+      "spe": 100
     },
     "abilities": {
       "0": "Flame Body",
-      "H": "Vital Spirit"
+      "H": "Sheer Force"
     },
     "heightm": 1.6,
     "weightkg": 68,
@@ -19978,15 +19794,15 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 85,
-      "atk": 50,
-      "def": 95,
+      "hp": 90,
+      "atk": 30,
+      "def": 100,
       "spa": 120,
       "spd": 115,
-      "spe": 80
+      "spe": 90
     },
     "abilities": {
-      "0": "Hustle",
+      "0": "Vital Spirit",
       "1": "Serene Grace",
       "H": "Super Luck"
     },
@@ -20000,8 +19816,7 @@ exports.BattlePokedex = {
       "Flying",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "yanmega": {
     "num": 469,
@@ -20012,16 +19827,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 86,
-      "atk": 76,
+      "atk": 106,
       "def": 86,
-      "spa": 116,
-      "spd": 56,
+      "spa": 100,
+      "spd": 66,
       "spe": 95
     },
     "abilities": {
       "0": "Speed Boost",
       "1": "Tinted Lens",
-      "H": "Frisk"
+      "H": "Multiscale"
     },
     "heightm": 1.9,
     "weightkg": 51.5,
@@ -20053,7 +19868,7 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Leaf Guard",
+      "0": "Sharpness",
       "H": "Chlorophyll"
     },
     "heightm": 1,
@@ -20078,7 +19893,7 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 65,
+      "hp": 80,
       "atk": 60,
       "def": 110,
       "spa": 130,
@@ -20086,8 +19901,8 @@ exports.BattlePokedex = {
       "spe": 65
     },
     "abilities": {
-      "0": "Snow Cloak",
-      "H": "Ice Body"
+      "0": "Snow Warning",
+      "H": "Slush Rush"
     },
     "heightm": 0.8,
     "weightkg": 25.9,
@@ -20109,15 +19924,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 95,
+      "atk": 100,
       "def": 125,
       "spa": 45,
       "spd": 75,
       "spe": 95
     },
     "abilities": {
-      "0": "Hyper Cutter",
-      "1": "Sand Veil",
+      "0": "Infiltrator",
+      "1": "Sand Force",
       "H": "Poison Heal"
     },
     "heightm": 2,
@@ -20143,14 +19958,14 @@ exports.BattlePokedex = {
       "hp": 110,
       "atk": 130,
       "def": 80,
-      "spa": 70,
-      "spd": 60,
+      "spa": 60,
+      "spd": 70,
       "spe": 80
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Snow Cloak",
-      "H": "Thick Fat"
+      "1": "Thick Fat",
+      "H": "Intimidate"
     },
     "heightm": 2.5,
     "weightkg": 291,
@@ -20172,11 +19987,11 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 85,
-      "atk": 80,
+      "atk": 70,
       "def": 70,
       "spa": 135,
       "spd": 75,
-      "spe": 90
+      "spe": 100
     },
     "abilities": {
       "0": "Adaptability",
@@ -20203,12 +20018,12 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 68,
+      "hp": 70,
       "atk": 125,
-      "def": 65,
+      "def": 80,
       "spa": 65,
-      "spd": 115,
-      "spe": 80
+      "spd": 100,
+      "spe": 88
     },
     "abilities": {
       "0": "Steadfast",
@@ -20245,15 +20060,15 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 68,
+      "hp": 70,
       "atk": 165,
-      "def": 95,
+      "def": 98,
       "spa": 65,
       "spd": 115,
-      "spe": 110
+      "spe": 115
     },
     "abilities": {
-      "0": "Inner Focus"
+      "0": "Sharpness"
     },
     "heightm": 1.6,
     "weightkg": 56.4,
@@ -20262,8 +20077,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Galladite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "probopass": {
     "num": 476,
@@ -20275,15 +20089,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 60,
       "atk": 55,
-      "def": 145,
-      "spa": 75,
+      "def": 150,
+      "spa": 85,
       "spd": 150,
       "spe": 40
     },
     "abilities": {
       "0": "Sturdy",
       "1": "Magnet Pull",
-      "H": "Sand Force"
+      "H": "Levitate"
     },
     "heightm": 1.4,
     "weightkg": 340,
@@ -20300,19 +20114,20 @@ exports.BattlePokedex = {
     "num": 477,
     "name": "Dusknoir",
     "types": [
-      "Ghost"
+      "Ghost",
+      "Fighting"
     ],
     "baseStats": {
-      "hp": 45,
-      "atk": 100,
+      "hp": 55,
+      "atk": 110,
       "def": 135,
-      "spa": 65,
+      "spa": 55,
       "spd": 135,
       "spe": 45
     },
     "abilities": {
       "0": "Pressure",
-      "H": "Frisk"
+      "H": "Iron Fist"
     },
     "heightm": 2.2,
     "weightkg": 106.6,
@@ -20343,6 +20158,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Snow Cloak",
+      "1": "Snow Warning",
       "H": "Cursed Body"
     },
     "heightm": 1.3,
@@ -20376,15 +20192,14 @@ exports.BattlePokedex = {
     "gender": "F",
     "baseStats": {
       "hp": 70,
-      "atk": 80,
+      "atk": 90,
       "def": 70,
       "spa": 140,
       "spd": 100,
       "spe": 120
     },
     "abilities": {
-      "0": "Snow Cloak",
-      "H": "Cursed Body"
+      "0": "Snow Warning"
     },
     "heightm": 2.6,
     "weightkg": 29.6,
@@ -20395,8 +20210,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Froslassite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rotom": {
     "num": 479,
@@ -20549,7 +20363,7 @@ exports.BattlePokedex = {
       "spe": 86
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Infiltrator"
     },
     "heightm": 0.3,
     "weightkg": 0.3,
@@ -20958,9 +20772,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 120,
       "atk": 70,
-      "def": 110,
+      "def": 120,
       "spa": 75,
-      "spd": 120,
+      "spd": 130,
       "spe": 85
     },
     "abilities": {
@@ -21775,8 +21589,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "snivy": {
     "num": 495,
@@ -21792,9 +21605,9 @@ exports.BattlePokedex = {
       "hp": 45,
       "atk": 45,
       "def": 55,
-      "spa": 45,
+      "spa": 50,
       "spd": 55,
-      "spe": 63
+      "spe": 53
     },
     "abilities": {
       "0": "Overgrow",
@@ -21826,9 +21639,9 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 60,
       "def": 75,
-      "spa": 60,
+      "spa": 65,
       "spd": 75,
-      "spe": 83
+      "spe": 85
     },
     "abilities": {
       "0": "Overgrow",
@@ -21862,9 +21675,9 @@ exports.BattlePokedex = {
       "hp": 75,
       "atk": 75,
       "def": 95,
-      "spa": 75,
+      "spa": 80,
       "spd": 95,
-      "spe": 113
+      "spe": 115
     },
     "abilities": {
       "0": "Overgrow",
@@ -21893,15 +21706,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 65,
-      "atk": 63,
-      "def": 45,
-      "spa": 45,
+      "atk": 73,
+      "def": 40,
+      "spa": 35,
       "spd": 45,
-      "spe": 45
+      "spe": 60
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Thick Fat"
+      "H": "Moxie"
     },
     "heightm": 0.5,
     "weightkg": 9.9,
@@ -21928,14 +21741,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 90,
       "atk": 93,
-      "def": 55,
-      "spa": 70,
+      "def": 50,
+      "spa": 45,
       "spd": 55,
-      "spe": 55
+      "spe": 82
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Thick Fat"
+      "H": "Moxie"
     },
     "heightm": 1,
     "weightkg": 55.5,
@@ -21964,14 +21777,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 110,
       "atk": 123,
-      "def": 65,
-      "spa": 100,
+      "def": 60,
+      "spa": 65,
       "spd": 65,
-      "spe": 65
+      "spe": 112
     },
     "abilities": {
       "0": "Blaze",
-      "H": "Reckless"
+      "H": "Moxie"
     },
     "heightm": 1.6,
     "weightkg": 150,
@@ -22005,15 +21818,14 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 110,
-      "atk": 148,
-      "def": 75,
+      "atk": 155,
+      "def": 95,
       "spa": 110,
       "spd": 110,
-      "spe": 75
+      "spe": 55
     },
     "abilities": {
-      "0": "Blaze",
-      "H": "Reckless"
+      "0": "Reckless"
     },
     "heightm": 1.8,
     "weightkg": 180.3,
@@ -22023,8 +21835,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Emboarite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "oshawott": {
     "num": 501,
@@ -22038,15 +21849,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 55,
-      "atk": 55,
-      "def": 45,
-      "spa": 63,
+      "atk": 63,
+      "def": 60,
+      "spa": 48,
       "spd": 45,
-      "spe": 45
+      "spe": 60
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Shell Armor"
+      "H": "Mold Breaker"
     },
     "heightm": 0.5,
     "weightkg": 5.9,
@@ -22071,15 +21882,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 75,
-      "def": 60,
-      "spa": 83,
-      "spd": 60,
-      "spe": 60
+      "atk": 83,
+      "def": 75,
+      "spa": 45,
+      "spd": 67,
+      "spe": 75
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Shell Armor"
+      "H": "Mold Breaker"
     },
     "heightm": 0.8,
     "weightkg": 24.5,
@@ -22099,7 +21910,8 @@ exports.BattlePokedex = {
     "num": 503,
     "name": "Samurott",
     "types": [
-      "Water"
+      "Water",
+      "Steel"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -22107,15 +21919,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 95,
-      "atk": 100,
-      "def": 85,
-      "spa": 108,
-      "spd": 70,
-      "spe": 70
+      "atk": 108,
+      "def": 100,
+      "spa": 70,
+      "spd": 77,
+      "spe": 85
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Shell Armor"
+      "H": "Mold Breaker"
     },
     "heightm": 1.5,
     "weightkg": 94.6,
@@ -22185,7 +21997,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Run Away",
-      "1": "Keen Eye",
+      "1": "Steadfast",
       "H": "Analytic"
     },
     "heightm": 0.5,
@@ -22197,8 +22009,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "watchog": {
     "num": 505,
@@ -22208,15 +22019,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 60,
-      "atk": 85,
+      "atk": 105,
       "def": 69,
       "spa": 60,
       "spd": 69,
-      "spe": 77
+      "spe": 97
     },
     "abilities": {
-      "0": "Illuminate",
-      "1": "Keen Eye",
+      "0": "Inner Focus",
+      "1": "Steadfast",
       "H": "Analytic"
     },
     "heightm": 1.1,
@@ -22227,8 +22038,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "lillipup": {
     "num": 506,
@@ -22258,8 +22068,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "herdier": {
     "num": 507,
@@ -22291,8 +22100,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "stoutland": {
     "num": 508,
@@ -22321,8 +22129,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "purrloin": {
     "num": 509,
@@ -22352,8 +22159,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "liepard": {
     "num": 510,
@@ -22382,8 +22188,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pansage": {
     "num": 511,
@@ -22404,8 +22209,8 @@ exports.BattlePokedex = {
       "spe": 64
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Overgrow"
+      "0": "Chlorophyll",
+      "H": "Sap Sipper"
     },
     "heightm": 0.6,
     "weightkg": 10.5,
@@ -22416,8 +22221,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "simisage": {
     "num": 512,
@@ -22431,15 +22235,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 98,
+      "atk": 105,
       "def": 63,
-      "spa": 98,
+      "spa": 105,
       "spd": 63,
-      "spe": 101
+      "spe": 114
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Overgrow"
+      "0": "Chlorophyll",
+      "H": "Sap Sipper"
     },
     "heightm": 1.1,
     "weightkg": 30.5,
@@ -22450,8 +22254,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pansear": {
     "num": 513,
@@ -22472,8 +22275,8 @@ exports.BattlePokedex = {
       "spe": 64
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Blaze"
+      "0": "Solar Power",
+      "H": "Flash Fire"
     },
     "heightm": 0.6,
     "weightkg": 11,
@@ -22484,8 +22287,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "simisear": {
     "num": 514,
@@ -22499,15 +22301,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 98,
+      "atk": 105,
       "def": 63,
-      "spa": 98,
+      "spa": 105,
       "spd": 63,
-      "spe": 101
+      "spe": 114
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Blaze"
+      "0": "Solar Power",
+      "H": "Flash Fire"
     },
     "heightm": 1,
     "weightkg": 28,
@@ -22518,8 +22320,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "panpour": {
     "num": 515,
@@ -22540,8 +22341,8 @@ exports.BattlePokedex = {
       "spe": 64
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Torrent"
+      "0": "Swift Swim",
+      "H": "Water Absorb"
     },
     "heightm": 0.6,
     "weightkg": 13.5,
@@ -22552,8 +22353,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "simipour": {
     "num": 516,
@@ -22567,15 +22367,15 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 98,
+      "atk": 105,
       "def": 63,
-      "spa": 98,
+      "spa": 105,
       "spd": 63,
-      "spe": 101
+      "spe": 114
     },
     "abilities": {
-      "0": "Gluttony",
-      "H": "Torrent"
+      "0": "Swift Swim",
+      "H": "Water Absorb"
     },
     "heightm": 1,
     "weightkg": 29,
@@ -22586,8 +22386,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "munna": {
     "num": 517,
@@ -22604,9 +22403,9 @@ exports.BattlePokedex = {
       "spe": 24
     },
     "abilities": {
-      "0": "Forewarn",
+      "0": "Wonder Skin",
       "1": "Synchronize",
-      "H": "Telepathy"
+      "H": "Magic Guard"
     },
     "heightm": 0.6,
     "weightkg": 23.3,
@@ -22617,8 +22416,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "musharna": {
     "num": 518,
@@ -22629,15 +22427,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 116,
       "atk": 55,
-      "def": 85,
+      "def": 90,
       "spa": 107,
-      "spd": 95,
+      "spd": 100,
       "spe": 29
     },
     "abilities": {
-      "0": "Forewarn",
+      "0": "Wonder Skin",
       "1": "Synchronize",
-      "H": "Telepathy"
+      "H": "Magic Guard"
     },
     "heightm": 1.1,
     "weightkg": 60.5,
@@ -22648,8 +22446,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pidove": {
     "num": 519,
@@ -22667,9 +22464,9 @@ exports.BattlePokedex = {
       "spe": 43
     },
     "abilities": {
-      "0": "Big Pecks",
+      "0": "Competitive",
       "1": "Super Luck",
-      "H": "Rivalry"
+      "H": "Sheer Force"
     },
     "heightm": 0.3,
     "weightkg": 2.1,
@@ -22680,8 +22477,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tranquill": {
     "num": 520,
@@ -22699,9 +22495,9 @@ exports.BattlePokedex = {
       "spe": 65
     },
     "abilities": {
-      "0": "Big Pecks",
+      "0": "Competitive",
       "1": "Super Luck",
-      "H": "Rivalry"
+      "H": "Sheer Force"
     },
     "heightm": 0.6,
     "weightkg": 15,
@@ -22714,8 +22510,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "unfezant": {
     "num": 521,
@@ -22733,9 +22528,9 @@ exports.BattlePokedex = {
       "spe": 93
     },
     "abilities": {
-      "0": "Big Pecks",
+      "0": "Competitive",
       "1": "Super Luck",
-      "H": "Rivalry"
+      "H": "Sheer Force"
     },
     "heightm": 1.2,
     "weightkg": 29,
@@ -22745,8 +22540,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "blitzle": {
     "num": 522,
@@ -22763,9 +22557,9 @@ exports.BattlePokedex = {
       "spe": 76
     },
     "abilities": {
-      "0": "Lightning Rod",
-      "1": "Motor Drive",
-      "H": "Sap Sipper"
+      "0": "Sap Sipper",
+      "1": "Reckless",
+      "H": "Rock Head"
     },
     "heightm": 0.8,
     "weightkg": 29.8,
@@ -22786,16 +22580,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 100,
+      "atk": 110,
       "def": 63,
       "spa": 80,
       "spd": 63,
       "spe": 116
     },
     "abilities": {
-      "0": "Lightning Rod",
-      "1": "Motor Drive",
-      "H": "Sap Sipper"
+      "0": "Sap Sipper",
+      "1": "Reckless",
+      "H": "Rock Head"
     },
     "heightm": 1.6,
     "weightkg": 79.5,
@@ -22835,8 +22629,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "boldore": {
     "num": 525,
@@ -22868,8 +22661,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gigalith": {
     "num": 526,
@@ -22886,7 +22678,7 @@ exports.BattlePokedex = {
       "spe": 25
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Rough Skin",
       "1": "Sand Stream",
       "H": "Sand Force"
     },
@@ -22898,8 +22690,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "woobat": {
     "num": 527,
@@ -22931,8 +22722,7 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "swoobat": {
     "num": 528,
@@ -22943,10 +22733,10 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 67,
-      "atk": 57,
-      "def": 55,
-      "spa": 77,
-      "spd": 55,
+      "atk": 47,
+      "def": 65,
+      "spa": 97,
+      "spd": 70,
       "spe": 114
     },
     "abilities": {
@@ -22963,8 +22753,7 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "drilbur": {
     "num": 529,
@@ -23051,9 +22840,7 @@ exports.BattlePokedex = {
       "spe": 103
     },
     "abilities": {
-      "0": "Sand Rush",
-      "1": "Sand Force",
-      "H": "Mold Breaker"
+      "0": "Mold Breaker"
     },
     "heightm": 0.9,
     "weightkg": 60,
@@ -23063,8 +22850,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Excadrite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "audino": {
     "num": 531,
@@ -23073,17 +22859,17 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 103,
+      "hp": 105,
       "atk": 60,
       "def": 86,
-      "spa": 60,
+      "spa": 73,
       "spd": 86,
       "spe": 50
     },
     "abilities": {
       "0": "Healer",
       "1": "Regenerator",
-      "H": "Klutz"
+      "H": "Natural Cure"
     },
     "heightm": 1.1,
     "weightkg": 31,
@@ -23098,8 +22884,7 @@ exports.BattlePokedex = {
       "Audino",
       "Audino-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "audinomega": {
     "num": 531,
@@ -23111,15 +22896,15 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "baseStats": {
-      "hp": 103,
+      "hp": 105,
       "atk": 60,
       "def": 126,
-      "spa": 80,
+      "spa": 93,
       "spd": 126,
       "spe": 50
     },
     "abilities": {
-      "0": "Healer"
+      "0": "Regenerator"
     },
     "heightm": 1.5,
     "weightkg": 32,
@@ -23128,8 +22913,7 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "requiredItem": "Audinite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "timburr": {
     "num": 532,
@@ -23262,8 +23046,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "palpitoad": {
     "num": 536,
@@ -23296,8 +23079,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "seismitoad": {
     "num": 537,
@@ -23311,12 +23093,12 @@ exports.BattlePokedex = {
       "atk": 95,
       "def": 75,
       "spa": 85,
-      "spd": 75,
+      "spd": 81,
       "spe": 74
     },
     "abilities": {
       "0": "Swift Swim",
-      "1": "Poison Touch",
+      "1": "Poison Heal",
       "H": "Water Absorb"
     },
     "heightm": 1.5,
@@ -23327,8 +23109,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "throh": {
     "num": 538,
@@ -23347,7 +23128,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Guts",
-      "1": "Inner Focus",
+      "1": "Thick Fat",
       "H": "Mold Breaker"
     },
     "heightm": 1.3,
@@ -23356,8 +23137,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sawk": {
     "num": 539,
@@ -23376,7 +23156,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sturdy",
-      "1": "Inner Focus",
+      "1": "Quick Feet",
       "H": "Mold Breaker"
     },
     "heightm": 1.4,
@@ -23385,8 +23165,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sewaddle": {
     "num": 540,
@@ -23460,15 +23239,15 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 103,
+      "hp": 85,
+      "atk": 105,
       "def": 80,
       "spa": 70,
       "spd": 80,
-      "spe": 92
+      "spe": 105
     },
     "abilities": {
-      "0": "Swarm",
+      "0": "Sharpness",
       "1": "Chlorophyll",
       "H": "Overcoat"
     },
@@ -23511,8 +23290,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "whirlipede": {
     "num": 544,
@@ -23545,8 +23323,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "scolipede": {
     "num": 545,
@@ -23556,9 +23333,9 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 85,
       "atk": 100,
-      "def": 89,
+      "def": 94,
       "spa": 55,
       "spd": 69,
       "spe": 112
@@ -23583,8 +23360,7 @@ exports.BattlePokedex = {
       "Scolipede",
       "Scolipede-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "scolipedemega": {
     "num": 545,
@@ -23596,17 +23372,15 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 85,
       "atk": 140,
-      "def": 149,
+      "def": 154,
       "spa": 75,
       "spd": 99,
       "spe": 62
     },
     "abilities": {
-      "0": "Poison Point",
-      "1": "Swarm",
-      "H": "Speed Boost"
+      "0": "Merciless"
     },
     "heightm": 3.2,
     "weightkg": 230.5,
@@ -23616,8 +23390,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Scolipite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cottonee": {
     "num": 546,
@@ -23662,7 +23435,7 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 67,
       "def": 85,
-      "spa": 77,
+      "spa": 97,
       "spd": 75,
       "spe": 116
     },
@@ -23719,20 +23492,21 @@ exports.BattlePokedex = {
     "num": 549,
     "name": "Lilligant",
     "types": [
-      "Grass"
+      "Grass",
+      "Fairy"
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 70,
-      "atk": 60,
-      "def": 75,
+      "hp": 75,
+      "atk": 45,
+      "def": 80,
       "spa": 110,
-      "spd": 75,
+      "spd": 80,
       "spe": 90
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Own Tempo",
+      "1": "Adaptability",
       "H": "Leaf Guard"
     },
     "heightm": 1.1,
@@ -23903,7 +23677,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Intimidate",
       "1": "Moxie",
-      "H": "Anger Point"
+      "H": "Tough Claws"
     },
     "heightm": 0.7,
     "weightkg": 15.2,
@@ -23934,7 +23708,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Intimidate",
       "1": "Moxie",
-      "H": "Anger Point"
+      "H": "Tough Claws"
     },
     "heightm": 1,
     "weightkg": 33.4,
@@ -23958,16 +23732,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 95,
-      "atk": 117,
-      "def": 80,
-      "spa": 65,
-      "spd": 70,
-      "spe": 92
+      "atk": 120,
+      "def": 90,
+      "spa": 45,
+      "spd": 75,
+      "spe": 95
     },
     "abilities": {
       "0": "Intimidate",
       "1": "Moxie",
-      "H": "Anger Point"
+      "H": "Tough Claws"
     },
     "heightm": 1.5,
     "weightkg": 96.3,
@@ -24013,8 +23787,7 @@ exports.BattlePokedex = {
       "Darumaka",
       "Darumaka-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "darumakagalar": {
     "num": 554,
@@ -24045,8 +23818,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "darmanitan": {
     "num": 555,
@@ -24086,8 +23858,7 @@ exports.BattlePokedex = {
       "Darmanitan-Galar",
       "Darmanitan-Galar-Zen"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "darmanitanzen": {
     "num": 555,
@@ -24107,7 +23878,8 @@ exports.BattlePokedex = {
       "spe": 55
     },
     "abilities": {
-      "0": "Zen Mode"
+      "0": "Sheer Force",
+      "H": "Zen Mode"
     },
     "heightm": 1.3,
     "weightkg": 92.9,
@@ -24116,8 +23888,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredAbility": "Zen Mode",
-    "battleOnly": "Darmanitan",
-    
+    "battleOnly": "Darmanitan"
   },
   "darmanitangalar": {
     "num": 555,
@@ -24148,8 +23919,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "darmanitangalarzen": {
     "num": 555,
@@ -24178,8 +23948,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredAbility": "Zen Mode",
-    "battleOnly": "Darmanitan-Galar",
-    
+    "battleOnly": "Darmanitan-Galar"
   },
   "maractus": {
     "num": 556,
@@ -24188,17 +23957,17 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 86,
-      "def": 67,
+      "hp": 100,
+      "atk": 70,
+      "def": 72,
       "spa": 106,
-      "spd": 67,
-      "spe": 60
+      "spd": 92,
+      "spe": 45
     },
     "abilities": {
       "0": "Water Absorb",
       "1": "Chlorophyll",
-      "H": "Storm Drain"
+      "H": "Triage"
     },
     "heightm": 1,
     "weightkg": 28,
@@ -24206,8 +23975,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dwebble": {
     "num": 557,
@@ -24239,8 +24007,7 @@ exports.BattlePokedex = {
       "Bug",
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "crustle": {
     "num": 558,
@@ -24260,7 +24027,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Sturdy",
       "1": "Shell Armor",
-      "H": "Weak Armor"
+      "H": "Tough Claws"
     },
     "heightm": 1.4,
     "weightkg": 200,
@@ -24271,8 +24038,7 @@ exports.BattlePokedex = {
       "Bug",
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "scraggy": {
     "num": 559,
@@ -24315,11 +24081,11 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 65,
-      "atk": 90,
+      "atk": 100,
       "def": 115,
       "spa": 45,
       "spd": 115,
-      "spe": 58
+      "spe": 60
     },
     "abilities": {
       "0": "Shed Skin",
@@ -24355,16 +24121,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 65,
-      "atk": 130,
+      "atk": 140,
       "def": 135,
       "spa": 55,
       "spd": 135,
-      "spe": 68
+      "spe": 70
     },
     "abilities": {
-      "0": "Shed Skin",
-      "1": "Moxie",
-      "H": "Intimidate"
+      "0": "Shed Skin"
     },
     "heightm": 1.1,
     "weightkg": 31,
@@ -24375,8 +24139,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Scraftinite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sigilyph": {
     "num": 561,
@@ -24386,12 +24149,12 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 72,
-      "atk": 58,
+      "hp": 80,
+      "atk": 50,
       "def": 80,
       "spa": 103,
       "spd": 80,
-      "spe": 97
+      "spe": 107
     },
     "abilities": {
       "0": "Wonder Skin",
@@ -24404,8 +24167,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "yamask": {
     "num": 562,
@@ -24441,8 +24203,7 @@ exports.BattlePokedex = {
       "Yamask",
       "Yamask-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "yamaskgalar": {
     "num": 562,
@@ -24474,8 +24235,7 @@ exports.BattlePokedex = {
       "Mineral",
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cofagrigus": {
     "num": 563,
@@ -24484,10 +24244,10 @@ exports.BattlePokedex = {
       "Ghost"
     ],
     "baseStats": {
-      "hp": 58,
+      "hp": 60,
       "atk": 50,
       "def": 145,
-      "spa": 95,
+      "spa": 100,
       "spd": 105,
       "spe": 30
     },
@@ -24503,8 +24263,7 @@ exports.BattlePokedex = {
       "Mineral",
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tirtouga": {
     "num": 564,
@@ -24527,7 +24286,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Solid Rock",
-      "1": "Sturdy",
+      "1": "Shell Armor",
       "H": "Swift Swim"
     },
     "heightm": 0.7,
@@ -24540,8 +24299,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "carracosta": {
     "num": 565,
@@ -24555,16 +24313,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 74,
-      "atk": 108,
+      "hp": 75,
+      "atk": 110,
       "def": 133,
-      "spa": 83,
-      "spd": 65,
+      "spa": 90,
+      "spd": 70,
       "spe": 32
     },
     "abilities": {
       "0": "Solid Rock",
-      "1": "Sturdy",
+      "1": "Shell Armor",
       "H": "Swift Swim"
     },
     "heightm": 1.2,
@@ -24576,8 +24334,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "archen": {
     "num": 566,
@@ -24611,8 +24368,7 @@ exports.BattlePokedex = {
       "Flying",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "archeops": {
     "num": 567,
@@ -24645,8 +24401,7 @@ exports.BattlePokedex = {
       "Flying",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "trubbish": {
     "num": 568,
@@ -24676,8 +24431,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "garbodor": {
     "num": 569,
@@ -24686,12 +24440,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 80,
-      "atk": 95,
+      "hp": 96,
+      "atk": 84,
       "def": 82,
-      "spa": 60,
+      "spa": 101,
       "spd": 82,
-      "spe": 75
+      "spe": 55
     },
     "abilities": {
       "0": "Stench",
@@ -24707,8 +24461,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "canGigantamax": "G-Max Malodor",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "garbodorgmax": {
     "num": 569,
@@ -24719,12 +24472,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 80,
-      "atk": 95,
-      "def": 82,
-      "spa": 60,
-      "spd": 82,
-      "spe": 75
+      "hp": 90,
+      "atk": 105,
+      "def": 92,
+      "spa": 70,
+      "spd": 92,
+      "spe": 85
     },
     "abilities": {
       "0": "Stench",
@@ -24738,8 +24491,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "changesFrom": "Garbodor",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zorua": {
     "num": 570,
@@ -24933,9 +24685,9 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 95,
-      "def": 60,
-      "spa": 65,
+      "atk": 100,
+      "def": 70,
+      "spa": 50,
       "spd": 60,
       "spe": 115
     },
@@ -25037,9 +24789,9 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 70,
-      "atk": 55,
-      "def": 95,
-      "spa": 95,
+      "atk": 45,
+      "def": 105,
+      "spa": 105,
       "spd": 110,
       "spe": 65
     },
@@ -25128,8 +24880,8 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 110,
-      "atk": 65,
-      "def": 75,
+      "atk": 55,
+      "def": 85,
       "spa": 125,
       "spd": 85,
       "spe": 30
@@ -25166,8 +24918,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Keen Eye",
-      "1": "Big Pecks",
-      "H": "Hydration"
+      "1": "Hydration",
+      "H": "Gale Wings"
     },
     "heightm": 0.5,
     "weightkg": 5.5,
@@ -25190,16 +24942,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 87,
-      "def": 63,
-      "spa": 87,
-      "spd": 63,
-      "spe": 98
+      "atk": 90,
+      "def": 65,
+      "spa": 97,
+      "spd": 65,
+      "spe": 103
     },
     "abilities": {
       "0": "Keen Eye",
-      "1": "Big Pecks",
-      "H": "Hydration"
+      "1": "Hydration",
+      "H": "Gale Wings"
     },
     "heightm": 1.3,
     "weightkg": 24.2,
@@ -25228,7 +24980,6 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Ice Body",
-      "1": "Snow Cloak",
       "H": "Weak Armor"
     },
     "heightm": 0.4,
@@ -25240,8 +24991,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "vanillish": {
     "num": 583,
@@ -25259,7 +25009,6 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Ice Body",
-      "1": "Snow Cloak",
       "H": "Weak Armor"
     },
     "heightm": 1.1,
@@ -25273,8 +25022,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "vanilluxe": {
     "num": 584,
@@ -25283,8 +25031,8 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 71,
-      "atk": 95,
+      "hp": 85,
+      "atk": 80,
       "def": 85,
       "spa": 110,
       "spd": 95,
@@ -25303,8 +25051,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "deerling": {
     "num": 585,
@@ -25380,7 +25127,7 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 80,
-      "atk": 100,
+      "atk": 110,
       "def": 70,
       "spa": 60,
       "spd": 70,
@@ -25423,7 +25170,7 @@ exports.BattlePokedex = {
       "hp": 55,
       "atk": 75,
       "def": 60,
-      "spa": 75,
+      "spa": 87,
       "spd": 60,
       "spe": 103
     },
@@ -25437,8 +25184,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "karrablast": {
     "num": 588,
@@ -25468,8 +25214,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "escavalier": {
     "num": 589,
@@ -25487,9 +25232,9 @@ exports.BattlePokedex = {
       "spe": 20
     },
     "abilities": {
-      "0": "Swarm",
+      "0": "Defiant",
       "1": "Shell Armor",
-      "H": "Overcoat"
+      "H": "Analytic"
     },
     "heightm": 1,
     "weightkg": 33,
@@ -25500,8 +25245,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "foongus": {
     "num": 590,
@@ -25541,9 +25285,9 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 114,
+      "hp": 120,
       "atk": 85,
-      "def": 70,
+      "def": 75,
       "spa": 85,
       "spd": 80,
       "spe": 30
@@ -25580,7 +25324,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Water Absorb",
       "1": "Cursed Body",
-      "H": "Damp"
+      "H": "Hydration"
     },
     "heightm": 1.2,
     "weightkg": 33,
@@ -25591,8 +25335,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "jellicent": {
     "num": 593,
@@ -25612,7 +25355,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Water Absorb",
       "1": "Cursed Body",
-      "H": "Damp"
+      "H": "Hydration"
     },
     "heightm": 2.2,
     "weightkg": 135,
@@ -25622,8 +25365,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "alomomola": {
     "num": 594,
@@ -25670,8 +25412,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Compound Eyes",
-      "1": "Unnerve",
-      "H": "Swarm"
+      "1": "Static",
+      "H": "Lightning Rod"
     },
     "heightm": 0.1,
     "weightkg": 0.6,
@@ -25693,16 +25435,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 70,
-      "atk": 77,
+      "atk": 60,
       "def": 60,
-      "spa": 97,
+      "spa": 114,
       "spd": 60,
-      "spe": 108
+      "spe": 116
     },
     "abilities": {
       "0": "Compound Eyes",
-      "1": "Unnerve",
-      "H": "Swarm"
+      "1": "Static",
+      "H": "Lightning Rod"
     },
     "heightm": 0.8,
     "weightkg": 14.3,
@@ -25730,7 +25472,8 @@ exports.BattlePokedex = {
       "spe": 10
     },
     "abilities": {
-      "0": "Iron Barbs"
+      "0": "Iron Barbs",
+      "H": "Mold Breaker"
     },
     "heightm": 0.6,
     "weightkg": 18.8,
@@ -25742,8 +25485,7 @@ exports.BattlePokedex = {
       "Grass",
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "ferrothorn": {
     "num": 598,
@@ -25762,7 +25504,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Iron Barbs",
-      "H": "Anticipation"
+      "H": "Mold Breaker"
     },
     "heightm": 1,
     "weightkg": 110,
@@ -25773,8 +25515,7 @@ exports.BattlePokedex = {
       "Grass",
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "klink": {
     "num": 599,
@@ -25792,8 +25533,8 @@ exports.BattlePokedex = {
       "spe": 30
     },
     "abilities": {
-      "0": "Plus",
-      "1": "Minus",
+      "0": "Motor Drive",
+      "1": "Sturdy",
       "H": "Clear Body"
     },
     "heightm": 0.3,
@@ -25805,8 +25546,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "klang": {
     "num": 600,
@@ -25824,8 +25564,8 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "Plus",
-      "1": "Minus",
+      "0": "Motor Drive",
+      "1": "Sturdy",
       "H": "Clear Body"
     },
     "heightm": 0.6,
@@ -25839,8 +25579,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "klinklang": {
     "num": 601,
@@ -25850,16 +25589,16 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 60,
+      "hp": 65,
       "atk": 100,
       "def": 115,
-      "spa": 70,
+      "spa": 80,
       "spd": 85,
       "spe": 90
     },
     "abilities": {
-      "0": "Plus",
-      "1": "Minus",
+      "0": "Motor Drive",
+      "1": "Sturdy",
       "H": "Clear Body"
     },
     "heightm": 0.6,
@@ -25870,8 +25609,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tynamo": {
     "num": 602,
@@ -25888,7 +25626,8 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Surge Surfer"
     },
     "heightm": 0.2,
     "weightkg": 0.3,
@@ -25916,7 +25655,8 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Surge Surfer"
     },
     "heightm": 1.2,
     "weightkg": 22,
@@ -25943,10 +25683,11 @@ exports.BattlePokedex = {
       "def": 80,
       "spa": 105,
       "spd": 80,
-      "spe": 50
+      "spe": 70
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "H": "Surge Surfer"
     },
     "heightm": 2.1,
     "weightkg": 80.5,
@@ -25980,7 +25721,7 @@ exports.BattlePokedex = {
       "def": 80,
       "spa": 135,
       "spd": 90,
-      "spe": 80
+      "spe": 100
     },
     "abilities": {
       "0": "Levitate"
@@ -25993,8 +25734,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Eelektrossite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "elgyem": {
     "num": 605,
@@ -26024,8 +25764,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "beheeyem": {
     "num": 606,
@@ -26034,7 +25773,7 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 75,
+      "hp": 90,
       "atk": 75,
       "def": 75,
       "spa": 125,
@@ -26054,8 +25793,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "litwick": {
     "num": 607,
@@ -26170,16 +25908,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 60,
-      "atk": 75,
+      "atk": 65,
       "def": 110,
       "spa": 175,
       "spd": 110,
-      "spe": 90
+      "spe": 100
     },
     "abilities": {
-      "0": "Flash Fire",
-      "1": "Flame Body",
-      "H": "Infiltrator"
+      "0": "Shadow Tag"
     },
     "heightm": 2.5,
     "weightkg": 69.6,
@@ -26189,8 +25925,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Chandelurite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "axew": {
     "num": 610,
@@ -26207,9 +25942,9 @@ exports.BattlePokedex = {
       "spe": 57
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Steelworker",
       "1": "Mold Breaker",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 0.6,
     "weightkg": 18,
@@ -26238,9 +25973,9 @@ exports.BattlePokedex = {
       "spe": 67
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Steelworker",
       "1": "Mold Breaker",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 1,
     "weightkg": 36,
@@ -26271,9 +26006,9 @@ exports.BattlePokedex = {
       "spe": 97
     },
     "abilities": {
-      "0": "Rivalry",
+      "0": "Steelworker",
       "1": "Mold Breaker",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 1.8,
     "weightkg": 105.5,
@@ -26331,7 +26066,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "Snow Cloak",
+      "0": "Intimidate",
       "1": "Slush Rush",
       "H": "Swift Swim"
     },
@@ -26375,7 +26110,8 @@ exports.BattlePokedex = {
     "num": 616,
     "name": "Shelmet",
     "types": [
-      "Bug"
+      "Bug",
+      "Water"
     ],
     "baseStats": {
       "hp": 50,
@@ -26399,27 +26135,27 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "accelgor": {
     "num": 617,
     "name": "Accelgor",
     "types": [
-      "Bug"
+      "Bug",
+      "Water"
     ],
     "baseStats": {
       "hp": 80,
       "atk": 70,
       "def": 40,
-      "spa": 100,
+      "spa": 110,
       "spd": 60,
       "spe": 145
     },
     "abilities": {
-      "0": "Hydration",
-      "1": "Sticky Hold",
-      "H": "Unburden"
+      "0": "Infiltrator",
+      "1": "Damp",
+      "H": "Regenerator"
     },
     "heightm": 0.8,
     "weightkg": 25.3,
@@ -26430,8 +26166,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "stunfisk": {
     "num": 618,
@@ -26441,17 +26176,17 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 109,
-      "atk": 66,
-      "def": 84,
-      "spa": 81,
-      "spd": 99,
+      "hp": 111,
+      "atk": 60,
+      "def": 87,
+      "spa": 85,
+      "spd": 100,
       "spe": 32
     },
     "abilities": {
       "0": "Static",
-      "1": "Limber",
-      "H": "Sand Veil"
+      "1": "Sand Force",
+      "H": "Water Absorb"
     },
     "heightm": 0.7,
     "weightkg": 11,
@@ -26467,8 +26202,7 @@ exports.BattlePokedex = {
       "Stunfisk",
       "Stunfisk-Galar"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "stunfiskgalar": {
     "num": 618,
@@ -26488,7 +26222,9 @@ exports.BattlePokedex = {
       "spe": 32
     },
     "abilities": {
-      "0": "Mimicry"
+      "0": "Sand Veil",
+      "1": "Limber",
+      "H": "Mimicry"
     },
     "heightm": 0.7,
     "weightkg": 20.5,
@@ -26497,8 +26233,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mienfoo": {
     "num": 619,
@@ -26568,12 +26303,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 77,
-      "atk": 120,
+      "hp": 95,
+      "atk": 130,
       "def": 90,
-      "spa": 60,
+      "spa": 40,
       "spd": 90,
-      "spe": 48
+      "spe": 55
     },
     "abilities": {
       "0": "Rough Skin",
@@ -26587,8 +26322,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "golett": {
     "num": 622,
@@ -26608,7 +26342,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Iron Fist",
-      "1": "Klutz",
+      "1": "Sand Force",
       "H": "No Guard"
     },
     "heightm": 1,
@@ -26631,7 +26365,7 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 89,
+      "hp": 96,
       "atk": 124,
       "def": 80,
       "spa": 55,
@@ -26640,7 +26374,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Iron Fist",
-      "1": "Klutz",
+      "1": "Sand Force",
       "H": "No Guard"
     },
     "heightm": 2.8,
@@ -26727,9 +26461,9 @@ exports.BattlePokedex = {
       "hp": 95,
       "atk": 110,
       "def": 95,
-      "spa": 40,
+      "spa": 24,
       "spd": 95,
-      "spe": 55
+      "spe": 71
     },
     "abilities": {
       "0": "Reckless",
@@ -26742,8 +26476,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rufflet": {
     "num": 627,
@@ -26790,12 +26523,12 @@ exports.BattlePokedex = {
       "hp": 100,
       "atk": 123,
       "def": 75,
-      "spa": 57,
+      "spa": 41,
       "spd": 75,
-      "spe": 80
+      "spe": 101
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Intimidate",
       "1": "Sheer Force",
       "H": "Defiant"
     },
@@ -26832,10 +26565,10 @@ exports.BattlePokedex = {
       "def": 70,
       "spa": 112,
       "spd": 70,
-      "spe": 65
+      "spe": 90
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Competitive",
       "1": "Sheer Force",
       "H": "Tinted Lens"
     },
@@ -26866,9 +26599,9 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Big Pecks",
+      "0": "Infiltrator",
       "1": "Overcoat",
-      "H": "Weak Armor"
+      "H": "Pressure"
     },
     "heightm": 0.5,
     "weightkg": 9,
@@ -26891,16 +26624,16 @@ exports.BattlePokedex = {
     "gender": "F",
     "baseStats": {
       "hp": 110,
-      "atk": 65,
+      "atk": 70,
       "def": 105,
       "spa": 55,
       "spd": 95,
       "spe": 80
     },
     "abilities": {
-      "0": "Big Pecks",
+      "0": "Infiltrator",
       "1": "Overcoat",
-      "H": "Weak Armor"
+      "H": "Pressure"
     },
     "heightm": 1.2,
     "weightkg": 39.5,
@@ -26920,16 +26653,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 85,
-      "atk": 97,
-      "def": 66,
+      "atk": 100,
+      "def": 70,
       "spa": 105,
-      "spd": 66,
-      "spe": 65
+      "spd": 80,
+      "spe": 80
     },
     "abilities": {
-      "0": "Gluttony",
+      "0": "White Smoke",
       "1": "Flash Fire",
-      "H": "White Smoke"
+      "H": "Sheer Force"
     },
     "heightm": 1.4,
     "weightkg": 58,
@@ -26937,8 +26670,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "durant": {
     "num": 632,
@@ -26956,9 +26688,9 @@ exports.BattlePokedex = {
       "spe": 109
     },
     "abilities": {
-      "0": "Swarm",
+      "0": "Defiant",
       "1": "Hustle",
-      "H": "Truant"
+      "H": "Strong Jaw"
     },
     "heightm": 0.3,
     "weightkg": 33,
@@ -26966,8 +26698,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "deino": {
     "num": 633,
@@ -26978,14 +26709,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 52,
-      "atk": 65,
+      "atk": 55,
       "def": 50,
-      "spa": 45,
+      "spa": 55,
       "spd": 50,
       "spe": 38
     },
     "abilities": {
-      "0": "Hustle"
+      "0": "Mold Breaker"
     },
     "heightm": 0.8,
     "weightkg": 17.3,
@@ -27007,14 +26738,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 72,
-      "atk": 85,
+      "atk": 65,
       "def": 70,
-      "spa": 65,
+      "spa": 85,
       "spd": 70,
       "spe": 58
     },
     "abilities": {
-      "0": "Hustle"
+      "0": "Mold Breaker"
     },
     "heightm": 1.4,
     "weightkg": 50,
@@ -27038,11 +26769,11 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 92,
-      "atk": 105,
+      "atk": 103,
       "def": 90,
       "spa": 125,
       "spd": 90,
-      "spe": 98
+      "spe": 100
     },
     "abilities": {
       "0": "Levitate"
@@ -27074,7 +26805,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Flame Body",
-      "H": "Swarm"
+      "H": "Rattled"
     },
     "heightm": 1.1,
     "weightkg": 28.8,
@@ -27104,7 +26835,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Flame Body",
-      "H": "Swarm"
+      "H": "Rattled"
     },
     "heightm": 1.6,
     "weightkg": 46,
@@ -27747,8 +27478,7 @@ exports.BattlePokedex = {
       "Genesect-Burn",
       "Genesect-Chill"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "genesectdouse": {
     "num": 649,
@@ -27779,8 +27509,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Douse Drive",
     "changesFrom": "Genesect",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "genesectshock": {
     "num": 649,
@@ -27811,8 +27540,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Shock Drive",
     "changesFrom": "Genesect",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "genesectburn": {
     "num": 649,
@@ -27843,8 +27571,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Burn Drive",
     "changesFrom": "Genesect",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "genesectchill": {
     "num": 649,
@@ -27875,8 +27602,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Chill Drive",
     "changesFrom": "Genesect",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "chespin": {
     "num": 650,
@@ -27892,13 +27618,13 @@ exports.BattlePokedex = {
       "hp": 56,
       "atk": 61,
       "def": 65,
-      "spa": 48,
-      "spd": 45,
+      "spa": 38,
+      "spd": 60,
       "spe": 38
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Bulletproof"
+      "H": "Regenerator"
     },
     "heightm": 0.4,
     "weightkg": 9,
@@ -27925,13 +27651,13 @@ exports.BattlePokedex = {
       "hp": 61,
       "atk": 78,
       "def": 95,
-      "spa": 56,
-      "spd": 58,
+      "spa": 36,
+      "spd": 83,
       "spe": 57
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Bulletproof"
+      "H": "Regenerator"
     },
     "heightm": 0.7,
     "weightkg": 29,
@@ -27961,13 +27687,13 @@ exports.BattlePokedex = {
       "hp": 88,
       "atk": 107,
       "def": 122,
-      "spa": 74,
-      "spd": 75,
+      "spa": 54,
+      "spd": 100,
       "spe": 64
     },
     "abilities": {
       "0": "Overgrow",
-      "H": "Bulletproof"
+      "H": "Regenerator"
     },
     "heightm": 1.6,
     "weightkg": 90,
@@ -28004,12 +27730,11 @@ exports.BattlePokedex = {
       "atk": 137,
       "def": 172,
       "spa": 74,
-      "spd": 115,
+      "spd": 120,
       "spe": 44
     },
     "abilities": {
-      "0": "Overgrow",
-      "H": "Bulletproof"
+      "0": "Bulletproof"
     },
     "heightm": 1.6,
     "weightkg": 90,
@@ -28019,8 +27744,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Chesnaughtite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "fennekin": {
     "num": 653,
@@ -28095,7 +27819,7 @@ exports.BattlePokedex = {
     "name": "Delphox",
     "types": [
       "Fire",
-      "Psychic"
+      "Fairy"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -28152,8 +27876,7 @@ exports.BattlePokedex = {
       "spe": 134
     },
     "abilities": {
-      "0": "Blaze",
-      "H": "Magician"
+      "0": "Magic Guard"
     },
     "heightm": 1.5,
     "weightkg": 39,
@@ -28163,8 +27886,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Delphoxite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "froakie": {
     "num": 656,
@@ -28255,8 +27977,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Protean",
-      "S": "Battle Bond"
+      "H": "Protean"
     },
     "heightm": 1.5,
     "weightkg": 40,
@@ -28338,8 +28059,7 @@ exports.BattlePokedex = {
     "requiredAbility": "Battle Bond",
     "battleOnly": "Greninja-Bond",
     "gen": 7,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "greninjamega": {
     "num": 658,
@@ -28363,8 +28083,7 @@ exports.BattlePokedex = {
       "spe": 142
     },
     "abilities": {
-      "0": "Torrent",
-      "H": "Protean"
+      "0": "Protean"
     },
     "heightm": 1.5,
     "weightkg": 40,
@@ -28374,8 +28093,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Greninjite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bunnelby": {
     "num": 659,
@@ -28392,7 +28110,7 @@ exports.BattlePokedex = {
       "spe": 57
     },
     "abilities": {
-      "0": "Pickup",
+      "0": "Guts",
       "1": "Cheek Pouch",
       "H": "Huge Power"
     },
@@ -28405,8 +28123,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "diggersby": {
     "num": 660,
@@ -28417,14 +28134,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 85,
-      "atk": 56,
-      "def": 77,
+      "atk": 60,
+      "def": 100,
       "spa": 50,
-      "spd": 77,
+      "spd": 50,
       "spe": 78
     },
     "abilities": {
-      "0": "Pickup",
+      "0": "Guts",
       "1": "Cheek Pouch",
       "H": "Huge Power"
     },
@@ -28436,8 +28153,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "fletchling": {
     "num": 661,
@@ -28456,6 +28172,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Big Pecks",
+      "1": "Keen Eye",
       "H": "Gale Wings"
     },
     "heightm": 0.3,
@@ -28486,6 +28203,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Flame Body",
+      "1": "Flash Fire",
       "H": "Gale Wings"
     },
     "heightm": 0.7,
@@ -28510,14 +28228,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 78,
-      "atk": 81,
+      "atk": 100,
       "def": 71,
-      "spa": 74,
-      "spd": 69,
+      "spa": 60,
+      "spd": 71,
       "spe": 126
     },
     "abilities": {
       "0": "Flame Body",
+      "1": "Flash Fire",
       "H": "Gale Wings"
     },
     "heightm": 1.2,
@@ -28545,9 +28264,9 @@ exports.BattlePokedex = {
       "spe": 35
     },
     "abilities": {
-      "0": "Shield Dust",
+      "0": "Friend Guard",
       "1": "Compound Eyes",
-      "H": "Friend Guard"
+      "H": "Simple"
     },
     "heightm": 0.3,
     "weightkg": 2.5,
@@ -28575,8 +28294,9 @@ exports.BattlePokedex = {
       "spe": 29
     },
     "abilities": {
-      "0": "Shed Skin",
-      "H": "Friend Guard"
+      "0": "Friend Guard",
+      "1": "Shed Skin",
+      "H": "Simple"
     },
     "heightm": 0.3,
     "weightkg": 8.4,
@@ -28602,16 +28322,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 80,
-      "atk": 52,
-      "def": 50,
-      "spa": 90,
-      "spd": 50,
-      "spe": 89
+      "atk": 62,
+      "def": 75,
+      "spa": 100,
+      "spd": 75,
+      "spe": 90
     },
     "abilities": {
-      "0": "Shield Dust",
+      "0": "Friend Guard",
       "1": "Compound Eyes",
-      "H": "Friend Guard"
+      "H": "Simple"
     },
     "heightm": 1.2,
     "weightkg": 17,
@@ -28945,9 +28665,7 @@ exports.BattlePokedex = {
       "spe": 126
     },
     "abilities": {
-      "0": "Rivalry",
-      "1": "Unnerve",
-      "H": "Moxie"
+      "0": "Adaptability"
     },
     "heightm": 1.5,
     "weightkg": 93.3,
@@ -28957,8 +28675,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Pyroarite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "flabebe": {
     "num": 669,
@@ -28977,8 +28694,9 @@ exports.BattlePokedex = {
       "spe": 42
     },
     "abilities": {
-      "0": "Flower Veil",
-      "H": "Symbiosis"
+      "0": "Natural Cure",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "heightm": 0.1,
     "weightkg": 0.1,
@@ -29021,8 +28739,9 @@ exports.BattlePokedex = {
       "spe": 52
     },
     "abilities": {
-      "0": "Flower Veil",
-      "H": "Symbiosis"
+      "0": "Natural Cure",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "heightm": 0.2,
     "weightkg": 0.9,
@@ -29083,8 +28802,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "floettemega": {
     "num": 670,
@@ -29104,8 +28822,7 @@ exports.BattlePokedex = {
       "spe": 102
     },
     "abilities": {
-      "0": "Flower Veil",
-      "H": "Symbiosis"
+      "0": "Berserk"
     },
     "heightm": 0.2,
     "weightkg": 100.8,
@@ -29116,8 +28833,7 @@ exports.BattlePokedex = {
     "requiredItem": "Floettite",
     "battleOnly": "Floette-Eternal",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "florges": {
     "num": 671,
@@ -29136,8 +28852,9 @@ exports.BattlePokedex = {
       "spe": 75
     },
     "abilities": {
-      "0": "Flower Veil",
-      "H": "Symbiosis"
+      "0": "Natural Cure",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "heightm": 1.1,
     "weightkg": 10,
@@ -29249,8 +28966,7 @@ exports.BattlePokedex = {
       "Field",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pangoro": {
     "num": 675,
@@ -29282,8 +28998,7 @@ exports.BattlePokedex = {
       "Field",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "furfrou": {
     "num": 676,
@@ -29293,15 +29008,17 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 75,
+      "hp": 95,
       "atk": 80,
-      "def": 60,
-      "spa": 65,
+      "def": 80,
+      "spa": 55,
       "spd": 90,
       "spe": 102
     },
     "abilities": {
-      "0": "Fur Coat"
+      "0": "Fur Coat",
+      "1": "Battle Armor",
+      "H": "Intimidate"
     },
     "heightm": 1.2,
     "weightkg": 28,
@@ -29332,8 +29049,7 @@ exports.BattlePokedex = {
       "Furfrou-Kabuki",
       "Furfrou-Pharaoh"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "espurr": {
     "num": 677,
@@ -29375,17 +29091,17 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 74,
+      "hp": 89,
       "atk": 48,
-      "def": 76,
+      "def": 83,
       "spa": 83,
-      "spd": 81,
-      "spe": 104
+      "spd": 95,
+      "spe": 114
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Prankster",
       "1": "Infiltrator",
-      "H": "Prankster"
+      "H": "Psychic Surge"
     },
     "heightm": 0.6,
     "weightkg": 8.5,
@@ -29414,17 +29130,17 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 74,
+      "hp": 84,
       "atk": 48,
-      "def": 76,
-      "spa": 83,
-      "spd": 81,
+      "def": 83,
+      "spa": 107,
+      "spd": 86,
       "spe": 104
     },
     "abilities": {
-      "0": "Keen Eye",
+      "0": "Competitive",
       "1": "Infiltrator",
-      "H": "Competitive"
+      "H": "Tinted Lens"
     },
     "heightm": 0.6,
     "weightkg": 8.5,
@@ -29462,8 +29178,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "doublade": {
     "num": 680,
@@ -29494,8 +29209,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aegislash": {
     "num": 681,
@@ -29508,9 +29222,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 60,
       "atk": 50,
-      "def": 140,
+      "def": 150,
       "spa": 50,
-      "spd": 140,
+      "spd": 150,
       "spe": 60
     },
     "abilities": {
@@ -29532,8 +29246,7 @@ exports.BattlePokedex = {
       "Aegislash",
       "Aegislash-Blade"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aegislashblade": {
     "num": 681,
@@ -29546,9 +29259,9 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 60,
-      "atk": 140,
+      "atk": 150,
       "def": 50,
-      "spa": 140,
+      "spa": 150,
       "spd": 50,
       "spe": 60
     },
@@ -29562,8 +29275,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "requiredAbility": "Stance Change",
-    "battleOnly": "Aegislash",
-    
+    "battleOnly": "Aegislash"
   },
   "spritzee": {
     "num": 682,
@@ -29592,8 +29304,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aromatisse": {
     "num": 683,
@@ -29622,8 +29333,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "swirlix": {
     "num": 684,
@@ -29640,7 +29350,8 @@ exports.BattlePokedex = {
       "spe": 49
     },
     "abilities": {
-      "0": "Sweet Veil",
+      "0": "Well-Baked Body",
+      "1": "Cute Charm",
       "H": "Unburden"
     },
     "heightm": 0.4,
@@ -29652,8 +29363,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "slurpuff": {
     "num": 685,
@@ -29663,14 +29373,15 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 82,
-      "atk": 80,
-      "def": 86,
-      "spa": 85,
-      "spd": 75,
-      "spe": 72
+      "atk": 90,
+      "def": 95,
+      "spa": 75,
+      "spd": 95,
+      "spe": 80
     },
     "abilities": {
-      "0": "Sweet Veil",
+      "0": "Well-Baked Body",
+      "1": "Cute Charm",
       "H": "Unburden"
     },
     "heightm": 0.8,
@@ -29682,8 +29393,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "inkay": {
     "num": 686,
@@ -29725,12 +29435,12 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 86,
-      "atk": 92,
-      "def": 88,
-      "spa": 68,
+      "hp": 90,
+      "atk": 95,
+      "def": 90,
+      "spa": 88,
       "spd": 75,
-      "spe": 73
+      "spe": 93
     },
     "abilities": {
       "0": "Contrary",
@@ -29766,17 +29476,15 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 86,
-      "atk": 102,
-      "def": 88,
-      "spa": 98,
+      "hp": 90,
+      "atk": 105,
+      "def": 90,
+      "spa": 118,
       "spd": 120,
-      "spe": 88
+      "spe": 108
     },
     "abilities": {
-      "0": "Contrary",
-      "1": "Suction Cups",
-      "H": "Infiltrator"
+      "0": "Contrary"
     },
     "heightm": 2.9,
     "weightkg": 69.8,
@@ -29787,8 +29495,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Malamarite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "binacle": {
     "num": 688,
@@ -29819,8 +29526,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "barbaracle": {
     "num": 689,
@@ -29835,7 +29541,7 @@ exports.BattlePokedex = {
       "def": 115,
       "spa": 54,
       "spd": 86,
-      "spe": 68
+      "spe": 70
     },
     "abilities": {
       "0": "Tough Claws",
@@ -29857,8 +29563,7 @@ exports.BattlePokedex = {
       "Barbaracle",
       "Barbaracle-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "barbaraclemega": {
     "num": 689,
@@ -29875,12 +29580,10 @@ exports.BattlePokedex = {
       "def": 130,
       "spa": 64,
       "spd": 106,
-      "spe": 88
+      "spe": 90
     },
     "abilities": {
-      "0": "Tough Claws",
-      "1": "Sniper",
-      "H": "Pickpocket"
+      "0": "No Guard"
     },
     "heightm": 2.2,
     "weightkg": 100,
@@ -29890,8 +29593,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Barbaracite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "skrelp": {
     "num": 690,
@@ -29909,8 +29611,8 @@ exports.BattlePokedex = {
       "spe": 30
     },
     "abilities": {
-      "0": "Poison Point",
-      "1": "Poison Touch",
+      "0": "Corrosion",
+      "1": "Swift Swim",
       "H": "Adaptability"
     },
     "heightm": 0.5,
@@ -29933,16 +29635,16 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 75,
       "atk": 75,
       "def": 90,
-      "spa": 97,
-      "spd": 123,
-      "spe": 44
+      "spa": 100,
+      "spd": 125,
+      "spe": 50
     },
     "abilities": {
-      "0": "Poison Point",
-      "1": "Poison Touch",
+      "0": "Corrosion",
+      "1": "Swift Swim",
       "H": "Adaptability"
     },
     "heightm": 1.8,
@@ -29973,17 +29675,15 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 75,
       "atk": 85,
       "def": 105,
-      "spa": 132,
-      "spd": 163,
-      "spe": 44
+      "spa": 135,
+      "spd": 165,
+      "spe": 50
     },
     "abilities": {
-      "0": "Poison Point",
-      "1": "Poison Touch",
-      "H": "Adaptability"
+      "0": "Regenerator"
     },
     "heightm": 2.1,
     "weightkg": 100.3,
@@ -29994,8 +29694,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dragalgite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "clauncher": {
     "num": 692,
@@ -30084,8 +29783,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "heliolisk": {
     "num": 695,
@@ -30117,8 +29815,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tyrunt": {
     "num": 696,
@@ -30153,8 +29850,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tyrantrum": {
     "num": 697,
@@ -30189,8 +29885,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "amaura": {
     "num": 698,
@@ -30205,15 +29900,16 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 77,
-      "atk": 59,
-      "def": 50,
-      "spa": 67,
-      "spd": 63,
-      "spe": 46
+      "atk": 42,
+      "def": 60,
+      "spa": 78,
+      "spd": 70,
+      "spe": 54
     },
     "abilities": {
       "0": "Refrigerate",
-      "H": "Snow Warning"
+      "1": "Snow Warning",
+      "H": "Multiscale"
     },
     "heightm": 1.3,
     "weightkg": 25.2,
@@ -30224,8 +29920,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "aurorus": {
     "num": 699,
@@ -30240,15 +29935,16 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 123,
-      "atk": 77,
-      "def": 72,
-      "spa": 99,
-      "spd": 92,
-      "spe": 58
+      "atk": 64,
+      "def": 85,
+      "spa": 112,
+      "spd": 100,
+      "spe": 66
     },
     "abilities": {
       "0": "Refrigerate",
-      "H": "Snow Warning"
+      "1": "Snow Warning",
+      "H": "Multiscale"
     },
     "heightm": 2.7,
     "weightkg": 225,
@@ -30259,8 +29955,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sylveon": {
     "num": 700,
@@ -30275,13 +29970,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 95,
       "atk": 65,
-      "def": 65,
+      "def": 80,
       "spa": 110,
       "spd": 130,
       "spe": 60
     },
     "abilities": {
       "0": "Cute Charm",
+      "1": "Natural Cure",
       "H": "Pixilate"
     },
     "heightm": 1,
@@ -30349,9 +30045,7 @@ exports.BattlePokedex = {
       "spe": 118
     },
     "abilities": {
-      "0": "Limber",
-      "1": "Unburden",
-      "H": "Mold Breaker"
+      "0": "Luchador's Pride"
     },
     "heightm": 1,
     "weightkg": 25,
@@ -30362,8 +30056,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Hawluchanite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dedenne": {
     "num": 702,
@@ -30438,9 +30131,9 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Sap Sipper",
+      "0": "Gooey",
       "1": "Hydration",
-      "H": "Gooey"
+      "H": "Rain Dish"
     },
     "heightm": 0.3,
     "weightkg": 2.8,
@@ -30469,9 +30162,9 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Sap Sipper",
+      "0": "Gooey",
       "1": "Hydration",
-      "H": "Gooey"
+      "H": "Rain Dish"
     },
     "heightm": 0.8,
     "weightkg": 17.5,
@@ -30499,16 +30192,16 @@ exports.BattlePokedex = {
     "baseSpecies": "Sliggoo",
     "forme": "Hisui",
     "types": [
-      "Steel",
-      "Dragon"
+      "Dragon",
+      "Steel"
     ],
     "baseStats": {
-      "hp": 58,
+      "hp": 68,
       "atk": 75,
-      "def": 83,
+      "def": 53,
       "spa": 83,
       "spd": 113,
-      "spe": 40
+      "spe": 60
     },
     "abilities": {
       "0": "Sap Sipper",
@@ -30532,7 +30225,8 @@ exports.BattlePokedex = {
     "num": 706,
     "name": "Goodra",
     "types": [
-      "Dragon"
+      "Dragon",
+      "Water"
     ],
     "baseStats": {
       "hp": 90,
@@ -30543,9 +30237,9 @@ exports.BattlePokedex = {
       "spe": 80
     },
     "abilities": {
-      "0": "Sap Sipper",
+      "0": "Gooey",
       "1": "Hydration",
-      "H": "Gooey"
+      "H": "Rain Dish"
     },
     "heightm": 2,
     "weightkg": 150.5,
@@ -30571,8 +30265,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Goodra",
     "forme": "Hisui",
     "types": [
-      "Steel",
-      "Dragon"
+      "Dragon",
+      "Steel"
     ],
     "baseStats": {
       "hp": 80,
@@ -30606,16 +30300,16 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "baseStats": {
-      "hp": 57,
+      "hp": 80,
       "atk": 80,
-      "def": 91,
+      "def": 100,
       "spa": 80,
-      "spd": 87,
+      "spd": 90,
       "spe": 75
     },
     "abilities": {
       "0": "Prankster",
-      "H": "Magician"
+      "H": "Magic Bounce"
     },
     "heightm": 0.2,
     "weightkg": 3,
@@ -30729,8 +30423,7 @@ exports.BattlePokedex = {
       "Pumpkaboo-Large",
       "Pumpkaboo-Super"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pumpkaboosmall": {
     "num": 710,
@@ -30762,8 +30455,7 @@ exports.BattlePokedex = {
     ],
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "pumpkaboolarge": {
     "num": 710,
@@ -30795,8 +30487,7 @@ exports.BattlePokedex = {
     ],
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "pumpkaboosuper": {
     "num": 710,
@@ -30828,8 +30519,7 @@ exports.BattlePokedex = {
     ],
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "gourgeist": {
     "num": 711,
@@ -30871,8 +30561,7 @@ exports.BattlePokedex = {
       "Gourgeist-Large",
       "Gourgeist-Super"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gourgeistsmall": {
     "num": 711,
@@ -30903,8 +30592,7 @@ exports.BattlePokedex = {
     "evoType": "trade",
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "gourgeistlarge": {
     "num": 711,
@@ -30935,8 +30623,7 @@ exports.BattlePokedex = {
     "evoType": "trade",
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "gourgeistsuper": {
     "num": 711,
@@ -30967,8 +30654,7 @@ exports.BattlePokedex = {
     "evoType": "trade",
     "eggGroups": [
       "Amorphous"
-    ],
-    
+    ]
   },
   "bergmite": {
     "num": 712,
@@ -31090,7 +30776,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Frisk",
       "1": "Infiltrator",
-      "H": "Telepathy"
+      "H": "Punk Rock"
     },
     "heightm": 0.5,
     "weightkg": 8,
@@ -31115,14 +30801,14 @@ exports.BattlePokedex = {
       "hp": 85,
       "atk": 70,
       "def": 80,
-      "spa": 97,
+      "spa": 112,
       "spd": 80,
       "spe": 123
     },
     "abilities": {
       "0": "Frisk",
       "1": "Infiltrator",
-      "H": "Telepathy"
+      "H": "Punk Rock"
     },
     "heightm": 1.5,
     "weightkg": 85,
@@ -31170,8 +30856,7 @@ exports.BattlePokedex = {
       "Xerneas-Neutral",
       "Xerneas"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "xerneasneutral": {
     "num": 716,
@@ -31230,8 +30915,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zygarde": {
     "num": 718,
@@ -31251,8 +30935,7 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Aura Break",
-      "S": "Power Construct"
+      "0": "Aura Break"
     },
     "heightm": 5,
     "weightkg": 305,
@@ -31276,8 +30959,7 @@ exports.BattlePokedex = {
       "Zygarde-Complete",
       "Zygarde-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zygarde10": {
     "num": 718,
@@ -31309,8 +30991,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Zygarde",
     "gen": 7,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zygardecomplete": {
     "num": 718,
@@ -31345,8 +31026,7 @@ exports.BattlePokedex = {
       "Zygarde-10%"
     ],
     "gen": 7,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zygardemega": {
     "num": 718,
@@ -31367,7 +31047,7 @@ exports.BattlePokedex = {
       "spe": 100
     },
     "abilities": {
-      "0": "Aura Break"
+      "0": "Power Construct"
     },
     "heightm": 7.7,
     "weightkg": 610,
@@ -31381,8 +31061,7 @@ exports.BattlePokedex = {
       "Zygarde-10%"
     ],
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "diancie": {
     "num": 719,
@@ -31449,8 +31128,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Diancite",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "hoopa": {
     "num": 720,
@@ -31530,14 +31208,15 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 80,
-      "atk": 110,
+      "atk": 100,
       "def": 120,
       "spa": 130,
       "spd": 90,
-      "spe": 70
+      "spe": 80
     },
     "abilities": {
-      "0": "Water Absorb"
+      "0": "Water Absorb",
+      "H": "Steam Engine"
     },
     "heightm": 1.7,
     "weightkg": 195,
@@ -31562,12 +31241,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 68,
-      "atk": 55,
+      "hp": 70,
+      "atk": 58,
       "def": 55,
       "spa": 50,
-      "spd": 50,
-      "spe": 42
+      "spd": 42,
+      "spe": 50
     },
     "abilities": {
       "0": "Overgrow",
@@ -31596,12 +31275,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 75,
+      "hp": 80,
+      "atk": 78,
       "def": 75,
       "spa": 70,
-      "spd": 70,
-      "spe": 52
+      "spd": 52,
+      "spe": 70
     },
     "abilities": {
       "0": "Overgrow",
@@ -31633,12 +31312,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 78,
-      "atk": 107,
+      "hp": 80,
+      "atk": 110,
       "def": 75,
       "spa": 100,
-      "spd": 100,
-      "spe": 70
+      "spd": 70,
+      "spe": 100
     },
     "abilities": {
       "0": "Overgrow",
@@ -31675,12 +31354,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 88,
-      "atk": 112,
+      "hp": 90,
+      "atk": 120,
       "def": 80,
-      "spa": 95,
-      "spd": 95,
-      "spe": 60
+      "spa": 80,
+      "spd": 80,
+      "spe": 85
     },
     "abilities": {
       "0": "Overgrow",
@@ -32087,25 +31766,27 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "grubbin": {
     "num": 736,
     "name": "Grubbin",
     "types": [
-      "Bug"
+      "Bug",
+      "Ground"
     ],
     "baseStats": {
-      "hp": 47,
-      "atk": 62,
-      "def": 45,
-      "spa": 55,
-      "spd": 45,
+      "hp": 55,
+      "atk": 67,
+      "def": 50,
+      "spa": 60,
+      "spd": 50,
       "spe": 46
     },
     "abilities": {
-      "0": "Swarm"
+      "0": "Swarm",
+      "1": "Hustle",
+      "H": "Unnerve"
     },
     "heightm": 0.4,
     "weightkg": 4.4,
@@ -32126,15 +31807,17 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 57,
-      "atk": 82,
+      "hp": 60,
+      "atk": 85,
       "def": 95,
-      "spa": 55,
-      "spd": 75,
+      "spa": 65,
+      "spd": 80,
       "spe": 36
     },
     "abilities": {
-      "0": "Battery"
+      "0": "Battery",
+      "1": "Hustle",
+      "H": "Unnerve"
     },
     "heightm": 0.5,
     "weightkg": 10.5,
@@ -32158,14 +31841,16 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 77,
-      "atk": 70,
+      "atk": 95,
       "def": 90,
       "spa": 145,
       "spd": 75,
-      "spe": 43
+      "spe": 80
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Levitate",
+      "1": "Lightning Rod",
+      "H": "Strong Jaw"
     },
     "heightm": 1.5,
     "weightkg": 45,
@@ -32211,8 +31896,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "crabrawler": {
     "num": 739,
@@ -32513,8 +32197,7 @@ exports.BattlePokedex = {
       "Bug",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rockruff": {
     "num": 744,
@@ -32534,8 +32217,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Keen Eye",
       "1": "Vital Spirit",
-      "H": "Steadfast",
-      "S": "Own Tempo"
+      "H": "Steadfast"
     },
     "heightm": 0.5,
     "weightkg": 9.2,
@@ -32719,8 +32401,7 @@ exports.BattlePokedex = {
       "Wishiwashi",
       "Wishiwashi-School"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wishiwashischool": {
     "num": 746,
@@ -32748,8 +32429,7 @@ exports.BattlePokedex = {
       "Water 2"
     ],
     "requiredAbility": "Schooling",
-    "battleOnly": "Wishiwashi",
-    
+    "battleOnly": "Wishiwashi"
   },
   "mareanie": {
     "num": 747,
@@ -32827,9 +32507,9 @@ exports.BattlePokedex = {
       "spe": 45
     },
     "abilities": {
-      "0": "Own Tempo",
+      "0": "Inner Focus",
       "1": "Stamina",
-      "H": "Inner Focus"
+      "H": "Sap Sipper"
     },
     "heightm": 1,
     "weightkg": 110,
@@ -32852,14 +32532,14 @@ exports.BattlePokedex = {
       "hp": 100,
       "atk": 125,
       "def": 100,
-      "spa": 55,
-      "spd": 85,
+      "spa": 50,
+      "spd": 90,
       "spe": 35
     },
     "abilities": {
-      "0": "Own Tempo",
+      "0": "Inner Focus",
       "1": "Stamina",
-      "H": "Inner Focus"
+      "H": "Sap Sipper"
     },
     "heightm": 2.5,
     "weightkg": 920,
@@ -32966,8 +32646,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "fomantis": {
     "num": 753,
@@ -33059,8 +32738,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "morelull": {
     "num": 755,
@@ -33091,8 +32769,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "shiinotic": {
     "num": 756,
@@ -33122,8 +32799,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "salandit": {
     "num": 757,
@@ -33226,8 +32902,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "stufful": {
     "num": 759,
@@ -33258,8 +32933,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bewear": {
     "num": 760,
@@ -33289,8 +32963,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bounsweet": {
     "num": 761,
@@ -33500,8 +33173,7 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "golisopod": {
     "num": 768,
@@ -33530,8 +33202,7 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sandygast": {
     "num": 769,
@@ -33616,8 +33287,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "typenull": {
     "num": 772,
@@ -33649,8 +33319,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvally": {
     "num": 773,
@@ -33721,8 +33390,7 @@ exports.BattlePokedex = {
       "Silvally-Dark",
       "Silvally-Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallybug": {
     "num": 773,
@@ -33752,8 +33420,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Bug Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallydark": {
     "num": 773,
@@ -33783,8 +33450,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dark Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallydragon": {
     "num": 773,
@@ -33814,8 +33480,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dragon Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyelectric": {
     "num": 773,
@@ -33845,8 +33510,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Electric Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyfairy": {
     "num": 773,
@@ -33876,8 +33540,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Fairy Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyfighting": {
     "num": 773,
@@ -33907,8 +33570,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Fighting Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyfire": {
     "num": 773,
@@ -33938,8 +33600,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Fire Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyflying": {
     "num": 773,
@@ -33969,8 +33630,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Flying Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyghost": {
     "num": 773,
@@ -34000,8 +33660,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Ghost Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallygrass": {
     "num": 773,
@@ -34031,8 +33690,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Grass Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyground": {
     "num": 773,
@@ -34062,8 +33720,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Ground Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyice": {
     "num": 773,
@@ -34093,8 +33750,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Ice Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallypoison": {
     "num": 773,
@@ -34124,8 +33780,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Poison Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallypsychic": {
     "num": 773,
@@ -34155,8 +33810,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Psychic Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallyrock": {
     "num": 773,
@@ -34186,8 +33840,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Rock Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallysteel": {
     "num": 773,
@@ -34217,8 +33870,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Steel Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silvallywater": {
     "num": 773,
@@ -34248,8 +33900,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Water Memory",
     "changesFrom": "Silvally",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "minior": {
     "num": 774,
@@ -34311,42 +33962,132 @@ exports.BattlePokedex = {
     "name": "Minior-Orange",
     "baseSpecies": "Minior",
     "forme": "Orange",
-    "color": "Red"
+    "color": "Red",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "minioryellow": {
     "isCosmeticForme": true,
     "name": "Minior-Yellow",
     "baseSpecies": "Minior",
     "forme": "Yellow",
-    "color": "Yellow"
+    "color": "Yellow",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "miniorgreen": {
     "isCosmeticForme": true,
     "name": "Minior-Green",
     "baseSpecies": "Minior",
     "forme": "Green",
-    "color": "Green"
+    "color": "Green",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "miniorblue": {
     "isCosmeticForme": true,
     "name": "Minior-Blue",
     "baseSpecies": "Minior",
     "forme": "Blue",
-    "color": "Blue"
+    "color": "Blue",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "miniorindigo": {
     "isCosmeticForme": true,
     "name": "Minior-Indigo",
     "baseSpecies": "Minior",
     "forme": "Indigo",
-    "color": "Blue"
+    "color": "Blue",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "miniorviolet": {
     "isCosmeticForme": true,
     "name": "Minior-Violet",
     "baseSpecies": "Minior",
     "forme": "Violet",
-    "color": "Purple"
+    "color": "Purple",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 60,
+      "spa": 100,
+      "spd": 60,
+      "spe": 120
+    },
+    "abilities": {
+      "0": "Shields Down"
+    }
   },
   "miniormeteor": {
     "num": 774,
@@ -34428,8 +34169,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "togedemaru": {
     "num": 777,
@@ -34465,8 +34205,7 @@ exports.BattlePokedex = {
       "Togedemaru",
       "Togedemaru-Totem"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "togedemarutotem": {
     "num": 777,
@@ -34495,8 +34234,7 @@ exports.BattlePokedex = {
       "Field",
       "Fairy"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mimikyu": {
     "num": 778,
@@ -34591,8 +34329,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mimikyubustedtotem": {
     "num": 778,
@@ -34622,8 +34359,7 @@ exports.BattlePokedex = {
     ],
     "requiredAbility": "Disguise",
     "battleOnly": "Mimikyu-Totem",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "bruxish": {
     "num": 779,
@@ -34687,8 +34423,7 @@ exports.BattlePokedex = {
       "Drampa",
       "Drampa-Mega"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "drampamega": {
     "num": 780,
@@ -34708,9 +34443,7 @@ exports.BattlePokedex = {
       "spe": 36
     },
     "abilities": {
-      "0": "Berserk",
-      "1": "Sap Sipper",
-      "H": "Cloud Nine"
+      "0": "Berserk"
     },
     "heightm": 3,
     "weightkg": 185,
@@ -34721,8 +34454,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Drampanite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dhelmise": {
     "num": 781,
@@ -34749,8 +34481,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "jangmoo": {
     "num": 782,
@@ -34878,8 +34609,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Dragon"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tapukoko": {
     "num": 785,
@@ -34910,8 +34640,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tapulele": {
     "num": 786,
@@ -34942,8 +34671,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tapubulu": {
     "num": 787,
@@ -34974,8 +34702,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "tapufini": {
     "num": 788,
@@ -35006,8 +34733,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cosmog": {
     "num": 789,
@@ -35168,8 +34894,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "buzzwole": {
     "num": 794,
@@ -35199,8 +34924,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pheromosa": {
     "num": 795,
@@ -35230,8 +34954,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "xurkitree": {
     "num": 796,
@@ -35260,8 +34983,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "celesteela": {
     "num": 797,
@@ -35291,8 +35013,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kartana": {
     "num": 798,
@@ -35322,8 +35043,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "guzzlord": {
     "num": 799,
@@ -35353,8 +35073,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "necrozma": {
     "num": 800,
@@ -35402,8 +35121,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Necrozma",
     "forme": "Dusk-Mane",
     "types": [
-      "Psychic",
-      "Steel"
+      "Steel",
+      "Psychic"
     ],
     "gender": "N",
     "baseStats": {
@@ -35432,8 +35151,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Necrozma",
     "forme": "Dawn-Wings",
     "types": [
-      "Psychic",
-      "Ghost"
+      "Ghost",
+      "Psychic"
     ],
     "gender": "N",
     "baseStats": {
@@ -35488,8 +35207,7 @@ exports.BattlePokedex = {
       "Necrozma-Dawn-Wings",
       "Necrozma-Dusk-Mane"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "magearna": {
     "num": 801,
@@ -35584,8 +35302,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "poipole": {
     "num": 803,
@@ -35617,8 +35334,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "naganadel": {
     "num": 804,
@@ -35651,8 +35367,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "stakataka": {
     "num": 805,
@@ -35682,8 +35397,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "blacephalon": {
     "num": 806,
@@ -35713,8 +35427,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zeraora": {
     "num": 807,
@@ -35743,8 +35456,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "meltan": {
     "num": 808,
@@ -35773,8 +35485,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "melmetal": {
     "num": 809,
@@ -35804,8 +35515,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canGigantamax": "G-Max Meltdown",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "melmetalgmax": {
     "num": 809,
@@ -35817,12 +35527,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 135,
-      "atk": 143,
-      "def": 143,
-      "spa": 80,
-      "spd": 65,
-      "spe": 34
+      "hp": 140,
+      "atk": 146,
+      "def": 146,
+      "spa": 90,
+      "spd": 75,
+      "spe": 44
     },
     "abilities": {
       "0": "Iron Fist"
@@ -35834,8 +35544,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Melmetal",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "grookey": {
     "num": 810,
@@ -35973,8 +35682,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "changesFrom": "Rillaboom",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "scorbunny": {
     "num": 813,
@@ -36112,8 +35820,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "changesFrom": "Cinderace",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sobble": {
     "num": 816,
@@ -36135,7 +35842,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Sniper"
+      "H": "Competitive"
     },
     "heightm": 0.3,
     "weightkg": 4,
@@ -36169,7 +35876,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Sniper"
+      "H": "Competitive"
     },
     "heightm": 0.7,
     "weightkg": 11.5,
@@ -36196,16 +35903,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 70,
+      "hp": 75,
       "atk": 85,
-      "def": 65,
-      "spa": 125,
-      "spd": 65,
-      "spe": 120
+      "def": 75,
+      "spa": 120,
+      "spd": 75,
+      "spe": 125
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Sniper"
+      "H": "Competitive"
     },
     "heightm": 1.9,
     "weightkg": 45.2,
@@ -36232,16 +35939,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 70,
+      "hp": 75,
       "atk": 85,
-      "def": 65,
-      "spa": 125,
-      "spd": 65,
-      "spe": 120
+      "def": 75,
+      "spa": 120,
+      "spd": 75,
+      "spe": 125
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Sniper"
+      "H": "Competitive"
     },
     "heightm": 40,
     "weightkg": 0,
@@ -36251,8 +35958,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "changesFrom": "Inteleon",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "skwovet": {
     "num": 819,
@@ -36410,8 +36116,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Corviknight",
     "forme": "Gmax",
     "types": [
-      "Flying",
-      "Steel"
+      "Steel",
+      "Flying"
     ],
     "baseStats": {
       "hp": 98,
@@ -36433,8 +36139,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "changesFrom": "Corviknight",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "blipbug": {
     "num": 824,
@@ -36464,8 +36169,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dottler": {
     "num": 825,
@@ -36498,8 +36202,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "orbeetle": {
     "num": 826,
@@ -36530,8 +36233,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "canGigantamax": "G-Max Gravitas",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "orbeetlegmax": {
     "num": 826,
@@ -36543,12 +36245,12 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 45,
-      "def": 110,
-      "spa": 80,
-      "spd": 120,
-      "spe": 90
+      "hp": 70,
+      "atk": 55,
+      "def": 120,
+      "spa": 90,
+      "spd": 130,
+      "spe": 100
     },
     "abilities": {
       "0": "Swarm",
@@ -36562,8 +36264,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "changesFrom": "Orbeetle",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "nickit": {
     "num": 827,
@@ -36593,8 +36294,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "thievul": {
     "num": 828,
@@ -36623,8 +36323,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "gossifleur": {
     "num": 829,
@@ -36654,8 +36353,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "eldegoss": {
     "num": 830,
@@ -36684,8 +36382,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "wooloo": {
     "num": 831,
@@ -36715,8 +36412,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dubwool": {
     "num": 832,
@@ -36745,8 +36441,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "chewtle": {
     "num": 833,
@@ -36821,8 +36516,8 @@ exports.BattlePokedex = {
       "Rock"
     ],
     "baseStats": {
-      "hp": 90,
-      "atk": 115,
+      "hp": 110,
+      "atk": 120,
       "def": 90,
       "spa": 48,
       "spd": 68,
@@ -36841,8 +36536,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "changesFrom": "Drednaw",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "yamper": {
     "num": 835,
@@ -36871,8 +36565,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "boltund": {
     "num": 836,
@@ -36900,8 +36593,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "rolycoly": {
     "num": 837,
@@ -37007,9 +36699,9 @@ exports.BattlePokedex = {
       "Fire"
     ],
     "baseStats": {
-      "hp": 110,
+      "hp": 120,
       "atk": 80,
-      "def": 120,
+      "def": 125,
       "spa": 80,
       "spd": 90,
       "spe": 30
@@ -37026,8 +36718,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "changesFrom": "Coalossal",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "applin": {
     "num": 840,
@@ -37106,12 +36797,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 110,
+      "hp": 80,
+      "atk": 120,
       "def": 80,
-      "spa": 95,
-      "spd": 60,
-      "spe": 70
+      "spa": 100,
+      "spd": 65,
+      "spe": 75
     },
     "abilities": {
       "0": "Ripen",
@@ -37126,8 +36817,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "changesFrom": "Flapple",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "appletun": {
     "num": 842,
@@ -37192,8 +36882,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "changesFrom": "Appletun",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "silicobra": {
     "num": 843,
@@ -37266,12 +36955,12 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 72,
-      "atk": 107,
-      "def": 125,
-      "spa": 65,
-      "spd": 70,
-      "spe": 71
+      "hp": 82,
+      "atk": 117,
+      "def": 135,
+      "spa": 75,
+      "spd": 80,
+      "spe": 81
     },
     "abilities": {
       "0": "Sand Spit",
@@ -37286,8 +36975,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "changesFrom": "Sandaconda",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "cramorant": {
     "num": 845,
@@ -37556,12 +37244,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 75,
-      "atk": 98,
-      "def": 70,
-      "spa": 114,
-      "spd": 70,
-      "spe": 75
+      "hp": 85,
+      "atk": 108,
+      "def": 80,
+      "spa": 124,
+      "spd": 80,
+      "spe": 85
     },
     "abilities": {
       "0": "Punk Rock",
@@ -37575,8 +37263,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "changesFrom": "Toxtricity",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "toxtricitylowkeygmax": {
     "num": 849,
@@ -37608,8 +37295,7 @@ exports.BattlePokedex = {
     ],
     "battleOnly": "Toxtricity-Low-Key",
     "changesFrom": "Toxtricity-Low-Key",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sizzlipede": {
     "num": 850,
@@ -37640,8 +37326,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "centiskorch": {
     "num": 851,
@@ -37672,8 +37357,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "canGigantamax": "G-Max Centiferno",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "centiskorchgmax": {
     "num": 851,
@@ -37681,12 +37365,12 @@ exports.BattlePokedex = {
     "baseSpecies": "Centiskorch",
     "forme": "Gmax",
     "types": [
-      "Fire",
-      "Bug"
+      "Bug",
+      "Fire"
     ],
     "baseStats": {
-      "hp": 100,
-      "atk": 115,
+      "hp": 115,
+      "atk": 120,
       "def": 65,
       "spa": 90,
       "spd": 90,
@@ -37704,8 +37388,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "changesFrom": "Centiskorch",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "clobbopus": {
     "num": 852,
@@ -37735,8 +37418,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "grapploct": {
     "num": 853,
@@ -37766,8 +37448,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sinistea": {
     "num": 854,
@@ -38035,8 +37716,7 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "changesFrom": "Hatterene",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "impidimp": {
     "num": 859,
@@ -38150,12 +37830,12 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 95,
+      "hp": 100,
       "atk": 120,
-      "def": 65,
-      "spa": 95,
-      "spd": 75,
-      "spe": 60
+      "def": 75,
+      "spa": 105,
+      "spd": 85,
+      "spe": 70
     },
     "abilities": {
       "0": "Prankster",
@@ -38170,15 +37850,14 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "changesFrom": "Grimmsnarl",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "obstagoon": {
     "num": 862,
     "name": "Obstagoon",
     "types": [
-      "Dark",
-      "Normal"
+      "Normal",
+      "Dark"
     ],
     "baseStats": {
       "hp": 93,
@@ -38202,8 +37881,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "perrserker": {
     "num": 863,
@@ -38265,8 +37943,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "sirfetchd": {
     "num": 865,
@@ -38296,8 +37973,7 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "mrrime": {
     "num": 866,
@@ -38327,8 +38003,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "runerigus": {
     "num": 867,
@@ -38358,8 +38033,7 @@ exports.BattlePokedex = {
       "Mineral",
       "Amorphous"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "milcery": {
     "num": 868,
@@ -38505,7 +38179,7 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 65,
+      "hp": 110,
       "atk": 60,
       "def": 75,
       "spa": 110,
@@ -38524,8 +38198,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "changesFrom": "Alcremie",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "falinks": {
     "num": 870,
@@ -38576,12 +38249,11 @@ exports.BattlePokedex = {
       "atk": 135,
       "def": 135,
       "spa": 70,
-      "spd": 65,
+      "spd": 60,
       "spe": 100
     },
     "abilities": {
-      "0": "Battle Armor",
-      "H": "Defiant"
+      "0": "Defiant"
     },
     "heightm": 1.6,
     "weightkg": 99,
@@ -38592,8 +38264,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Falinksite",
     "gen": 9,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "pincurchin": {
     "num": 871,
@@ -38626,8 +38297,8 @@ exports.BattlePokedex = {
     "num": 872,
     "name": "Snom",
     "types": [
-      "Ice",
-      "Bug"
+      "Bug",
+      "Ice"
     ],
     "baseStats": {
       "hp": 30,
@@ -38656,8 +38327,8 @@ exports.BattlePokedex = {
     "num": 873,
     "name": "Frosmoth",
     "types": [
-      "Ice",
-      "Bug"
+      "Bug",
+      "Ice"
     ],
     "baseStats": {
       "hp": 70,
@@ -38844,8 +38515,8 @@ exports.BattlePokedex = {
     "name": "Morpeko",
     "baseForme": "Full-Belly",
     "types": [
-      "Electric",
-      "Dark"
+      "Dark",
+      "Electric"
     ],
     "baseStats": {
       "hp": 58,
@@ -38880,8 +38551,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Morpeko",
     "forme": "Hangry",
     "types": [
-      "Electric",
-      "Dark"
+      "Dark",
+      "Electric"
     ],
     "baseStats": {
       "hp": 58,
@@ -38973,8 +38644,8 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 122,
-      "atk": 130,
+      "hp": 130,
+      "atk": 135,
       "def": 69,
       "spa": 80,
       "spd": 69,
@@ -38992,15 +38663,14 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "changesFrom": "Copperajah",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dracozolt": {
     "num": 880,
     "name": "Dracozolt",
     "types": [
-      "Electric",
-      "Dragon"
+      "Dragon",
+      "Electric"
     ],
     "gender": "N",
     "baseStats": {
@@ -39022,8 +38692,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "arctozolt": {
     "num": 881,
@@ -39052,8 +38721,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dracovish": {
     "num": 882,
@@ -39082,8 +38750,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "arctovish": {
     "num": 883,
@@ -39112,8 +38779,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "duraludon": {
     "num": 884,
@@ -39158,10 +38824,10 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 85,
       "atk": 95,
-      "def": 115,
-      "spa": 120,
+      "def": 120,
+      "spa": 125,
       "spd": 50,
       "spe": 85
     },
@@ -39178,8 +38844,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "changesFrom": "Duraludon",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "dreepy": {
     "num": 885,
@@ -39484,8 +39149,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "cannotDynamax": true,
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "kubfu": {
     "num": 891,
@@ -39635,8 +39299,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Urshifu",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "urshifurapidstrikegmax": {
     "num": 892,
@@ -39670,8 +39333,7 @@ exports.BattlePokedex = {
     ],
     "battleOnly": "Urshifu-Rapid-Strike",
     "changesFrom": "Urshifu-Rapid-Strike",
-    "tier": "Illegal",
-    
+    "tier": "Illegal"
   },
   "zarude": {
     "num": 893,
@@ -39912,7 +39574,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "As One (Glastrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 809.1,
@@ -39929,8 +39591,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Calyrex",
     "forme": "Shadow",
     "types": [
-      "Psychic",
-      "Ghost"
+      "Ghost",
+      "Psychic"
     ],
     "gender": "N",
     "baseStats": {
@@ -39942,7 +39604,7 @@ exports.BattlePokedex = {
       "spe": 150
     },
     "abilities": {
-      "0": "As One (Spectrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 53.6,
@@ -39963,14 +39625,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 103,
       "atk": 105,
-      "def": 72,
-      "spa": 105,
+      "def": 90,
+      "spa": 92,
       "spd": 75,
       "spe": 65
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Frisk",
+      "1": "Scrappy",
       "H": "Sap Sipper"
     },
     "heightm": 1.8,
@@ -40019,8 +39681,8 @@ exports.BattlePokedex = {
     "num": 901,
     "name": "Ursaluna",
     "types": [
-      "Ground",
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "baseStats": {
       "hp": 130,
@@ -40033,7 +39695,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Guts",
       "1": "Bulletproof",
-      "H": "Unnerve"
+      "H": "Intimidate"
     },
     "heightm": 2.4,
     "weightkg": 290,
@@ -40059,8 +39721,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Ursaluna",
     "forme": "Bloodmoon",
     "types": [
-      "Ground",
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "gender": "M",
     "baseStats": {
@@ -40161,8 +39823,8 @@ exports.BattlePokedex = {
     "num": 903,
     "name": "Sneasler",
     "types": [
-      "Fighting",
-      "Poison"
+      "Poison",
+      "Fighting"
     ],
     "baseStats": {
       "hp": 80,
@@ -40233,7 +39895,7 @@ exports.BattlePokedex = {
       "hp": 74,
       "atk": 115,
       "def": 70,
-      "spa": 135,
+      "spa": 130,
       "spd": 80,
       "spe": 106
     },
@@ -40581,7 +40243,7 @@ exports.BattlePokedex = {
       "def": 80,
       "spa": 85,
       "spd": 75,
-      "spe": 85
+      "spe": 80
     },
     "abilities": {
       "0": "Torrent",
@@ -40613,7 +40275,7 @@ exports.BattlePokedex = {
       "spe": 35
     },
     "abilities": {
-      "0": "Aroma Veil",
+      "0": "Lingering Aroma",
       "1": "Gluttony",
       "H": "Thick Fat"
     },
@@ -40634,14 +40296,15 @@ exports.BattlePokedex = {
     "name": "Oinkologne",
     "baseForme": "M",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "gender": "M",
     "baseStats": {
       "hp": 110,
       "atk": 100,
-      "def": 75,
-      "spa": 59,
+      "def": 80,
+      "spa": 55,
       "spd": 80,
       "spe": 65
     },
@@ -40673,14 +40336,15 @@ exports.BattlePokedex = {
     "baseSpecies": "Oinkologne",
     "forme": "F",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "gender": "F",
     "baseStats": {
       "hp": 115,
       "atk": 90,
-      "def": 70,
-      "spa": 59,
+      "def": 75,
+      "spa": 55,
       "spd": 90,
       "spe": 65
     },
@@ -41864,7 +41528,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "baseStats": {
-      "hp": 50,
+      "hp": 52,
       "atk": 62,
       "def": 40,
       "spa": 62,
@@ -41964,7 +41628,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Synchronize",
-      "H": "Telepathy"
+      "H": "Regenerator"
     },
     "heightm": 0.3,
     "weightkg": 3.5,
@@ -41988,7 +41652,7 @@ exports.BattlePokedex = {
       "atk": 35,
       "def": 30,
       "spa": 55,
-      "spd": 30,
+      "spd": 40,
       "spe": 75
     },
     "abilities": {
@@ -42054,8 +41718,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Mold Breaker",
-      "1": "Own Tempo",
-      "H": "Pickpocket"
+      "1": "Pickpocket",
+      "H": "Sheer Force"
     },
     "heightm": 0.4,
     "weightkg": 8.9,
@@ -42086,8 +41750,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Mold Breaker",
-      "1": "Own Tempo",
-      "H": "Pickpocket"
+      "1": "Pickpocket",
+      "H": "Sheer Force"
     },
     "heightm": 0.7,
     "weightkg": 59.1,
@@ -42112,16 +41776,16 @@ exports.BattlePokedex = {
     "gender": "F",
     "baseStats": {
       "hp": 85,
-      "atk": 75,
-      "def": 77,
+      "atk": 85,
+      "def": 80,
       "spa": 70,
       "spd": 105,
-      "spe": 94
+      "spe": 100
     },
     "abilities": {
       "0": "Mold Breaker",
-      "1": "Own Tempo",
-      "H": "Pickpocket"
+      "1": "Pickpocket",
+      "H": "Sheer Force"
     },
     "heightm": 0.7,
     "weightkg": 112.8,
@@ -42137,7 +41801,8 @@ exports.BattlePokedex = {
     "num": 960,
     "name": "Wiglett",
     "types": [
-      "Water"
+      "Water",
+      "Ground"
     ],
     "baseStats": {
       "hp": 10,
@@ -42148,9 +41813,9 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Gooey",
-      "1": "Rattled",
-      "H": "Sand Veil"
+      "0": "Technician",
+      "1": "Water Absorb",
+      "H": "Water Veil"
     },
     "heightm": 1.2,
     "weightkg": 1.8,
@@ -42167,20 +41832,21 @@ exports.BattlePokedex = {
     "num": 961,
     "name": "Wugtrio",
     "types": [
-      "Water"
+      "Water",
+      "Ground"
     ],
     "baseStats": {
-      "hp": 35,
+      "hp": 50,
       "atk": 100,
-      "def": 50,
+      "def": 70,
       "spa": 50,
       "spd": 70,
       "spe": 120
     },
     "abilities": {
-      "0": "Gooey",
-      "1": "Rattled",
-      "H": "Sand Veil"
+      "0": "Technician",
+      "1": "Water Absorb",
+      "H": "Water Veil"
     },
     "heightm": 1.2,
     "weightkg": 5.4,
@@ -42642,9 +42308,9 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 102,
       "def": 73,
-      "spa": 78,
-      "spd": 65,
-      "spe": 70
+      "spa": 55,
+      "spd": 70,
+      "spe": 103
     },
     "abilities": {
       "0": "Mold Breaker",
@@ -42727,14 +42393,46 @@ exports.BattlePokedex = {
     "name": "Tatsugiri-Droopy",
     "baseSpecies": "Tatsugiri",
     "forme": "Droopy",
-    "color": "Pink"
+    "color": "Pink",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 50,
+      "def": 60,
+      "spa": 120,
+      "spd": 95,
+      "spe": 82
+    },
+    "abilities": {
+      "0": "Commander",
+      "H": "Storm Drain"
+    }
   },
   "tatsugiristretchy": {
     "isCosmeticForme": true,
     "name": "Tatsugiri-Stretchy",
     "baseSpecies": "Tatsugiri",
     "forme": "Stretchy",
-    "color": "Yellow"
+    "color": "Yellow",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 50,
+      "def": 60,
+      "spa": 120,
+      "spd": 95,
+      "spe": 82
+    },
+    "abilities": {
+      "0": "Commander",
+      "H": "Storm Drain"
+    }
   },
   "annihilape": {
     "num": 979,
@@ -42834,7 +42532,8 @@ exports.BattlePokedex = {
     "name": "Dudunsparce",
     "baseForme": "Two-Segment",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "baseStats": {
       "hp": 125,
@@ -42846,8 +42545,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Run Away",
-      "H": "Rattled"
+      "1": "Sand Rush",
+      "H": "Adaptability"
     },
     "heightm": 3.6,
     "weightkg": 39.2,
@@ -42873,7 +42572,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Dudunsparce",
     "forme": "Three-Segment",
     "types": [
-      "Normal"
+      "Normal",
+      "Ground"
     ],
     "baseStats": {
       "hp": 125,
@@ -42885,8 +42585,8 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Run Away",
-      "H": "Rattled"
+      "1": "Sand Rush",
+      "H": "Adaptability"
     },
     "heightm": 4.5,
     "weightkg": 47.4,
@@ -43725,8 +43425,8 @@ exports.BattlePokedex = {
     "num": 1009,
     "name": "Walking Wake",
     "types": [
-      "Water",
-      "Dragon"
+      "Dragon",
+      "Water"
     ],
     "gender": "N",
     "baseStats": {
@@ -43977,8 +43677,7 @@ exports.BattlePokedex = {
       "spe": 80
     },
     "abilities": {
-      "0": "Toxic Chain",
-      "H": "Guard Dog"
+      "0": "Toxic Chain"
     },
     "heightm": 1.8,
     "weightkg": 92,
@@ -44070,7 +43769,8 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Defiant"
+      "0": "Defiant",
+      "H": "Embody Aspect"
     },
     "heightm": 1.2,
     "weightkg": 39.8,
@@ -44122,7 +43822,8 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Water Absorb"
+      "0": "Water Absorb",
+      "H": "Embody Aspect"
     },
     "heightm": 1.2,
     "weightkg": 39.8,
@@ -44154,7 +43855,8 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Mold Breaker"
+      "0": "Mold Breaker",
+      "H": "Embody Aspect"
     },
     "heightm": 1.2,
     "weightkg": 39.8,
@@ -44186,7 +43888,8 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Sturdy"
+      "0": "Sturdy",
+      "H": "Embody Aspect"
     },
     "heightm": 1.2,
     "weightkg": 39.8,
@@ -47895,4 +47598,4 @@ exports.BattlePokedex = {
     "tier": "Illegal",
     "isNonstandard": "Custom"
   }
-};
+}

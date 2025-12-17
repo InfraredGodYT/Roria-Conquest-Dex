@@ -217,17 +217,34 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '<div style="clear:left"></div>';
 		}
 
-		// past gens
 		var vanillaMon = window.BattlePokedexVanilla?.[id];
+		function sameAsRC(monObject) {
+			let pokeString = JSON.stringify(pokemon);
+			let vanillaString = JSON.stringify(vanillaMon);
+			if (pokeString === vanillaString) return false;
+			const properties = ["types", "baseStats", "types"];
+			for (property of properties) {
+				let propStr1 = JSON.stringify(monObject[property]);
+				let propStr2 = JSON.stringify(pokemon[property]);
+
+				if (propStr1 == propStr2) return true;
+			}
+			return false;
+		}
+
+		// past gens
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
 			var nextGenSpecies = Dex.forGen(genNum + 1).species.get(id);
 			var curGenSpecies = Dex.forGen(genNum).species.get(id);
 			var changes = '';
 
+			let pokeString = JSON.stringify(pokemon);
+			
 			if (!nextGenSpecies || !curGenSpecies) continue;
-			if (nextGenSpecies == pokemon && vanillaMon) continue;
-			if (curGenSpecies == pokemon && vanillaMon) continue;
+			if (sameAsRC(nextGenSpecies) || sameAsRC(curGenSpecies)) continue;
+			if (JSON.stringify(nextGenSpecies) == pokeString && vanillaMon) continue;
+			if (JSON.stringify(curGenSpecies) == pokeString && vanillaMon) continue;
 
 			var nextGenTypes = nextGenSpecies.types.join('/');
 			var curGenTypes = curGenSpecies.types.join('/');
@@ -279,7 +296,23 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			var vAbility = vanillaMon.abilities['0'];
 			var rcAbility = pokemon.abilities['0'];
 			if (vAbility !== rcAbility) {
-				rcChanges += 'Ability: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+				rcChanges += 'Ability 1: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+			}
+
+			if (pokemon.abilities['1']) {
+				var vAbility = vanillaMon.abilities['1'];
+				var rcAbility = pokemon.abilities['1'];
+				if (vAbility !== rcAbility) {
+					rcChanges += 'Ability 2: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+				}
+			}
+
+			if (pokemon.abilities['H']) {
+				var vAbility = vanillaMon.abilities['H'];
+				var rcAbility = pokemon.abilities['H'];
+				if (vAbility !== rcAbility) {
+					rcChanges += 'Hidden Ability: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+				}
 			}
 
 			// Base stats

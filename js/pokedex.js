@@ -106,6 +106,8 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 
 			if (nextGenAbility.desc == ability.desc && vanillaAbility) nextGenAbility = vanillaAbility;
 			if (curGenAbility.desc == ability.desc && vanillaAbility) curGenAbility = vanillaAbility;
+			if (nextGenAbility.shortDesc == ability.shortDesc && vanillaAbility) nextGenAbility = vanillaAbility;
+			if (curGenAbility.shortDesc == ability.shortDesc && vanillaAbility) curGenAbility = vanillaAbility;
 
 			if (curGenAbility && nextGenAbility && curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
 				changes += curGenAbility.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility.shortDesc + '<br />';
