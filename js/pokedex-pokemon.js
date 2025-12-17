@@ -4,11 +4,21 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		var pokemon = Dex.species.get(id);
 		this.id = id;
 		this.shortTitle = pokemon.baseSpecies;
-
+		let monTier = pokemon.tier;
 		var buf = '<div class="pfx-body dexentry">';
 
+		if (monTier == 'Illegal') {
+			for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
+				let curGenSpecies = Dex.forGen(genNum).species.get(id);
+				if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
+					monTier = curGenSpecies.tier;
+					break;
+				}
+			}
+		}
+
 		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<a href="/tiers/'+toID(pokemon.tier)+'" data-target="push" class="tier">'+pokemon.tier+'</a>';
+		buf += '<a href="/tiers/'+toID(monTier)+'" data-target="push" class="tier">'+monTier+'</a>';
 		buf += '<h1>';
 		if (pokemon.forme) {
 			buf += '<a href="/pokemon/'+id+'" data-target="push" class="subtle">'+pokemon.baseSpecies+'<small>-'+pokemon.forme+'</small></a>';

@@ -901,7 +901,18 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 		var buf = '';
 		for (var pokemonid in BattlePokedex) {
 			var template = BattlePokedex[pokemonid];
-			if (template.tier === tierName || template.tier === tierName2) {
+			let monTier = template.tier;
+			if (monTier == 'Illegal') {
+				for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
+					let curGenSpecies = Dex.forGen(genNum).species.get(id);
+					if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
+						tier = curGenSpecies.tier;
+						break;
+					}
+				}
+			}
+
+			if (monTier === tierName || monTier === tierName2) {
 				buf += BattleSearch.renderPokemonRow(template);
 			}
 		}

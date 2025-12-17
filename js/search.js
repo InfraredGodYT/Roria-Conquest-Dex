@@ -302,6 +302,15 @@
 		if (!tier) {
 			tier = this.engine ? this.engine.getTier(pokemon) : pokemon.num;
 		}
+		if (monTier == 'Illegal') {
+			for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
+				let curGenSpecies = Dex.forGen(genNum).species.get(id);
+				if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
+					tier = curGenSpecies.tier;
+					break;
+				}
+			}
+		}
 		// buf += '<span class="col numcol">' + (pokemon.num >= 0 ? pokemon.num : 'CAP') + '</span> ';
 		buf += '<span class="col numcol">' + tier + '</span> ';
 
