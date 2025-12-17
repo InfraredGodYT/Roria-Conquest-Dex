@@ -421,13 +421,27 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			pastGenPoke = Dex.forGen(mostRecentGen - 1).species.get(pastGenPoke.id);
 		}
 		mostRecentGen = '' + mostRecentGen;
+
+		let levelUpGen = '6';
+		switch(pokemon.gen) {
+			case 9:
+				levelUpGen = '9';
+				break;
+			case 8:
+				levelUpGen = '8';
+				break;
+			case 7:
+				levelUpGen = '7';
+				break;
+		}
+
 		for (var moveid in learnset) {
 			var sources = learnset[moveid];
 			if (typeof sources === 'string') sources = [sources];
 			for (var i=0, len=sources.length; i<len; i++) {
 				var source = sources[i];
 				var sourceType = source.charAt(1);
-				if (source.charAt(0) === mostRecentGen) {
+				if ((source.charAt(0) === mostRecentGen && sourceType != 'L') || (source.charAt(0) === levelUpGen && sourceType == 'L')) {
 					switch (sourceType) {
 					case 'L':
 						moves.push('a'+source.substr(2).padStart(3,'0')+' '+moveid);
@@ -510,6 +524,32 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			shownMoves[moveid] = (shownMoves[moveid]|1);
 		}
 		moves.sort();
+
+		function fetchTMIcon(type) {
+			const typeMap = {
+				"Normal": [24, 1080],
+				"Fighting": [48, 1080],
+				"Flying": [72, 1080],
+				"Poison": [96, 1080],
+				"Ground": [120, 1080],
+				"Rock": [144, 1080],
+				"Bug": [168, 1080],
+				"Ghost": [192, 1080],
+				"Steel": [216, 1080],
+				"Fire": [240, 1080],
+				"Water": [264, 1080],
+				"Grass": [288, 1080],
+				"Electric": [312, 1080],
+				"Psychic": [336, 1080],
+				"Ice": [360, 1080],
+				"Dragon": [0, 1104],
+				"Dark": [24, 1104],
+				"Fairy": [48, 1104],
+			}
+
+			return typeMap[type];
+		}
+
 		var last = '', lastChanged = false;
 		for (var i=0, len=moves.length; i<len; i++) {
 			var move = BattleMovedex[moves[i].substr(5)];
@@ -523,19 +563,21 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				switch (last) {
 				case 'a': // level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'b': // prevo1 level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up from '+BattlePokedex[prevo1].name+'</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'c': // prevo2 level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up from '+BattlePokedex[prevo2].name+'</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'd': // tm/hm
 					if (lastChanged) buf += '<li class="resultheader"><h3>TM/HM</h3></li>';
-					desc = '<span class="itemicon" style="margin-top:-3px;'+Dex.getItemIcon({spritenum:508})+'"></span>';
+					let tmOffsets = fetchTMIcon(move.type);
+					let tmX = tmOffsets[0]; let tmY = tmOffsets[1];
+					desc = `<span class="itemicon" style="margin-top:-3px;background:transparent url(https://play.pokemonshowdown.com/sprites/itemicons-sheet.png?v1) no-repeat scroll -${tmX}px -${tmY}px"></span>`;
 					break;
 				case 'e': // tutor
 					if (lastChanged) buf += '<li class="resultheader"><h3>Tutor</h3></li>';
@@ -558,8 +600,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					desc = '!';
 					break;
 				case 'j': // pastgen
-					if (lastChanged) buf += '<li class="resultheader"><h3>Past generation only</h3></li>';
-					desc = '...';
+					if (lastChanged) buf += '<li class="resultheader"><h3>Past generation/Roria only</h3></li>';
+					desc = '<small>Tutor</small>';
 					break;
 				}
 				buf += BattleSearch.renderTaggedMoveRow(move, desc);
