@@ -851,6 +851,7 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		var tierTable = {
 			ag: "AG",
+			ubers: "Uber",
 			uber: "Uber",
 			uuber: "UUber",
 			uubers: "UUber",
@@ -913,6 +914,7 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 					let curGenSpecies = Dex.forGen(genNum).species.get(pokemonid);
 					if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
 						tier = curGenSpecies.tier;
+						monTiertier = curGenSpecies.tier;
 						break;
 					}
 				}

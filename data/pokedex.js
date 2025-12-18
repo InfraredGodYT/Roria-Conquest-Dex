@@ -145,7 +145,7 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "requiredItem": "Venusaurite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "venusaurgmax": {
     "num": 3,
@@ -3929,7 +3929,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Victreebelite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UU"
   },
   "tentacool": {
     "num": 72,
@@ -8025,7 +8025,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Meganiumite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "cyndaquil": {
     "num": 155,
@@ -18261,7 +18261,8 @@ exports.BattlePokedex = {
     "name": "Gastrodon-East",
     "baseSpecies": "Gastrodon",
     "forme": "East",
-    "color": "Blue"
+    "color": "Blue",
+    "tier": "UU"
   },
   "ambipom": {
     "num": 424,
@@ -21836,7 +21837,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Emboarite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "oshawott": {
     "num": 501,
@@ -24142,7 +24143,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Scraftinite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UU"
   },
   "sigilyph": {
     "num": 561,
@@ -27438,6 +27439,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "tier": "UU",
     "requiredMove": "Relic Song",
     "battleOnly": "Meloetta"
   },
@@ -28679,7 +28681,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Pyroarite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UU"
   },
   "flabebe": {
     "num": 669,
@@ -28837,7 +28839,7 @@ exports.BattlePokedex = {
     "requiredItem": "Floettite",
     "battleOnly": "Floette-Eternal",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "florges": {
     "num": 671,
@@ -29597,7 +29599,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Barbaracite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "skrelp": {
     "num": 690,
@@ -34307,7 +34309,8 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredAbility": "Disguise",
-    "battleOnly": "Mimikyu"
+    "battleOnly": "Mimikyu",
+    "tier": "UU"
   },
   "mimikyutotem": {
     "num": 778,
@@ -37238,6 +37241,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
+    "tier": "UU",
     "canGigantamax": "G-Max Stun Shock"
   },
   "toxtricitygmax": {

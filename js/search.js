@@ -33,6 +33,30 @@
 		this.mod = null;
 
 		this.engine = new DexSearch();
+
+		// Fixed Tier Filtering
+		(function patchTierTableFromRawDex() {
+			// if (!window.BattleTeambuilderTable || !window.BattlePokedexRaw) {
+			// 	return setTimeout(patchTierTableFromRawDex, 50);
+			// }
+
+			const gen = Dex.gen;
+			const key = 'gen' + gen;
+			const table = window.BattleTeambuilderTable;
+			if (!table) return;
+
+			table.overrideTier ??= {};
+
+			for (const id in BattlePokedexRaw) {
+				const entry = BattlePokedexRaw[id];
+				if (!entry || !entry.tier) continue;
+
+				table.overrideTier[id] = entry.tier;
+			}
+
+			console.log('[RC Dex] Tier table synced from BattlePokedexRaw');
+		})();
+
 		window.search = this;
 
 		var self = this;
