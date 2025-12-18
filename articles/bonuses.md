@@ -1,4 +1,4 @@
-# Roria Conquest Daily Bonuses
+# Daily Bonuses
 These all stack with Ro-Powers.
 
 ## Monday

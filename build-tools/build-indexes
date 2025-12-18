@@ -12,9 +12,9 @@ const {BattlePokedex}   = require('../data/pokedex');
 const {BattleMovedex}   = require('../data/movedex');
 const {BattleItems}     = require('../data/items');
 const {BattleAbilities} = require('../data/abilities');
+const {BattleTypeChart} = require('../data/typechart');
 
 // ✅ Load local typechart (or define manually if missing)
-const TypeChart = require('../data/typechart');
 const oldIndex = require("../client/play.pokemonshowdown.com/data/search-index.js");
 
 // ✅ Minimal toID replacement (Showdown-compatible)
@@ -30,7 +30,7 @@ index = index.concat(Object.keys(BattlePokedex).map(x => x + ' pokemon'));
 index = index.concat(Object.keys(BattleMovedex).map(x => x + ' move'));
 index = index.concat(Object.keys(BattleItems).map(x => x + ' item'));
 index = index.concat(Object.keys(BattleAbilities).map(x => x + ' ability'));
-index = index.concat(Object.keys(TypeChart).map(x => toID(x) + ' type'));
+index = index.concat(Object.keys(BattleTypeChart).map(x => toID(x) + ' type'));
 
 index = index.concat(['physical', 'special', 'status'].map(x => toID(x) + ' category'));
 index = index.concat([
@@ -41,6 +41,28 @@ index = index.concat([
 	'ou','uu','ru','nu','pu','zu','lc','nfe','uber', "uuber",
 	'uubl','rubl','nubl','publ','zubl',
 ].map(x => toID(x) + ' tier'));
+
+const BattleArticleTitles = {};
+
+try {
+	for (const file of fs.readdirSync('./articles/')) {
+		if (file.endsWith('.md')) {
+			const id = file.slice(0, -3);
+			const contents = '' + fs.readFileSync('./articles/' + file);
+			if (contents.startsWith('# ')) {
+				const title = contents.slice(2, contents.indexOf('\n'));
+				if (title !== id.charAt(0).toUpperCase() + id.slice(1)) {
+					BattleArticleTitles[id] = title;
+				}
+			}
+			index.push('' + id + ' article');
+		}
+	}
+} catch(e) {
+	console.log('\n(WARNING: NO ARTICLES) ' + e.stack);
+}
+index.push('pokemon article');
+index.push('moves article');
 
 // ✅ Alias generator (Dex-free)
 function generateAlias(id, name, type) {
@@ -115,9 +137,46 @@ const BattleSearchIndex = index.map(x => {
 });
 
 // ✅ Type counts
-const BattleSearchIndexOffset = oldIndex.BattleSearchIndexOffset;
-const BattleSearchCountIndex = oldIndex.BattleSearchCountIndex;
-const BattleArticleTitles = oldIndex.BattleArticleTitles;
+const BattleSearchIndexOffset = BattleSearchIndex.map(entry => {
+	const id = entry[0];
+	let name = '';
+	switch (entry[1]) {
+	case 'pokemon': name = BattlePokedex[id]?.name; break;
+	case 'move': name = BattleMovedex[id]?.name; break;
+	case 'item': name = BattleItems[id]?.name; break;
+	case 'ability': name = BattleAbilities[id]?.name; break;
+	case 'article': name = BattleArticleTitles[id] || ''; break;
+	}
+
+	if (!name) return '';
+
+	let res = '';
+	let nonAlnum = 0;
+	for (let i = 0, j = 0; i < id.length; i++, j++) {
+		while (!/[a-zA-Z0-9]/.test(name[j])) {
+			j++;
+			nonAlnum++;
+		}
+		res += nonAlnum;
+	}
+	if (nonAlnum) return res;
+	return '';
+});
+
+const BattleSearchCountIndex = {};
+for (const type in BattleTypeChart) {
+	BattleSearchCountIndex[type + ' move'] = Object.keys(BattleMovedex)
+		.filter(id => (BattleMovedex[id].type === type)).length;
+}
+
+for (const type in BattleTypeChart) {
+	BattleSearchCountIndex[type + ' pokemon'] = Object.keys(BattlePokedex)
+		.filter(id => (
+			BattlePokedex[id].isCosmeticForme &&
+			BattlePokedex[id].types && 
+			BattlePokedex[id].types.indexOf(type) >= 0
+		)).length;
+}
 
 // ✅ Output exactly like Showdown
 let buf = '// DO NOT EDIT - automatically built with build-tools/build-indexes\n\n';

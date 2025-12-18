@@ -1,14 +1,13 @@
-# What is a Nuzlocke?
+# Nuzlocke
 
-A nuzlocke is a Pokemon challenge of completing a playthrough with specific self-imposed rules to make the game harder. These rules
-include the following:
+A nuzlocke is a Pokemon challenge of completing a playthrough with specific self-imposed rules to make the game harder. These rules include the following:
 
 - You can only catch the first Pokemon you encounter in every location (unless you've caught it before).
 - If your Pokemon faints, it's dead and completely unusable.
 - You must nickname all of your Pokemon.
 - You can't level up past your current level cap (see below).
 
-# What are Level Caps?
+## What are Level Caps?
 Level caps prevent you from overleveling your Pokemon before the next Gym Leader. They only apply to Nuzlocke gamemodes and are in place to ensure you make it through the Nuzlocke challenge with skill and nothing more. Your level cap will scale to how many Gym Badges you have and affects any source of EXP (Battle, Rare Candies, Breeding, etc).
 
 ## Nuzlocke Level Caps

@@ -1,4 +1,4 @@
-# Hidden Power IV Combinations
+# Hidden Power
 
 Hidden Power Type is determined by a which of a Pokemon's IVs are odd or even. This is a quick reference sheet to figure out what IVs you’ll need to be odd or even to achieve your desired Hidden Power type.
 
