@@ -298,16 +298,19 @@
 		var buf = '<li class="result"><a' + attrs + ' data-entry="pokemon|' + BattleLog.escapeHTML(pokemon.name) + '">';
 
 		// number
-		var monTier = Dex.species.get(id)?.tier;
-		var tier = monTier;
+		let monTier = Dex.species.get(id)?.tier;
+		let tier = monTier;
 		if (!tier) {
 			tier = this.engine ? this.engine.getTier(pokemon) : pokemon.num;
 		}
-		if (monTier == 'Illegal') {
-			for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
+
+		if (monTier === 'Illegal' || tier === "Illegal") {
+			for (var genNum = 9; genNum >= (pokemon.gen || 6); genNum--) {
 				let curGenSpecies = Dex.forGen(genNum).species.get(id);
+				//console.log(id, curGenSpecies.tier);
 				if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
 					tier = curGenSpecies.tier;
+					monTier = curGenSpecies.tier;
 					break;
 				}
 			}
