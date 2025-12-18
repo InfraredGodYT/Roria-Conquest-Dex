@@ -277,6 +277,7 @@
 			var category = { name: id[0].toUpperCase() + id.substr(1), id: id };
 			return this.renderCategoryRow(category, matchStart, matchLength, errorMessage);
 		case 'article':
+			console.log("Article? ", matchStart)
 			var articleTitle = (window.BattleArticleTitles && BattleArticleTitles[id]) || (id[0].toUpperCase() + id.substr(1));
 			var article = { name: articleTitle, id: id };
 			return this.renderArticleRow(article, matchStart, matchLength, errorMessage);
