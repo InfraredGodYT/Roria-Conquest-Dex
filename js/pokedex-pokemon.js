@@ -368,7 +368,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		for (var i=0, len=moves.length; i<len; i++) {
 			var move = BattleMovedex[moves[i].substr(5)];
 			if (move) {
-				var desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(moves[i].substr(1,3),10)||'?');
+				var desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(parseInt(moves[i].substr(1,3),10)||'?');
 				buf += BattleSearch.renderTaggedMoveRow(move, desc);
 			}
 		}
@@ -596,15 +596,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				switch (last) {
 				case 'a': // level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'b': // prevo1 level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up from '+BattlePokedex[prevo1].name+'</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'c': // prevo2 level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up from '+BattlePokedex[prevo2].name+'</h3></li>';
-					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'd': // tm/hm
 					if (lastChanged) buf += '<li class="resultheader"><h3>TM/HM/Tutor</h3></li>';
