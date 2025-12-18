@@ -410,23 +410,26 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	},
 	getEvoMethod: function(evo) {
 		let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
+		let evoRegion = window.BattlePokedexRaw?.[evo.id]?.evoRegion;
+		let regionMsg = evoRegion ? ` in ${evoRegion}` : ``;
+		//console.log(evoRegion, window.BattlePokedexRaw?.[evo.id]);
 		switch (evo.evoType) {
 		case 'levelExtra':
-			return 'level-up' + condition;
+			return 'level-up' + condition + regionMsg;
 		case 'levelFriendship':
-			return 'level-up with high Friendship' + condition;
+			return 'level-up with high Friendship' + condition + regionMsg;
 		case 'levelHold':
-			return 'level-up holding ' + evo.evoItem + condition;
+			return 'level-up holding ' + evo.evoItem + condition + regionMsg;
 		case 'useItem':
-			return evo.evoItem;
+			return evo.evoItem + regionMsg;
 		case 'levelMove':
-			return 'level-up with ' + evo.evoMove + condition;
+			return 'level-up with ' + evo.evoMove + condition + regionMsg;
 		case 'trade':
-			return 'trade';
+			return 'trade/link stone' + regionMsg;
 		case 'other':
-			return evo.evoCondition;
+			return evo.evoCondition + regionMsg;
 		default:
-			return 'level ' + evo.evoLevel;
+			return 'level ' + evo.evoLevel + regionMsg;
 		}
 	},
 	selectTab: function(e) {
@@ -465,26 +468,13 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 		mostRecentGen = '' + mostRecentGen;
 
-		let levelUpGen = '6';
-		switch(pokemon.gen) {
-			case 9:
-				levelUpGen = '9';
-				break;
-			case 8:
-				levelUpGen = '8';
-				break;
-			case 7:
-				levelUpGen = '7';
-				break;
-		}
-
 		for (var moveid in learnset) {
 			var sources = learnset[moveid];
 			if (typeof sources === 'string') sources = [sources];
 			for (var i=0, len=sources.length; i<len; i++) {
 				var source = sources[i];
 				var sourceType = source.charAt(1);
-				if ((source.charAt(0) === mostRecentGen && sourceType != 'L') || (source.charAt(0) === levelUpGen && sourceType == 'L')) {
+				if ((source.charAt(0) === mostRecentGen)) {
 					switch (sourceType) {
 					case 'L':
 						moves.push('a'+source.substr(2).padStart(3,'0')+' '+moveid);
@@ -617,7 +607,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
 					break;
 				case 'd': // tm/hm
-					if (lastChanged) buf += '<li class="resultheader"><h3>TM/HM</h3></li>';
+					if (lastChanged) buf += '<li class="resultheader"><h3>TM/HM/Tutor</h3></li>';
 					let tmOffsets = fetchTMIcon(move.type);
 					let tmX = tmOffsets[0]; let tmY = tmOffsets[1];
 					desc = `<span class="itemicon" style="margin-top:-3px;background:transparent url(https://play.pokemonshowdown.com/sprites/itemicons-sheet.png?v1) no-repeat scroll -${tmX}px -${tmY}px"></span>`;

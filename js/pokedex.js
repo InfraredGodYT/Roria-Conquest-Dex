@@ -852,6 +852,8 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 		var tierTable = {
 			ag: "AG",
 			uber: "Uber",
+			uuber: "UUber",
+			uubers: "UUber",
 			ou: "OU",
 			uu: "UU",
 			ru: "RU",
@@ -874,9 +876,11 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 		this.id = id;
 		this.shortTitle = name;
 
+		let tierTitle = name === "UUber" ? "UUbers" : name;
+
 		var buf = '<div class="pfx-body dexentry">';
 		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<h1><a href="/tiers/'+id+'" data-target="push" class="subtle">'+name+'</a></h1>';
+		buf += '<h1><a href="/tiers/'+id+'" data-target="push" class="subtle">'+tierTitle+'</a></h1>';
 
 		if (id === 'nfe') {
 			buf += '<p>"NFE" (Not Fully Evolved) as a tier refers to NFE Pokémon that aren\'t legal in LC and don\'t make the usage cutoff for a tier such as PU.</p>';
@@ -904,9 +908,9 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 		for (var pokemonid in BattlePokedex) {
 			var template = BattlePokedex[pokemonid];
 			let monTier = template.tier;
-			if (monTier == 'Illegal') {
-				for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
-					let curGenSpecies = Dex.forGen(genNum).species.get(id);
+			if (monTier == 'Illegal' && template) {
+				for (var genNum = Dex.gen - 1; genNum >= template.gen; genNum--) {
+					let curGenSpecies = Dex.forGen(genNum).species.get(pokemonid);
 					if (curGenSpecies.tier && curGenSpecies.tier !== 'Illegal') {
 						tier = curGenSpecies.tier;
 						break;

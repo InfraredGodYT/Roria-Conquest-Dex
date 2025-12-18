@@ -229,6 +229,7 @@
 			// very hardcode
 			var tierTable = {
 				uber: "Uber",
+				uuber: "UUber",
 				ou: "OU",
 				uu: "UU",
 				ru: "RU",

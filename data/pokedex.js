@@ -328,7 +328,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Charizardite X",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "charizardmegay": {
     "num": 6,
@@ -362,7 +362,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Charizardite Y",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "charizardgmax": {
     "num": 6,
@@ -541,7 +541,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Blastoisinite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "blastoisegmax": {
     "num": 9,
@@ -950,7 +950,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "requiredItem": "Pidgeotite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "rattata": {
     "num": 19,
@@ -1839,7 +1839,7 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 85,
       "def": 50,
-      "spa": 90,
+      "spa": 95,
       "spd": 85,
       "spe": 110
     },
@@ -1852,7 +1852,7 @@ exports.BattlePokedex = {
     "prevo": "Pikachu",
     "evoType": "useItem",
     "evoItem": "Thunder Stone",
-    "evoRegion": "Alola",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Field",
       "Fairy"
@@ -2300,7 +2300,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Clefablite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "vulpix": {
     "num": 37,
@@ -3630,7 +3630,7 @@ exports.BattlePokedex = {
       "Alakazam",
       "Alakazam-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "alakazammega": {
     "num": 65,
@@ -3662,7 +3662,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Alakazite",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "machop": {
     "num": 66,
@@ -4915,7 +4915,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "shellder": {
     "num": 90,
@@ -5072,7 +5072,7 @@ exports.BattlePokedex = {
       "Gengar-Mega"
     ],
     "canGigantamax": "G-Max Terror",
-    "tier": "UU"
+    "tier": "OU"
   },
   "gengarmega": {
     "num": 94,
@@ -5101,7 +5101,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Gengarite",
-    "tier": "Illegal"
+    "tier": "AG"
   },
   "gengargmax": {
     "num": 94,
@@ -5554,7 +5554,7 @@ exports.BattlePokedex = {
     "prevo": "Exeggcute",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
-    "evoRegion": "Alola",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Grass"
     ],
@@ -5657,7 +5657,7 @@ exports.BattlePokedex = {
     "prevo": "Cubone",
     "evoLevel": 28,
     "evoCondition": "at night",
-    "evoRegion": "Alola",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Monster"
     ],
@@ -5715,8 +5715,8 @@ exports.BattlePokedex = {
     "weightkg": 49.8,
     "color": "Brown",
     "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat > its Def stat",
+    "evoType": "useItem",
+    "evoItem": "Dusk Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -5746,8 +5746,8 @@ exports.BattlePokedex = {
     "weightkg": 50.2,
     "color": "Brown",
     "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat < its Def stat",
+    "evoType": "useItem",
+    "evoItem": "Dawm Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -6077,7 +6077,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Kangaskhanite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "horsea": {
     "num": 116,
@@ -6301,7 +6301,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Starminite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "mrmime": {
     "num": 122,
@@ -6574,7 +6574,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Pinsirite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "tauros": {
     "num": 128,
@@ -6802,7 +6802,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Gyaradosite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "lapras": {
     "num": 131,
@@ -7555,7 +7555,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "moltres": {
     "num": 146,
@@ -7622,7 +7622,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "dratini": {
     "num": 147,
@@ -7752,7 +7752,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dragoninite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "mewtwo": {
     "num": 150,
@@ -7791,7 +7791,7 @@ exports.BattlePokedex = {
       "Mewtwo-Mega-X",
       "Mewtwo-Mega-Y"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "mewtwomegax": {
     "num": 150,
@@ -7821,7 +7821,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Mewtwonite X",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "mewtwomegay": {
     "num": 150,
@@ -7850,7 +7850,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Mewtwonite Y",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "mew": {
     "num": 151,
@@ -7990,7 +7990,7 @@ exports.BattlePokedex = {
       "Meganium",
       "Meganium-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "meganiummega": {
     "num": 154,
@@ -8133,7 +8133,7 @@ exports.BattlePokedex = {
       "Typhlosion",
       "Typhlosion-Hisui"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "typhlosionhisui": {
     "num": 157,
@@ -8165,10 +8165,11 @@ exports.BattlePokedex = {
     "color": "Yellow",
     "prevo": "Quilava",
     "evoLevel": 36,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "totodile": {
     "num": 158,
@@ -8313,7 +8314,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Feraligite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "sentret": {
     "num": 161,
@@ -8434,7 +8435,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "ledyba": {
     "num": 165,
@@ -10265,7 +10266,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "requiredItem": "Scizorite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "shuckle": {
     "num": 213,
@@ -10877,7 +10878,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Skarmorite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "houndour": {
     "num": 228,
@@ -11216,8 +11217,8 @@ exports.BattlePokedex = {
     "weightkg": 48,
     "color": "Brown",
     "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat equal to its Def stat",
+    "evoType": "useItem",
+    "evoItem": "Moon Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -11597,7 +11598,7 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Tyranitarite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "lugia": {
     "num": 249,
@@ -11628,7 +11629,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "hooh": {
     "num": 250,
@@ -11833,7 +11834,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Sceptilite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "torchic": {
     "num": 255,
@@ -11942,7 +11943,7 @@ exports.BattlePokedex = {
       "Blaziken",
       "Blaziken-Mega"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "blazikenmega": {
     "num": 257,
@@ -11975,7 +11976,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Blazikenite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "mudkip": {
     "num": 258,
@@ -12121,7 +12122,7 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Swampertite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "poochyena": {
     "num": 261,
@@ -12788,7 +12789,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Flying"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "ralts": {
     "num": 280,
@@ -13650,7 +13651,7 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "requiredItem": "Mawilite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "aron": {
     "num": 304,
@@ -13874,7 +13875,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Medichamite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "electrike": {
     "num": 309,
@@ -16209,7 +16210,7 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "requiredItem": "Salamencite",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "beldum": {
     "num": 374,
@@ -16340,7 +16341,7 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "requiredItem": "Metagrossite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "regirock": {
     "num": 377,
@@ -16467,7 +16468,7 @@ exports.BattlePokedex = {
       "Latias",
       "Latias-Mega"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "latiasmega": {
     "num": 380,
@@ -16534,7 +16535,7 @@ exports.BattlePokedex = {
       "Latios",
       "Latios-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "latiosmega": {
     "num": 381,
@@ -16629,7 +16630,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Blue Orb",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "groudon": {
     "num": 383,
@@ -16695,7 +16696,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Red Orb",
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "rayquaza": {
     "num": 384,
@@ -16762,7 +16763,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredMove": "Dragon Ascent",
-    "tier": "Illegal"
+    "tier": "AG"
   },
   "jirachi": {
     "num": 385,
@@ -16891,7 +16892,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Deoxys",
-    "tier": "UU"
+    "tier": "OU"
   },
   "deoxysspeed": {
     "num": 386,
@@ -16920,7 +16921,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Deoxys",
-    "tier": "OU"
+    "tier": "UUber"
   },
   "turtwig": {
     "num": 387,
@@ -18449,7 +18450,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Lopunnite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "mismagius": {
     "num": 429,
@@ -18985,7 +18986,7 @@ exports.BattlePokedex = {
       "Garchomp",
       "Garchomp-Mega"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "garchompmega": {
     "num": 445,
@@ -19162,7 +19163,7 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "requiredItem": "Lucarionite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "hippopotas": {
     "num": 449,
@@ -19589,7 +19590,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "magnezone": {
     "num": 462,
@@ -20077,7 +20078,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Galladite",
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "probopass": {
     "num": 476,
@@ -20210,7 +20211,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Froslassite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "rotom": {
     "num": 479,
@@ -20527,7 +20528,7 @@ exports.BattlePokedex = {
       "Dialga",
       "Dialga-Origin"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "dialgaorigin": {
     "num": 483,
@@ -20598,7 +20599,7 @@ exports.BattlePokedex = {
       "Palkia",
       "Palkia-Origin"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "palkiaorigin": {
     "num": 484,
@@ -20729,7 +20730,7 @@ exports.BattlePokedex = {
       "Giratina",
       "Giratina-Origin"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "giratinaorigin": {
     "num": 487,
@@ -20849,7 +20850,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Fairy"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "darkrai": {
     "num": 491,
@@ -20878,7 +20879,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "OU"
+    "tier": "UUber"
   },
   "shaymin": {
     "num": 492,
@@ -20945,7 +20946,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Shaymin",
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "arceus": {
     "num": 493,
@@ -21589,7 +21590,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "snivy": {
     "num": 495,
@@ -21801,7 +21802,7 @@ exports.BattlePokedex = {
       "Emboar",
       "Emboar-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "emboarmega": {
     "num": 500,
@@ -21976,6 +21977,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Dewott",
     "evoLevel": 36,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Field"
     ],
@@ -22850,7 +22852,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Excadrite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "audino": {
     "num": 531,
@@ -23390,7 +23392,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Scolipite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "cottonee": {
     "num": 546,
@@ -23556,6 +23558,7 @@ exports.BattlePokedex = {
     "prevo": "Petilil",
     "evoType": "useItem",
     "evoItem": "Sun Stone",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Grass"
     ],
@@ -23919,7 +23922,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "darmanitangalarzen": {
     "num": 555,
@@ -24401,7 +24404,7 @@ exports.BattlePokedex = {
       "Flying",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "trubbish": {
     "num": 568,
@@ -25515,7 +25518,7 @@ exports.BattlePokedex = {
       "Grass",
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "klink": {
     "num": 599,
@@ -25734,7 +25737,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Eelektrossite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "elgyem": {
     "num": 605,
@@ -25925,7 +25928,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Chandelurite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "axew": {
     "num": 610,
@@ -26577,6 +26580,7 @@ exports.BattlePokedex = {
     "color": "White",
     "prevo": "Rufflet",
     "evoLevel": 54,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Flying"
     ],
@@ -27071,7 +27075,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Thundurus",
-    "tier": "UU"
+    "tier": "OU"
   },
   "reshiram": {
     "num": 643,
@@ -27101,7 +27105,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "zekrom": {
     "num": 644,
@@ -27131,7 +27135,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "landorus": {
     "num": 645,
@@ -27170,7 +27174,7 @@ exports.BattlePokedex = {
       "Landorus",
       "Landorus-Therian"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "landorustherian": {
     "num": 645,
@@ -27299,7 +27303,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Kyurem",
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "keldeo": {
     "num": 647,
@@ -27478,7 +27482,7 @@ exports.BattlePokedex = {
       "Genesect-Burn",
       "Genesect-Chill"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "genesectdouse": {
     "num": 649,
@@ -27744,7 +27748,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Chesnaughtite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "fennekin": {
     "num": 653,
@@ -27852,7 +27856,7 @@ exports.BattlePokedex = {
       "Delphox",
       "Delphox-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "delphoxmega": {
     "num": 655,
@@ -27886,7 +27890,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Delphoxite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "froakie": {
     "num": 656,
@@ -27998,7 +28002,7 @@ exports.BattlePokedex = {
       "Greninja-Ash",
       "Greninja-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "greninjabond": {
     "num": 658,
@@ -28059,7 +28063,7 @@ exports.BattlePokedex = {
     "requiredAbility": "Battle Bond",
     "battleOnly": "Greninja-Bond",
     "gen": 7,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "greninjamega": {
     "num": 658,
@@ -28093,7 +28097,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Greninjite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "bunnelby": {
     "num": 659,
@@ -28802,7 +28806,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "floettemega": {
     "num": 670,
@@ -29495,7 +29499,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Malamarite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "binacle": {
     "num": 688,
@@ -29694,7 +29698,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Dragalgite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "clauncher": {
     "num": 692,
@@ -30056,7 +30060,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Hawluchanite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "dedenne": {
     "num": 702,
@@ -30213,6 +30217,7 @@ exports.BattlePokedex = {
     "color": "Purple",
     "prevo": "Goomy",
     "evoLevel": 40,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "evos": [
       "Goodra-Hisui"
     ],
@@ -30752,6 +30757,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Bergmite",
     "evoLevel": 37,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Monster",
       "Mineral"
@@ -30856,7 +30862,7 @@ exports.BattlePokedex = {
       "Xerneas-Neutral",
       "Xerneas"
     ],
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "xerneasneutral": {
     "num": 716,
@@ -30915,7 +30921,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "zygarde": {
     "num": 718,
@@ -30959,7 +30965,7 @@ exports.BattlePokedex = {
       "Zygarde-Complete",
       "Zygarde-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "zygarde10": {
     "num": 718,
@@ -30991,7 +30997,7 @@ exports.BattlePokedex = {
     ],
     "changesFrom": "Zygarde",
     "gen": 7,
-    "tier": "Illegal"
+    "tier": "UU"
   },
   "zygardecomplete": {
     "num": 718,
@@ -31026,7 +31032,7 @@ exports.BattlePokedex = {
       "Zygarde-10%"
     ],
     "gen": 7,
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "zygardemega": {
     "num": 718,
@@ -31061,7 +31067,7 @@ exports.BattlePokedex = {
       "Zygarde-10%"
     ],
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "AG"
   },
   "diancie": {
     "num": 719,
@@ -31128,7 +31134,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "requiredItem": "Diancite",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "hoopa": {
     "num": 720,
@@ -31196,7 +31202,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Hoopa",
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "volcanion": {
     "num": 721,
@@ -31338,7 +31344,7 @@ exports.BattlePokedex = {
       "Decidueye",
       "Decidueye-Hisui"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "decidueyehisui": {
     "num": 724,
@@ -31370,6 +31376,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Dartrix",
     "evoLevel": 36,
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Flying"
     ],
@@ -31856,8 +31863,7 @@ exports.BattlePokedex = {
     "weightkg": 45,
     "color": "Blue",
     "prevo": "Charjabug",
-    "evoType": "useItem",
-    "evoItem": "Thunder Stone",
+    "evoLevel": 40,
     "eggGroups": [
       "Bug"
     ],
@@ -32490,7 +32496,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "mudbray": {
     "num": 749,
@@ -34454,7 +34460,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Drampanite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "dhelmise": {
     "num": 781,
@@ -34581,7 +34587,7 @@ exports.BattlePokedex = {
       "Kommo-o",
       "Kommo-o-Totem"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "kommoototem": {
     "num": 784,
@@ -34640,7 +34646,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "tapulele": {
     "num": 786,
@@ -34671,7 +34677,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "tapubulu": {
     "num": 787,
@@ -34832,7 +34838,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "lunala": {
     "num": 792,
@@ -34954,7 +34960,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "xurkitree": {
     "num": 796,
@@ -35113,7 +35119,7 @@ exports.BattlePokedex = {
       "Necrozma-Dawn-Wings",
       "Necrozma-Ultra"
     ],
-    "tier": "UU"
+    "tier": "UUber"
   },
   "necrozmaduskmane": {
     "num": 800,
@@ -35244,7 +35250,7 @@ exports.BattlePokedex = {
       "Magearna",
       "Magearna-Original"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "magearnaoriginal": {
     "num": 801,
@@ -35302,7 +35308,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "Uber"
   },
   "poipole": {
     "num": 803,
@@ -35367,7 +35373,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "stakataka": {
     "num": 805,
@@ -35515,7 +35521,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "canGigantamax": "G-Max Meltdown",
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "melmetalgmax": {
     "num": 809,
@@ -36779,7 +36785,7 @@ exports.BattlePokedex = {
     "color": "Green",
     "prevo": "Applin",
     "evoType": "useItem",
-    "evoItem": "Tart Apple",
+    "evoItem": "Leaf Stone",
     "eggGroups": [
       "Grass",
       "Dragon"
@@ -36844,7 +36850,7 @@ exports.BattlePokedex = {
     "color": "Green",
     "prevo": "Applin",
     "evoType": "useItem",
-    "evoItem": "Sweet Apple",
+    "evoItem": "Sun Stone",
     "eggGroups": [
       "Grass",
       "Dragon"
@@ -37557,7 +37563,7 @@ exports.BattlePokedex = {
       "Polteageist",
       "Polteageist-Antique"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "polteageistantique": {
     "num": 855,
@@ -37967,8 +37973,7 @@ exports.BattlePokedex = {
     "weightkg": 117,
     "color": "White",
     "prevo": "Farfetch’d-Galar",
-    "evoType": "other",
-    "evoCondition": "Land 3 critical hits in 1 battle",
+    "evoLevel": 36,
     "eggGroups": [
       "Flying",
       "Field"
@@ -38027,8 +38032,7 @@ exports.BattlePokedex = {
     "weightkg": 66.6,
     "color": "Gray",
     "prevo": "Yamask-Galar",
-    "evoType": "other",
-    "evoCondition": "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl",
+    "evoLevel": 34,
     "eggGroups": [
       "Mineral",
       "Amorphous"
@@ -38090,8 +38094,7 @@ exports.BattlePokedex = {
     "weightkg": 0.5,
     "color": "White",
     "prevo": "Milcery",
-    "evoType": "other",
-    "evoCondition": "spin while holding a Sweet",
+    "evoLevel": 36,
     "eggGroups": [
       "Fairy",
       "Amorphous"
@@ -38264,7 +38267,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Falinksite",
     "gen": 9,
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "pincurchin": {
     "num": 871,
@@ -38750,7 +38753,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "UUber"
   },
   "arctovish": {
     "num": 883,
@@ -38941,7 +38944,7 @@ exports.BattlePokedex = {
       "Amorphous",
       "Dragon"
     ],
-    "tier": "OU"
+    "tier": "UUber"
   },
   "zacian": {
     "num": 888,
@@ -39049,7 +39052,7 @@ exports.BattlePokedex = {
       "Zamazenta-Crowned"
     ],
     "cannotDynamax": true,
-    "tier": "OU"
+    "tier": "UUber"
   },
   "zamazentacrowned": {
     "num": 889,
@@ -39217,8 +39220,8 @@ exports.BattlePokedex = {
       "Sub-Legendary"
     ],
     "prevo": "Kubfu",
-    "evoType": "other",
-    "evoCondition": "Defeat the Single Strike Tower",
+    "evoType": "useItem",
+    "evoItem": "Dusk Stone",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -39230,7 +39233,7 @@ exports.BattlePokedex = {
       "Urshifu-Rapid-Strike"
     ],
     "canGigantamax": "G-Max One Blow",
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "urshifurapidstrike": {
     "num": 892,
@@ -39260,13 +39263,13 @@ exports.BattlePokedex = {
     "weightkg": 105,
     "color": "Gray",
     "prevo": "Kubfu",
-    "evoType": "other",
-    "evoCondition": "Defeat the Rapid Strike Tower",
+    "evoType": "useItem",
+    "evoItem": "Water Stone",
     "eggGroups": [
       "Undiscovered"
     ],
     "canGigantamax": "G-Max Rapid Flow",
-    "tier": "Uber"
+    "tier": "OU"
   },
   "urshifugmax": {
     "num": 892,
@@ -39514,7 +39517,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "calyrex": {
     "num": 898,
@@ -39613,7 +39616,7 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "changesFrom": "Calyrex",
-    "tier": "AG"
+    "tier": "Uber"
   },
   "wyrdeer": {
     "num": 899,
@@ -39639,8 +39642,7 @@ exports.BattlePokedex = {
     "weightkg": 95.1,
     "color": "Gray",
     "prevo": "Stantler",
-    "evoType": "other",
-    "evoCondition": "Use Agile style Psyshield Bash 20 times",
+    "evoLevel": 30,
     "eggGroups": [
       "Field"
     ],
@@ -39670,8 +39672,8 @@ exports.BattlePokedex = {
     "weightkg": 89,
     "color": "Brown",
     "prevo": "Scyther",
-    "evoType": "useItem",
-    "evoCondition": "Black Augurite",
+    "evoType": "trade",
+    "evoItem": "Hard Stone",
     "eggGroups": [
       "Bug"
     ],
@@ -39701,8 +39703,7 @@ exports.BattlePokedex = {
     "weightkg": 290,
     "color": "Brown",
     "prevo": "Ursaring",
-    "evoType": "other",
-    "evoCondition": "Peat Block when there's a full moon",
+    "evoLevel": 50,
     "eggGroups": [
       "Field"
     ],
@@ -39713,7 +39714,7 @@ exports.BattlePokedex = {
       "Ursaluna",
       "Ursaluna-Bloodmoon"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "ursalunabloodmoon": {
     "num": 901,
@@ -39736,6 +39737,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Mind's Eye"
     },
+    "evoLevel": 50,
+    "evoRegion": "Lost Islands",
+    "prevo": "Ursaring",
     "heightm": 2.7,
     "weightkg": 333,
     "color": "Brown",
@@ -39743,7 +39747,7 @@ exports.BattlePokedex = {
       "Field"
     ],
     "gen": 9,
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "basculegion": {
     "num": 902,
@@ -39771,8 +39775,7 @@ exports.BattlePokedex = {
     "weightkg": 110,
     "color": "Green",
     "prevo": "Basculin-White-Striped",
-    "evoType": "other",
-    "evoCondition": "Receive 294+ recoil without fainting",
+    "evoLevel": 36,
     "eggGroups": [
       "Water 2"
     ],
@@ -39849,7 +39852,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "overqwil": {
     "num": 904,
@@ -40053,7 +40056,7 @@ exports.BattlePokedex = {
       "Field",
       "Grass"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "fuecoco": {
     "num": 909,
@@ -40258,7 +40261,7 @@ exports.BattlePokedex = {
       "Flying",
       "Water 1"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "lechonk": {
     "num": 915,
@@ -40565,8 +40568,7 @@ exports.BattlePokedex = {
     "weightkg": 41,
     "color": "Yellow",
     "prevo": "Pawmo",
-    "evoType": "other",
-    "evoCondition": "walk 1000 steps in Let's Go",
+    "evoLevel": 36,
     "eggGroups": [
       "Field"
     ],
@@ -41098,7 +41100,7 @@ exports.BattlePokedex = {
     "color": "Red",
     "prevo": "Charcadet",
     "evoType": "useItem",
-    "evoItem": "Auspicious Armor",
+    "evoItem": "Fire Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -41128,7 +41130,7 @@ exports.BattlePokedex = {
     "color": "Purple",
     "prevo": "Charcadet",
     "evoType": "useItem",
-    "evoItem": "Malicious Armor",
+    "evoItem": "Dusk Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -41634,8 +41636,7 @@ exports.BattlePokedex = {
     "weightkg": 3.5,
     "color": "Green",
     "prevo": "Rellor",
-    "evoType": "other",
-    "evoCondition": "walk 1000 steps in Let's Go",
+    "evoLevel": 25,
     "eggGroups": [
       "Bug"
     ],
@@ -41698,7 +41699,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "tinkatink": {
     "num": 957,
@@ -41856,7 +41857,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "bombirdier": {
     "num": 962,
@@ -41949,7 +41950,7 @@ exports.BattlePokedex = {
       "Field",
       "Water 2"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "palafinhero": {
     "num": 964,
@@ -42463,7 +42464,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "clodsire": {
     "num": 980,
@@ -42594,6 +42595,7 @@ exports.BattlePokedex = {
     "prevo": "Dunsparce",
     "evoType": "levelMove",
     "evoMove": "Hyper Drill",
+    "evoRegion": "Lost Islands",
     "eggGroups": [
       "Field"
     ]
@@ -42622,12 +42624,11 @@ exports.BattlePokedex = {
     "weightkg": 120,
     "color": "Black",
     "prevo": "Bisharp",
-    "evoType": "other",
-    "evoCondition": "Defeat 3 Bisharp leading Pawniard and level-up",
+    "evoLevel": 60,
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "OU"
+    "tier": "UUber"
   },
   "greattusk": {
     "num": 984,
@@ -42867,7 +42868,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "ironhands": {
     "num": 992,
@@ -42897,7 +42898,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "ironjugulis": {
     "num": 993,
@@ -43081,7 +43082,7 @@ exports.BattlePokedex = {
       "Dragon",
       "Mineral"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "gimmighoul": {
     "num": 999,
@@ -43174,8 +43175,8 @@ exports.BattlePokedex = {
     "weightkg": 30,
     "color": "Yellow",
     "prevo": "Gimmighoul",
-    "evoType": "other",
-    "evoCondition": "Level up with 999 Coins in the bag",
+    "evoType": "useItem",
+    "evoItem": "Shiny Stone",
     "eggGroups": [
       "Undiscovered"
     ],
@@ -43239,7 +43240,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "tinglu": {
     "num": 1003,
@@ -43299,7 +43300,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "roaringmoon": {
     "num": 1005,
@@ -43329,7 +43330,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "ironvaliant": {
     "num": 1006,
@@ -43449,7 +43450,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "OU"
+    "tier": "UUber"
   },
   "ironleaves": {
     "num": 1010,
@@ -43509,7 +43510,7 @@ exports.BattlePokedex = {
       "Hydrapple"
     ],
     "evoType": "useItem",
-    "evoItem": "Syrupy Apple",
+    "evoItem": "Dawn Stone",
     "eggGroups": [
       "Grass",
       "Dragon"
@@ -43688,7 +43689,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "munkidori": {
     "num": 1015,
@@ -43834,7 +43835,7 @@ exports.BattlePokedex = {
     "requiredItem": "Wellspring Mask",
     "changesFrom": "Ogerpon",
     "requiredTeraType": "Water",
-    "tier": "OU"
+    "tier": "UUber"
   },
   "ogerponhearthflame": {
     "num": 1017,
@@ -43867,7 +43868,7 @@ exports.BattlePokedex = {
     "requiredItem": "Hearthflame Mask",
     "changesFrom": "Ogerpon",
     "requiredTeraType": "Fire",
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "ogerponcornerstone": {
     "num": 1017,
@@ -43900,7 +43901,7 @@ exports.BattlePokedex = {
     "requiredItem": "Cornerstone Mask",
     "changesFrom": "Ogerpon",
     "requiredTeraType": "Rock",
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "ogerpontealtera": {
     "num": 1017,
@@ -44048,13 +44049,13 @@ exports.BattlePokedex = {
     "weightkg": 60,
     "color": "White",
     "prevo": "Duraludon",
-    "evoType": "useItem",
-    "evoItem": "Metal Alloy",
+    "evoType": "trade",
+    "evoItem": "Metal Coat",
     "eggGroups": [
       "Mineral",
       "Dragon"
     ],
-    "tier": "Uber"
+    "tier": "OU"
   },
   "hydrapple": {
     "num": 1019,
@@ -44113,7 +44114,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "UUber"
   },
   "ragingbolt": {
     "num": 1021,
@@ -44167,7 +44168,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UUBL"
+    "tier": "OU"
   },
   "ironcrown": {
     "num": 1023,
@@ -47599,3 +47600,4 @@ exports.BattlePokedex = {
     "isNonstandard": "Custom"
   }
 }
+exports.BattlePokedexRaw = {...exports.BattlePokedex};

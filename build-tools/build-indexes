@@ -38,7 +38,7 @@ index = index.concat([
 	'mineral','amorphous','water2','ditto','dragon','undiscovered',
 ].map(x => toID(x) + ' egggroup'));
 index = index.concat([
-	'ou','uu','ru','nu','pu','zu','lc','nfe','uber',
+	'ou','uu','ru','nu','pu','zu','lc','nfe','uber', "uuber",
 	'uubl','rubl','nubl','publ','zubl',
 ].map(x => toID(x) + ' tier'));
 

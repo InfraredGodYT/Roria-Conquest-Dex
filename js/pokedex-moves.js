@@ -358,7 +358,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 							buf += '<li>Level ' + parseInt(source.slice(2, 5), 10) + '</li>';
 							break;
 						case 'M':
-							buf += '<li>TM/HM</li>';
+							buf += '<li>TM/HM/Tutor</li>';
 							break;
 						case 'T':
 							buf += '<li>Tutor</li>';
@@ -599,7 +599,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			case 'A': // level-up move
 				return '<h3>Level-up</h3>';
 			case 'B': // tm/hm
-				return '<h3>TM/HM</h3>';
+				return '<h3>TM/HM/Tutor</h3>';
 			case 'C': // tutor
 				return '<h3>Tutor</h3>';
 			case 'D': // egg move
@@ -616,7 +616,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			var desc = '';
 			switch (results[i].charAt(0)) {
 			case 'a': // level-up move
-				desc = results[i].substr(1,3) === '001' || results[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
+				desc = results[i].substr(1,3) === '001' || results[i].substr(1,3) === '000' ? '<small>L</small>1' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
 				break;	
 			case 'b': // tm/hm
 				desc = '<img src="//' + Config.routes.client + '/sprites/itemicons/tm-normal.png" style="margin-top:-3px;opacity:.7" width="24" height="24" alt="M" />';
@@ -631,7 +631,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				desc = '!';
 				break;
 			case 'f': // past generation
-				desc = '...';
+				desc = '<small>Tutor</small>';
 				break;
 			}
 			return BattleSearch.renderTaggedPokemonRowInner(template, desc);
