@@ -520,7 +520,15 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				if (source.charAt(0) === gen) {
 					switch (sourceType) {
 					case 'L':
-						results.push('a'+sourcePad(source)+pokemonid);
+						var lvl = parseInt(source.substr(2), 10);
+						var pokemon = BattlePokedex[pokemonid];
+
+						if (pokemon.evoLevel && lvl === pokemon.evoLevel && lvl !== 0) {
+							results.push('a000 ' + pokemonid);
+						} else {
+							results.push('a' + sourcePad(source) + pokemonid);
+						}
+						
 						atLeastOne = true;
 						break;
 					case 'M':
@@ -616,7 +624,18 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			var desc = '';
 			switch (results[i].charAt(0)) {
 			case 'a': // level-up move
-				desc = results[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
+				const lvlStr = results[i].substr(1, 3);
+				const lvl = parseInt(lvlStr, 10);
+
+				if (lvlStr === '000') {
+					desc = 'Evo';
+				} else if (lvlStr === '001') {
+					desc = 'R';
+				} else if (template.evoLevel && lvl === template.evoLevel) {
+					desc = 'Evo';
+				} else {
+					desc = '<small>L</small>' + (lvl || '?');
+				}
 				break;	
 			case 'b': // tm/hm
 				desc = '<img src="//' + Config.routes.client + '/sprites/itemicons/tm-normal.png" style="margin-top:-3px;opacity:.7" width="24" height="24" alt="M" />';

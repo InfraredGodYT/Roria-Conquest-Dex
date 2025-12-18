@@ -360,7 +360,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			for (var i=0, len=sources.length, genL = ''+mostRecentGen+'L'; i<len; i++) {
 				var source = sources[i];
 				if (source.substr(0,2) === genL) {
-					moves.push('a'+source.substr(2).padStart(3,'0')+' '+moveid);
+					var lvlStr = source.substr(2);
+					var lvl = parseInt(lvlStr, 10);
+
+					// Evo-at-level (but not L0)
+					if (pokemon.evoLevel && lvl === pokemon.evoLevel && lvl !== 0) {
+						moves.push('a000 ' + moveid);
+					} else {
+						moves.push('a' + lvlStr.padStart(3, '0') + ' ' + moveid);
+					}
 				}
 			}
 		}
@@ -369,6 +377,19 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			var move = BattleMovedex[moves[i].substr(5)];
 			if (move) {
 				var desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(parseInt(moves[i].substr(1,3),10)||'?');
+				const lvlStr = moves[i].substr(1, 3);
+				const lvl = parseInt(lvlStr, 10);
+
+				if (lvlStr === '000') {
+					desc = 'Evo';
+				} else if (lvlStr === '001') {
+					desc = 'R';
+				} else if (pokemon.evoLevel && lvl === pokemon.evoLevel) {	
+					desc = 'Evo';
+				} else {
+					desc = '<small>L</small>' + (lvl || '?');
+				}
+
 				buf += BattleSearch.renderTaggedMoveRow(move, desc);
 			}
 		}
@@ -477,7 +498,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				if ((source.charAt(0) === mostRecentGen)) {
 					switch (sourceType) {
 					case 'L':
-						moves.push('a'+source.substr(2).padStart(3,'0')+' '+moveid);
+						var lvl = parseInt(source.substr(2), 10);
+
+						if (pokemon.evoLevel && lvl === pokemon.evoLevel && lvl !== 0) {
+							moves.push('a000 ' + moveid);
+						} else {
+							moves.push('a' + sourcePad(source) + moveid);
+						}
+						
 						shownMoves[moveid] = (shownMoves[moveid]|2);
 						break;
 					case 'M':
@@ -596,7 +624,18 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				switch (last) {
 				case 'a': // level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up</h3></li>';
-					desc = moves[i].substr(1,3) === '000' ? 'Evo' : '<small>L</small>'+(Number(moves[i].substr(1,3))||'?');
+					const lvlStr = moves[i].substr(1, 3);
+					const lvl = parseInt(lvlStr, 10);
+
+					if (lvlStr === '000') {
+						desc = 'Evo';
+					} else if (lvlStr === '001') {
+						desc = 'R';
+					} else if (pokemon.evoLevel && lvl === pokemon.evoLevel) {
+						desc = 'Evo';
+					} else {
+						desc = '<small>L</small>' + (lvl || '?');
+					}
 					break;
 				case 'b': // prevo1 level-up move
 					if (lastChanged) buf += '<li class="resultheader"><h3>Level-up from '+BattlePokedex[prevo1].name+'</h3></li>';
