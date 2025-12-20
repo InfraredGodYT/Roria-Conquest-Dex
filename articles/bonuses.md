@@ -1,13 +1,14 @@
 # Daily Bonuses
-These all stack with Ro-Powers.
 
-## Monday
+Roria Conquest provides daily benefits for its players. These all stack with their respective Ro-Powers. Any decimals are rounded down.
+
+### Monday
 1.5x Experience Points
-## Tuesday
+### Tuesday
 1.5x Money (Pokedollars)
-## Wednesday
+### Wednesday
 1.5x Egg Steps
-## Thursday
+### Thursday
 1.5x EVs
-## Friday, Saturday, Sunday
+### Friday, Saturday, Sunday
 1.5x Shiny Odds

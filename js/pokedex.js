@@ -952,27 +952,81 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
 	}
 });
 
+const ArticleGroups = {
+	"Core Mechanics": [
+		"battlerules",
+		"criticalhit",
+		"grounded",
+		"phazing",
+		"hazards"
+	],
+	"Battle Effects": [
+		"terrain",
+		"submoves",
+		"hiddenpower"
+	],
+	"Game Modes": [
+		"nuzlocke"
+	],
+	"Rewards & Progression": [
+		"bonuses",
+		"dexrewards",
+		"qol"
+	],
+	"Gimmicks & Special Moves": [
+		"zmoves",
+		"maxmoves",
+		"gmaxmoves"
+	]
+};
+
+const articleToGroup = {};
+for (const [group, ids] of Object.entries(ArticleGroups)) {
+	for (const id of ids) {
+		articleToGroup[id] = group;
+	}
+}
+
+
 var PokedexArticlesPanel = Panels.Panel.extend({
 	initialize: function () {
 		var buf = '<div class="pfx-body">';
 		buf += '<a href="/" class="pfx-backbutton" data-target="back">';
 		buf += '<i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
 		buf += '<h1>Articles</h1>';
-		buf += '<ul class="results-list">';
 
-		const entries = Object.entries(BattleArticleTitles)
-			.sort((a, b) => a[1].localeCompare(b[1]));
+		// Group articles
+		const grouped = {};
 
-		for (const [id, title] of entries) {
-			buf += '<li class="result">';
-			buf += '<a href="/articles/' + id + '" data-target="push">';
-			buf += '<span class="col namecol">' + BattleLog.escapeHTML(title) + '</span>';
-			buf += '<span class="col movedesccol"> (article)</span>';
-			buf += '</a></li>';
+		for (const [id, title] of Object.entries(BattleArticleTitles)) {
+			const group = articleToGroup[id] || "Other";
+			if (!grouped[group]) grouped[group] = [];
+			grouped[group].push([id, title]);
 		}
 
-		buf += '</ul></div>';
+		// Render groups
+		for (const [groupName, entries] of Object.entries(grouped)) {
+			// Sort titles inside group
+			entries.sort((a, b) => a[1].localeCompare(b[1]));
+
+			buf += '<h3>' + BattleLog.escapeHTML(groupName) + '</h3>';
+			buf += '<ul class="results-list">';
+
+			for (const [id, title] of entries) {
+				buf += '<li class="result">';
+				buf += '<a href="/articles/' + id + '" data-target="push">';
+				buf += '<span class="col namecol">' +
+					BattleLog.escapeHTML(title) +
+					'</span>';
+				buf += '</a></li>';
+			}
+
+			buf += '</ul>';
+		}
+
+		buf += '</div>';
 		this.html(buf);
 	}
 });
+
 
