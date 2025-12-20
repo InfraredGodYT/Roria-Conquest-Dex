@@ -951,3 +951,28 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
 		});
 	}
 });
+
+var PokedexArticlesPanel = Panels.Panel.extend({
+	initialize: function () {
+		var buf = '<div class="pfx-body">';
+		buf += '<a href="/" class="pfx-backbutton" data-target="back">';
+		buf += '<i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<h1>Articles</h1>';
+		buf += '<ul class="results-list">';
+
+		const entries = Object.entries(BattleArticleTitles)
+			.sort((a, b) => a[1].localeCompare(b[1]));
+
+		for (const [id, title] of entries) {
+			buf += '<li class="result">';
+			buf += '<a href="/articles/' + id + '" data-target="push">';
+			buf += '<span class="col namecol">' + BattleLog.escapeHTML(title) + '</span>';
+			buf += '<span class="col movedesccol"> (article)</span>';
+			buf += '</a></li>';
+		}
+
+		buf += '</ul></div>';
+		this.html(buf);
+	}
+});
+

@@ -93,6 +93,24 @@
 		this.exactMatch = this.engine.exactMatch;
 		this.q = this.engine.query;
 		this.resultSet = this.engine.results;
+
+		if (!this.q && !this.filters && !this.engine.typedSearch?.searchType) {
+			const articles = [];
+
+			articles.push(['header', 'Articles']);
+
+			const entries = Object.entries(window.BattleArticleTitles)
+				.sort((a, b) => a[1].localeCompare(b[1]));
+
+			//console.log(entries)
+
+			for (const [id] of entries) {
+				articles.push(['article', id]);
+			}
+
+			this.resultSet = articles.concat(this.resultSet);
+		}
+
 		if (firstElem) {
 			this.resultSet = [[this.engine.typedSearch.searchType, firstElem]].concat(this.resultSet);
 			if (this.resultSet.length > 1 && ['sortpokemon', 'sortmove'].includes(this.resultSet[1][0])) {
@@ -277,7 +295,7 @@
 			var category = { name: id[0].toUpperCase() + id.substr(1), id: id };
 			return this.renderCategoryRow(category, matchStart, matchLength, errorMessage);
 		case 'article':
-			console.log("Article? ", matchStart)
+			//console.log("Article? ", matchStart)
 			var articleTitle = (window.BattleArticleTitles && BattleArticleTitles[id]) || (id[0].toUpperCase() + id.substr(1));
 			var article = { name: articleTitle, id: id };
 			return this.renderArticleRow(article, matchStart, matchLength, errorMessage);

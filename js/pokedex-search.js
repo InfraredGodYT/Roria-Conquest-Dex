@@ -26,7 +26,9 @@ var PokedexSearchPanel = Panels.Panel.extend({
 		buf += '<h1><a href="/" data-target="replace">Roria Conquest Pok&eacute;dex</a></h1>';
 		buf += '<ul class="tabbar centered" style="margin-bottom: 18px"><li><button class="button nav-first' + (fragment === '' ? ' cur' : '') + '" value="">Search</button></li>';
 		buf += '<li><button class="button' + (fragment === 'pokemon/' ? ' cur' : '') + '" value="pokemon/">Pok&eacute;mon</button></li>';
-		buf += '<li><button class="button nav-last' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li></ul>';
+		buf += '<li><button class="button' + (fragment === 'moves/' ? ' cur' : '') + '" value="moves/">Moves</button></li>';
+		buf += '<li><button class="button nav-last' + (fragment === 'articles/' ? ' cur' : '') + '" value="articles/">Articles</button></li>';	
+		buf += '</ul>';
 		buf += '<div class="searchboxwrapper"><input class="textbox searchbox" type="search" name="q" value="' + Dex.escapeHTML(this.$('.searchbox').val() || '') + '" autocomplete="off" autofocus placeholder="Search Pok&eacute;mon, moves, abilities, items, types, or more" /></div>';
 		if (fragment === '') {
 			buf += '<p class="buttonbar"><button class="button"><i class="fa fa-search" aria-hidden="true"></i> <strong>Pok&eacute;dex Search</strong></button> <button name="lucky" class="button">I\'m Feeling Lucky</button></p>';
@@ -50,6 +52,10 @@ var PokedexSearchPanel = Panels.Panel.extend({
 			} else if (fragment === 'moves/') {
 				search.setType('move');
 				$searchbox.attr('placeholder', 'Search moves OR filter by type, category, pokemon');
+				this.$('.buttonbar').remove();
+			} else if (fragment === 'articles/') {
+				search.setType('article');
+				$searchbox.attr('placeholder', 'Search articles');
 				this.$('.buttonbar').remove();
 			}
 			this.search.externalFilter = true;
@@ -169,6 +175,12 @@ var PokedexSearchPanel = Panels.Panel.extend({
 				e.preventDefault();
 				e.stopPropagation();
 				this.app.go('moves/', this, true);
+				return;
+			}
+			if (id === 'articles' || id === 'article') {
+				e.preventDefault();
+				e.stopPropagation();
+				this.app.go('articles/', this, true);
 				return;
 			}
 			break;

@@ -6,5 +6,5 @@ exports.BattleSearchIndexOffset = ["","","","00111222333344444444444","","","","
 
 exports.BattleSearchCountIndex = {"bug move":0,"dark move":0,"dragon move":0,"electric move":0,"fairy move":0,"fighting move":0,"fire move":0,"flying move":0,"ghost move":0,"grass move":0,"ground move":0,"ice move":0,"normal move":0,"poison move":0,"psychic move":0,"rock move":0,"steel move":0,"stellar move":0,"water move":0,"bug pokemon":0,"dark pokemon":0,"dragon pokemon":0,"electric pokemon":0,"fairy pokemon":0,"fighting pokemon":0,"fire pokemon":0,"flying pokemon":0,"ghost pokemon":0,"grass pokemon":0,"ground pokemon":0,"ice pokemon":0,"normal pokemon":0,"poison pokemon":0,"psychic pokemon":0,"rock pokemon":0,"steel pokemon":0,"stellar pokemon":0,"water pokemon":0};
 
-exports.BattleArticleTitles = {"battlerules":"Battle Rules","bonuses":"Daily Bonuses","criticalhit":"Critical hit","dexrewards":"Pokedex Rewards","gmaxmoves":"G-Max Moves","hiddenpower":"Hidden Power","maxmoves":"Max Moves","zmoves":"Z-Moves"};
+exports.BattleArticleTitles = {"battlerules":"Battle Rules","bonuses":"Daily Bonuses","criticalhit":"Critical Hit","dexrewards":"Pokedex Rewards","gmaxmoves":"G-Max Moves","hiddenpower":"Hidden Power","maxmoves":"Max Moves","zmoves":"Z-Moves"};
 
