@@ -2255,9 +2255,6 @@ exports.BattleLearnsets = {
       "workup": [
         "9M"
       ],
-      "thousandwaves": [
-        "9M"
-      ],
       "bite": [
         "9E"
       ],
@@ -8390,9 +8387,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "floatyfall": [
-        "9M"
-      ],
-      "thousandwaves": [
         "9M"
       ],
       "doubleslap": [
@@ -177802,9 +177796,6 @@ exports.BattleLearnsets = {
       "snore": [
         "9M"
       ],
-      "spacialrend": [
-        "9M"
-      ],
       "spite": [
         "9M"
       ],
@@ -178749,9 +178740,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "solarbeam": [
-        "9M"
-      ],
-      "spacialrend": [
         "9M"
       ],
       "stealthrock": [
