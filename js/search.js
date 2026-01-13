@@ -397,6 +397,7 @@
 		// type
 		buf += '<span class="col typecol">';
 		var types = pokemon.types;
+		if (!types) console.log(pokemon);
 		for (var i = 0; i < types.length; i++) {
 			buf += Dex.getTypeIcon(types[i]);
 		}

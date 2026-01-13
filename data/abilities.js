@@ -1394,8 +1394,8 @@ exports.BattleAbilities = {
     "name": "Marvel Scale",
     "rating": 2.5,
     "num": 63,
-    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
-    "shortDesc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5."
+    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5. Immune to burn & poison damage.",
+    "shortDesc": "Defense multiplied by 1.5 under a status condition. Immune to burn & poison damage."
   },
   "megalauncher": {
     "onBasePowerPriority": 19,
@@ -3137,8 +3137,8 @@ exports.BattleAbilities = {
     "name": "Inflate",
     "rating": 2.5,
     "num": -6,
-    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
-    "shortDesc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5."
+    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5. Immune to burn damage.",
+    "shortDesc": "Defense multiplied by 1.5 under a status condition. Immune to burn damage."
   },
   "luchadorspride": {
     "onAnyFaintPriority": 1,

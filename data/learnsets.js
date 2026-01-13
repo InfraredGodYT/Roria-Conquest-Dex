@@ -159654,6 +159654,21 @@ exports.BattleLearnsets = {
       "headsmash": [
         "9M"
       ],
+      "payback": [
+        "9M"
+      ],
+      "pursuit": [
+        "9M"
+      ],
+      "knockoff": [
+        "9M"
+      ],
+      "darkpulse": [
+        "9M"
+      ],
+      "partingshot": [
+        "9M"
+      ],
       "doublekick": [
         "9E"
       ],
@@ -176856,9 +176871,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "recover": [
-        "9M"
-      ],
-      "teleport": [
         "9M"
       ],
       "refresh": [

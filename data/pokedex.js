@@ -2078,7 +2078,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Poison Point",
       "1": "Rivalry",
-      "H": "Guts"
+      "H": "Sheer Force"
     },
     "heightm": 1.3,
     "weightkg": 60,
@@ -6429,7 +6429,7 @@ exports.BattlePokedex = {
       "spe": 100
     },
     "abilities": {
-      "0": "Adaptability",
+      "0": "Slush Rush",
       "1": "Snow Cloak",
       "H": "Dry Skin"
     },
@@ -6441,7 +6441,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "electabuzz": {
     "num": 125,
@@ -7791,7 +7791,7 @@ exports.BattlePokedex = {
       "Mewtwo-Mega-X",
       "Mewtwo-Mega-Y"
     ],
-    "tier": "UUber"
+    "tier": "Uber"
   },
   "mewtwomegax": {
     "num": 150,
@@ -10878,7 +10878,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Skarmorite",
     "gen": 9,
-    "tier": "OU"
+    "tier": "UUber"
   },
   "houndour": {
     "num": 228,
@@ -17463,7 +17463,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Reckless",
       "1": "Intimidate",
-      "H": "Rock Head"
+      "H": "Guts"
     },
     "heightm": 0.5,
     "weightkg": 9.5,
@@ -17493,7 +17493,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Reckless",
       "1": "Intimidate",
-      "H": "Rock Head"
+      "H": "Guts"
     },
     "heightm": 0.9,
     "weightkg": 30.5,
@@ -17518,15 +17518,15 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 80,
       "atk": 120,
-      "def": 79,
+      "def": 80,
       "spa": 70,
-      "spd": 79,
+      "spd": 80,
       "spe": 95
     },
     "abilities": {
       "0": "Reckless",
       "1": "Intimidate",
-      "H": "Rock Head"
+      "H": "Guts"
     },
     "heightm": 1.4,
     "weightkg": 42,
@@ -18254,14 +18254,6 @@ exports.BattlePokedex = {
       "Gastrodon",
       "Gastrodon-East"
     ],
-    "tier": "UU"
-  },
-  "gastrodoneast": {
-    "isCosmeticForme": true,
-    "name": "Gastrodon-East",
-    "baseSpecies": "Gastrodon",
-    "forme": "East",
-    "color": "Blue",
     "tier": "UU"
   },
   "ambipom": {
@@ -19771,7 +19763,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Flame Body",
-      "H": "Sheer Force"
+      "H": "Mega Launcher"
     },
     "heightm": 1.6,
     "weightkg": 68,
@@ -19992,8 +19984,8 @@ exports.BattlePokedex = {
       "atk": 70,
       "def": 70,
       "spa": 135,
-      "spd": 75,
-      "spe": 100
+      "spd": 85,
+      "spe": 90
     },
     "abilities": {
       "0": "Adaptability",
@@ -20070,7 +20062,7 @@ exports.BattlePokedex = {
       "spe": 115
     },
     "abilities": {
-      "0": "Sharpness"
+      "0": "Inner Focus"
     },
     "heightm": 1.6,
     "weightkg": 56.4,
@@ -20079,7 +20071,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Galladite",
-    "tier": "UUber"
+    "tier": "OU"
   },
   "probopass": {
     "num": 476,
@@ -24143,7 +24135,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Scraftinite",
     "gen": 9,
-    "tier": "UU"
+    "tier": "OU"
   },
   "sigilyph": {
     "num": 561,
@@ -27882,7 +27874,7 @@ exports.BattlePokedex = {
       "spe": 134
     },
     "abilities": {
-      "0": "Magic Guard"
+      "0": "Levitate"
     },
     "heightm": 1.5,
     "weightkg": 39,
@@ -28272,7 +28264,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Friend Guard",
       "1": "Compound Eyes",
-      "H": "Simple"
+      "H": "Tinted Lens"
     },
     "heightm": 0.3,
     "weightkg": 2.5,
@@ -28302,7 +28294,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Friend Guard",
       "1": "Shed Skin",
-      "H": "Simple"
+      "H": "Tinted Lens"
     },
     "heightm": 0.3,
     "weightkg": 8.4,
@@ -28337,7 +28329,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Friend Guard",
       "1": "Compound Eyes",
-      "H": "Simple"
+      "H": "Tinted Lens"
     },
     "heightm": 1.2,
     "weightkg": 17,
@@ -28681,7 +28673,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Pyroarite",
     "gen": 9,
-    "tier": "UU"
+    "tier": "OU"
   },
   "flabebe": {
     "num": 669,
@@ -29599,7 +29591,7 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Barbaracite",
     "gen": 9,
-    "tier": "OU"
+    "tier": "UUber"
   },
   "skrelp": {
     "num": 690,
@@ -30031,7 +30023,7 @@ exports.BattlePokedex = {
       "Hawlucha",
       "Hawlucha-Mega"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "hawluchamega": {
     "num": 701,
@@ -30967,7 +30959,7 @@ exports.BattlePokedex = {
       "Zygarde-Complete",
       "Zygarde-Mega"
     ],
-    "tier": "OU"
+    "tier": "UUber"
   },
   "zygarde10": {
     "num": 718,
@@ -31034,7 +31026,7 @@ exports.BattlePokedex = {
       "Zygarde-10%"
     ],
     "gen": 7,
-    "tier": "UUber"
+    "tier": "Uber"
   },
   "zygardemega": {
     "num": 718,
@@ -35063,15 +35055,16 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 223,
-      "atk": 101,
-      "def": 53,
-      "spa": 97,
-      "spd": 53,
-      "spe": 43
+      "hp": 163,
+      "atk": 117,
+      "def": 103,
+      "spa": 67,
+      "spd": 103,
+      "spe": 17
     },
     "abilities": {
-      "0": "Beast Boost"
+      "0": "Beast Boost",
+      "H": "Multiscale"
     },
     "heightm": 5.5,
     "weightkg": 888,
@@ -35082,7 +35075,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "necrozma": {
     "num": 800,
@@ -39902,7 +39895,7 @@ exports.BattlePokedex = {
       "hp": 74,
       "atk": 115,
       "def": 70,
-      "spa": 130,
+      "spa": 135,
       "spd": 80,
       "spe": 106
     },
@@ -42632,7 +42625,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "UUber"
+    "tier": "OU"
   },
   "greattusk": {
     "num": 984,
@@ -43394,7 +43387,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "AG"
   },
   "miraidon": {
     "num": 1008,

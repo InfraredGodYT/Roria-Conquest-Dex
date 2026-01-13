@@ -16,7 +16,7 @@ Dynamax is **not allowed in any format** other than Anything Goes (AG).
 
 ### Unfair Abilities Clause
 
-Moody is **banned in all formats** other than AG. Unless the format is Ubers, trapping abilities like [[Shadow Tag]] and [[Arena Trap]] are also banned.
+Moody is **banned in all formats** other than AG. Trapping abilities like [[Shadow Tag]] and [[Arena Trap]] are also banned.
 
 ### Evasion Clause
 

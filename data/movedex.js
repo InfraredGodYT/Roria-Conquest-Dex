@@ -3844,7 +3844,7 @@ exports.BattleMovedex = {
   },
   "darkvoid": {
     "num": 464,
-    "accuracy": 80,
+    "accuracy": 50,
     "basePower": 0,
     "category": "Status",
     "name": "Dark Void",
@@ -6355,14 +6355,14 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Special",
-    
     "name": "Flame Burst",
     "pp": 15,
     "priority": 0,
     "flags": {
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "pulse": 1
     },
     "secondary": null,
     "target": "normal",
@@ -9981,8 +9981,8 @@ exports.BattleMovedex = {
     "secondary": null,
     "target": "normal",
     "type": "Water",
-    "desc": "If the current weather is Sunny Day and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved for being Water type.",
-    "shortDesc": "During Sunny Day: 1.5x damage instead of half."
+    "desc": "If the current weather is Sunny Day or Desolate Land and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved or negated for being Water type.",
+    "shortDesc": "During Sunny Day/Desolate Land: 1.5x damage instead of half."
   },
   "hydrovortex": {
     "num": 642,
