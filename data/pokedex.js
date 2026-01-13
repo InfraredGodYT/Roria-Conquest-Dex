@@ -7741,7 +7741,7 @@ exports.BattlePokedex = {
       "spe": 100
     },
     "abilities": {
-      "0": "Friend Guard"
+      "0": "Marvel Scale"
     },
     "heightm": 2.2,
     "weightkg": 290,
