@@ -32224,7 +32224,8 @@ exports.BattlePokedex = {
     "color": "Brown",
     "evos": [
       "Lycanroc",
-      "Lycanroc-Midnight"
+      "Lycanroc-Midnight",
+      "Lycanroc-Dusk"
     ],
     "eggGroups": [
       "Field"
@@ -32362,9 +32363,9 @@ exports.BattlePokedex = {
     "heightm": 0.8,
     "weightkg": 25,
     "color": "Brown",
-    "prevo": "Rockruff-Dusk",
+    "prevo": "Rockruff",
     "evoLevel": 25,
-    "evoCondition": "from a special Rockruff during the evening",
+    "evoRegion": "Lost Islands",
     "eggGroups": [
       "Field"
     ],
@@ -35487,6 +35488,9 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "evos": [
+      "Melmetal"
+    ],
     "tier": "Illegal"
   },
   "melmetal": {
@@ -35516,6 +35520,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "prevo": "Meltan",
+    "evoLevel": 50,
     "canGigantamax": "G-Max Meltdown",
     "tier": "OU"
   },

@@ -141822,9 +141822,6 @@ exports.BattleLearnsets = {
         "9L1",
         "9L0"
       ],
-      "calmmind": [
-        "9L44"
-      ],
       "moonblast": [
         "9L55"
       ],
