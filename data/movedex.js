@@ -1046,7 +1046,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "hasCrashDamage": true,
     "secondary": {
@@ -1575,7 +1576,7 @@ exports.BattleMovedex = {
   },
   "blazekick": {
     "num": 299,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 85,
     "category": "Physical",
     "name": "Blaze Kick",
@@ -1585,7 +1586,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "critRatio": 2,
     "secondary": {
@@ -4407,7 +4409,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "multihit": 2,
     "secondary": null,
@@ -4895,7 +4898,7 @@ exports.BattleMovedex = {
   },
   "drillrun": {
     "num": 529,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
     "name": "Drill Run",
@@ -6120,7 +6123,7 @@ exports.BattleMovedex = {
   },
   "firefang": {
     "num": 424,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Physical",
     "name": "Fire Fang",
@@ -7215,8 +7218,8 @@ exports.BattleMovedex = {
   },
   "furyswipes": {
     "num": 154,
-    "accuracy": 80,
-    "basePower": 18,
+    "accuracy": 100,
+    "basePower": 20,
     "category": "Physical",
     "name": "Fury Swipes",
     "pp": 15,
@@ -9665,7 +9668,7 @@ exports.BattleMovedex = {
   },
   "highhorsepower": {
     "num": 667,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 95,
     "category": "Physical",
     "name": "High Horsepower",
@@ -9675,7 +9678,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": null,
     "target": "normal",
@@ -9697,7 +9701,8 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "gravity": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "hasCrashDamage": true,
     "secondary": null,
@@ -10246,7 +10251,7 @@ exports.BattleMovedex = {
   },
   "icefang": {
     "num": 423,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Physical",
     "name": "Ice Fang",
@@ -10838,7 +10843,8 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "gravity": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "hasCrashDamage": true,
     "secondary": null,
@@ -11544,7 +11550,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": null,
     "target": "normal",
@@ -12638,7 +12645,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": null,
     "target": "normal",
@@ -12739,7 +12747,7 @@ exports.BattleMovedex = {
   },
   "metalclaw": {
     "num": 232,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
     "name": "Metal Claw",
@@ -15758,7 +15766,8 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "defrost": 1,
-      "bullet": 1
+      "bullet": 1,
+      "striker": 1
     },
     "secondary": {
       "chance": 10,
@@ -16041,7 +16050,7 @@ exports.BattleMovedex = {
   },
   "razorleaf": {
     "num": 75,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 55,
     "category": "Physical",
     "name": "Razor Leaf",
@@ -16063,7 +16072,7 @@ exports.BattleMovedex = {
   },
   "razorshell": {
     "num": 534,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 75,
     "category": "Physical",
     "name": "Razor Shell",
@@ -16642,7 +16651,7 @@ exports.BattleMovedex = {
   },
   "rockthrow": {
     "num": 88,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
     "name": "Rock Throw",
@@ -16662,7 +16671,7 @@ exports.BattleMovedex = {
   },
   "rocktomb": {
     "num": 317,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
     "name": "Rock Tomb",
@@ -16748,7 +16757,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": {
       "chance": 30,
@@ -18586,7 +18596,7 @@ exports.BattleMovedex = {
   "snaptrap": {
     "num": 779,
     "accuracy": 100,
-    "basePower": 35,
+    "basePower": 75,
     "category": "Physical",
     
     "name": "Snap Trap",
@@ -18600,7 +18610,7 @@ exports.BattleMovedex = {
     "volatileStatus": "partiallytrapped",
     "secondary": null,
     "target": "normal",
-    "type": "Grass",
+    "type": "Steel",
     "desc": "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
     "shortDesc": "Traps and damages the target for 4-5 turns."
   },
@@ -19639,7 +19649,8 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "nonsky": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": {
       "chance": 30,
@@ -21300,7 +21311,8 @@ exports.BattleMovedex = {
     "flags": {
       "contact": 1,
       "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "striker": 1
     },
     "secondary": {
       "chance": 100,
@@ -21815,7 +21827,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "multihit": 3,
     "multiaccuracy": true,
@@ -21865,7 +21878,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "multihit": 3,
     "multiaccuracy": true,
@@ -21894,7 +21908,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "striker": 1
     },
     "secondary": {
       "chance": 100,
@@ -23293,7 +23308,7 @@ exports.BattleMovedex = {
     "num": -4,
     "accuracy": 100,
     "basePower": 70,
-    "category": "Special",
+    "category": "Physical",
     "name": "Tidebreaker",
     "pp": 20,
     "priority": 0,

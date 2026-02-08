@@ -139,6 +139,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		if ('slicing' in move.flags) {
 			buf += '<p class="movetag"><a href="/tags/slicing" data-target="push">&#x2713; Slicing</a> <small>(boosted by <a class="subtle" href="/abilities/sharpness" data-target="push">Sharpness</a>)</small></p>';
 		}
+		if ('striker' in move.flags) {
+			buf += '<p class="movetag"><a href="/tags/striker" data-target="push">&#x2713; Kicking</a> <small>(boosted by <a class="subtle" href="/abilities/striker" data-target="push">Striker</a>)</small></p>';
+		}
 		if ('wind' in move.flags) {
 			buf += '<p class="movetag"><a href="/tags/wind" data-target="push">&#x2713; Wind</a> <small>(interacts with <a class="subtle" href="/abilities/windpower" data-target="push">Wind Power</a> and <a class="subtle" href="/abilities/windrider" data-target="push">Wind Rider</a>)</small></p>';
 		}

@@ -308,6 +308,14 @@ exports.BattleAbilities = {
     "desc": "While this Pokemon is active, the effects of weather conditions are disabled.",
     "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled."
   },
+  "coffinseal": {
+    "flags": {},
+    "name": "Coffin Seal",
+    "rating": 4,
+    "num": 313,
+    "desc": "When this Pokemon is active, self-switching moves like U-Turn & Teleport will automatically fail.",
+    "shortDesc": "Prevents the use of self-switching moves."
+  },
   "colorchange": {
     "flags": {},
     "name": "Color Change",
@@ -439,8 +447,8 @@ exports.BattleAbilities = {
     "name": "Damp",
     "rating": 0.5,
     "num": 6,
-    "desc": "While this Pokemon is active, Explosion, Mind Blown, Misty Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect.",
-    "shortDesc": "Prevents Explosion/Mind Blown/Misty Explosion/Self-Destruct/Aftermath while active."
+    "desc": "While this Pokemon is active, Explosion, Mind Blown, Misty Explosion, Self-Destruct, and the Aftermath Ability are prevented from having an effect. The ability holder cannot be burned.",
+    "shortDesc": "Prevents Explosion/Mind Blown/Misty Explosion/Self-Destruct/Aftermath while active. Holder cannot be burned."
   },
   "dancer": {
     "flags": {},
@@ -711,6 +719,14 @@ exports.BattleAbilities = {
     "num": 49,
     "desc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned."
+  },
+  "moltenskin": {
+    "flags": {},
+    "name": "Molten Skin",
+    "rating": 2,
+    "num": 312,
+    "desc": "This Pokemon is immune to contact moves and burns the attacker if it's hit by one.",
+    "shortDesc": "Burns Pokemon that use contact moves. Contact move immunity."
   },
   "flareboost": {
     "onBasePowerPriority": 19,
@@ -2069,13 +2085,21 @@ exports.BattleAbilities = {
     "desc": "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
     "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP."
   },
+  "detonatingshell": {
+    "flags": {},
+    "name": "Detonating Shell",
+    "rating": 3.5,
+    "num": 314,
+    "desc": "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down. Clears Stealth Rock on the holder's side when switched in.",
+    "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP. Clears Stealth Rock on switch-in."
+  },
   "runaway": {
     "flags": {},
     "name": "Run Away",
-    "rating": 0,
+    "rating": 1,
     "num": 50,
-    "desc": "No competitive use.",
-    "shortDesc": "No competitive use."
+    "desc": "Holder cannot be trapped.",
+    "shortDesc": "Holder cannot be trapped."
   },
   "sandforce": {
     "onBasePowerPriority": 21,
@@ -2480,6 +2504,15 @@ exports.BattleAbilities = {
     "num": 1,
     "desc": "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",
     "shortDesc": "This Pokemon's attacks without a chance to flinch gain a 10% chance to flinch."
+  },
+  "striker": {
+    "onBasePowerPriority": 9,
+    "flags": {},
+    "name": "Striker",
+    "rating": 3,
+    "num": 311,
+    "desc": "This Pokemon's kicking moves have their power multiplied by 1.3.",
+    "shortDesc": "This Pokemon's kicking moves have their power multiplied by 1.3."
   },
   "stickyhold": {
     "flags": {

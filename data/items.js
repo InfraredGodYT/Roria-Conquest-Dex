@@ -39,6 +39,17 @@ exports.BattleItems = {
     "desc": "If held by an Absol, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Absol, this item allows it to Mega Evolve in battle."
   },
+  absolitez: {
+      name: "Absolite Z",
+      spritenum: 576,
+      megaStone: {
+          Absol: "Absol-Mega-Z"
+      },
+      itemUser: ["Absol"],
+      num: 2588,
+      gen: 9,
+      isNonstandard: "Future"
+  },
   "absorbbulb": {
     "name": "Absorb Bulb",
     "spritenum": 2,
@@ -319,6 +330,17 @@ exports.BattleItems = {
     "isNonstandard": "Future",
     "desc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle."
+  },
+  baxcalibrite: {
+    name: "Baxcalibrite",
+    spritenum: 0,
+    megaStone: {
+        Baxcalibur: "Baxcalibur-Mega"
+    },
+    itemUser: ["Baxcalibur"],
+    num: 2601,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "beastball": {
     "name": "Beast Ball",
@@ -779,6 +801,17 @@ exports.BattleItems = {
     "desc": "Holder's Techno Blast is Ice type.",
     "shortDesc": "Holder's Techno Blast is Ice type."
   },
+  chimechite: {
+    name: "Chimechite",
+    spritenum: 0,
+    megaStone: {
+        Chimecho: "Chimecho-Mega"
+    },
+    itemUser: ["Chimecho"],
+    num: 2587,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "chippedpot": {
     "name": "Chipped Pot",
     "spritenum": 720,
@@ -970,6 +1003,17 @@ exports.BattleItems = {
     "desc": "The holder is not affected by the secondary effect of another Pokemon's attack. Attacks with secondary effects that are prevented include those with a chance (even 100%) to paralyze, sleep, freeze, burn, poison, confuse, cause the holder to flinch, cause the holder's stat stages to be lowered, as well as Anchor Shot, Eerie Spell, Fling, Psychic Noise, Salt Cure, Spirit Shackle, Syrup Bomb, and Throat Chop. The effect of Sparkling Aria is prevented if the holder is the only target. Secondary effects added by King's Rock, Razor Fang, and the Poison Touch, Stench, and Toxic Chain Abilities are also prevented against the holder.",
     "shortDesc": "Holder is not affected by the secondary effect of another Pokemon's attack."
   },
+  crabominite: {
+    name: "Crabominite",
+    spritenum: 0,
+    megaStone: {
+        Crabominable: "Crabominable-Mega"
+    },
+    itemUser: ["Crabominable"],
+    num: 2595,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "crackedpot": {
     "name": "Cracked Pot",
     "spritenum": 719,
@@ -1043,6 +1087,17 @@ exports.BattleItems = {
     "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Dark type.",
     "shortDesc": "Holder's Multi-Attack is Dark type."
+  },
+  darkranite: {
+    name: "Darkranite",
+    spritenum: 0,
+    megaStone: {
+        Darkrai: "Darkrai-Mega"
+    },
+    itemUser: ["Darkrai"],
+    num: 2593,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "dawnstone": {
     "name": "Dawn Stone",
@@ -2019,6 +2074,17 @@ exports.BattleItems = {
     "desc": "If held by a Garchomp, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Garchomp, this item allows it to Mega Evolve in battle."
   },
+  garchompitez: {
+    name: "Garchompite Z",
+    spritenum: 573,
+    megaStone: {
+        Garchomp: "Garchomp-Mega-Z"
+    },
+    itemUser: ["Garchomp"],
+    num: 2590,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "gardevoirite": {
     "name": "Gardevoirite",
     "spritenum": 587,
@@ -2099,6 +2165,17 @@ exports.BattleItems = {
     "desc": "If held by a Glalie, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Glalie, this item allows it to Mega Evolve in battle."
   },
+  glimmoranite: {
+    name: "Glimmoranite",
+    spritenum: 0,
+    megaStone: {
+        Glimmora: "Glimmora-Mega"
+    },
+    itemUser: ["Glimmora"],
+    num: 2600,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "goldbottlecap": {
     "name": "Gold Bottle Cap",
     "spritenum": 697,
@@ -2109,6 +2186,28 @@ exports.BattleItems = {
     "gen": 7,
     "desc": "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",
     "shortDesc": "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31."
+  },
+  golisopite: {
+    name: "Golisopite",
+    spritenum: 0,
+    megaStone: {
+        Golisopod: "Golisopod-Mega"
+    },
+    itemUser: ["Golisopod"],
+    num: 2596,
+    gen: 9,
+    isNonstandard: "Future"
+  },
+  golurkite: {
+    name: "Golurkite",
+    spritenum: 0,
+    megaStone: {
+        Golurk: "Golurk-Mega"
+    },
+    itemUser: ["Golurk"],
+    num: 2594,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "grassgem": {
     "name": "Grass Gem",
@@ -2365,6 +2464,17 @@ exports.BattleItems = {
     "gen": 4,
     "desc": "Holder's use of Sunny Day lasts 8 turns instead of 5.",
     "shortDesc": "Holder's use of Sunny Day lasts 8 turns instead of 5."
+  },
+  heatranite: {
+    name: "Heatranite",
+    spritenum: 0,
+    megaStone: {
+        Heatran: "Heatran-Mega"
+    },
+    itemUser: ["Heatran"],
+    num: 2592,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "heavyball": {
     "name": "Heavy Ball",
@@ -2948,6 +3058,17 @@ exports.BattleItems = {
     "desc": "If held by a Lucario, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Lucario, this item allows it to Mega Evolve in battle."
   },
+  lucarionitez: {
+    name: "Lucarionite Z",
+    spritenum: 594,
+    megaStone: {
+        Lucario: "Lucario-Mega-Z"
+    },
+    itemUser: ["Lucario"],
+    num: 2591,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "luckypunch": {
     "name": "Lucky Punch",
     "spritenum": 261,
@@ -3082,6 +3203,18 @@ exports.BattleItems = {
     "isNonstandard": "Past",
     "desc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
     "shortDesc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect."
+  },
+  magearnite: {
+    name: "Magearnite",
+    spritenum: 0,
+    megaStone: {
+        Magearna: "Magearna-Mega",
+        "Magearna-Original": "Magearna-Original-Mega"
+    },
+    itemUser: ["Magearna", "Magearna-Original"],
+    num: 2597,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "magmarizer": {
     "name": "Magmarizer",
@@ -3293,6 +3426,18 @@ exports.BattleItems = {
     "gen": 3,
     "desc": "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use.",
     "shortDesc": "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use."
+  },
+  meowsticite: {
+    name: "Meowsticite",
+    spritenum: 0,
+    megaStone: {
+        Meowstic: "Meowstic-M-Mega",
+        "Meowstic-F": "Meowstic-F-Mega"
+    },
+    itemUser: ["Meowstic", "Meowstic-F"],
+    num: 2594,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "metagrossite": {
     "name": "Metagrossite",
@@ -4235,6 +4380,28 @@ exports.BattleItems = {
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
+  raichunitex: {
+    name: "Raichunite X",
+    spritenum: 0,
+    megaStone: {
+        Raichu: "Raichu-Mega-X"
+    },
+    itemUser: ["Raichu"],
+    num: 2585,
+    gen: 9,
+    isNonstandard: "Future"
+  },
+  raichunitey: {
+    name: "Raichunite Y",
+    spritenum: 0,
+    megaStone: {
+        Raichu: "Raichu-Mega-Y"
+    },
+    itemUser: ["Raichu"],
+    num: 2586,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "rarebone": {
     "name": "Rare Bone",
     "spritenum": 379,
@@ -4668,6 +4835,17 @@ exports.BattleItems = {
     "desc": "Holder's critical hit ratio is raised by 1 stage.",
     "shortDesc": "Holder's critical hit ratio is raised by 1 stage."
   },
+  scovillainite: {
+    name: "Scovillainite",
+    spritenum: 0,
+    megaStone: {
+        Scovillain: "Scovillain-Mega"
+    },
+    itemUser: ["Scovillain"],
+    num: 2599,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "scraftinite": {
     "name": "Scraftinite",
     "spritenum": 555,
@@ -5014,6 +5192,17 @@ exports.BattleItems = {
     "desc": "A special Poke Ball for the Bug-Catching Contest.",
     "shortDesc": "A special Poke Ball for the Bug-Catching Contest."
   },
+  staraptite: {
+    name: "Staraptite",
+    spritenum: 0,
+    megaStone: {
+        Staraptor: "Staraptor-Mega"
+    },
+    itemUser: ["Staraptor"],
+    num: 2589,
+    gen: 9,
+    isNonstandard: "Future"
+  },
   "starfberry": {
     "name": "Starf Berry",
     "spritenum": 472,
@@ -5266,6 +5455,19 @@ exports.BattleItems = {
     "gen": 8,
     "desc": "Evolves Applin into Flapple when used.",
     "shortDesc": "Evolves Applin into Flapple when used."
+  },
+  tatsugirinite: {
+    name: "Tatsugirinite",
+    spritenum: 0,
+    megaStone: {
+        Tatsugiri: "Tatsugiri-Curly-Mega",
+        "Tatsugiri-Droopy": "Tatsugiri-Droopy-Mega",
+        "Tatsugiri-Stretchy": "Tatsugiri-Stretchy-Mega"
+    },
+    itemUser: ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
+    num: 2601,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "terrainextender": {
     "name": "Terrain Extender",
@@ -6888,6 +7090,17 @@ exports.BattleItems = {
     "gen": 4,
     "desc": "Holder's Electric-type attacks have 1.2x power. Judgment is Electric type.",
     "shortDesc": "Holder's Electric-type attacks have 1.2x power. Judgment is Electric type."
+  },
+  zeraorite: {
+    name: "Zeraorite",
+    spritenum: 0,
+    megaStone: {
+        Zeraora: "Zeraora-Mega"
+    },
+    itemUser: ["Zeraora"],
+    num: 2598,
+    gen: 9,
+    isNonstandard: "Future"
   },
   "zoomlens": {
     "name": "Zoom Lens",

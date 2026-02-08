@@ -20,6 +20,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Poison Touch",
       "H": "Chlorophyll"
     },
     "heightm": 0.7,
@@ -55,6 +56,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Poison Touch",
       "H": "Chlorophyll"
     },
     "heightm": 1,
@@ -92,6 +94,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Poison Touch",
       "H": "Chlorophyll"
     },
     "heightm": 2,
@@ -202,6 +205,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Solar Power"
     },
     "heightm": 0.6,
@@ -236,6 +240,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Solar Power"
     },
     "heightm": 1.1,
@@ -273,6 +278,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Solar Power"
     },
     "heightm": 1.7,
@@ -387,6 +393,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Solar Power"
     },
     "heightm": 28,
@@ -419,6 +426,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Rain Dish",
       "H": "Bulletproof"
     },
     "heightm": 0.5,
@@ -453,6 +461,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Rain Dish",
       "H": "Bulletproof"
     },
     "heightm": 1,
@@ -489,6 +498,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Rain Dish",
       "H": "Bulletproof"
     },
     "heightm": 1.6,
@@ -1818,11 +1828,15 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "otherFormes": [
-      "Raichu-Alola"
+      "Raichu-Alola",
+      "Raichu-Mega-X",
+      "Raichu-Mega-Y"
     ],
     "formeOrder": [
       "Raichu",
-      "Raichu-Alola"
+      "Raichu-Alola",
+      "Raichu-Mega-X",
+      "Raichu-Mega-Y"
     ],
     "tier": "UU"
   },
@@ -7901,6 +7915,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Natural Cure",
       "H": "Triage"
     },
     "heightm": 0.9,
@@ -7935,6 +7950,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Natural Cure",
       "H": "Triage"
     },
     "heightm": 1.2,
@@ -7972,6 +7988,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Natural Cure",
       "H": "Triage"
     },
     "heightm": 1.8,
@@ -8047,6 +8064,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Hubris"
     },
     "heightm": 0.5,
@@ -8080,6 +8098,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Hubris"
     },
     "heightm": 0.9,
@@ -8116,6 +8135,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flash Fire",
       "H": "Hubris"
     },
     "heightm": 1.7,
@@ -8158,6 +8178,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Clear Body",
       "H": "Flash Fire"
     },
     "heightm": 1.6,
@@ -8191,6 +8212,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Strong Jaw",
       "H": "Sheer Force"
     },
     "heightm": 0.6,
@@ -8225,6 +8247,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Strong Jaw",
       "H": "Sheer Force"
     },
     "heightm": 1.1,
@@ -8261,6 +8284,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Strong Jaw",
       "H": "Sheer Force"
     },
     "heightm": 2.3,
@@ -11712,6 +11736,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Unburden",
       "H": "Technician"
     },
     "heightm": 0.5,
@@ -11746,6 +11771,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Unburden",
       "H": "Technician"
     },
     "heightm": 0.9,
@@ -11782,6 +11808,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Unburden",
       "H": "Technician"
     },
     "heightm": 1.7,
@@ -11856,6 +11883,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Striker",
       "H": "Speed Boost"
     },
     "heightm": 0.4,
@@ -11890,6 +11918,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Striker",
       "H": "Speed Boost"
     },
     "heightm": 0.9,
@@ -11926,6 +11955,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Striker",
       "H": "Speed Boost"
     },
     "heightm": 1.9,
@@ -11998,6 +12028,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Damp",
       "H": "Swift Swim"
     },
     "heightm": 0.4,
@@ -12033,6 +12064,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Damp",
       "H": "Swift Swim"
     },
     "heightm": 0.7,
@@ -12070,6 +12102,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Damp",
       "H": "Swift Swim"
     },
     "heightm": 1.5,
@@ -15646,6 +15679,13 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "canHatch": true,
+    "otherFormes": [
+      "Chimecho-Mega"
+    ],
+    "formeOrder": [
+      "Chimecho",
+      "Chimecho-Mega"
+    ],
     "tier": "UU"
   },
   "absol": {
@@ -15655,17 +15695,17 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 80,
+      "hp": 75,
       "atk": 115,
-      "def": 80,
-      "spa": 55,
-      "spd": 80,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
       "spe": 90
     },
     "abilities": {
-      "0": "Pressure",
+      "0": "Intimidate",
       "1": "Super Luck",
-      "H": "Intimidate"
+      "H": "Justified"
     },
     "heightm": 1.2,
     "weightkg": 47,
@@ -15674,13 +15714,15 @@ exports.BattlePokedex = {
       "Field"
     ],
     "otherFormes": [
-      "Absol-Mega"
+      "Absol-Mega",
+      "Absol-Mega-Z"
     ],
     "formeOrder": [
       "Absol",
-      "Absol-Mega"
+      "Absol-Mega",
+      "Absol-Mega-Z"
     ],
-    "tier": "Illegal"
+    "tier": "UU"
   },
   "absolmega": {
     "num": 359,
@@ -15688,14 +15730,15 @@ exports.BattlePokedex = {
     "baseSpecies": "Absol",
     "forme": "Mega",
     "types": [
-      "Dark"
+      "Dark",
+      "Fairy"
     ],
     "baseStats": {
-      "hp": 80,
+      "hp": 75,
       "atk": 150,
-      "def": 80,
-      "spa": 95,
-      "spd": 80,
+      "def": 70,
+      "spa": 115,
+      "spd": 70,
       "spe": 115
     },
     "abilities": {
@@ -16943,6 +16986,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shell Armor",
       "H": "Thick Fat"
     },
     "heightm": 0.4,
@@ -16977,6 +17021,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shell Armor",
       "H": "Thick Fat"
     },
     "heightm": 1.1,
@@ -17014,6 +17059,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shell Armor",
       "H": "Thick Fat"
     },
     "heightm": 2.2,
@@ -17047,6 +17093,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Limber",
       "H": "Tough Claws"
     },
     "heightm": 0.5,
@@ -17082,6 +17129,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Limber",
       "H": "Tough Claws"
     },
     "heightm": 0.9,
@@ -17119,6 +17167,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Limber",
       "H": "Tough Claws"
     },
     "heightm": 1.2,
@@ -17152,6 +17201,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Filter",
       "H": "Competitive"
     },
     "heightm": 0.4,
@@ -17186,6 +17236,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Filter",
       "H": "Competitive"
     },
     "heightm": 0.8,
@@ -17223,6 +17274,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Filter",
       "H": "Competitive"
     },
     "heightm": 1.7,
@@ -17311,7 +17363,7 @@ exports.BattlePokedex = {
       "def": 70,
       "spa": 50,
       "spd": 60,
-      "spe": 110
+      "spe": 100
     },
     "abilities": {
       "0": "Intimidate",
@@ -17324,6 +17376,13 @@ exports.BattlePokedex = {
     "evoLevel": 34,
     "eggGroups": [
       "Flying"
+    ],
+    "otherFormes": [
+      "Staraptor-Mega"
+    ],
+    "formeOrder": [
+      "Staraptor",
+      "Staraptor-Mega"
     ],
     "tier": "UU"
   },
@@ -18973,11 +19032,13 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "otherFormes": [
-      "Garchomp-Mega"
+      "Garchomp-Mega",
+      "Garchomp-Mega-Z"
     ],
     "formeOrder": [
       "Garchomp",
-      "Garchomp-Mega"
+      "Garchomp-Mega",
+      "Garchomp-Mega-Z"
     ],
     "tier": "OU"
   },
@@ -19116,11 +19177,13 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "otherFormes": [
-      "Lucario-Mega"
+      "Lucario-Mega",
+      "Lucario-Mega-Z"
     ],
     "formeOrder": [
       "Lucario",
-      "Lucario-Mega"
+      "Lucario-Mega",
+      "Lucario-Mega-Z"
     ],
     "tier": "UU"
   },
@@ -20057,9 +20120,9 @@ exports.BattlePokedex = {
       "hp": 70,
       "atk": 165,
       "def": 98,
-      "spa": 65,
+      "spa": 70,
       "spd": 115,
-      "spe": 115
+      "spe": 110
     },
     "abilities": {
       "0": "Inner Focus"
@@ -20655,6 +20718,13 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "otherFormes": [
+      "Heatran-Mega"
+    ],
+    "formeOrder": [
+      "Heatran",
+      "Heatran-Mega"
+    ],
     "tier": "OU"
   },
   "regigigas": {
@@ -20871,6 +20941,13 @@ exports.BattlePokedex = {
     ],
     "eggGroups": [
       "Undiscovered"
+    ],
+    "otherFormes": [
+      "Darkrai-Mega"
+    ],
+    "formeOrder": [
+      "Darkrai",
+      "Darkrai-Mega"
     ],
     "tier": "UUber"
   },
@@ -21605,6 +21682,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shed Skin",
       "H": "Contrary"
     },
     "heightm": 0.6,
@@ -21639,6 +21717,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shed Skin",
       "H": "Contrary"
     },
     "heightm": 0.8,
@@ -21675,6 +21754,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Shed Skin",
       "H": "Contrary"
     },
     "heightm": 3.3,
@@ -21708,6 +21788,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Reckless",
       "H": "Moxie"
     },
     "heightm": 0.5,
@@ -21742,6 +21823,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Reckless",
       "H": "Moxie"
     },
     "heightm": 1,
@@ -21778,6 +21860,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Reckless",
       "H": "Moxie"
     },
     "heightm": 1.6,
@@ -21851,6 +21934,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Shell Armor",
       "H": "Mold Breaker"
     },
     "heightm": 0.5,
@@ -21884,6 +21968,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Shell Armor",
       "H": "Mold Breaker"
     },
     "heightm": 0.8,
@@ -21921,6 +22006,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Shell Armor",
       "H": "Mold Breaker"
     },
     "heightm": 1.5,
@@ -21963,6 +22049,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Shell Armor",
       "H": "Sharpness"
     },
     "heightm": 1.5,
@@ -24180,7 +24267,8 @@ exports.BattlePokedex = {
       "spe": 30
     },
     "abilities": {
-      "0": "Mummy"
+      "0": "Mummy",
+      "H": "Coffin Seal"
     },
     "heightm": 0.5,
     "weightkg": 1.5,
@@ -24240,15 +24328,16 @@ exports.BattlePokedex = {
       "Ghost"
     ],
     "baseStats": {
-      "hp": 60,
+      "hp": 70,
       "atk": 50,
       "def": 145,
-      "spa": 100,
+      "spa": 105,
       "spd": 105,
       "spe": 30
     },
     "abilities": {
-      "0": "Mummy"
+      "0": "Mummy",
+      "H": "Coffin Seal"
     },
     "heightm": 1.7,
     "weightkg": 76.5,
@@ -24259,7 +24348,7 @@ exports.BattlePokedex = {
       "Mineral",
       "Amorphous"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "tirtouga": {
     "num": 564,
@@ -26210,17 +26299,17 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 109,
-      "atk": 81,
-      "def": 99,
-      "spa": 66,
-      "spd": 84,
+      "hp": 117,
+      "atk": 94,
+      "def": 109,
+      "spa": 76,
+      "spd": 94,
       "spe": 32
     },
     "abilities": {
-      "0": "Sand Veil",
+      "0": "Mimicry",
       "1": "Limber",
-      "H": "Mimicry"
+      "H": "Earth Eater"
     },
     "heightm": 0.7,
     "weightkg": 20.5,
@@ -26229,7 +26318,7 @@ exports.BattlePokedex = {
       "Water 1",
       "Amorphous"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "mienfoo": {
     "num": 619,
@@ -26842,7 +26931,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Uber"
+    "tier": "OU"
   },
   "cobalion": {
     "num": 638,
@@ -27622,6 +27711,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Bulletproof",
       "H": "Regenerator"
     },
     "heightm": 0.4,
@@ -27655,6 +27745,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Bulletproof",
       "H": "Regenerator"
     },
     "heightm": 0.7,
@@ -27691,6 +27782,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Bulletproof",
       "H": "Regenerator"
     },
     "heightm": 1.6,
@@ -27764,6 +27856,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Frisk",
       "H": "Magician"
     },
     "heightm": 0.4,
@@ -27797,6 +27890,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Frisk",
       "H": "Magician"
     },
     "heightm": 1,
@@ -27833,6 +27927,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Frisk",
       "H": "Magician"
     },
     "heightm": 1.5,
@@ -29089,12 +29184,12 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 89,
+      "hp": 74,
       "atk": 48,
-      "def": 83,
+      "def": 76,
       "spa": 83,
-      "spd": 95,
-      "spe": 114
+      "spd": 81,
+      "spe": 104
     },
     "abilities": {
       "0": "Prankster",
@@ -29110,7 +29205,8 @@ exports.BattlePokedex = {
       "Field"
     ],
     "otherFormes": [
-      "Meowstic-F"
+      "Meowstic-F",
+      "Meowstic-M-Mega"
     ],
     "formeOrder": [
       "Meowstic",
@@ -29128,11 +29224,11 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 84,
+      "hp": 74,
       "atk": 48,
-      "def": 83,
-      "spa": 107,
-      "spd": 86,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
       "spe": 104
     },
     "abilities": {
@@ -31187,7 +31283,7 @@ exports.BattlePokedex = {
       "spe": 80
     },
     "abilities": {
-      "0": "Magician"
+      "0": "Frisk"
     },
     "heightm": 6.5,
     "weightkg": 490,
@@ -31250,6 +31346,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Tinted Lens",
       "H": "Long Reach"
     },
     "heightm": 0.3,
@@ -31284,6 +31381,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Tinted Lens",
       "H": "Long Reach"
     },
     "heightm": 0.7,
@@ -31321,6 +31419,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Tinted Lens",
       "H": "Long Reach"
     },
     "heightm": 1.6,
@@ -31363,6 +31462,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Tinted Lens",
       "H": "Scrappy"
     },
     "heightm": 1.6,
@@ -31396,6 +31496,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Guts",
       "H": "Intimidate"
     },
     "heightm": 0.4,
@@ -31429,6 +31530,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Guts",
       "H": "Intimidate"
     },
     "heightm": 0.7,
@@ -31465,6 +31567,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Guts",
       "H": "Intimidate"
     },
     "heightm": 1.8,
@@ -31497,6 +31600,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Water Absorb",
       "H": "Liquid Voice"
     },
     "heightm": 0.4,
@@ -31531,6 +31635,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Water Absorb",
       "H": "Liquid Voice"
     },
     "heightm": 0.6,
@@ -31568,6 +31673,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Water Absorb",
       "H": "Liquid Voice"
     },
     "heightm": 1.8,
@@ -33331,12 +33437,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33403,12 +33509,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33433,12 +33539,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33463,12 +33569,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33493,12 +33599,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33523,12 +33629,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33553,12 +33659,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33583,12 +33689,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33613,12 +33719,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33643,12 +33749,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33673,12 +33779,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33703,12 +33809,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33733,12 +33839,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33763,12 +33869,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33793,12 +33899,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33823,12 +33929,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33853,12 +33959,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -33883,12 +33989,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 95,
-      "atk": 95,
-      "def": 95,
-      "spa": 95,
-      "spd": 95,
-      "spe": 95
+      "hp": 100,
+      "atk": 100,
+      "def": 100,
+      "spa": 100,
+      "spd": 100,
+      "spe": 100
     },
     "abilities": {
       "0": "RKS System"
@@ -34153,15 +34259,17 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 78,
+      "hp": 90,
+      "atk": 48,
       "def": 135,
       "spa": 91,
-      "spd": 85,
+      "spd": 105,
       "spe": 36
     },
     "abilities": {
-      "0": "Shell Armor"
+      "0": "Shell Armor",
+      "1": "Flame Body",
+      "H": "Detonating Shell"
     },
     "heightm": 2,
     "weightkg": 212,
@@ -34170,7 +34278,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal"
+    "tier": "OU"
   },
   "togedemaru": {
     "num": 777,
@@ -35241,11 +35349,13 @@ exports.BattlePokedex = {
       "Mythical"
     ],
     "otherFormes": [
-      "Magearna-Original"
+      "Magearna-Original",
+      "Magearna-Mega"
     ],
     "formeOrder": [
       "Magearna",
-      "Magearna-Original"
+      "Magearna-Original",
+      "Magearna-Mega"
     ],
     "tier": "UUber"
   },
@@ -35574,6 +35684,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Defiant",
       "H": "Grassy Surge"
     },
     "heightm": 0.3,
@@ -35608,6 +35719,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Defiant",
       "H": "Grassy Surge"
     },
     "heightm": 0.7,
@@ -35644,6 +35756,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Defiant",
       "H": "Grassy Surge"
     },
     "heightm": 2.1,
@@ -35712,6 +35825,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Run Away",
       "H": "Libero"
     },
     "heightm": 0.3,
@@ -35746,6 +35860,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Run Away",
       "H": "Libero"
     },
     "heightm": 0.6,
@@ -35782,6 +35897,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Run Away",
       "H": "Libero"
     },
     "heightm": 1.4,
@@ -35850,6 +35966,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Keen Eye",
       "H": "Competitive"
     },
     "heightm": 0.3,
@@ -35884,6 +36001,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Keen Eye",
       "H": "Competitive"
     },
     "heightm": 0.7,
@@ -35920,6 +36038,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Keen Eye",
       "H": "Competitive"
     },
     "heightm": 1.9,
@@ -37899,11 +38018,11 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 70,
+      "hp": 90,
       "atk": 110,
       "def": 100,
       "spa": 50,
-      "spd": 60,
+      "spd": 90,
       "spe": 50
     },
     "abilities": {
@@ -39977,6 +40096,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Magician",
       "H": "Protean"
     },
     "heightm": 0.4,
@@ -40011,6 +40131,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Magician",
       "H": "Protean"
     },
     "heightm": 0.9,
@@ -40048,6 +40169,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Magician",
       "H": "Protean"
     },
     "heightm": 1.5,
@@ -40081,6 +40203,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flame Body",
       "H": "Unaware"
     },
     "heightm": 0.4,
@@ -40114,6 +40237,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flame Body",
       "H": "Unaware"
     },
     "heightm": 1,
@@ -40150,6 +40274,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Flame Body",
       "H": "Unaware"
     },
     "heightm": 1.6,
@@ -40182,6 +40307,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Dancer",
       "H": "Moxie"
     },
     "heightm": 0.5,
@@ -40216,6 +40342,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Dancer",
       "H": "Moxie"
     },
     "heightm": 1.2,
@@ -40253,6 +40380,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Dancer",
       "H": "Moxie"
     },
     "heightm": 1.8,
@@ -42378,14 +42506,16 @@ exports.BattlePokedex = {
     "heightm": 0.3,
     "weightkg": 8,
     "color": "Red",
-    "cosmeticFormes": [
+    "otherFormes": [
       "Tatsugiri-Droopy",
-      "Tatsugiri-Stretchy"
+      "Tatsugiri-Stretchy",
+      "Tatsugiri-Mega",
     ],
     "formeOrder": [
       "Tatsugiri",
       "Tatsugiri-Droopy",
-      "Tatsugiri-Stretchy"
+      "Tatsugiri-Stretchy",
+      "Tatsugiri-Mega",
     ],
     "eggGroups": [
       "Water 2"
@@ -44324,6 +44454,591 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "tier": "OU"
+  },
+  "raichumegax": {
+    "num": 26,
+    "name": "Raichu-Mega-X",
+    "baseSpecies": "Raichu",
+    "forme": "Mega-X",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 135,
+      "def": 95,
+      "spa": 90,
+      "spd": 95,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 1.2,
+    "weightkg": 38,
+    "color": "Yellow",
+    "eggGroups": [
+      "Field",
+      "Fairy"
+    ],
+    "requiredItem": "Raichunite X",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "raichumegay": {
+    "num": 26,
+    "name": "Raichu-Mega-Y",
+    "baseSpecies": "Raichu",
+    "forme": "Mega-Y",
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 55,
+      "spa": 160,
+      "spd": 80,
+      "spe": 130
+    },
+    "abilities": {
+      "0": "Lightning Rod"
+    },
+    "heightm": 1,
+    "weightkg": 26,
+    "color": "Yellow",
+    "eggGroups": [
+      "Field",
+      "Fairy"
+    ],
+    "requiredItem": "Raichunite Y",
+    "gen": 9,
+    "tier": "UUber"
+  },
+  "chimechomega": {
+    "num": 358,
+    "name": "Chimecho-Mega",
+    "baseSpecies": "Chimecho",
+    "forme": "Mega",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 50,
+      "def": 110,
+      "spa": 135,
+      "spd": 120,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "Levitate"
+    },
+    "heightm": 1.2,
+    "weightkg": 8,
+    "color": "Blue",
+    "eggGroups": [
+      "Amorphous"
+    ],
+    "requiredItem": "Chimechite",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "absolmegaz": {
+    "num": 359,
+    "name": "Absol-Mega-Z",
+    "baseSpecies": "Absol",
+    "forme": "Mega-Z",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 154,
+      "def": 60,
+      "spa": 75,
+      "spd": 60,
+      "spe": 151
+    },
+    "abilities": {
+      "0": "Tough Claws"
+    },
+    "heightm": 1.2,
+    "weightkg": 49,
+    "color": "Black",
+    "eggGroups": [
+      "Field"
+    ],
+    "requiredItem": "Absolite Z",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "staraptormega": {
+    "num": 398,
+    "name": "Staraptor-Mega",
+    "baseSpecies": "Staraptor",
+    "forme": "Mega",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 140,
+      "def": 100,
+      "spa": 60,
+      "spd": 90,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Reckless"
+    },
+    "heightm": 1.9,
+    "weightkg": 50,
+    "color": "Gray",
+    "eggGroups": [
+      "Flying"
+    ],
+    "requiredItem": "Staraptite",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "garchompmegaz": {
+    "num": 445,
+    "name": "Garchomp-Mega-Z",
+    "baseSpecies": "Garchomp",
+    "forme": "Mega-Z",
+    "types": [
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 108,
+      "atk": 130,
+      "def": 85,
+      "spa": 141,
+      "spd": 85,
+      "spe": 151
+    },
+    "abilities": {
+      "0": "Wind Rider"
+    },
+    "heightm": 1.9,
+    "weightkg": 99,
+    "color": "Blue",
+    "eggGroups": [
+      "Monster",
+      "Dragon"
+    ],
+    "requiredItem": "Garchompite Z",
+    "gen": 9,
+    "tier": "UUber"
+  },
+  "lucariomegaz": {
+    "num": 448,
+    "name": "Lucario-Mega-Z",
+    "baseSpecies": "Lucario",
+    "forme": "Mega-Z",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 70,
+      "spa": 164,
+      "spd": 70,
+      "spe": 151
+    },
+    "abilities": {
+      "0": "Mega Launcher"
+    },
+    "heightm": 1.3,
+    "weightkg": 49.4,
+    "color": "Gray",
+    "eggGroups": [
+      "Field",
+      "Human-Like"
+    ],
+    "requiredItem": "Lucarionite Z",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "heatranmega": {
+    "num": 485,
+    "name": "Heatran-Mega",
+    "baseSpecies": "Heatran",
+    "forme": "Mega",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "atk": 120,
+      "def": 106,
+      "spa": 175,
+      "spd": 141,
+      "spe": 67
+    },
+    "abilities": {
+      "0": "Filter"
+    },
+    "heightm": 2.8,
+    "weightkg": 570,
+    "color": "Brown",
+    "tags": [
+      "Sub-Legendary"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Heatranite",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "darkraimega": {
+    "num": 491,
+    "name": "Darkrai-Mega",
+    "baseSpecies": "Darkrai",
+    "forme": "Mega",
+    "types": [
+      "Dark"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 70,
+      "atk": 100,
+      "def": 130,
+      "spa": 165,
+      "spd": 130,
+      "spe": 105
+    },
+    "abilities": {
+      "0": "Bad Dreams"
+    },
+    "heightm": 3,
+    "weightkg": 240,
+    "color": "Black",
+    "tags": [
+      "Mythical"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Darkranite",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "golurkmega": {
+    "num": 623,
+    "name": "Golurk-Mega",
+    "baseSpecies": "Golurk",
+    "forme": "Mega",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 89,
+      "atk": 159,
+      "def": 105,
+      "spa": 70,
+      "spd": 105,
+      "spe": 55
+    },
+    "abilities": {
+      "0": "No Guard"
+    },
+    "heightm": 4,
+    "weightkg": 330,
+    "color": "Green",
+    "eggGroups": [
+      "Mineral"
+    ],
+    "requiredItem": "Golurkite",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "meowsticmmega": {
+    "num": 678,
+    "name": "Meowstic-M-Mega",
+    "baseSpecies": "Meowstic",
+    "forme": "M-Mega",
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 143,
+      "spd": 101,
+      "spe": 124
+    },
+    "abilities": {
+      "0": "Psychic Surge"
+    },
+    "heightm": 0.8,
+    "weightkg": 10.1,
+    "color": "Blue",
+    "eggGroups": [
+      "Field"
+    ],
+    "requiredItem": "Meowsticite",
+    "battleOnly": "Meowstic",
+    "gen": 9,
+    "tier": "UUber"
+  },
+  "crabominablemega": {
+    "num": 740,
+    "name": "Crabominable-Mega",
+    "baseSpecies": "Crabominable",
+    "forme": "Mega",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 97,
+      "atk": 157,
+      "def": 122,
+      "spa": 62,
+      "spd": 107,
+      "spe": 33
+    },
+    "abilities": {
+      "0": "Iron Fist"
+    },
+    "heightm": 2.6,
+    "weightkg": 252.8,
+    "color": "White",
+    "eggGroups": [
+      "Water 3"
+    ],
+    "requiredItem": "Crabominite",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "golisopodmega": {
+    "num": 768,
+    "name": "Golisopod-Mega",
+    "baseSpecies": "Golisopod",
+    "forme": "Mega",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 150,
+      "def": 175,
+      "spa": 70,
+      "spd": 120,
+      "spe": 40
+    },
+    "abilities": {
+      "0": "Battle Armor"
+    },
+    "heightm": 2.3,
+    "weightkg": 148,
+    "color": "Gray",
+    "eggGroups": [
+      "Bug",
+      "Water 3"
+    ],
+    "requiredItem": "Golisopite",
+    "gen": 9,
+    "tier": "OU"
+  },
+  "magearnamega": {
+    "num": 801,
+    "name": "Magearna-Mega",
+    "baseSpecies": "Magearna",
+    "forme": "Mega",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 80,
+      "atk": 125,
+      "def": 115,
+      "spa": 170,
+      "spd": 115,
+      "spe": 95
+    },
+    "abilities": {
+      "0": "Soul-Heart"
+    },
+    "heightm": 1.3,
+    "weightkg": 248.1,
+    "color": "Gray",
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Magearnite",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "zeraoramega": {
+    "num": 807,
+    "name": "Zeraora-Mega",
+    "baseSpecies": "Zeraora",
+    "forme": "Mega",
+    "types": [
+      "Electric"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 88,
+      "atk": 157,
+      "def": 75,
+      "spa": 147,
+      "spd": 80,
+      "spe": 153
+    },
+    "abilities": {
+      "0": "Iron Fist"
+    },
+    "heightm": 1.5,
+    "weightkg": 44.5,
+    "color": "Yellow",
+    "tags": [
+      "Mythical"
+    ],
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "requiredItem": "Zeraorite",
+    "gen": 9,
+    "tier": "Uber"
+  },
+  "scovillainmega": {
+    "num": 952,
+    "name": "Scovillain-Mega",
+    "baseSpecies": "Scovillain",
+    "forme": "Mega",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 138,
+      "def": 85,
+      "spa": 138,
+      "spd": 85,
+      "spe": 75
+    },
+    "abilities": {
+      "0": "Chlorophyll"
+    },
+    "heightm": 1.2,
+    "weightkg": 22,
+    "color": "Green",
+    "eggGroups": [
+      "Grass"
+    ],
+    "requiredItem": "Scovillainite",
+    "tier": "OU"
+  },
+  "glimmoramega": {
+    "num": 970,
+    "name": "Glimmora-Mega",
+    "baseSpecies": "Glimmora",
+    "forme": "Mega",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "atk": 90,
+      "def": 105,
+      "spa": 150,
+      "spd": 96,
+      "spe": 101
+    },
+    "abilities": {
+      "0": "Merciless"
+    },
+    "heightm": 2.8,
+    "weightkg": 77,
+    "color": "Blue",
+    "eggGroups": [
+      "Mineral"
+    ],
+    "requiredItem": "Glimmoranite",
+    "tier": "OU"
+  },
+  "tatsugiricurlymega": {
+    "num": 978,
+    "name": "Tatsugiri-Curly-Mega",
+    "baseSpecies": "Tatsugiri",
+    "forme": "Curly-Mega",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "atk": 55,
+      "def": 90,
+      "spa": 135,
+      "spd": 125,
+      "spe": 102
+    },
+    "abilities": {
+      "0": "Mega Launcher"
+    },
+    "heightm": 0.3,
+    "weightkg": 8,
+    "color": "Red",
+    "eggGroups": [
+      "Water 2"
+    ],
+    "requiredItem": "Tatsugirinite",
+    "battleOnly": "Tatsugiri",
+    "tier": "OU"
+  },
+  "baxcaliburmega": {
+    "num": 998,
+    "name": "Baxcalibur-Mega",
+    "baseSpecies": "Baxcalibur",
+    "forme": "Mega",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "atk": 175,
+      "def": 117,
+      "spa": 105,
+      "spd": 101,
+      "spe": 87
+    },
+    "abilities": {
+      "0": "Thermal Exchange"
+    },
+    "heightm": 2.1,
+    "weightkg": 315,
+    "color": "Blue",
+    "eggGroups": [
+      "Dragon",
+      "Mineral"
+    ],
+    "requiredItem": "Baxcalibrite",
+    "tier": "Uber"
   },
   "missingno": {
     "num": 0,
