@@ -26,7 +26,11 @@ console.log("Building `play.pokemonshowdown.com/data/search-index.js`...");
 
 let index = [];
 
-index = index.concat(Object.keys(BattlePokedex).map(x => x + ' pokemon'));
+index = index.concat(
+  Object.keys(BattlePokedex)
+    .filter(id => !BattlePokedex[id]?.isCosmeticForme)
+    .map(id => id + ' pokemon')
+);
 index = index.concat(Object.keys(BattleMovedex).map(x => x + ' move'));
 index = index.concat(Object.keys(BattleItems).map(x => x + ' item'));
 index = index.concat(Object.keys(BattleAbilities).map(x => x + ' ability'));
@@ -87,7 +91,7 @@ function generateAlias(id, name, type) {
 // ✅ Pokémon aliases
 for (const id in BattlePokedex) {
 	const mon = BattlePokedex[id];
-	if (mon.isCosmeticForme) continue;
+	if (mon.isCosmeticForme) { console.log(id); continue; }
 	generateAlias(id, mon.name, 'pokemon');
 }
 

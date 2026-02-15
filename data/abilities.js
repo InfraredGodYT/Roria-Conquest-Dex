@@ -3158,8 +3158,8 @@ exports.BattleAbilities = {
     "name": "Hubris",
     "rating": 3.5,
     "num": -5,
-    "desc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints.",
-    "shortDesc": "This Pokemon's Special Attack is raised by 1 stage when another Pokemon faints."
+    "desc": "This Pokemon's Special Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+    "shortDesc": "This Pokemon's SpA is raised by 1 stage if it attacks and KOes another Pokemon."
   },
   "inflate": {
     "onModifyDefPriority": 6,

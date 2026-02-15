@@ -7561,7 +7561,7 @@ exports.BattleMovedex = {
   "glaciate": {
     "num": 549,
     "accuracy": 95,
-    "basePower": 65,
+    "basePower": 100,
     "category": "Special",
     "name": "Glaciate",
     "pp": 10,
@@ -7572,16 +7572,14 @@ exports.BattleMovedex = {
       "metronome": 1
     },
     "secondary": {
-      "chance": 100,
-      "boosts": {
-        "spe": -1
-      }
+      "chance": 50,
+      "status": "frz"
     },
     "target": "allAdjacentFoes",
     "type": "Ice",
     "contestType": "Beautiful",
-    "desc": "Has a 100% chance to lower the target's Speed by 1 stage.",
-    "shortDesc": "100% chance to lower the foe(s) Speed by 1."
+    "desc": "Has a 50% chance to freeze the opponent.",
+    "shortDesc": "50% chance to freeze the opponent."
   },
   "glaiverush": {
     "num": 862,
@@ -23214,19 +23212,11 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1
     },
-    "secondary": {
-      "chance": 100,
-      "self": {
-        "boosts": {
-          "evasion": 1
-        }
-      }
-    },
     "target": "normal",
     "type": "Electric",
     "contestType": "Cool",
-    "desc": "Has a 100% chance to raise the user's evasion by 1 stage.",
-    "shortDesc": "Goes first. Raises user's evasion by 1."
+    "desc": "Usually goes first.",
+    "shortDesc": "Goes first. +2 Priority"
   },
   "paleowave": {
     "num": -1,
