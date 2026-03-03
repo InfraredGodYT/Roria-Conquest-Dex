@@ -625,7 +625,7 @@ exports.BattleMovedex = {
   },
   "aquatail": {
     "num": 401,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
     "name": "Aqua Tail",
@@ -1091,8 +1091,8 @@ exports.BattleMovedex = {
   },
   "baddybad": {
     "num": 737,
-    "accuracy": 95,
-    "basePower": 80,
+    "accuracy": 100,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Baddy Bad",
@@ -1992,7 +1992,7 @@ exports.BattleMovedex = {
   "bouncybubble": {
     "num": 733,
     "accuracy": 100,
-    "basePower": 60,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Bouncy Bubble",
@@ -2442,7 +2442,7 @@ exports.BattleMovedex = {
   "buzzybuzz": {
     "num": 734,
     "accuracy": 100,
-    "basePower": 60,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Buzzy Buzz",
@@ -7072,8 +7072,8 @@ exports.BattleMovedex = {
   },
   "freezyfrost": {
     "num": 739,
-    "accuracy": 90,
-    "basePower": 100,
+    "accuracy": 100,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Freezy Frost",
@@ -7637,8 +7637,8 @@ exports.BattleMovedex = {
   },
   "glitzyglow": {
     "num": 736,
-    "accuracy": 95,
-    "basePower": 80,
+    "accuracy": 100,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Glitzy Glow",
@@ -10721,7 +10721,7 @@ exports.BattleMovedex = {
   },
   "irontail": {
     "num": 231,
-    "accuracy": 75,
+    "accuracy": 90,
     "basePower": 100,
     "category": "Physical",
     "name": "Iron Tail",
@@ -10829,7 +10829,7 @@ exports.BattleMovedex = {
   },
   "jumpkick": {
     "num": 26,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
     
@@ -17102,8 +17102,8 @@ exports.BattleMovedex = {
   },
   "sappyseed": {
     "num": 738,
-    "accuracy": 90,
-    "basePower": 100,
+    "accuracy": 100,
+    "basePower": 90,
     "category": "Physical",
     "isNonstandard": "LGPE",
     "name": "Sappy Seed",
@@ -18052,7 +18052,7 @@ exports.BattleMovedex = {
   "sizzlyslide": {
     "num": 735,
     "accuracy": 100,
-    "basePower": 60,
+    "basePower": 90,
     "category": "Physical",
     "isNonstandard": "LGPE",
     "name": "Sizzly Slide",
@@ -18948,12 +18948,12 @@ exports.BattleMovedex = {
   },
   "sparklyswirl": {
     "num": 740,
-    "accuracy": 85,
-    "basePower": 120,
+    "accuracy": 100,
+    "basePower": 90,
     "category": "Special",
     "isNonstandard": "LGPE",
     "name": "Sparkly Swirl",
-    "pp": 5,
+    "pp": 15,
     "priority": 0,
     "flags": {
       "protect": 1,
@@ -21269,7 +21269,7 @@ exports.BattleMovedex = {
   },
   "thunderfang": {
     "num": 422,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Physical",
     "name": "Thunder Fang",

@@ -309,7 +309,9 @@ exports.BattleAbilities = {
     "shortDesc": "While this Pokemon is active, the effects of weather conditions are disabled."
   },
   "coffinseal": {
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Coffin Seal",
     "rating": 4,
     "num": 313,
@@ -721,7 +723,9 @@ exports.BattleAbilities = {
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned."
   },
   "moltenskin": {
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Molten Skin",
     "rating": 2,
     "num": 312,
@@ -2086,7 +2090,9 @@ exports.BattleAbilities = {
     "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP."
   },
   "detonatingshell": {
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Detonating Shell",
     "rating": 3.5,
     "num": 314,
@@ -2507,7 +2513,9 @@ exports.BattleAbilities = {
   },
   "striker": {
     "onBasePowerPriority": 9,
-    "flags": {},
+    "flags": {
+      "roria": 1
+    },
     "name": "Striker",
     "rating": 3,
     "num": 311,

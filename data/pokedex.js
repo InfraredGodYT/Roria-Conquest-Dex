@@ -5761,7 +5761,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Tyrogue",
     "evoType": "useItem",
-    "evoItem": "Dawm Stone",
+    "evoItem": "Dawn Stone",
     "eggGroups": [
       "Human-Like"
     ],
@@ -40000,8 +40000,8 @@ exports.BattlePokedex = {
     "weightkg": 60.5,
     "color": "Black",
     "prevo": "Qwilfish-Hisui",
-    "evoType": "other",
-    "evoCondition": "Use Strong style Barb Barrage 20 times",
+    "evoType": "levelMove",
+    "evoMove": "Barb Barrage",
     "eggGroups": [
       "Water 2"
     ],
@@ -41563,8 +41563,7 @@ exports.BattlePokedex = {
     "weightkg": 6,
     "color": "Brown",
     "prevo": "Bramblin",
-    "evoType": "other",
-    "evoCondition": "Walk 1000 steps in Let's Go",
+    "evoLevel": 25,
     "eggGroups": [
       "Grass"
     ],
