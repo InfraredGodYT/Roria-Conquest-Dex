@@ -11914,7 +11914,7 @@ exports.BattleMovedex = {
     "num": 443,
     "accuracy": true,
     "basePower": 90,
-    "category": "Physical",
+    "category": "Special",
     
     "name": "Magnet Bomb",
     "pp": 15,
