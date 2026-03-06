@@ -65,7 +65,7 @@ Becomes the move [[Moonblast]].
 All moves with priority greater than 0 fail unless they target an ally.
 
 **Damage Bonus:**
-Psychic-type attacks receive a 1.3× power increase.
+None.
 
 **Camouflage:**
 Transforms the user into a Psychic-type.
