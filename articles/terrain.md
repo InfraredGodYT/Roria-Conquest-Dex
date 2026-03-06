@@ -48,7 +48,7 @@ Becomes the move [[Energy Ball]].
 Pokémon cannot be inflicted with a non-volatile status condition or confusion. The power of Dragon-type moves is halved.
 
 **Damage Bonus:**
-Fairy-type attacks receive a 1.3× power increase.
+None.
 
 **Camouflage:**
 Transforms the user into a Fairy-type.
@@ -65,7 +65,7 @@ Becomes the move [[Moonblast]].
 All moves with priority greater than 0 fail unless they target an ally.
 
 **Damage Bonus:**
-None.
+Psychic-type attacks receive a 1.3× power increase.
 
 **Camouflage:**
 Transforms the user into a Psychic-type.
