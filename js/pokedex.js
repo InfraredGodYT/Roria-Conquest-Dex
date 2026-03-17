@@ -976,7 +976,8 @@ const ArticleGroups = {
 	"Rewards & Progression": [
 		"bonuses",
 		"dexrewards",
-		"qol"
+		"qol",
+		"pokerus"
 	],
 	"Gimmicks & Special Moves": [
 		"zmoves",

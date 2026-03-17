@@ -17,6 +17,7 @@ These article details all of the Quality of Life (QOL) changes added to Roria Co
   <li>Eggs are sent to the PC if your party is full</li>
   <li>Item limit increased to 999</li>
   <li>2nd floor of Pokémon Center contains the Move Reminder, Stone Shop, Move Tutor, &amp; Hyper Trainer</li>
+  <li>Pokerus upgraded</li>
 </ul>
 
 ### Shop Changes
