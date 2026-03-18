@@ -425,7 +425,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				buf += rcChanges;
 
 				if (newMovesText) {
-					if (rcChanges) buf += '<br />';
+					if (rcChanges)buf += '<br />';
 					buf += '<u><b style="font-size:110%">New Moves</b></u><br />';
 					buf += newMovesText;
 				}
