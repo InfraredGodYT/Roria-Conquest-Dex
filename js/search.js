@@ -395,6 +395,7 @@
 		var gen = this.engine ? this.engine.dex.gen : 9;
 
 		// type
+		pokemon = Dex.species.get(id)
 		buf += '<span class="col typecol">';
 		var types = pokemon.types;
 		if (!types) console.log(pokemon);

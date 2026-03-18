@@ -977,6 +977,7 @@ const ArticleGroups = {
 		"bonuses",
 		"dexrewards",
 		"qol",
+		"rcchanges",
 		"pokerus"
 	],
 	"Gimmicks & Special Moves": [
@@ -1035,4 +1036,75 @@ var PokedexArticlesPanel = Panels.Panel.extend({
 	}
 });
 
+var PokedexRCChangesPanel = Panels.Panel.extend({
+	initialize: function () {
+		let buf = '<div class="pfx-body dexentry">';
+		buf += '<a href="/" class="pfx-backbutton"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<h1>RC Change Index</h1>';
+		buf += `<div class="rc-nav">`;
+		buf += `<b>Pokémon:</b> `;
+		for (let gen in RCChangeIndex.pokemon) {
+			buf += `<a class="button" href="#pokemon-gen${gen}">Gen ${gen}</a> `;
+		}
+		buf += `<br />`;
 
+		buf += `<b>Other:</b> `;
+		buf += `<a class="button" href="#moves">Moves</a> `;
+		buf += `<a class="button" href="#abilities">Abilities</a> `;
+		buf += `<a class="button" href="#items">Items</a>`;
+		buf += `</div>`;
+
+		function renderSection(title, data, renderFn) {
+			let sectionId = title.toLowerCase();
+			let first = true;
+
+			for (let gen in data) {
+				if (title === 'Pokemon') {
+					buf += `<h3 id="${sectionId}-gen${gen}">Pokémon - Gen ${gen}</h3>`;
+				} else {
+					buf += `<h3 ${first ? `id="${sectionId}"` : ''}>${title}</h3>`;
+				}
+
+				first = false;
+
+				buf += '<ul class="utilichart nokbd">';
+
+				for (let id of data[gen]) {
+					buf += renderFn(id);
+				}
+
+				buf += '</ul>';
+			}
+		}
+
+		renderSection('Pokemon', RCChangeIndex.pokemon, id => {
+			return BattleSearch.renderPokemonRow(BattlePokedex[id]);
+		});
+
+		renderSection('Moves', RCChangeIndex.moves, id => {
+			return BattleSearch.renderMoveRow(BattleMovedex[id]);
+		});
+
+		renderSection('Abilities', RCChangeIndex.abilities, id => {
+			return BattleSearch.renderAbilityRow(BattleAbilities[id]);
+		});
+
+		renderSection('Items', RCChangeIndex.items, id => {
+			return BattleSearch.renderItemRow(BattleItems[id]);
+		});
+
+		buf += '</div>';
+		this.html(buf);
+		this.$el.on('click', 'a[href^="#"]', function (e) {
+			e.preventDefault();
+
+			let targetId = this.getAttribute('href').slice(1);
+			let target = document.getElementById(targetId);
+			if (!target) return;
+
+			// Scroll inside the panel
+			let panel = document.querySelector('.pfx-panel');
+			panel.scrollTop = target.offsetTop - 20;
+		});
+	}
+});

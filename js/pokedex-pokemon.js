@@ -284,26 +284,28 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		if (pastGenChanges) buf += '</dl>';
 
 		var rcChanges = '';
+		let abilityChanges = '';
+		let statChanges = '';
 		if (vanillaMon) {
 			// Type changes
 			var vTypes = vanillaMon.types.join('/');
 			var rcTypes = pokemon.types.join('/');
 			if (vTypes !== rcTypes) {
-				rcChanges += 'Type: ' + vTypes + ' <i class="fa fa-long-arrow-right"></i> ' + rcTypes + '<br />';
+				abilityChanges += 'Type: ' + vTypes + ' <i class="fa fa-long-arrow-right"></i> ' + rcTypes + '<br />';
 			}
 
 			// Ability changes
 			var vAbility = vanillaMon.abilities['0'];
 			var rcAbility = pokemon.abilities['0'];
 			if (vAbility !== rcAbility) {
-				rcChanges += 'Ability 1: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+				abilityChanges += 'Ability 1: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
 			}
 
 			if (pokemon.abilities['1']) {
 				var vAbility = vanillaMon.abilities['1'];
 				var rcAbility = pokemon.abilities['1'];
 				if (vAbility !== rcAbility) {
-					rcChanges += 'Ability 2: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+					abilityChanges += 'Ability 2: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
 				}
 			}
 
@@ -311,7 +313,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				var vAbility = vanillaMon.abilities['H'];
 				var rcAbility = pokemon.abilities['H'];
 				if (vAbility !== rcAbility) {
-					rcChanges += 'Hidden Ability: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
+					abilityChanges += 'Hidden Ability: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
 				}
 			}
 
@@ -320,15 +322,115 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				var vStat = vanillaMon.baseStats[stat];
 				var rcStat = pokemon.baseStats[stat];
 				if (vStat !== rcStat) {
-					rcChanges += BattleStatNames[stat] + ': ' + vStat + ' <i class="fa fa-long-arrow-right"></i> ' + rcStat + '<br />';
+					statChanges += BattleStatNames[stat] + ': ' + vStat + ' <i class="fa fa-long-arrow-right"></i> ' + rcStat + '<br />';
 				}
 			}
 
-			if (rcChanges) {
-				buf += '<h3>RC changes</h3><dl>';
+			// === NEW MOVES (RC ONLY) ===
+			let newMovesText = '';
+			function getLearnset(source, id, baseSpecies) {
+				return source[id]?.learnset || source[toID(baseSpecies)]?.learnset || {};
+			}
+			function moveLink(moveid) {
+				let move = Dex.moves.get(moveid);
+				return `<a href="/moves/${moveid}" data-target="push" class="subtle">${move.name}</a>`;
+			}
+
+			if (window.BattleLearnsets && window.BattleLearnsetsVanilla) {
+				let rcLearnset = getLearnset(BattleLearnsets, id, pokemon.baseSpecies);
+				let vanillaLearnset = getLearnset(BattleLearnsetsVanilla, id, pokemon.baseSpecies);
+
+				let moveBuckets = {
+					level: [],
+					tm: [],
+					egg: [],
+					relearn: []
+				};
+
+				for (let moveid in rcLearnset) {
+					if (vanillaLearnset[moveid]) continue; // skip existing moves
+
+					let sources = rcLearnset[moveid];
+					if (typeof sources === 'string') sources = [sources];
+
+					for (let source of sources) {
+						let type = source.charAt(1);
+
+						switch (type) {
+							case 'L': {
+								let lvl = parseInt(source.substr(2), 10);
+
+								if (lvl === 0 || lvl === pokemon.evoLevel) {
+									moveBuckets.level.push(`${moveLink(moveid)} on Evo`);
+								} else if (lvl === 1) {
+									moveBuckets.relearn.push(moveLink(moveid));
+								} else {
+									moveBuckets.level.push(`${moveLink(moveid)} at ${lvl}`);
+								}
+								break;
+							}
+							case 'M':
+							case 'T':
+								moveBuckets.tm.push(moveLink(moveid));
+								break;
+							case 'E':
+								moveBuckets.egg.push(moveLink(moveid));
+								break;
+						}
+					}
+				}
+
+				function formatList(arr) {
+					if (!arr.length) return '';
+					if (arr.length === 1) return arr[0];
+					return arr.slice(0, -1).join(', ') + ' & ' + arr[arr.length - 1];
+				}
+
+				let sections = [];
+
+				if (moveBuckets.level.length) {
+					sections.push(`<b>Level Up:</b> ${formatList(moveBuckets.level)}.`);
+				}
+				if (moveBuckets.tm.length) {
+					sections.push(`<b>TM/Tutor:</b> ${formatList(moveBuckets.tm)}.`);
+				}
+				if (moveBuckets.egg.length) {
+					sections.push(`<b>Egg:</b> ${formatList(moveBuckets.egg)}.`);
+				}
+				if (moveBuckets.relearn.length) {
+					sections.push(`<b>Relearn:</b> ${formatList(moveBuckets.relearn)}.`);
+				}
+
+				if (sections.length) {
+					newMovesText = sections.join('<br />');
+				}
+			}
+
+			// Combine with spacing
+			if (abilityChanges) {
+				rcChanges += '<u><b style="font-size:110%">Types & Abilities</b></u><br />';
+				rcChanges += abilityChanges;
+			} 
+			if (abilityChanges && statChanges) rcChanges += '<br />';
+			if (statChanges) {
+				rcChanges += '<u><b style="font-size:110%">Stat Changes</b></u><br />';
+				rcChanges += (statChanges);
+			}
+
+			if (rcChanges || newMovesText) {
+				buf += '<h3>RC Changes</h3><dl>';
 				buf += '<dt>Vanilla → RC:</dt>';
-				buf += '<dd>' + rcChanges + '</dd>';
-				buf += '</dl>';
+				buf += '<dd>';
+
+				buf += rcChanges;
+
+				if (newMovesText) {
+					if (rcChanges) buf += '<br />';
+					buf += '<u><b style="font-size:110%">New Moves</b></u><br />';
+					buf += newMovesText;
+				}
+
+				buf += '</dd></dl>';
 			}
 		}
 
@@ -350,7 +452,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		var mostRecentGen = Dex.gen;
 		var pastGenPoke = pokemon;
 		for (; mostRecentGen>7; mostRecentGen--) {
-			if (pastGenPoke.isNonstandard !== 'Past') break;
+			if (pastGenPoke && pastGenPoke.isNonstandard !== 'Past') break;
 			pastGenPoke = Dex.forGen(mostRecentGen - 1).species.get(pastGenPoke.id);
 		}
 		var moves = [];
