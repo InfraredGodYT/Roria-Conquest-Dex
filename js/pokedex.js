@@ -1041,6 +1041,7 @@ var PokedexRCChangesPanel = Panels.Panel.extend({
 		let buf = '<div class="pfx-body dexentry">';
 		buf += '<a href="/" class="pfx-backbutton"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
 		buf += '<h1>RC Change Index</h1>';
+		buf += '<p>This is a list of everything changed in Roria Conquest.</p>'
 		buf += `<div class="rc-nav">`;
 		buf += `<b>Pokémon:</b> `;
 		for (let gen in RCChangeIndex.pokemon) {
