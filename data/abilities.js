@@ -2852,8 +2852,8 @@ exports.BattleAbilities = {
     "name": "Transistor",
     "rating": 3.5,
     "num": 262,
-    "desc": "This Pokemon's offensive stat is multiplied by 1.3 while using an Electric-type attack.",
-    "shortDesc": "This Pokemon's offensive stat is multiplied by 1.3 while using an Electric-type attack."
+    "desc": "This Pokemon's offensive stat is multiplied by 1.5 while using an Electric-type attack.",
+    "shortDesc": "This Pokemon's offensive stat is multiplied by 1.5 while using an Electric-type attack."
   },
   "triage": {
     "flags": {},
