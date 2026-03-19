@@ -43,11 +43,6 @@ var Pokedex = Panels.App.extend({
 			if (JSON.stringify(mon.abilities) !== JSON.stringify(vanilla.abilities)) changed = true;
 			if (JSON.stringify(mon.baseStats) !== JSON.stringify(vanilla.baseStats)) changed = true;
 
-			let rcLearnset = BattleLearnsets[id]?.learnset || {};
-			let vanillaLearnset = BattleLearnsetsVanilla[id]?.learnset || {};
-			let rcMoves = Object.keys(rcLearnset).sort();
-			let vanillaMoves = Object.keys(vanillaLearnset).sort();
-
 			function hasNewMoves(id, mon) {
 				function getLearnset(source, id, baseSpecies) {
 					return source[id]?.learnset || source[toID(baseSpecies)]?.learnset || {};
@@ -57,7 +52,7 @@ var Pokedex = Panels.App.extend({
 				let vanillaLearnset = getLearnset(BattleLearnsetsVanilla, id, mon.baseSpecies);
 
 				for (let moveid in rcLearnset) {
-					if (!vanillaLearnset[moveid]) {
+					if (!vanillaLearnset[moveid] && !(mon.prevo && rcLearnset[moveid] == '9E')) {
 						return true; // ✅ EXACT same condition as your UI
 					}
 				}
