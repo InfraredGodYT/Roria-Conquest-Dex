@@ -1196,6 +1196,7 @@ exports.BattleAbilities = {
     "name": "Inner Focus",
     "rating": 1,
     "num": 39,
+    "credit": "RuudDude",
     "desc": "This Pokemon cannot be made to flinch. This Pokemon is immune to the effect of the Intimidate Ability and can never lose focus when using Focus Punch.",
     "shortDesc": "This Pokemon cannot be made to flinch. Immune to Intimidate and cannot lose focus when using Focus Punch."
   },

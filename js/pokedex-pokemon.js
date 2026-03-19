@@ -374,7 +374,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 								moveBuckets.tm.push(moveLink(moveid));
 								break;
 							case 'E':
-								moveBuckets.egg.push(moveLink(moveid));
+								if (!pokemon.prevo) moveBuckets.egg.push(moveLink(moveid));
 								break;
 						}
 					}
@@ -418,6 +418,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			}
 
 			if (rcChanges || newMovesText) {
+				const credit = window.BattlePokedexRaw?.[pokemon.id]?.credit;
 				buf += '<h3>RC Changes</h3><dl>';
 				buf += '<dt>Vanilla → RC:</dt>';
 				buf += '<dd>';
@@ -429,6 +430,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					buf += '<u><b style="font-size:110%">New Moves</b></u><br />';
 					buf += newMovesText;
 				}
+
+				if (credit) buf += `<dt>Credit: ${credit}</dt>`;
 
 				buf += '</dd></dl>';
 			}

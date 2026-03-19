@@ -290,6 +290,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
+    "credit": "RuudDude",
     "otherFormes": [
       "Charizard-Mega-X",
       "Charizard-Mega-Y"
@@ -333,6 +334,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
+    "credit": "RuudDude",
     "requiredItem": "Charizardite X",
     "tier": "OU"
   },
@@ -367,6 +369,7 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
+    "credit": "RuudDude",
     "requiredItem": "Charizardite Y",
     "tier": "OU"
   },
@@ -518,7 +521,8 @@ exports.BattlePokedex = {
       "Blastoise-Mega"
     ],
     "canGigantamax": "G-Max Cannonade",
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Toxic"
   },
   "blastoisemega": {
     "num": 9,
@@ -551,7 +555,8 @@ exports.BattlePokedex = {
       "Water 1"
     ],
     "requiredItem": "Blastoisinite",
-    "tier": "UUber"
+    "tier": "UUber",
+    "credit": "Toxic"
   },
   "blastoisegmax": {
     "num": 9,
@@ -801,7 +806,8 @@ exports.BattlePokedex = {
       "Beedrill",
       "Beedrill-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "N2Shades"
   },
   "beedrillmega": {
     "num": 15,
@@ -1188,7 +1194,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "yyumi"
   },
   "ekans": {
     "num": 23,
@@ -1250,7 +1257,8 @@ exports.BattlePokedex = {
       "Field",
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "pikachu": {
     "num": 25,
@@ -2006,7 +2014,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "nidoranf": {
     "num": 29,
@@ -2103,7 +2112,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "victini doesn't play"
   },
   "nidoranm": {
     "num": 32,
@@ -2203,7 +2213,8 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "victini doesn't play & BP"
   },
   "clefairy": {
     "num": 35,
@@ -2465,7 +2476,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "jigglypuff": {
     "num": 39,
@@ -2537,7 +2549,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kev"
   },
   "zubat": {
     "num": 41,
@@ -2629,6 +2642,7 @@ exports.BattlePokedex = {
     "evos": [
       "Gloom"
     ],
+    "credit": "RuudDude",
     "eggGroups": [
       "Grass"
     ],
@@ -2663,6 +2677,7 @@ exports.BattlePokedex = {
       "Vileplume",
       "Bellossom"
     ],
+    "credit": "RuudDude",
     "eggGroups": [
       "Grass"
     ],
@@ -2694,6 +2709,7 @@ exports.BattlePokedex = {
     "prevo": "Gloom",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
+    "credit": "RuudDude",
     "eggGroups": [
       "Grass"
     ],
@@ -2760,7 +2776,8 @@ exports.BattlePokedex = {
       "Bug",
       "Grass"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "shipping"
   },
   "venonat": {
     "num": 48,
@@ -3222,7 +3239,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "mankey": {
     "num": 56,
@@ -3534,7 +3552,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "yyumi"
   },
   "abra": {
     "num": 63,
@@ -4004,7 +4023,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "geodude": {
     "num": 74,
@@ -4324,7 +4344,8 @@ exports.BattlePokedex = {
       "Rapidash",
       "Rapidash-Galar"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "chisome"
   },
   "rapidashgalar": {
     "num": 78,
@@ -4668,7 +4689,8 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "KRTS"
   },
   "doduo": {
     "num": 84,
@@ -4729,7 +4751,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "BP"
   },
   "seel": {
     "num": 86,
@@ -4791,7 +4814,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "yyumi"
   },
   "grimer": {
     "num": 88,
@@ -4861,7 +4885,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "muk": {
     "num": 89,
@@ -4929,7 +4954,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Azuriter"
   },
   "shellder": {
     "num": 90,
@@ -5050,7 +5076,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "NFE"
+    "tier": "NFE",
+    "credit": "Azuriter"
   },
   "gengar": {
     "num": 94,
@@ -5086,7 +5113,8 @@ exports.BattlePokedex = {
       "Gengar-Mega"
     ],
     "canGigantamax": "G-Max Terror",
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Azuriter"
   },
   "gengarmega": {
     "num": 94,
@@ -5237,7 +5265,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kev"
   },
   "krabby": {
     "num": 98,
@@ -5436,7 +5465,8 @@ exports.BattlePokedex = {
       "Electrode",
       "Electrode-Hisui"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "yyumi"
   },
   "electrodehisui": {
     "num": 101,
@@ -5572,7 +5602,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "cubone": {
     "num": 104,
@@ -5961,7 +5992,8 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "KRTS"
   },
   "chansey": {
     "num": 113,
@@ -6185,7 +6217,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Ruckus"
   },
   "seaking": {
     "num": 119,
@@ -6214,7 +6247,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Ruckus"
   },
   "staryu": {
     "num": 120,
@@ -6245,7 +6279,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azuriter"
   },
   "starmie": {
     "num": 121,
@@ -6284,7 +6319,8 @@ exports.BattlePokedex = {
       "Starmie",
       "Starmie-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azuriter"
   },
   "starmiemega": {
     "num": 121,
@@ -6455,7 +6491,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "yyumi"
   },
   "electabuzz": {
     "num": 125,
@@ -6954,7 +6991,8 @@ exports.BattlePokedex = {
       "Eevee-Starter"
     ],
     "canGigantamax": "G-Max Cuddle",
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "eeveestarter": {
     "num": 133,
@@ -7055,7 +7093,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "jolteon": {
     "num": 135,
@@ -7088,7 +7127,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "flareon": {
     "num": 136,
@@ -7121,7 +7161,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "porygon": {
     "num": 137,
@@ -7152,7 +7193,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "NFE"
+    "tier": "NFE",
+    "credit": "Azuriter"
   },
   "omanyte": {
     "num": 138,
@@ -7259,7 +7301,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azuriter"
   },
   "kabutops": {
     "num": 141,
@@ -7294,7 +7337,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azuriter"
   },
   "aerodactyl": {
     "num": 142,
@@ -7401,7 +7445,8 @@ exports.BattlePokedex = {
     ],
     "canHatch": true,
     "canGigantamax": "G-Max Replenish",
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "snorlaxgmax": {
     "num": 143,
@@ -7473,7 +7518,8 @@ exports.BattlePokedex = {
       "Articuno",
       "Articuno-Galar"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "articunogalar": {
     "num": 144,
@@ -8190,7 +8236,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Kirb"
   },
   "totodile": {
     "num": 158,
@@ -8398,7 +8445,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "YuriSimp"
   },
   "hoothoot": {
     "num": 163,
@@ -8459,7 +8507,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "chisome"
   },
   "ledyba": {
     "num": 165,
@@ -8520,7 +8569,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "DoodleLux"
   },
   "spinarak": {
     "num": 167,
@@ -8581,7 +8631,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "crobat": {
     "num": 169,
@@ -8642,7 +8693,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "lanturn": {
     "num": 171,
@@ -8672,7 +8724,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "pichu": {
     "num": 172,
@@ -8973,7 +9026,8 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "flaaffy": {
     "num": 180,
@@ -9006,7 +9060,8 @@ exports.BattlePokedex = {
       "Monster",
       "Field"
     ],
-    "tier": "NFE"
+    "tier": "NFE",
+    "credit": "Azuriter"
   },
   "ampharos": {
     "num": 181,
@@ -9043,7 +9098,8 @@ exports.BattlePokedex = {
       "Ampharos",
       "Ampharos-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "ampharosmega": {
     "num": 181,
@@ -9073,7 +9129,8 @@ exports.BattlePokedex = {
       "Field"
     ],
     "requiredItem": "Ampharosite",
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azuriter"
   },
   "bellossom": {
     "num": 182,
@@ -9103,7 +9160,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Katie"
   },
   "marill": {
     "num": 183,
@@ -9230,7 +9288,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Katie"
   },
   "hoppip": {
     "num": 187,
@@ -9327,7 +9386,8 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "DoodleLux"
   },
   "aipom": {
     "num": 190,
@@ -9418,7 +9478,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Maurii"
   },
   "yanma": {
     "num": 193,
@@ -9553,7 +9614,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "AboveSurfaces"
   },
   "espeon": {
     "num": 196,
@@ -9619,7 +9681,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "murkrow": {
     "num": 198,
@@ -9985,6 +10048,7 @@ exports.BattlePokedex = {
       "Dudunsparce",
       "Dudunsparce-Three-Segment"
     ],
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -10057,7 +10121,8 @@ exports.BattlePokedex = {
       "Steelix",
       "Steelix-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Maurii & Soul"
   },
   "steelixmega": {
     "num": 208,
@@ -10155,7 +10220,8 @@ exports.BattlePokedex = {
       "Field",
       "Fairy"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Katie"
   },
   "qwilfish": {
     "num": 211,
@@ -11031,7 +11097,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "phanpy": {
     "num": 231,
@@ -11090,7 +11157,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "BP & Katie"
   },
   "porygon2": {
     "num": 233,
@@ -12444,7 +12512,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "DoodleLux"
   },
   "cascoon": {
     "num": 268,
@@ -12503,7 +12572,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "DoodleLux"
   },
   "lotad": {
     "num": 270,
@@ -13257,6 +13327,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Nincada",
     "evoLevel": 20,
+    "credit": "Kirb & darkrai",
     "eggGroups": [
       "Mineral"
     ],
@@ -13418,7 +13489,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "chisome"
   },
   "azurill": {
     "num": 298,
@@ -13715,7 +13787,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "SasquatchSir"
   },
   "lairon": {
     "num": 305,
@@ -13748,7 +13821,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "SasquatchSir"
   },
   "aggron": {
     "num": 306,
@@ -13785,7 +13859,8 @@ exports.BattlePokedex = {
       "Aggron",
       "Aggron-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "SasquatchSir"
   },
   "aggronmega": {
     "num": 306,
@@ -13813,7 +13888,8 @@ exports.BattlePokedex = {
       "Monster"
     ],
     "requiredItem": "Aggronite",
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "SasquatchSir"
   },
   "meditite": {
     "num": 307,
@@ -14673,7 +14749,8 @@ exports.BattlePokedex = {
       "Bug",
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Yoshiality"
   },
   "cacnea": {
     "num": 331,
@@ -14790,6 +14867,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Swablu",
     "evoLevel": 35,
+    "credit": "Kirb",
     "eggGroups": [
       "Flying",
       "Dragon"
@@ -14911,7 +14989,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "DoodleLux"
   },
   "solrock": {
     "num": 338,
@@ -14938,7 +15017,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "DoodleLux"
   },
   "barboach": {
     "num": 339,
@@ -15977,7 +16057,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "nanrayan1"
   },
   "clamperl": {
     "num": 366,
@@ -17442,6 +17523,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Bidoof",
     "evoLevel": 15,
+    "credit": "Kirb",
     "eggGroups": [
       "Water 1",
       "Field"
@@ -17500,6 +17582,7 @@ exports.BattlePokedex = {
     "color": "Red",
     "prevo": "Kricketot",
     "evoLevel": 10,
+    "credit": "Kirb",
     "eggGroups": [
       "Bug"
     ],
@@ -17595,7 +17678,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Fishy"
   },
   "budew": {
     "num": 406,
@@ -17659,7 +17743,8 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "UltraPokeMaster"
   },
   "cranidos": {
     "num": 408,
@@ -17721,6 +17806,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Cranidos",
     "evoLevel": 30,
+    "credit": "Kirb",
     "eggGroups": [
       "Monster"
     ],
@@ -18042,6 +18128,7 @@ exports.BattlePokedex = {
     "color": "Yellow",
     "prevo": "Combee",
     "evoLevel": 21,
+    "credit": "Kirb",
     "eggGroups": [
       "Bug"
     ],
@@ -18074,7 +18161,8 @@ exports.BattlePokedex = {
       "Field",
       "Fairy"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "squib"
   },
   "buizel": {
     "num": 418,
@@ -18162,7 +18250,8 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azu & Fire"
   },
   "cherrim": {
     "num": 421,
@@ -18198,7 +18287,8 @@ exports.BattlePokedex = {
       "Cherrim",
       "Cherrim-Sunshine"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Azu & Fire"
   },
   "cherrimsunshine": {
     "num": 421,
@@ -18228,7 +18318,8 @@ exports.BattlePokedex = {
       "Grass"
     ],
     "requiredAbility": "Flower Gift",
-    "battleOnly": "Cherrim"
+    "battleOnly": "Cherrim",
+    "credit": "Azu & Fire"
   },
   "shellos": {
     "num": 422,
@@ -18313,7 +18404,8 @@ exports.BattlePokedex = {
       "Gastrodon",
       "Gastrodon-East"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nat"
   },
   "ambipom": {
     "num": 424,
@@ -18340,6 +18432,7 @@ exports.BattlePokedex = {
     "prevo": "Aipom",
     "evoType": "levelMove",
     "evoMove": "Double Hit",
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -18374,7 +18467,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "drifblim": {
     "num": 426,
@@ -18404,7 +18498,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "buneary": {
     "num": 427,
@@ -18461,6 +18556,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Buneary",
     "evoType": "levelFriendship",
+    "credit": "Kirb",
     "eggGroups": [
       "Field",
       "Human-Like"
@@ -18529,6 +18625,7 @@ exports.BattlePokedex = {
     "prevo": "Misdreavus",
     "evoType": "useItem",
     "evoItem": "Dusk Stone",
+    "credit": "Kirb",
     "eggGroups": [
       "Amorphous"
     ],
@@ -18627,6 +18724,7 @@ exports.BattlePokedex = {
     "color": "Gray",
     "prevo": "Glameow",
     "evoLevel": 38,
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -18717,6 +18815,7 @@ exports.BattlePokedex = {
     "color": "Purple",
     "prevo": "Stunky",
     "evoLevel": 34,
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -18780,6 +18879,7 @@ exports.BattlePokedex = {
     "color": "Green",
     "prevo": "Bronzor",
     "evoLevel": 33,
+    "credit": "Kirb",
     "eggGroups": [
       "Mineral"
     ],
@@ -18907,7 +19007,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "blisturs"
   },
   "spiritomb": {
     "num": 442,
@@ -18931,6 +19032,7 @@ exports.BattlePokedex = {
     "heightm": 1,
     "weightkg": 108,
     "color": "Purple",
+    "credit": "Kirb",
     "eggGroups": [
       "Amorphous"
     ],
@@ -19040,7 +19142,8 @@ exports.BattlePokedex = {
       "Garchomp-Mega",
       "Garchomp-Mega-Z"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Nat & Sasquatch"
   },
   "garchompmega": {
     "num": 445,
@@ -19172,6 +19275,7 @@ exports.BattlePokedex = {
     "prevo": "Riolu",
     "evoType": "levelFriendship",
     "evoCondition": "during the day",
+    "credit": "Kirb",
     "eggGroups": [
       "Field",
       "Human-Like"
@@ -19273,6 +19377,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Hippopotas",
     "evoLevel": 34,
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -19339,7 +19444,8 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "UltraPokeMaster"
   },
   "croagunk": {
     "num": 453,
@@ -19397,6 +19503,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Croagunk",
     "evoLevel": 37,
+    "credit": "Kirb",
     "eggGroups": [
       "Human-Like"
     ],
@@ -19423,6 +19530,7 @@ exports.BattlePokedex = {
     "heightm": 1.4,
     "weightkg": 27,
     "color": "Green",
+    "credit": "Kirb",
     "eggGroups": [
       "Grass"
     ],
@@ -19482,6 +19590,7 @@ exports.BattlePokedex = {
     "color": "Blue",
     "prevo": "Finneon",
     "evoLevel": 31,
+    "credit": "Kirb",
     "eggGroups": [
       "Water 2"
     ],
@@ -19585,6 +19694,7 @@ exports.BattlePokedex = {
       "Abomasnow",
       "Abomasnow-Mega"
     ],
+    "credit": "RuudDude",
     "tier": "UU"
   },
   "abomasnowmega": {
@@ -19610,6 +19720,7 @@ exports.BattlePokedex = {
     "heightm": 2.7,
     "weightkg": 185,
     "color": "White",
+    "credit": "RuudDude",
     "eggGroups": [
       "Monster",
       "Grass"
@@ -19643,6 +19754,7 @@ exports.BattlePokedex = {
     "evoType": "levelHold",
     "evoItem": "Razor Claw",
     "evoCondition": "at night",
+    "credit": "RuudDude",
     "eggGroups": [
       "Field"
     ],
@@ -19678,7 +19790,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Fishy"
   },
   "lickilicky": {
     "num": 463,
@@ -19705,6 +19818,7 @@ exports.BattlePokedex = {
     "prevo": "Lickitung",
     "evoType": "levelMove",
     "evoMove": "Rollout",
+    "credit": "Kirb",
     "eggGroups": [
       "Monster"
     ],
@@ -19736,6 +19850,7 @@ exports.BattlePokedex = {
     "prevo": "Rhydon",
     "evoType": "trade",
     "evoItem": "Protector",
+    "credit": "RuudDude",
     "eggGroups": [
       "Monster",
       "Field"
@@ -19869,6 +19984,7 @@ exports.BattlePokedex = {
     "prevo": "Togetic",
     "evoType": "useItem",
     "evoItem": "Shiny Stone",
+    "credit": "Kirb",
     "eggGroups": [
       "Flying",
       "Fairy"
@@ -19901,6 +20017,7 @@ exports.BattlePokedex = {
     "prevo": "Yanma",
     "evoType": "levelMove",
     "evoMove": "Ancient Power",
+    "credit": "RuudDude",
     "eggGroups": [
       "Bug"
     ],
@@ -19934,6 +20051,7 @@ exports.BattlePokedex = {
     "prevo": "Eevee",
     "evoType": "useItem",
     "evoItem": "Leaf Stone",
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -19970,7 +20088,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "gliscor": {
     "num": 472,
@@ -19999,6 +20118,7 @@ exports.BattlePokedex = {
     "evoType": "levelHold",
     "evoItem": "Razor Fang",
     "evoCondition": "at night",
+    "credit": "Kirb",
     "eggGroups": [
       "Bug"
     ],
@@ -20030,6 +20150,7 @@ exports.BattlePokedex = {
     "prevo": "Piloswine",
     "evoType": "levelMove",
     "evoMove": "Ancient Power",
+    "credit": "Kirb",
     "eggGroups": [
       "Field"
     ],
@@ -20061,6 +20182,7 @@ exports.BattlePokedex = {
     "prevo": "Porygon2",
     "evoType": "trade",
     "evoItem": "Dubious Disc",
+    "credit": "Kirb",
     "eggGroups": [
       "Mineral"
     ],
@@ -20104,7 +20226,8 @@ exports.BattlePokedex = {
       "Gallade",
       "Gallade-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nat"
   },
   "gallademega": {
     "num": 475,
@@ -20134,7 +20257,8 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "requiredItem": "Galladite",
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Nat"
   },
   "probopass": {
     "num": 476,
@@ -20165,7 +20289,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "DoodleLux"
   },
   "dusknoir": {
     "num": 477,
@@ -20192,6 +20317,7 @@ exports.BattlePokedex = {
     "prevo": "Dusclops",
     "evoType": "trade",
     "evoItem": "Reaper Cloth",
+    "credit": "Kirb",
     "eggGroups": [
       "Amorphous"
     ],
@@ -20224,6 +20350,7 @@ exports.BattlePokedex = {
     "prevo": "Snorunt",
     "evoType": "useItem",
     "evoItem": "Dawn Stone",
+    "credit": "Kirb",
     "eggGroups": [
       "Fairy",
       "Mineral"
@@ -20425,6 +20552,7 @@ exports.BattlePokedex = {
     "heightm": 0.3,
     "weightkg": 0.3,
     "color": "Red",
+    "credit": "Kirb",
     "eggGroups": [
       "Amorphous"
     ],
@@ -20853,7 +20981,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "phione": {
     "num": 489,
@@ -22017,6 +22146,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
+    "credit": "RuudDude & Martym",
     "otherFormes": [
       "Samurott-Hisui"
     ],
@@ -22061,7 +22191,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Kirb"
   },
   "patrat": {
     "num": 504,
@@ -22120,7 +22251,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "lillipup": {
     "num": 506,
@@ -22211,7 +22343,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "purrloin": {
     "num": 509,
@@ -22270,7 +22403,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "pansage": {
     "num": 511,
@@ -22336,7 +22470,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "pansear": {
     "num": 513,
@@ -22402,7 +22537,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "panpour": {
     "num": 515,
@@ -22468,7 +22604,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "munna": {
     "num": 517,
@@ -22528,7 +22665,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "pidove": {
     "num": 519,
@@ -22622,7 +22760,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "blitzle": {
     "num": 522,
@@ -22681,7 +22820,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "roggenrola": {
     "num": 524,
@@ -22772,7 +22912,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "woobat": {
     "num": 527,
@@ -22835,7 +22976,8 @@ exports.BattlePokedex = {
       "Flying",
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "drilbur": {
     "num": 529,
@@ -22966,7 +23108,8 @@ exports.BattlePokedex = {
       "Audino",
       "Audino-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "audinomega": {
     "num": 531,
@@ -22995,7 +23138,8 @@ exports.BattlePokedex = {
       "Fairy"
     ],
     "requiredItem": "Audinite",
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "timburr": {
     "num": 532,
@@ -23191,7 +23335,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 1"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb & Nat"
   },
   "throh": {
     "num": 538,
@@ -23219,7 +23364,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "sawk": {
     "num": 539,
@@ -23247,7 +23393,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "sewaddle": {
     "num": 540,
@@ -23341,7 +23488,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "venipede": {
     "num": 543,
@@ -23442,7 +23590,8 @@ exports.BattlePokedex = {
       "Scolipede",
       "Scolipede-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "UltraPokeMaster"
   },
   "scolipedemega": {
     "num": 545,
@@ -23536,7 +23685,8 @@ exports.BattlePokedex = {
       "Fairy",
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "petilil": {
     "num": 548,
@@ -23607,7 +23757,8 @@ exports.BattlePokedex = {
       "Lilligant",
       "Lilligant-Hisui"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "lilliganthisui": {
     "num": 549,
@@ -23834,7 +23985,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "darumaka": {
     "num": 554,
@@ -23941,7 +24093,8 @@ exports.BattlePokedex = {
       "Darmanitan-Galar",
       "Darmanitan-Galar-Zen"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "blisturs"
   },
   "darmanitanzen": {
     "num": 555,
@@ -24058,7 +24211,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "dwebble": {
     "num": 557,
@@ -24121,7 +24275,8 @@ exports.BattlePokedex = {
       "Bug",
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "scraggy": {
     "num": 559,
@@ -24191,7 +24346,8 @@ exports.BattlePokedex = {
       "Scrafty",
       "Scrafty-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "scraftymega": {
     "num": 560,
@@ -24250,7 +24406,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "yamask": {
     "num": 562,
@@ -24348,7 +24505,8 @@ exports.BattlePokedex = {
       "Mineral",
       "Amorphous"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Kirb"
   },
   "tirtouga": {
     "num": 564,
@@ -24419,7 +24577,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "archen": {
     "num": 566,
@@ -24546,7 +24705,8 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "canGigantamax": "G-Max Malodor",
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "garbodorgmax": {
     "num": 569,
@@ -24688,7 +24848,8 @@ exports.BattlePokedex = {
       "Zoroark",
       "Zoroark-Hisui"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "zoroarkhisui": {
     "num": 571,
@@ -24790,7 +24951,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nat"
   },
   "gothita": {
     "num": 574,
@@ -24893,7 +25055,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nacho & Kirb"
   },
   "solosis": {
     "num": 577,
@@ -24984,7 +25147,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "ducklett": {
     "num": 580,
@@ -25047,7 +25211,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "vanillite": {
     "num": 582,
@@ -25136,7 +25301,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "deerling": {
     "num": 585,
@@ -25242,7 +25408,8 @@ exports.BattlePokedex = {
       "Sawsbuck-Autumn",
       "Sawsbuck-Winter"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "emolga": {
     "num": 587,
@@ -25269,7 +25436,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "karrablast": {
     "num": 588,
@@ -25330,7 +25498,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "foongus": {
     "num": 590,
@@ -25389,7 +25558,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "AboveSurfaces"
   },
   "frillish": {
     "num": 592,
@@ -25450,7 +25620,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Amorphous"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "alomomola": {
     "num": 594,
@@ -25539,7 +25710,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "ferroseed": {
     "num": 597,
@@ -25600,7 +25772,8 @@ exports.BattlePokedex = {
       "Grass",
       "Mineral"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Kirb"
   },
   "klink": {
     "num": 599,
@@ -25694,7 +25867,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Ri33perz"
   },
   "tynamo": {
     "num": 602,
@@ -25790,7 +25964,8 @@ exports.BattlePokedex = {
       "Eelektross",
       "Eelektross-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "eelektrossmega": {
     "num": 604,
@@ -25878,7 +26053,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Human-Like"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "litwick": {
     "num": 607,
@@ -26104,7 +26280,8 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "cubchoo": {
     "num": 613,
@@ -26163,7 +26340,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "cryogonal": {
     "num": 615,
@@ -26189,7 +26367,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "shelmet": {
     "num": 616,
@@ -26220,7 +26399,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "accelgor": {
     "num": 617,
@@ -26251,7 +26431,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "stunfisk": {
     "num": 618,
@@ -26287,7 +26468,8 @@ exports.BattlePokedex = {
       "Stunfisk",
       "Stunfisk-Galar"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "stunfiskgalar": {
     "num": 618,
@@ -26318,7 +26500,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Amorphous"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Azuriter"
   },
   "mienfoo": {
     "num": 619,
@@ -26407,7 +26590,8 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "golett": {
     "num": 622,
@@ -26470,7 +26654,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "pawniard": {
     "num": 624,
@@ -26561,7 +26746,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "rufflet": {
     "num": 627,
@@ -26632,7 +26818,8 @@ exports.BattlePokedex = {
       "Braviary",
       "Braviary-Hisui"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "braviaryhisui": {
     "num": 628,
@@ -26729,7 +26916,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "heatmor": {
     "num": 631,
@@ -26756,7 +26944,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "durant": {
     "num": 632,
@@ -26784,7 +26973,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Kirb"
   },
   "deino": {
     "num": 633,
@@ -26813,7 +27003,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Dragon"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Kirb"
   },
   "zweilous": {
     "num": 634,
@@ -26844,7 +27035,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Dragon"
     ],
-    "tier": "NFE"
+    "tier": "NFE",
+    "credit": "Kirb"
   },
   "hydreigon": {
     "num": 635,
@@ -26872,7 +27064,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "larvesta": {
     "num": 636,
@@ -26931,7 +27124,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "ArticunoFan"
   },
   "cobalion": {
     "num": 638,
@@ -27800,7 +27994,8 @@ exports.BattlePokedex = {
       "Chesnaught",
       "Chesnaught-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "chesnaughtmega": {
     "num": 652,
@@ -27945,7 +28140,8 @@ exports.BattlePokedex = {
       "Delphox",
       "Delphox-Mega"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "ShadesVGC"
   },
   "delphoxmega": {
     "num": 655,
@@ -28091,7 +28287,8 @@ exports.BattlePokedex = {
       "Greninja-Ash",
       "Greninja-Mega"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "ShadesVGC"
   },
   "greninjabond": {
     "num": 658,
@@ -28246,7 +28443,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ShadesVGC"
   },
   "fletchling": {
     "num": 661,
@@ -28340,7 +28538,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "scatterbug": {
     "num": 664,
@@ -28479,7 +28678,8 @@ exports.BattlePokedex = {
       "Vivillon-Fancy",
       "Vivillon-Pokeball"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "vivillonicysnow": {
     "isCosmeticForme": true,
@@ -28971,7 +29171,8 @@ exports.BattlePokedex = {
       "Florges-Blue",
       "Florges-White"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "skiddo": {
     "num": 672,
@@ -29142,7 +29343,8 @@ exports.BattlePokedex = {
       "Furfrou-Kabuki",
       "Furfrou-Pharaoh"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ShadesVGC"
   },
   "espurr": {
     "num": 677,
@@ -29212,7 +29414,8 @@ exports.BattlePokedex = {
       "Meowstic",
       "Meowstic-F"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "meowsticf": {
     "num": 678,
@@ -29243,7 +29446,8 @@ exports.BattlePokedex = {
     "evoLevel": 25,
     "eggGroups": [
       "Field"
-    ]
+    ],
+    "credit": "UltraPokeMaster"
   },
   "honedge": {
     "num": 679,
@@ -29487,7 +29691,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Fairy"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ShadesVGC"
   },
   "inkay": {
     "num": 686,
@@ -29558,7 +29763,8 @@ exports.BattlePokedex = {
       "Malamar",
       "Malamar-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "malamarmega": {
     "num": 687,
@@ -29657,7 +29863,8 @@ exports.BattlePokedex = {
       "Barbaracle",
       "Barbaracle-Mega"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ShadesVGC"
   },
   "barbaraclemega": {
     "num": 689,
@@ -29757,7 +29964,8 @@ exports.BattlePokedex = {
       "Dragalge",
       "Dragalge-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "dragalgemega": {
     "num": 691,
@@ -30011,6 +30219,7 @@ exports.BattlePokedex = {
     "evos": [
       "Aurorus"
     ],
+    "credit": "RuudDude",
     "eggGroups": [
       "Monster"
     ],
@@ -30046,6 +30255,7 @@ exports.BattlePokedex = {
     "prevo": "Amaura",
     "evoLevel": 39,
     "evoCondition": "at night",
+    "credit": "RuudDude",
     "eggGroups": [
       "Monster"
     ],
@@ -30083,7 +30293,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "hawlucha": {
     "num": 701,
@@ -30352,7 +30563,8 @@ exports.BattlePokedex = {
       "Goodra",
       "Goodra-Hisui"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "UltraPokeMaster"
   },
   "goodrahisui": {
     "num": 706,
@@ -30412,7 +30624,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "phantump": {
     "num": 708,
@@ -30915,7 +31128,8 @@ exports.BattlePokedex = {
       "Flying",
       "Dragon"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "xerneas": {
     "num": 716,
@@ -31323,7 +31537,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ShadesVGC"
   },
   "rowlet": {
     "num": 722,
@@ -31474,7 +31689,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "litten": {
     "num": 725,
@@ -31904,7 +32120,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Azuriter"
   },
   "charjabug": {
     "num": 737,
@@ -31937,7 +32154,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "NFE"
+    "tier": "NFE",
+    "credit": "Azuriter"
   },
   "vikavolt": {
     "num": 738,
@@ -31974,7 +32192,8 @@ exports.BattlePokedex = {
       "Vikavolt",
       "Vikavolt-Totem"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Azuriter"
   },
   "vikavolttotem": {
     "num": 738,
@@ -32656,7 +32875,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "DoodleLux"
   },
   "dewpider": {
     "num": 751,
@@ -33497,7 +33717,8 @@ exports.BattlePokedex = {
       "Silvally-Dark",
       "Silvally-Fairy"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "bradgotbored"
   },
   "silvallybug": {
     "num": 773,
@@ -34278,7 +34499,8 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Dreaddevs"
   },
   "togedemaru": {
     "num": 777,
@@ -35184,7 +35406,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Dreaddevs"
   },
   "necrozma": {
     "num": 800,
@@ -35569,7 +35792,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "anthonylugro"
   },
   "meltan": {
     "num": 808,
@@ -38038,7 +38262,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "DoodleLux"
   },
   "cursola": {
     "num": 864,
@@ -40462,7 +40687,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "oinkolognef": {
     "num": 916,
@@ -40495,7 +40721,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "tarountula": {
     "num": 917,
@@ -41770,7 +41997,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Bug"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "flittle": {
     "num": 955,
@@ -41957,7 +42185,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "LC"
+    "tier": "LC",
+    "credit": "Kirb"
   },
   "wugtrio": {
     "num": 961,
@@ -41987,7 +42216,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 3"
     ],
-    "tier": "OU"
+    "tier": "OU",
+    "credit": "Kirb"
   },
   "bombirdier": {
     "num": 962,
@@ -42453,7 +42683,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Water 2"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "dondozo": {
     "num": 977,
@@ -42697,7 +42928,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Kirb"
   },
   "dudunsparcethreesegment": {
     "num": 982,
