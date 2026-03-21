@@ -286,17 +286,22 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		var rcChanges = '';
 		let abilityChanges = '';
 		let statChanges = '';
-		if (vanillaMon) {
+		if (vanillaMon && !vanillaMon.isCosmeticForme) {
 			// Type changes
-			var vTypes = vanillaMon.types.join('/');
-			var rcTypes = pokemon.types.join('/');
+			function normalizeTypes(types) {
+				if (!Array.isArray(types)) return '';
+				return [...types].sort().join('/');
+			}
+
+			var vTypes = normalizeTypes(vanillaMon.types);
+			var rcTypes = normalizeTypes(pokemon.types);
 			if (vTypes !== rcTypes) {
 				abilityChanges += 'Type: ' + vTypes + ' <i class="fa fa-long-arrow-right"></i> ' + rcTypes + '<br />';
 			}
 
 			// Ability changes
-			var vAbility = vanillaMon.abilities['0'];
-			var rcAbility = pokemon.abilities['0'];
+			var vAbility = vanillaMon.abilities?.['0'];
+			var rcAbility = pokemon.abilities?.['0'];
 			if (vAbility !== rcAbility) {
 				abilityChanges += 'Ability 1: ' + vAbility + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
 			}
@@ -310,8 +315,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			}
 
 			if (pokemon.abilities['H']) {
-				var vAbility = vanillaMon.abilities['H'];
-				var rcAbility = pokemon.abilities['H'];
+				var vAbility = vanillaMon.abilities?.['H'];
+				var rcAbility = pokemon.abilities?.['H'];
 				if (vAbility !== rcAbility) {
 					abilityChanges += 'Hidden Ability: ' + (vAbility || "None") + ' <i class="fa fa-long-arrow-right"></i> ' + rcAbility + '<br />';
 				}

@@ -35,11 +35,20 @@ var Pokedex = Panels.App.extend({
 			let mon = BattlePokedex[id];
 			let vanilla = window.BattlePokedexVanilla?.[id];
 			if (!mon || !vanilla) continue;
+			if (vanilla.isCosmeticForme) continue;
 			if (mon.forme === 'Gmax') continue;
+
+			function normalizeTypes(types) {
+				if (!Array.isArray(types)) return '';
+				return [...types].sort().join('/');
+			}
 
 			let changed = false;
 
-			if (JSON.stringify(mon.types) !== JSON.stringify(vanilla.types)) changed = true;
+			var vTypes = normalizeTypes(vanilla.types);
+			var rcTypes = normalizeTypes(mon.types);
+
+			if (vTypes !== rcTypes) changed = true;
 			if (JSON.stringify(mon.abilities) !== JSON.stringify(vanilla.abilities)) changed = true;
 			if (JSON.stringify(mon.baseStats) !== JSON.stringify(vanilla.baseStats)) changed = true;
 
@@ -85,9 +94,10 @@ var Pokedex = Panels.App.extend({
 		for (let id in BattleMovedex) {
 			let move = BattleMovedex[id];
 			let vanilla = window.BattleMovedexVanilla?.[id];
-			if (!move || !vanilla) continue;
+			if (!move || !vanilla && move.isNonstandard !== 'RC') continue;
 
 			if (
+				move.isNonstandard == 'RC' ||
 				move.basePower !== vanilla.basePower ||
 				move.type !== vanilla.type ||
 				move.category !== vanilla.category ||
@@ -95,6 +105,7 @@ var Pokedex = Panels.App.extend({
 			) {
 				let gen = move.gen || 9;
 				(window.RCChangeIndex.moves[gen] ??= []).push(id);
+				window.RCChangeIndex.moves[gen].sort();
 			}
 		}
 
@@ -102,12 +113,13 @@ var Pokedex = Panels.App.extend({
 		for (let id in BattleAbilities) {
 			let a = BattleAbilities[id];
 			let v = window.BattleAbilitiesVanilla?.[id];
-			if (!a || !v) continue;
+			if (!a || !v && !a.flags.roria) continue;
 
-			if (a.shortDesc !== v.shortDesc) {
+			if (a.flags.roria || a.shortDesc !== v.shortDesc) {
 				let gen = a.gen || 9;
 				(window.RCChangeIndex.abilities[gen] ??= []).push(id);
-			}
+				window.RCChangeIndex.abilities[gen].sort()
+			};
 		}
 
 		// --- Items ---

@@ -19,7 +19,7 @@ exports.BattleAbilities = {
   "adrenaline": {
     "onModifyAtkPriority": 5,
     "onModifySpAPriority": 5,
-    "flags": {},
+    "flags": {"roria": 1},
     "name": "Adrenaline",
     "rating": -1,
     "num": 129,
@@ -721,16 +721,6 @@ exports.BattleAbilities = {
     "num": 49,
     "desc": "30% chance a Pokemon making contact with this Pokemon will be burned.",
     "shortDesc": "30% chance a Pokemon making contact with this Pokemon will be burned."
-  },
-  "moltenskin": {
-    "flags": {
-      "roria": 1
-    },
-    "name": "Molten Skin",
-    "rating": 2,
-    "num": 312,
-    "desc": "This Pokemon is immune to contact moves and burns the attacker if it's hit by one.",
-    "shortDesc": "Burns Pokemon that use contact moves. Contact move immunity."
   },
   "flareboost": {
     "onBasePowerPriority": 19,
