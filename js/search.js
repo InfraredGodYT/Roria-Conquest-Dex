@@ -98,7 +98,6 @@
 			const articles = [];
 
 			articles.push(['header', 'Articles']);
-			articles.push(['header', 'Changes']);
 
 			const entries = Object.entries(window.BattleArticleTitles)
 				.sort((a, b) => a[1].localeCompare(b[1]));

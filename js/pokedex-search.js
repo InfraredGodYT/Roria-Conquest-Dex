@@ -58,6 +58,10 @@ var PokedexSearchPanel = Panels.Panel.extend({
 				search.setType('article');
 				$searchbox.attr('placeholder', 'Search articles');
 				this.$('.buttonbar').remove();
+			} else if (fragment === 'rcchanges') {
+				search.setType('change');
+				$searchbox.attr('placeholder', 'Search changes');
+				this.$('.buttonbar').remove();
 			}
 			this.search.externalFilter = true;
 		} else {
