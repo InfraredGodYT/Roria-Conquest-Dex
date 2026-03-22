@@ -15807,7 +15807,7 @@ exports.BattleMovedex = {
     },
     "secondary": null,
     "target": "normal",
-    "type": "Normal",
+    "type": "Fighting",
     "desc": "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
     "shortDesc": "Destroys screens. Type depends on user's form."
   },
@@ -18410,7 +18410,7 @@ exports.BattleMovedex = {
   "snaptrap": {
     "num": 779,
     "accuracy": 100,
-    "basePower": 75,
+    "basePower": 40,
     "category": "Physical",
     "name": "Snap Trap",
     "pp": 15,
@@ -23175,6 +23175,48 @@ exports.BattleMovedex = {
     "contestType": "Cute",
     "desc": "Has a 100% chance to inflict frostbite on the target.",
     "shortDesc": "100% chance to freeze the target."
+  },
+  "verdantrelay": {
+    "num": -8,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "Verdant Relay",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "isNonstandard": "RC",
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass",
+    "contestType": "Cool",
+    "desc": "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+    "shortDesc": "User switches out after damaging the target."
+  },
+  "rubblerocket": {
+    "num": -9,
+    "accuracy": 95,
+    "basePower": 95,
+    "category": "Physical",
+    "name": "Rubble Rocket",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "isNonstandard": "RC",
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock",
+    "contestType": "Tough",
+    "desc": "Deals damage. If this move is successful and the user has not fainted, Stealth Rock is removed from both sides of the field.",
+    "shortDesc": "Removes Stealth Rock from both sides on hit."
   }
-};
-exports.BattleMovedexRaw = {...exports.BattleMovedex};
+}

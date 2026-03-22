@@ -5163,10 +5163,7 @@ exports.BattlePokedex = {
       "spe": 120
     },
     "abilities": {
-      "0": "Cursed Body",
-      "H": [
-        "Levitate"
-      ]
+      "0": "Levitate"
     },
     "heightm": 20,
     "weightkg": 0,
@@ -8953,7 +8950,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Synchronize",
-      "1": "Early Bird",
+      "1": "Tangled Feet",
       "H": "Magic Bounce"
     },
     "heightm": 0.2,
@@ -8975,16 +8972,16 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 65,
-      "atk": 75,
+      "hp": 75,
+      "atk": 55,
       "def": 70,
-      "spa": 95,
+      "spa": 105,
       "spd": 70,
-      "spe": 95
+      "spe": 105
     },
     "abilities": {
       "0": "Synchronize",
-      "1": "Early Bird",
+      "1": "Tangled Feet",
       "H": "Magic Bounce"
     },
     "heightm": 1.5,
@@ -12812,7 +12809,7 @@ exports.BattlePokedex = {
       "hp": 60,
       "atk": 85,
       "def": 70,
-      "spa": 105,
+      "spa": 85,
       "spd": 70,
       "spe": 125
     },
@@ -14690,7 +14687,7 @@ exports.BattlePokedex = {
     "num": 329,
     "name": "Vibrava",
     "types": [
-      "Bug",
+      "Ground",
       "Dragon"
     ],
     "baseStats": {
@@ -14724,7 +14721,7 @@ exports.BattlePokedex = {
     "num": 330,
     "name": "Flygon",
     "types": [
-      "Bug",
+      "Ground",
       "Dragon"
     ],
     "baseStats": {
@@ -17175,7 +17172,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Blaze",
       "1": "Limber",
-      "H": "Tough Claws"
+      "H": "Iron Fist"
     },
     "heightm": 0.5,
     "weightkg": 6.2,
@@ -17211,7 +17208,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Blaze",
       "1": "Limber",
-      "H": "Tough Claws"
+      "H": "Iron Fist"
     },
     "heightm": 0.9,
     "weightkg": 22,
@@ -17249,7 +17246,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Blaze",
       "1": "Limber",
-      "H": "Tough Claws"
+      "H": "Iron Fist"
     },
     "heightm": 1.2,
     "weightkg": 55,
@@ -19900,9 +19897,9 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 113,
+      "atk": 123,
       "def": 67,
-      "spa": 95,
+      "spa": 85,
       "spd": 85,
       "spe": 105
     },
@@ -26420,7 +26417,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Infiltrator",
       "1": "Damp",
-      "H": "Regenerator"
+      "H": "Unburden"
     },
     "heightm": 0.8,
     "weightkg": 25.3,
@@ -28958,7 +28955,7 @@ exports.BattlePokedex = {
       "spe": 126
     },
     "abilities": {
-      "0": "Adaptability"
+      "0": "Hubris"
     },
     "heightm": 1.5,
     "weightkg": 93.3,
@@ -30350,7 +30347,7 @@ exports.BattlePokedex = {
       "spe": 118
     },
     "abilities": {
-      "0": "Luchador's Pride"
+      "0": "Mold Breaker"
     },
     "heightm": 1,
     "weightkg": 25,
@@ -31561,7 +31558,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Tinted Lens",
+      "1": "Wind Rider",
       "H": "Long Reach"
     },
     "heightm": 0.3,
@@ -31596,7 +31593,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Tinted Lens",
+      "1": "Wind Rider",
       "H": "Long Reach"
     },
     "heightm": 0.7,
@@ -31634,7 +31631,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Tinted Lens",
+      "1": "Wind Rider",
       "H": "Long Reach"
     },
     "heightm": 1.6,
@@ -31677,7 +31674,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Tinted Lens",
+      "1": "Big Pecks",
       "H": "Scrappy"
     },
     "heightm": 1.6,
@@ -35389,9 +35386,9 @@ exports.BattlePokedex = {
       "hp": 163,
       "atk": 117,
       "def": 103,
-      "spa": 67,
+      "spa": 53,
       "spd": 103,
-      "spe": 17
+      "spe": 31
     },
     "abilities": {
       "0": "Beast Boost",
@@ -39924,7 +39921,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "As One (Glastrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 809.1,
@@ -39954,7 +39951,7 @@ exports.BattlePokedex = {
       "spe": 150
     },
     "abilities": {
-      "0": "As One (Spectrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 53.6,
@@ -40601,7 +40598,7 @@ exports.BattlePokedex = {
       "def": 80,
       "spa": 85,
       "spd": 75,
-      "spe": 80
+      "spe": 85
     },
     "abilities": {
       "0": "Torrent",
@@ -42227,12 +42224,12 @@ exports.BattlePokedex = {
       "Dark"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 103,
+      "hp": 85,
+      "atk": 110,
       "def": 85,
       "spa": 60,
       "spd": 85,
-      "spe": 82
+      "spe": 102
     },
     "abilities": {
       "0": "Big Pecks",
@@ -42353,11 +42350,12 @@ exports.BattlePokedex = {
       "atk": 70,
       "def": 63,
       "spa": 30,
-      "spd": 45,
+      "spd": 65,
       "spe": 47
     },
     "abilities": {
       "0": "Overcoat",
+      "1": "Speed Boost",
       "H": "Slow Start"
     },
     "heightm": 1,
@@ -42383,11 +42381,12 @@ exports.BattlePokedex = {
       "atk": 119,
       "def": 90,
       "spa": 54,
-      "spd": 67,
+      "spd": 87,
       "spe": 90
     },
     "abilities": {
       "0": "Overcoat",
+      "1": "Speed Boost",
       "H": "Filter"
     },
     "heightm": 1.8,
@@ -42739,13 +42738,13 @@ exports.BattlePokedex = {
     "otherFormes": [
       "Tatsugiri-Droopy",
       "Tatsugiri-Stretchy",
-      "Tatsugiri-Mega",
+      "Tatsugiri-Mega"
     ],
     "formeOrder": [
       "Tatsugiri",
       "Tatsugiri-Droopy",
       "Tatsugiri-Stretchy",
-      "Tatsugiri-Mega",
+      "Tatsugiri-Mega"
     ],
     "eggGroups": [
       "Water 2"
@@ -44945,11 +44944,11 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 70,
-      "atk": 100,
+      "atk": 120,
       "def": 130,
       "spa": 165,
       "spd": 130,
-      "spe": 105
+      "spe": 85
     },
     "abilities": {
       "0": "Bad Dreams"
@@ -45138,7 +45137,7 @@ exports.BattlePokedex = {
       "spe": 153
     },
     "abilities": {
-      "0": "Iron Fist"
+      "0": "Volt Absorb"
     },
     "heightm": 1.5,
     "weightkg": 44.5,
@@ -48548,5 +48547,5 @@ exports.BattlePokedex = {
     "tier": "Illegal",
     "isNonstandard": "Custom"
   }
-}
+};
 exports.BattlePokedexRaw = {...exports.BattlePokedex};

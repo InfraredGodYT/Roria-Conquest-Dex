@@ -13145,6 +13145,12 @@ exports.BattleLearnsets = {
       ],
       "bestow": [
         "9E"
+      ],
+      "bulkup": [
+        "9M"
+      ],
+      "honeclaws": [
+        "9M"
       ]
     }
   },
@@ -86006,6 +86012,18 @@ exports.BattleLearnsets = {
       ],
       "simplebeam": [
         "9E"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "psychicnoise": [
+        "9M"
+      ],
+      "willowisp": [
+        "9M"
+      ],
+      "healingwish": [
+        "9M"
       ]
     },
     "encounters": [
@@ -86126,6 +86144,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "flash": [
+        "9L11",
         "9M"
       ],
       "flatter": [
@@ -86435,6 +86454,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "flash": [
+        "9L11",
         "9M"
       ],
       "fling": [
@@ -86763,6 +86783,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "flash": [
+        "9L11",
         "9M"
       ],
       "fling": [
@@ -97571,6 +97592,15 @@ exports.BattleLearnsets = {
       ],
       "supersonic": [
         "9E"
+      ],
+      "knockoff": [
+        "9M"
+      ],
+      "mortalspin": [
+        "9M"
+      ],
+      "thunderwave": [
+        "9M"
       ]
     }
   },
@@ -110405,6 +110435,24 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "tagout": [
+        "9M"
+      ],
+      "psychicnoise": [
+        "9M"
+      ],
+      "teleport": [
+        "9M"
+      ],
+      "verdantrelay": [
+        "9M"
+      ],
+      "storedpower": [
+        "9M"
+      ],
+      "psyshock": [
+        "9M"
+      ],
+      "defog": [
         "9M"
       ]
     },
@@ -145020,6 +145068,9 @@ exports.BattleLearnsets = {
       ],
       "tagout": [
         "9M"
+      ],
+      "flashcannon": [
+        "9M"
       ]
     },
     "eventData": [
@@ -168911,6 +168962,9 @@ exports.BattleLearnsets = {
       ],
       "thrash": [
         "9E"
+      ],
+      "nastyplot": [
+        "9M"
       ]
     },
     "eventData": [
@@ -219371,6 +219425,9 @@ exports.BattleLearnsets = {
       ],
       "weatherball": [
         "9M"
+      ],
+      "hail": [
+        "9M"
       ]
     },
     "eventData": [
@@ -258425,6 +258482,9 @@ exports.BattleLearnsets = {
       ],
       "wideguard": [
         "9E"
+      ],
+      "uturn": [
+        "9M"
       ]
     }
   },
@@ -264177,6 +264237,9 @@ exports.BattleLearnsets = {
         "9L45",
         "9L48",
         "9M"
+      ],
+      "playrough": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -267286,6 +267349,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "sunsteelstrike": [
+        "9M"
+      ],
+      "nastyplot": [
         "9M"
       ]
     },
@@ -294235,6 +294301,9 @@ exports.BattleLearnsets = {
       ],
       "selfdestruct": [
         "9E"
+      ],
+      "pursuit": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -297234,6 +297303,9 @@ exports.BattleLearnsets = {
       ],
       "hiddenpower": [
         "9M"
+      ],
+      "rubblerocket": [
+        "9L1"
       ]
     },
     "eventData": [
