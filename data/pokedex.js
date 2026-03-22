@@ -4549,8 +4549,7 @@ exports.BattlePokedex = {
     "weightkg": 70.5,
     "color": "Pink",
     "prevo": "Slowpoke-Galar",
-    "evoType": "useItem",
-    "evoItem": "Galarica Cuff",
+    "evoLevel": 37,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -9777,8 +9776,8 @@ exports.BattlePokedex = {
     "weightkg": 79.5,
     "color": "Pink",
     "prevo": "Slowpoke-Galar",
-    "evoType": "useItem",
-    "evoItem": "Galarica Wreath",
+    "evoType": "trade",
+    "evoItem": "King's Rock",
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -11779,7 +11778,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ArticunoFan"
   },
   "treecko": {
     "num": 252,
@@ -15763,7 +15763,8 @@ exports.BattlePokedex = {
       "Chimecho",
       "Chimecho-Mega"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "absol": {
     "num": 359,
@@ -33526,7 +33527,8 @@ exports.BattlePokedex = {
       "Bug",
       "Water 3"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ArticunoFan"
   },
   "sandygast": {
     "num": 769,
@@ -40159,8 +40161,7 @@ exports.BattlePokedex = {
     "weightkg": 110,
     "color": "Green",
     "prevo": "Basculin-White-Striped",
-    "evoType": "other",
-    "evoCondition": "Receive 294+ recoil without fainting",
+    "evoLevel": 36,
     "eggGroups": [
       "Water 2"
     ],
@@ -42242,7 +42243,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Flying"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Dreaddevs"
   },
   "finizen": {
     "num": 963,
@@ -42397,7 +42399,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Dreaddevs"
   },
   "cyclizar": {
     "num": 967,
