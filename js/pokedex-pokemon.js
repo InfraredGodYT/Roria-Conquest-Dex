@@ -543,6 +543,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
 		let evoRegion = window.BattlePokedexRaw?.[evo.id]?.evoRegion;
 		let regionMsg = evoRegion ? ` in ${evoRegion}` : ``;
+		let itemMsg = evo.evoItem ? ` holding ${evo.evoItem}` : ``;
 		//console.log(evoRegion, window.BattlePokedexRaw?.[evo.id]);
 		switch (evo.evoType) {
 		case 'levelExtra':
@@ -556,7 +557,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		case 'levelMove':
 			return 'level-up with ' + evo.evoMove + condition + regionMsg;
 		case 'trade':
-			return 'trade/link stone' + regionMsg;
+			return 'trade/link stone' + regionMsg + itemMsg;
 		case 'other':
 			return evo.evoCondition + regionMsg;
 		default:

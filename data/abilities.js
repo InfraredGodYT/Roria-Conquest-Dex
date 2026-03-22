@@ -1405,8 +1405,8 @@ exports.BattleAbilities = {
     "name": "Marvel Scale",
     "rating": 2.5,
     "num": 63,
-    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5. Immune to burn & poison damage.",
-    "shortDesc": "Defense multiplied by 1.5 under a status condition. Immune to burn & poison damage."
+    "desc": "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
+    "shortDesc": "Defense multiplied by 1.5 under a status condition."
   },
   "megalauncher": {
     "onBasePowerPriority": 19,
