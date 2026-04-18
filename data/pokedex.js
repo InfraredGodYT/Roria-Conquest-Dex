@@ -20282,8 +20282,8 @@ exports.BattlePokedex = {
     "weightkg": 340,
     "color": "Gray",
     "prevo": "Nosepass",
-    "evoType": "levelExtra",
-    "evoCondition": "near a special magnetic field",
+    "evoType": "useItem",
+    "evoItem": "Thunder Stone",
     "eggGroups": [
       "Mineral"
     ],
@@ -35430,7 +35430,8 @@ exports.BattlePokedex = {
     "weightkg": 230,
     "color": "Black",
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -35469,6 +35470,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Prism Armor"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 3.8,
     "weightkg": 460,
     "color": "Yellow",
@@ -35499,6 +35503,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Prism Armor"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 4.2,
     "weightkg": 350,
     "color": "Blue",
@@ -35529,6 +35536,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Neuroforce"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 7.5,
     "weightkg": 230,
     "color": "Yellow",
@@ -39318,7 +39328,8 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "otherFormes": [
       "Zacian-Crowned"
@@ -39357,6 +39368,9 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "UNOB"
+    ],
     "requiredItem": "Rusted Sword",
     "battleOnly": "Zacian",
     "cannotDynamax": true,
@@ -39388,7 +39402,8 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "otherFormes": [
       "Zamazenta-Crowned"
@@ -39427,6 +39442,9 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "UNOB"
+    ],
     "requiredItem": "Rusted Shield",
     "battleOnly": "Zamazenta",
     "cannotDynamax": true,
@@ -39458,7 +39476,8 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "otherFormes": [
       "Eternatus-Eternamax"
@@ -39491,6 +39510,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Pressure"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 100,
     "weightkg": 0,
     "color": "Purple",
@@ -39829,7 +39851,8 @@ exports.BattlePokedex = {
     "weightkg": 800,
     "color": "White",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -39858,7 +39881,8 @@ exports.BattlePokedex = {
     "weightkg": 44.5,
     "color": "Black",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -39891,7 +39915,8 @@ exports.BattlePokedex = {
       "Undiscovered"
     ],
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "otherFormes": [
       "Calyrex-Ice",
@@ -43571,7 +43596,8 @@ exports.BattlePokedex = {
     "weightkg": 74.2,
     "color": "Brown",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -43601,7 +43627,8 @@ exports.BattlePokedex = {
     "weightkg": 152.2,
     "color": "White",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -43631,7 +43658,8 @@ exports.BattlePokedex = {
     "weightkg": 699.7,
     "color": "Brown",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -43661,7 +43689,8 @@ exports.BattlePokedex = {
     "weightkg": 4.9,
     "color": "Red",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -43781,7 +43810,8 @@ exports.BattlePokedex = {
     "weightkg": 240,
     "color": "Purple",
     "tags": [
-      "Restricted Legendary"
+      "Restricted Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -44050,7 +44080,8 @@ exports.BattlePokedex = {
     "weightkg": 92,
     "color": "Black",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -44081,7 +44112,8 @@ exports.BattlePokedex = {
     "weightkg": 12.2,
     "color": "Black",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -44112,7 +44144,8 @@ exports.BattlePokedex = {
     "weightkg": 30.1,
     "color": "Black",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -44143,7 +44176,8 @@ exports.BattlePokedex = {
     "weightkg": 39.8,
     "color": "Green",
     "tags": [
-      "Sub-Legendary"
+      "Sub-Legendary",
+      "UNOB"
     ],
     "eggGroups": [
       "Undiscovered"
@@ -44195,6 +44229,9 @@ exports.BattlePokedex = {
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Blue",
+    "tags": [
+      "UNOB"
+    ],
     "eggGroups": [
       "Undiscovered"
     ],
@@ -44225,6 +44262,9 @@ exports.BattlePokedex = {
       "0": "Mold Breaker",
       "H": "Embody Aspect"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Red",
@@ -44254,6 +44294,9 @@ exports.BattlePokedex = {
       "spd": 96,
       "spe": 110
     },
+    "tags": [
+      "UNOB"
+    ],
     "abilities": {
       "0": "Sturdy",
       "H": "Embody Aspect"
@@ -44289,6 +44332,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Embody Aspect (Teal)"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Green",
@@ -44319,6 +44365,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Embody Aspect (Wellspring)"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Blue",
@@ -44350,6 +44399,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Embody Aspect (Hearthflame)"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Red",
@@ -44381,6 +44433,9 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Embody Aspect (Cornerstone)"
     },
+    "tags": [
+      "UNOB"
+    ],
     "heightm": 1.2,
     "weightkg": 39.8,
     "color": "Gray",

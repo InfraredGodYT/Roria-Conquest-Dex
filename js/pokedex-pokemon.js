@@ -379,7 +379,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 								moveBuckets.tm.push(moveLink(moveid));
 								break;
 							case 'E':
-								if (!pokemon.prevo) moveBuckets.egg.push(moveLink(moveid));
+								if (!pokemon.prevo && !(pokemon.forme && (pokemon.forme.includes("Mega") || pokemon.forme.includes("Gmax")))) moveBuckets.egg.push(moveLink(moveid));
 								break;
 						}
 					}
