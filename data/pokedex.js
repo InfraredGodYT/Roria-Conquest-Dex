@@ -8073,7 +8073,7 @@ exports.BattlePokedex = {
       "spe": 55
     },
     "abilities": {
-      "0": "Natural Cure"
+      "0": "Mega Sol"
     },
     "heightm": 2.4,
     "weightkg": 201,
@@ -11488,6 +11488,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
+      "1": "Inner Focus",
       "H": "Volt Absorb"
     },
     "heightm": 1.9,
@@ -11518,6 +11519,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
+      "1": "Inner Focus",
       "H": "Flash Fire"
     },
     "heightm": 2.1,
@@ -11548,6 +11550,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Pressure",
+      "1": "Inner Focus",
       "H": "Water Absorb"
     },
     "heightm": 2,
@@ -13313,7 +13316,7 @@ exports.BattlePokedex = {
       "def": 1,
       "spa": 100,
       "spd": 1,
-      "spe": 100
+      "spe": 40
     },
     "maxHP": 1,
     "abilities": {
@@ -14746,7 +14749,7 @@ exports.BattlePokedex = {
       "Bug",
       "Dragon"
     ],
-    "tier": "UU",
+    "tier": "OU",
     "credit": "Yoshiality"
   },
   "cacnea": {
@@ -18137,15 +18140,14 @@ exports.BattlePokedex = {
     "name": "Pachirisu",
     "types": [
       "Electric",
-      "Fairy"
     ],
     "baseStats": {
       "hp": 80,
-      "atk": 45,
+      "atk": 20,
       "def": 85,
-      "spa": 80,
+      "spa": 60,
       "spd": 95,
-      "spe": 105
+      "spe": 95
     },
     "abilities": {
       "0": "Static",
@@ -18997,7 +18999,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Keen Eye",
       "1": "Tangled Feet",
-      "H": "Prankster"
+      "H": "Big Pecks"
     },
     "heightm": 0.5,
     "weightkg": 1.9,
@@ -22022,11 +22024,11 @@ exports.BattlePokedex = {
     },
     "baseStats": {
       "hp": 110,
-      "atk": 155,
-      "def": 95,
+      "atk": 148,
+      "def": 75,
       "spa": 110,
       "spd": 110,
-      "spe": 55
+      "spe": 75
     },
     "abilities": {
       "0": "Reckless"
@@ -28517,7 +28519,7 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 78,
-      "atk": 100,
+      "atk": 90,
       "def": 71,
       "spa": 60,
       "spd": 71,

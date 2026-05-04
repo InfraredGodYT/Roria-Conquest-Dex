@@ -13418,8 +13418,8 @@ window.BattleMovedexVanilla = {
   },
   "muddywater": {
     "num": 330,
-    "accuracy": 85,
-    "basePower": 90,
+    "accuracy": 100,
+    "basePower": 80,
     "category": "Special",
     "name": "Muddy Water",
     "pp": 10,
@@ -20942,7 +20942,7 @@ window.BattleMovedexVanilla = {
   "temperflare": {
     "num": 915,
     "accuracy": 100,
-    "basePower": 75,
+    "basePower": 80,
     "basePowerCallback": true,
     "category": "Physical",
     "name": "Temper Flare",

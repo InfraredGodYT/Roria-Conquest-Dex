@@ -8383,12 +8383,6 @@ exports.BattleLearnsets = {
       "zippyzap": [
         "9M"
       ],
-      "splishysplash": [
-        "9M"
-      ],
-      "floatyfall": [
-        "9M"
-      ],
       "doubleslap": [
         "9E"
       ],
@@ -12314,10 +12308,6 @@ exports.BattleLearnsets = {
         "8V",
         "7M"
       ],
-      "pikapapow": [
-        "8V",
-        "7T"
-      ],
       "playnice": [
         "9L1"
       ],
@@ -13150,6 +13140,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "honeclaws": [
+        "9M"
+      ],
+      "aerialace": [
         "9M"
       ]
     }
@@ -44057,9 +44050,6 @@ exports.BattleLearnsets = {
       ],
       "zenheadbutt": [
         "9M"
-      ],
-      "recover": [
-        "9L35"
       ],
       "bodypress": [
         "9M"
@@ -107894,7 +107884,7 @@ exports.BattleLearnsets = {
       "whirlpool": [
         "9M"
       ],
-      "recover": [
+      "lifedew": [
         "9L1"
       ]
     },
@@ -135786,9 +135776,6 @@ exports.BattleLearnsets = {
       "clangingscales": [
         "9L1"
       ],
-      "quiverdance": [
-        "9L45"
-      ],
       "firstimpression": [
         "9M"
       ],
@@ -147068,9 +147055,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "freezedry": [
-        "9M"
-      ],
-      "chillingnibble": [
         "9M"
       ],
       "fissure": [
@@ -169332,9 +169316,6 @@ exports.BattleLearnsets = {
       "zenheadbutt": [
         "9M"
       ],
-      "poltergeist": [
-        "9M"
-      ]
     },
     "eventData": [
       {
@@ -170090,9 +170071,6 @@ exports.BattleLearnsets = {
       "yawn": [
         "9L13"
       ],
-      "poltergeist": [
-        "9M"
-      ]
     }
   },
   "hippowdon": {
@@ -280798,7 +280776,10 @@ exports.BattleLearnsets = {
       ],
       "guardswap": [
         "9M"
-      ]
+      ],
+      "tagout": [
+        "9M"
+      ],
     }
   },
   "indeedeef": {
@@ -281029,7 +281010,19 @@ exports.BattleLearnsets = {
       "zenheadbutt": [
         "9M",
         "8M"
-      ]
+      ],
+      "tagout": [
+        "9M"
+      ],
+      "hiddenpower": [
+        "9M"
+      ],
+      "return": [
+        "9M"
+      ],
+      "frustration": [
+        "9M"
+      ],
     },
     "eventData": [
       {
@@ -295854,9 +295847,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "whirlpool": [
-        "9M"
-      ],
-      "rockwrecker": [
         "9M"
       ],
       "return": [

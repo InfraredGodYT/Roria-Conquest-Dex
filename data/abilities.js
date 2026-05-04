@@ -1341,8 +1341,8 @@ exports.BattleAbilities = {
     "name": "Liquid Voice",
     "rating": 1.5,
     "num": 204,
-    "desc": "This Pokemon's sound-based moves become Water-type moves and get a 20% base power increase. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
-    "shortDesc": "This Pokemon's sound-based moves become Water type and get a 20% power boost."
+    "desc": "This Pokemon's sound-based moves become Water-type moves. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+    "shortDesc": "This Pokemon's sound-based moves become Water type."
   },
   "longreach": {
     "flags": {},
@@ -1417,6 +1417,15 @@ exports.BattleAbilities = {
     "desc": "This Pokemon's pulse moves have their power multiplied by 1.5. Heal Pulse restores 3/4 of a target's maximum HP, rounded half down.",
     "shortDesc": "This Pokemon's pulse moves have 1.5x power. Heal Pulse heals 3/4 target's max HP."
   },
+  megasol: {
+		isNonstandard: "Future",
+		flags: {},
+		name: "Mega Sol",
+		rating: 3,
+		num: 315,
+		desc: "This Pokemon's moves are used as if the effects of Sunny Day were active.",
+		shortDesc: "This Pokemon's moves are used as if the effects of Sunny Day were active."
+	},
   "merciless": {
     "flags": {},
     "name": "Merciless",
@@ -2509,7 +2518,7 @@ exports.BattleAbilities = {
     },
     "name": "Striker",
     "rating": 3,
-    "num": 311,
+    "num": -9,
     "desc": "This Pokemon's kicking moves have their power multiplied by 1.3.",
     "shortDesc": "This Pokemon's kicking moves have their power multiplied by 1.3."
   },
@@ -3182,5 +3191,34 @@ exports.BattleAbilities = {
     "num": -7,
     "desc": "This Pokemon's Speed is raised by 1 stage when another Pokemon faints.",
     "shortDesc": "This Pokemon's Speed is raised by 1 stage when another Pokemon faints."
-  }
+  },
+  dragonize: {
+		isNonstandard: "Future",
+		onModifyTypePriority: -1,
+		onBasePowerPriority: 23,
+		flags: {},
+		name: "Dragonize",
+		rating: 4,
+		num: 312,
+		desc: "This Pokemon's Normal-type moves become Dragon-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		shortDesc: "This Pokemon's Normal-type moves become Dragon type and have 1.2x power."
+	},
+  piercingdrill: {
+		isNonstandard: "Future",
+		flags: {},
+		name: "Piercing Drill",
+		rating: 1,
+		num: 311,
+		desc: "This Pokemon's contact moves ignore a target's protection and deal 1/4 the usual damage.",
+		shortDesc: "This Pokemon's contact moves ignore a target's protection and deal 1/4 the usual damage."
+	},
+  spicyspray: {
+		isNonstandard: "Future",
+		flags: {},
+		name: "Spicy Spray",
+		rating: 3,
+		num: 318,
+		desc: "If this Pokemon is hit by an attack, the attacker becomes burned.",
+		shortDesc: "If this Pokemon is hit by an attack, the attacker becomes burned."
+	},
 };
