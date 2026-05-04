@@ -18139,7 +18139,7 @@ exports.BattlePokedex = {
     "num": 417,
     "name": "Pachirisu",
     "types": [
-      "Electric",
+      "Electric"
     ],
     "baseStats": {
       "hp": 80,
@@ -31245,7 +31245,8 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Aura Break"
+      "0": "Aura Break",
+      "H": "Power Construct"
     },
     "heightm": 5,
     "weightkg": 305,
@@ -33747,7 +33748,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Bug Memory",
+    "requiredItems": [
+      "Bug Memory",
+      "Insect Plate",
+      "Buginium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33777,7 +33782,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Dark Memory",
+    "requiredItems": [
+      "Dark Memory",
+      "Dread Plate",
+      "Darkinium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33807,7 +33816,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Dragon Memory",
+    "requiredItems": [
+      "Dragon Memory",
+      "Draco Plate",
+      "Dragonium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33837,7 +33850,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Electric Memory",
+    "requiredItems": [
+      "Electric Memory",
+      "Zap Plate",
+      "Electrium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33867,7 +33884,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Fairy Memory",
+    "requiredItems": [
+      "Fairy Memory",
+      "Pixie Plate",
+      "Fairium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33897,7 +33918,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Fighting Memory",
+    "requiredItems": [
+      "Fighting Memory",
+      "Fist Plate",
+      "Fightinium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33927,7 +33952,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Fire Memory",
+    "requiredItems": [
+      "Fire Memory",
+      "Flame Plate",
+      "Firium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33957,7 +33986,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Flying Memory",
+    "requiredItems": [
+      "Flying Memory",
+      "Sky Plate",
+      "Flyinium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -33987,7 +34020,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Ghost Memory",
+    "requiredItems": [
+      "Ghost Memory",
+      "Spooky Plate",
+      "Ghostium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34017,7 +34054,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Grass Memory",
+    "requiredItems": [
+      "Grass Memory",
+      "Meadow Plate",
+      "Grassium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34047,7 +34088,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Ground Memory",
+    "requiredItems": [
+      "Ground Memory",
+      "Earth Plate",
+      "Groundium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34077,7 +34122,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Ice Memory",
+    "requiredItems": [
+      "Ice Memory",
+      "Icicle Plate",
+      "Icium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34107,7 +34156,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Poison Memory",
+    "requiredItems": [
+      "Poison Memory",
+      "Toxic Plate",
+      "Poisonium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34137,7 +34190,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Psychic Memory",
+    "requiredItems": [
+      "Psychic Memory",
+      "Mind Plate",
+      "Psychium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34167,7 +34224,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Rock Memory",
+    "requiredItems": [
+      "Rock Memory",
+      "Stone Plate",
+      "Rockium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34197,7 +34258,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Steel Memory",
+    "requiredItems": [
+      "Steel Memory",
+      "Iron Plate",
+      "Steelium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },
@@ -34227,7 +34292,11 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "requiredItem": "Water Memory",
+    "requiredItems": [
+      "Water Memory",
+      "Splash Plate",
+      "Waterium Z"
+    ],
     "changesFrom": "Silvally",
     "tier": "Illegal"
   },

@@ -86279,9 +86279,6 @@ exports.BattleLearnsets = {
       "zapcannon": [
         "9M"
       ],
-      "nastyplot": [
-        "9L11"
-      ],
       "paraboliccharge": [
         "9L15"
       ],
@@ -86612,9 +86609,6 @@ exports.BattleLearnsets = {
       ],
       "zapcannon": [
         "9M"
-      ],
-      "nastyplot": [
-        "9L11"
       ],
       "paraboliccharge": [
         "9L16"
@@ -86976,9 +86970,6 @@ exports.BattleLearnsets = {
       ],
       "zapcannon": [
         "9L1"
-      ],
-      "nastyplot": [
-        "9L11"
       ],
       "paraboliccharge": [
         "9L16"
@@ -115989,9 +115980,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "stunspore": [
-        "9L1"
-      ],
-      "sleeppowder": [
         "9L1"
       ],
       "irondefense": [
@@ -169315,7 +169303,7 @@ exports.BattleLearnsets = {
       ],
       "zenheadbutt": [
         "9M"
-      ],
+      ]
     },
     "eventData": [
       {
@@ -170070,7 +170058,7 @@ exports.BattleLearnsets = {
       ],
       "yawn": [
         "9L13"
-      ],
+      ]
     }
   },
   "hippowdon": {
@@ -220954,6 +220942,9 @@ exports.BattleLearnsets = {
       ],
       "darkpulse": [
         "9L1"
+      ],
+      "rockclimb": [
+        "9M"
       ]
     },
     "eventData": [
@@ -280779,7 +280770,7 @@ exports.BattleLearnsets = {
       ],
       "tagout": [
         "9M"
-      ],
+      ]
     }
   },
   "indeedeef": {
@@ -281022,7 +281013,7 @@ exports.BattleLearnsets = {
       ],
       "frustration": [
         "9M"
-      ],
+      ]
     },
     "eventData": [
       {
