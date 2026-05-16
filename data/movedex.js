@@ -20767,7 +20767,7 @@ exports.BattleMovedex = {
   "temperflare": {
     "num": 915,
     "accuracy": 100,
-    "basePower": 75,
+    "basePower": 80,
     "basePowerCallback": true,
     "category": "Physical",
     "name": "Temper Flare",

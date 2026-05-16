@@ -44981,7 +44981,7 @@ exports.BattlePokedex = {
       "spe": 151
     },
     "abilities": {
-      "0": "Wind Rider"
+      "0": "Levitate"
     },
     "heightm": 1.9,
     "weightkg": 99,

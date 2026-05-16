@@ -20942,7 +20942,7 @@ window.BattleMovedexVanilla = {
   "temperflare": {
     "num": 915,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 75,
     "basePowerCallback": true,
     "category": "Physical",
     "name": "Temper Flare",

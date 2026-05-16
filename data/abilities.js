@@ -3054,8 +3054,8 @@ exports.BattleAbilities = {
     "name": "Wind Rider",
     "rating": 3.5,
     "num": 274,
-    "desc": "This Pokemon is immune to wind moves and raises its Attack by 1 stage when hit by a wind move or when Tailwind begins on this Pokemon's side.",
-    "shortDesc": "Attack raised by 1 if hit by a wind move or Tailwind begins. Wind move immunity."
+    "desc": "This Pokemon is immune to wind moves and raises its highest Attack stat by 1 stage when hit by a wind move or when Tailwind begins on this Pokemon's side.",
+    "shortDesc": "Highest attack stat raised by 1 if hit by a wind move or Tailwind begins. Wind move immunity."
   },
   "wonderguard": {
     "flags": {

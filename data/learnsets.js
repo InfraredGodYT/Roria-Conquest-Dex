@@ -43357,9 +43357,6 @@ exports.BattleLearnsets = {
       "zenheadbutt": [
         "9M"
       ],
-      "recover": [
-        "9L35"
-      ],
       "bulldoze": [
         "9M"
       ],
