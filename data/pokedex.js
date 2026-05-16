@@ -21789,7 +21789,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "OU"
+    "tier": "UU"
   },
   "snivy": {
     "num": 495,
