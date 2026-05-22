@@ -24506,7 +24506,7 @@ exports.BattlePokedex = {
       "Amorphous"
     ],
     "tier": "OU",
-    "credit": "Kirb"
+    "credit": "Nacho"
   },
   "tirtouga": {
     "num": 564,

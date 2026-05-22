@@ -553,15 +553,15 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		case 'levelHold':
 			return 'level-up holding ' + evo.evoItem + condition + regionMsg;
 		case 'useItem':
-			return evo.evoItem + regionMsg;
+			return evo.evoItem + condition + regionMsg;
 		case 'levelMove':
 			return 'level-up with ' + evo.evoMove + condition + regionMsg;
 		case 'trade':
-			return 'trade/link stone' + regionMsg + itemMsg;
+			return 'trade/link stone' + condition + regionMsg + itemMsg;
 		case 'other':
 			return evo.evoCondition + regionMsg;
 		default:
-			return 'level ' + evo.evoLevel + regionMsg;
+			return 'level ' + evo.evoLevel + condition + regionMsg;
 		}
 	},
 	selectTab: function(e) {
