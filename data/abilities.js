@@ -2096,8 +2096,8 @@ exports.BattleAbilities = {
     "name": "Detonating Shell",
     "rating": 3.5,
     "num": 314,
-    "desc": "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down. Clears Stealth Rock on the holder's side when switched in.",
-    "shortDesc": "Pokemon making contact with this Pokemon lose 1/8 of their max HP. Clears Stealth Rock on switch-in."
+    "desc": "Clears Stealth Rock on the holder's side when switched in.",
+    "shortDesc": "Clears Stealth Rock on switch-in."
   },
   "runaway": {
     "flags": {},

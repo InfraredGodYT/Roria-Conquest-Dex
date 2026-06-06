@@ -40180,7 +40180,7 @@ exports.BattlePokedex = {
       "0": "Mind's Eye"
     },
     "evoLevel": 50,
-    "evoRegion": "Lost Islands",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "prevo": "Ursaring",
     "heightm": 2.7,
     "weightkg": 333,

@@ -91593,27 +91593,6 @@ exports.BattleLearnsets = {
       "muddywater": [
         "9L28"
       ],
-      "icywind": [
-        "9M"
-      ],
-      "avalanche": [
-        "9M"
-      ],
-      "hail": [
-        "9M"
-      ],
-      "encore": [
-        "9M"
-      ],
-      "icebeam": [
-        "9M"
-      ],
-      "blizzard": [
-        "9M"
-      ],
-      "highhorsepower": [
-        "9M"
-      ],
       "return": [
         "9M"
       ],
@@ -91621,6 +91600,9 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "hiddenpower": [
+        "9M"
+      ],
+      "hail": [
         "9M"
       ]
     }
@@ -101505,9 +101487,6 @@ exports.BattleLearnsets = {
       ],
       "trailblaze": [
         "9M"
-      ],
-      "swordsdance": [
-        "9E"
       ]
     },
     "eventData": [
@@ -101781,9 +101760,6 @@ exports.BattleLearnsets = {
       ],
       "trailblaze": [
         "9M"
-      ],
-      "swordsdance": [
-        "9E"
       ],
       "bite": [
         "9E"
@@ -173160,24 +173136,6 @@ exports.BattleLearnsets = {
       ],
       "willowisp": [
         "9M"
-      ],
-      "hurricane": [
-        "9L1"
-      ],
-      "blizzard": [
-        "9M"
-      ],
-      "airslash": [
-        "9M"
-      ],
-      "overheat": [
-        "9M"
-      ],
-      "hydropump": [
-        "9M"
-      ],
-      "leafstorm": [
-        "9M"
       ]
     },
     "eventData": [
@@ -173262,6 +173220,9 @@ exports.BattleLearnsets = {
         "6R",
         "5R",
         "4R"
+      ],
+      "hurricane": [
+        "9L1"
       ]
     }
   },
@@ -251537,81 +251498,6 @@ exports.BattleLearnsets = {
       ],
       "happyhour": [
         "9M"
-      ],
-      "outrage": [
-        "9M"
-      ],
-      "counter": [
-        "9M"
-      ],
-      "focusenergy": [
-        "9M"
-      ],
-      "throatchop": [
-        "9M"
-      ],
-      "workup": [
-        "9M"
-      ],
-      "reversal": [
-        "9M"
-      ],
-      "lashout": [
-        "9M"
-      ],
-      "shadowclaw": [
-        "9M"
-      ],
-      "fling": [
-        "9M"
-      ],
-      "firepunch": [
-        "9M"
-      ],
-      "megapunch": [
-        "9M"
-      ],
-      "foulplay": [
-        "9M"
-      ],
-      "knockoff": [
-        "9M"
-      ],
-      "dualchop": [
-        "9M"
-      ],
-      "uproar": [
-        "9M"
-      ],
-      "laserfocus": [
-        "9M"
-      ],
-      "thunderpunch": [
-        "9M"
-      ],
-      "megakick": [
-        "9M"
-      ],
-      "upperhand": [
-        "9M"
-      ],
-      "revenge": [
-        "9M"
-      ],
-      "payback": [
-        "9M"
-      ],
-      "lowsweep": [
-        "9M"
-      ],
-      "focuspunch": [
-        "9M"
-      ],
-      "crushclaw": [
-        "9E"
-      ],
-      "thrash": [
-        "9E"
       ]
     }
   },
