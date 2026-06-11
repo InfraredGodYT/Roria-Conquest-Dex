@@ -40019,7 +40019,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "As One"
+      "0": "As One (Glastrier)"
     },
     "heightm": 2.4,
     "weightkg": 809.1,
@@ -40049,7 +40049,7 @@ exports.BattlePokedex = {
       "spe": 150
     },
     "abilities": {
-      "0": "As One"
+      "0": "As One (Spectrier)"
     },
     "heightm": 2.4,
     "weightkg": 53.6,
