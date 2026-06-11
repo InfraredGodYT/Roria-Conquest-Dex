@@ -42920,8 +42920,8 @@ exports.BattlePokedex = {
     "weightkg": 56,
     "color": "Gray",
     "prevo": "Primeape",
-    "evoType": "other",
-    "evoCondition": "Use Rage Fist 20 times and level-up",
+    "evoType": "levelMove",
+    "evoMove": "Rage Fist",
     "eggGroups": [
       "Field"
     ],
@@ -43057,7 +43057,7 @@ exports.BattlePokedex = {
     "prevo": "Dunsparce",
     "evoType": "levelMove",
     "evoMove": "Hyper Drill",
-    "evoRegion": "Lost Islands",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Field"
     ]
