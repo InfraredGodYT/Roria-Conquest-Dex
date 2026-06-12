@@ -5918,7 +5918,7 @@ exports.BattlePokedex = {
     "color": "Gray",
     "prevo": "Koffing",
     "evoLevel": 35,
-    "evoRegion": "Galar",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Amorphous"
     ],
@@ -6416,7 +6416,6 @@ exports.BattlePokedex = {
     "prevo": "Mime Jr.",
     "evoType": "levelMove",
     "evoMove": "Mimic",
-    "evoRegion": "Galar",
     "evos": [
       "Mr. Rime"
     ],
@@ -32691,7 +32690,7 @@ exports.BattlePokedex = {
     "color": "Brown",
     "prevo": "Rockruff",
     "evoLevel": 25,
-    "evoRegion": "Lost Islands",
+    "evoRegion": "Lost Islands/Grove of Dreams",
     "eggGroups": [
       "Field"
     ],
@@ -36676,12 +36675,12 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 55,
-      "def": 120,
-      "spa": 90,
-      "spd": 130,
-      "spe": 100
+      "hp": 60,
+      "atk": 45,
+      "def": 110,
+      "spa": 80,
+      "spd": 120,
+      "spe": 90
     },
     "abilities": {
       "0": "Swarm",
