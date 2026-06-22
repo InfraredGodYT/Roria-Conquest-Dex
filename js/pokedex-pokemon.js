@@ -116,39 +116,94 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 
 		buf += '</table></dd>';
 
+		function getChildren(speciesId) {
+			const children = [];
+
+			for (const id in BattlePokedex) {
+				const mon = Dex.species.get(id);
+				if (!mon.exists) continue;
+
+				if (toID(mon.prevo) === toID(speciesId)) {
+					children.push(mon);
+				}
+			}
+
+			return children;
+		}
+
+		function renderMon(mon) {
+			const name = mon.forme ? mon.baseSpecies + '<small>-' + mon.forme + '</small>' : mon.name;
+			const icon = '<span class="picon" style="' + Dex.getPokemonIcon(mon) + '"></span>';
+
+			if (mon.id === pokemon.id) {
+				return '<strong>' + icon + name + '</strong>';
+			}
+			return '<a href="/pokemon/' + mon.id + '" data-target="replace">' + icon + name + '</a>';
+		}
+
+		function collectEvoPaths(mon, path, paths, seen) {
+			if (seen[mon.id]) return;
+
+			seen[mon.id] = true;
+			path = path.concat([mon]);
+
+			const children = getChildren(mon.id);
+			if (!children.length) {
+				paths.push(path);
+				return;
+			}
+
+			for (const child of children) {
+				collectEvoPaths(child, path, paths, Object.assign({}, seen));
+			}
+		}
+
 		buf += '<dt>Evolution:</dt> <dd>';
 		var template = pokemon;
 		while (template.prevo) template = Dex.species.get(template.prevo);
-		if (template.evos) {
-			buf += '<table class="evos"><tr><td>';
-			var evos = [template.name];
-			while (evos) {
-				if (evos[0] === 'Dustox') evos = ['Beautifly', 'Dustox'];
-				if (evos[0] === 'Goodra-Hisui') evos = ['Goodra', 'Goodra-Hisui'];
-				for (var i=0; i<evos.length; i++) {
-					template = Dex.species.get(evos[i]);
-					if (i <= 0) {
-						if (!evos[0].exists) {
-							if (evos[1] === 'Dustox' || evos[1] === 'Goodra') {
-								buf += '</td><td class="arrow"><span>&rarr;<br />&rarr;</span></td><td>';
-							} else if (template.prevo) {
-								buf += '</td><td class="arrow"><span><abbr title="' + this.getEvoMethod(template) + '">&rarr;</abbr></span></td><td>';
-							} else {
-								buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
-							}
+
+		var paths = [];
+		collectEvoPaths(template, [], paths, {});
+
+		if (paths.length && paths[0].length > 1) {
+			buf += '<table class="evos">';
+
+			for (let row = 0; row < paths.length; row++) {
+				const path = paths[row];
+				const prevPath = paths[row - 1];
+
+				buf += '<tr>';
+
+				for (let i = 0; i < path.length; i++) {
+					const sameAsAbove = prevPath && prevPath[i] && prevPath[i].id === path[i].id;
+
+					if (sameAsAbove) continue;
+
+					let rowspan = 1;
+					for (let r = row + 1; r < paths.length; r++) {
+						if (paths[r][i] && paths[r][i].id === path[i].id) {
+							rowspan++;
+						} else {
+							break;
 						}
 					}
-					var name = (template.forme ? template.baseSpecies+'<small>-'+template.forme+'</small>' : template.name);
-					name = '<span class="picon" style="'+Dex.getPokemonIcon(template)+'"></span>'+name;
-					if (template === pokemon) {
-						buf += '<div><strong>'+name+'</strong></div>';
-					} else {
-						buf += '<div><a href="/pokemon/'+template.id+'" data-target="replace">'+name+'</a></div>';
+
+					if (i > 0) {
+						buf += '<td class="arrow"' + (rowspan > 1 ? ' rowspan="' + rowspan + '"' : '') + '>';
+						buf += '<span><abbr title="' + this.getEvoMethod(path[i]) + '">&rarr;</abbr></span>';
+						buf += '</td>';
 					}
+
+					buf += '<td' + (rowspan > 1 ? ' rowspan="' + rowspan + '"' : '') + '>';
+					buf += '<div>' + renderMon(path[i]) + '</div>';
+					buf += '</td>';
 				}
-				evos = template.evos;
+
+				buf += '</tr>';
 			}
-			buf += '</td></tr></table>';
+
+			buf += '</table>';
+
 			if (pokemon.prevo) {
 				buf += '<div><small>Evolves from ' + Dex.species.get(pokemon.prevo).name + ' (' + this.getEvoMethod(pokemon) + ')</small></div>';
 			}
