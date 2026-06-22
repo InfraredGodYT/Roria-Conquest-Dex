@@ -44605,6 +44605,9 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Paradox"
+    ],
     "tier": "UUber"
   },
   "ragingbolt": {
@@ -44631,6 +44634,9 @@ exports.BattlePokedex = {
     "color": "Yellow",
     "eggGroups": [
       "Undiscovered"
+    ],
+    "tags": [
+      "Paradox"
     ],
     "tier": "OU"
   },
@@ -44659,6 +44665,9 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
+    "tags": [
+      "Paradox"
+    ],
     "tier": "OU"
   },
   "ironcrown": {
@@ -44685,6 +44694,9 @@ exports.BattlePokedex = {
     "color": "Blue",
     "eggGroups": [
       "Undiscovered"
+    ],
+    "tags": [
+      "Paradox"
     ],
     "tier": "OU"
   },
