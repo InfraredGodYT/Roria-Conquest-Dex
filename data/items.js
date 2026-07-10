@@ -2476,17 +2476,6 @@ exports.BattleItems = {
     "desc": "Holder's use of Sunny Day lasts 8 turns instead of 5.",
     "shortDesc": "Holder's use of Sunny Day lasts 8 turns instead of 5."
   },
-  heatranite: {
-    name: "Heatranite",
-    spritenum: 0,
-    megaStone: {
-        Heatran: "Heatran-Mega"
-    },
-    itemUser: ["Heatran"],
-    num: 2592,
-    gen: 9,
-    isNonstandard: "Future"
-  },
   "heavyball": {
     "name": "Heavy Ball",
     "spritenum": 194,
