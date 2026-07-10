@@ -331,16 +331,16 @@ exports.BattleItems = {
     "desc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle."
   },
-  baxcalibrite: {
-    name: "Baxcalibrite",
-    spritenum: 0,
-    megaStone: {
-        Baxcalibur: "Baxcalibur-Mega"
-    },
-    itemUser: ["Baxcalibur"],
-    num: 2601,
-    gen: 9,
-    isNonstandard: "Future"
+  "baxcalibrite": {
+    "name": "Baxcalibrite",
+    "spritenum": 514,
+    "megaStone": "Baxcalibur-Mega",
+    "itemUser": ["Baxcalibur"],
+    "num": 2648,
+    "gen": 9,
+    "isNonstandard": "Future",
+    "desc": "If held by a Baxcalibur, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Baxcalibur, this item allows it to Mega Evolve in battle."
   },
   "beastball": {
     "name": "Beast Ball",
@@ -2165,16 +2165,16 @@ exports.BattleItems = {
     "desc": "If held by a Glalie, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Glalie, this item allows it to Mega Evolve in battle."
   },
-  glimmoranite: {
-    name: "Glimmoranite",
-    spritenum: 0,
-    megaStone: {
-        Glimmora: "Glimmora-Mega"
-    },
-    itemUser: ["Glimmora"],
-    num: 2600,
-    gen: 9,
-    isNonstandard: "Future"
+  "glimmoranite": {
+    "name": "Glimmoranite",
+    "spritenum": 512,
+    "megaStone": "Glimmora-Mega",
+    "itemUser": ["Glimmora"],
+    "num": 2650,
+    "gen": 9,
+    "isNonstandard": "Future",
+    "desc": "If held by a Glimmora, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Glimmora, this item allows it to Mega Evolve in battle."
   },
   "goldbottlecap": {
     "name": "Gold Bottle Cap",
@@ -2454,6 +2454,17 @@ exports.BattleItems = {
     "desc": "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect.",
     "shortDesc": "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect."
   },
+  "heatranite": {
+		"name": "Heatranite",
+    "spritenum": 503,
+    "megaStone": "Heatran-Mega",
+    "itemUser": ["Heatran"],
+    "num": 2567,
+    "gen": 9,
+    "isNonstandard": "Future",
+		"shortDesc": "If held by a Heatran, this item allows it to Mega Evolve in battle.",
+    "desc": "If held by a Heatran, this item allows it to Mega Evolve in battle.",
+	},
   "heatrock": {
     "name": "Heat Rock",
     "spritenum": 193,
