@@ -100401,51 +100401,6 @@ exports.BattleLearnsets = {
       "hiddenpower": [
         "9M"
       ],
-      "bloodmoon": [
-        "9M"
-      ],
-      "calmmind": [
-        "9M"
-      ],
-      "focusblast": [
-        "9M"
-      ],
-      "moonblast": [
-        "9M"
-      ],
-      "moonlight": [
-        "9M"
-      ],
-      "mudshot": [
-        "9M"
-      ],
-      "harden": [
-        "9M"
-      ],
-      "snarl": [
-        "9M"
-      ],
-      "nightslash": [
-        "9E"
-      ],
-      "counter": [
-        "9E"
-      ],
-      "yawn": [
-        "9E"
-      ],
-      "seismictoss": [
-        "9E"
-      ],
-      "crosschop": [
-        "9E"
-      ],
-      "bellydrum": [
-        "9E"
-      ],
-      "furycutter": [
-        "9E"
-      ]
     }
   },
   "ursalunabloodmoon": {
