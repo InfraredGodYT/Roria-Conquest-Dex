@@ -1003,8 +1003,7 @@ for (const [group, ids] of Object.entries(ArticleGroups)) {
 var PokedexArticlesPanel = Panels.Panel.extend({
 	initialize: function () {
 		var buf = '<div class="pfx-body">';
-		buf += '<a href="/" class="pfx-backbutton" data-target="back">';
-		buf += '<i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<a href="/" class="pfx-backbutton"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
 		buf += '<h1>Articles</h1>';
 
 		// Group articles

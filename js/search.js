@@ -108,6 +108,10 @@
 				articles.push(['article', id]);
 			}
 
+			this.resultSet = this.resultSet.filter(row => {
+				return !(row[0] === 'header' && row[1] === 'Changes');
+			});
+
 			this.resultSet = articles.concat(this.resultSet);
 		}
 

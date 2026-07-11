@@ -101,10 +101,32 @@ a img {
 	border-radius: 0;
 }
 
-.nav .button img {
+.nav .nav-logo {
 	position: absolute;
-	top: -8px;
-	left: -150px;
+	top: 6px;
+	left: 0;
+	float: none;
+}
+
+.nav .nav-logo a {
+	display: block;
+	width: 145px;
+	height: 49px;
+	line-height: 0;
+}
+
+.nav .nav-logo img {
+	display: block;
+	width: 114px;
+	height: 64px;
+	margin: -7px 15px 0 15px;
+}
+
+.nav .button.game-link-button {
+	margin-right: -1px;
+	border-radius: 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 .nav .button:hover {
@@ -403,6 +425,7 @@ a.button {
 /* topbar */
 
 .pfx-topbar .header {
+	position: relative;
 	margin: 0;
 	width: auto;
 	min-height: 48px;
