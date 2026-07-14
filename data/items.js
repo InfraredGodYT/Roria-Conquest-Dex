@@ -803,14 +803,16 @@ exports.BattleItems = {
   },
   chimechite: {
     name: "Chimechite",
-    spritenum: 0,
+    spritenum: 498,
     megaStone: {
         Chimecho: "Chimecho-Mega"
     },
     itemUser: ["Chimecho"],
     num: 2587,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Chimecho, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Chimecho, this item allows it to Mega Evolve in battle."
   },
   "chippedpot": {
     "name": "Chipped Pot",
@@ -1005,14 +1007,16 @@ exports.BattleItems = {
   },
   crabominite: {
     name: "Crabominite",
-    spritenum: 0,
+    spritenum: 507,
     megaStone: {
         Crabominable: "Crabominable-Mega"
     },
     itemUser: ["Crabominable"],
     num: 2595,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Crabominable, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Crabominable, this item allows it to Mega Evolve in battle."
   },
   "crackedpot": {
     "name": "Cracked Pot",
@@ -1097,7 +1101,9 @@ exports.BattleItems = {
     itemUser: ["Darkrai"],
     num: 2593,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Darkrai, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Darkrai, this item allows it to Mega Evolve in battle."
   },
   "dawnstone": {
     "name": "Dawn Stone",
@@ -2076,14 +2082,16 @@ exports.BattleItems = {
   },
   garchompitez: {
     name: "Garchompite Z",
-    spritenum: 573,
+    spritenum: 501,
     megaStone: {
         Garchomp: "Garchomp-Mega-Z"
     },
     itemUser: ["Garchomp"],
     num: 2590,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z.",
+		shortDesc: "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z."
   },
   "gardevoirite": {
     "name": "Gardevoirite",
@@ -2189,25 +2197,29 @@ exports.BattleItems = {
   },
   golisopite: {
     name: "Golisopite",
-    spritenum: 0,
+    spritenum: 508,
     megaStone: {
         Golisopod: "Golisopod-Mega"
     },
     itemUser: ["Golisopod"],
     num: 2596,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Golisopod, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Golisopod, this item allows it to Mega Evolve in battle."
   },
   golurkite: {
     name: "Golurkite",
-    spritenum: 0,
+    spritenum: 505,
     megaStone: {
         Golurk: "Golurk-Mega"
     },
     itemUser: ["Golurk"],
     num: 2594,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Golurk, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Golurk, this item allows it to Mega Evolve in battle."
   },
   "grassgem": {
     "name": "Grass Gem",
@@ -3060,14 +3072,16 @@ exports.BattleItems = {
   },
   lucarionitez: {
     name: "Lucarionite Z",
-    spritenum: 594,
+    spritenum: 502,
     megaStone: {
         Lucario: "Lucario-Mega-Z"
     },
     itemUser: ["Lucario"],
     num: 2591,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle.",
+		shortDesc: "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle."
   },
   "luckypunch": {
     "name": "Lucky Punch",
@@ -3206,7 +3220,7 @@ exports.BattleItems = {
   },
   magearnite: {
     name: "Magearnite",
-    spritenum: 0,
+    spritenum: 509,
     megaStone: {
         Magearna: "Magearna-Mega",
         "Magearna-Original": "Magearna-Original-Mega"
@@ -3214,7 +3228,9 @@ exports.BattleItems = {
     itemUser: ["Magearna", "Magearna-Original"],
     num: 2597,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Magearna, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Magearna, this item allows it to Mega Evolve in battle."
   },
   "magmarizer": {
     "name": "Magmarizer",
@@ -3429,7 +3445,7 @@ exports.BattleItems = {
   },
   meowsticite: {
     name: "Meowsticite",
-    spritenum: 0,
+    spritenum: 506,
     megaStone: {
         Meowstic: "Meowstic-M-Mega",
         "Meowstic-F": "Meowstic-F-Mega"
@@ -3437,7 +3453,9 @@ exports.BattleItems = {
     itemUser: ["Meowstic", "Meowstic-F"],
     num: 2594,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Meowstic, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Meowstic, this item allows it to Mega Evolve in battle."
   },
   "metagrossite": {
     "name": "Metagrossite",
@@ -4382,25 +4400,29 @@ exports.BattleItems = {
   },
   raichunitex: {
     name: "Raichunite X",
-    spritenum: 0,
+    spritenum: 496,
     megaStone: {
         Raichu: "Raichu-Mega-X"
     },
     itemUser: ["Raichu"],
     num: 2585,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle.",
+		shortDesc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle."
   },
   raichunitey: {
     name: "Raichunite Y",
-    spritenum: 0,
+    spritenum: 497,
     megaStone: {
         Raichu: "Raichu-Mega-Y"
     },
     itemUser: ["Raichu"],
     num: 2586,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle.",
+		shortDesc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle."
   },
   "rarebone": {
     "name": "Rare Bone",
@@ -4837,14 +4859,16 @@ exports.BattleItems = {
   },
   scovillainite: {
     name: "Scovillainite",
-    spritenum: 0,
+    spritenum: 511,
     megaStone: {
         Scovillain: "Scovillain-Mega"
     },
     itemUser: ["Scovillain"],
     num: 2599,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Scovillain, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Scovillain, this item allows it to Mega Evolve in battle."
   },
   "scraftinite": {
     "name": "Scraftinite",
@@ -5194,14 +5218,16 @@ exports.BattleItems = {
   },
   staraptite: {
     name: "Staraptite",
-    spritenum: 0,
+    spritenum: 500,
     megaStone: {
         Staraptor: "Staraptor-Mega"
     },
     itemUser: ["Staraptor"],
     num: 2589,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Staraptor, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Staraptor, this item allows it to Mega Evolve in battle."
   },
   "starfberry": {
     "name": "Starf Berry",
@@ -5458,7 +5484,7 @@ exports.BattleItems = {
   },
   tatsugirinite: {
     name: "Tatsugirinite",
-    spritenum: 0,
+    spritenum: 513,
     megaStone: {
         Tatsugiri: "Tatsugiri-Curly-Mega",
         "Tatsugiri-Droopy": "Tatsugiri-Droopy-Mega",
@@ -5467,7 +5493,9 @@ exports.BattleItems = {
     itemUser: ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
     num: 2601,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Tatsugiri, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Tatsugiri, this item allows it to Mega Evolve in battle."
   },
   "terrainextender": {
     "name": "Terrain Extender",
@@ -7093,14 +7121,16 @@ exports.BattleItems = {
   },
   zeraorite: {
     name: "Zeraorite",
-    spritenum: 0,
+    spritenum: 510,
     megaStone: {
         Zeraora: "Zeraora-Mega"
     },
     itemUser: ["Zeraora"],
     num: 2598,
     gen: 9,
-    isNonstandard: "Future"
+    isNonstandard: "Future",
+    desc: "If held by a Zeraora, this item allows it to Mega Evolve in battle.",
+		shortDesc: "If held by a Zeraora, this item allows it to Mega Evolve in battle."
   },
   "zoomlens": {
     "name": "Zoom Lens",

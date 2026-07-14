@@ -164,15 +164,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 80,
+      "hp": 85,
       "atk": 82,
       "def": 83,
-      "spa": 100,
+      "spa": 105,
       "spd": 100,
       "spe": 80
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Poison Touch",
       "H": "Chlorophyll"
     },
     "heightm": 24,
@@ -571,16 +572,17 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 79,
-      "atk": 83,
+      "hp": 90,
+      "atk": 82,
       "def": 100,
       "spa": 85,
-      "spd": 105,
+      "spd": 100,
       "spe": 78
     },
     "abilities": {
       "0": "Torrent",
-      "H": "Rain Dish"
+      "1": "Rain Dish",
+      "H": "Bulletproof"
     },
     "heightm": 25,
     "weightkg": 0,
@@ -3799,7 +3801,8 @@ exports.BattlePokedex = {
       "Human-Like"
     ],
     "canGigantamax": "G-Max Chi Strike",
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "ArticunoFan"
   },
   "machampgmax": {
     "num": 68,
@@ -4620,7 +4623,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "OU"
   },
   "farfetchd": {
     "num": 83,
@@ -7796,7 +7799,7 @@ exports.BattlePokedex = {
       "spe": 100
     },
     "abilities": {
-      "0": "Marvel Scale"
+      "0": "Multiscale"
     },
     "heightm": 2.2,
     "weightkg": 290,
@@ -9235,13 +9238,13 @@ exports.BattlePokedex = {
       "atk": 120,
       "def": 115,
       "spa": 30,
-      "spd": 105,
-      "spe": 30
+      "spd": 75,
+      "spe": 60
     },
     "abilities": {
       "0": "Iron Fist",
       "1": "Rock Head",
-      "H": "Mold Breaker"
+      "H": "Mimicry"
     },
     "heightm": 1.2,
     "weightkg": 38,
@@ -9253,7 +9256,8 @@ exports.BattlePokedex = {
       "Mineral"
     ],
     "canHatch": true,
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nacho"
   },
   "politoed": {
     "num": 186,
@@ -9455,9 +9459,9 @@ exports.BattlePokedex = {
       "hp": 85,
       "atk": 55,
       "def": 75,
-      "spa": 115,
+      "spa": 105,
       "spd": 85,
-      "spe": 90
+      "spe": 76
     },
     "abilities": {
       "0": "Chlorophyll",
@@ -14919,10 +14923,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 73,
       "atk": 115,
-      "def": 75,
+      "def": 60,
       "spa": 60,
-      "spd": 75,
-      "spe": 105
+      "spd": 60,
+      "spe": 90
     },
     "abilities": {
       "0": "Tough Claws",
@@ -17833,6 +17837,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sturdy",
+      "1": "Battle Armor",
       "H": "Soundproof"
     },
     "heightm": 0.5,
@@ -17867,6 +17872,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Sturdy",
+      "1": "Battle Armor",
       "H": "Soundproof"
     },
     "heightm": 1.3,
@@ -17877,7 +17883,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Monster"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "CloakedInSnow"
   },
   "burmy": {
     "num": 412,
@@ -20153,7 +20160,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Jahim"
   },
   "porygonz": {
     "num": 474,
@@ -22425,7 +22433,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Chlorophyll",
-      "H": "Sap Sipper"
+      "H": "Overgrow"
     },
     "heightm": 0.6,
     "weightkg": 10.5,
@@ -22458,7 +22466,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Chlorophyll",
-      "H": "Sap Sipper"
+      "H": "Overgrow"
     },
     "heightm": 1.1,
     "weightkg": 30.5,
@@ -22491,8 +22499,8 @@ exports.BattlePokedex = {
       "spe": 64
     },
     "abilities": {
-      "0": "Solar Power",
-      "H": "Flash Fire"
+      "0": "Flash Fire",
+      "H": "Blaze"
     },
     "heightm": 0.6,
     "weightkg": 11,
@@ -22524,8 +22532,8 @@ exports.BattlePokedex = {
       "spe": 114
     },
     "abilities": {
-      "0": "Solar Power",
-      "H": "Flash Fire"
+      "0": "Flash Fire",
+      "H": "Blaze"
     },
     "heightm": 1,
     "weightkg": 28,
@@ -22559,7 +22567,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Swift Swim",
-      "H": "Water Absorb"
+      "H": "Torrent"
     },
     "heightm": 0.6,
     "weightkg": 13.5,
@@ -22592,7 +22600,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Swift Swim",
-      "H": "Water Absorb"
+      "H": "Torrent"
     },
     "heightm": 1,
     "weightkg": 29,
@@ -25498,7 +25506,7 @@ exports.BattlePokedex = {
       "Bug"
     ],
     "tier": "Illegal",
-    "credit": "Kirb"
+    "credit": "Kirb & Nacho"
   },
   "foongus": {
     "num": 590,
@@ -29114,7 +29122,7 @@ exports.BattlePokedex = {
       "spe": 102
     },
     "abilities": {
-      "0": "Berserk"
+      "0": "Fairy Aura"
     },
     "heightm": 0.2,
     "weightkg": 100.8,
@@ -29883,7 +29891,7 @@ exports.BattlePokedex = {
       "spe": 90
     },
     "abilities": {
-      "0": "No Guard"
+      "0": "Striker"
     },
     "heightm": 2.2,
     "weightkg": 100,
@@ -29893,7 +29901,8 @@ exports.BattlePokedex = {
     ],
     "requiredItem": "Barbaracite",
     "gen": 9,
-    "tier": "UUber"
+    "tier": "UUber",
+    "credit": "ArticunoFan"
   },
   "skrelp": {
     "num": 690,
@@ -29935,12 +29944,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 75,
+      "hp": 65,
       "atk": 75,
       "def": 90,
       "spa": 100,
-      "spd": 125,
-      "spe": 50
+      "spd": 123,
+      "spe": 44
     },
     "abilities": {
       "0": "Corrosion",
@@ -29976,12 +29985,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 75,
+      "hp": 65,
       "atk": 85,
       "def": 105,
       "spa": 135,
-      "spd": 165,
-      "spe": 50
+      "spd": 163,
+      "spe": 44
     },
     "abilities": {
       "0": "Regenerator"
@@ -30139,6 +30148,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Strong Jaw",
+      "1": "Intimidate",
       "H": "Sturdy"
     },
     "heightm": 0.8,
@@ -30165,15 +30175,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 82,
-      "atk": 121,
+      "hp": 90,
+      "atk": 122,
       "def": 119,
       "spa": 69,
-      "spd": 59,
-      "spe": 71
+      "spd": 70,
+      "spe": 80
     },
     "abilities": {
       "0": "Strong Jaw",
+      "1": "Intimidate",
       "H": "Rock Head"
     },
     "heightm": 2.5,
@@ -30186,7 +30197,8 @@ exports.BattlePokedex = {
       "Monster",
       "Dragon"
     ],
-    "tier": "Illegal"
+    "tier": "Illegal",
+    "credit": "Nacho"
   },
   "amaura": {
     "num": 698,
@@ -31064,7 +31076,8 @@ exports.BattlePokedex = {
       "Monster",
       "Mineral"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "noibat": {
     "num": 714,
@@ -31244,8 +31257,7 @@ exports.BattlePokedex = {
       "spe": 95
     },
     "abilities": {
-      "0": "Aura Break",
-      "H": "Power Construct"
+      "0": "Aura Break"
     },
     "heightm": 5,
     "weightkg": 305,
@@ -32299,13 +32311,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 100
     },
     "abilities": {
-      "0": "Dancer"
+      "0": "Dancer",
+      "H": "Flash Fire"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -32324,7 +32337,8 @@ exports.BattlePokedex = {
       "Oricorio-Pa'u",
       "Oricorio-Sensu"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Razbersky & Doodle"
   },
   "oricoriopompom": {
     "num": 741,
@@ -32342,13 +32356,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 100
     },
     "abilities": {
-      "0": "Dancer"
+      "0": "Dancer",
+      "H": "Wind Power"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -32357,7 +32372,8 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "changesFrom": "Oricorio",
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Razbersky & Doodle"
   },
   "oricoriopau": {
     "num": 741,
@@ -32375,13 +32391,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 100
     },
     "abilities": {
-      "0": "Dancer"
+      "0": "Dancer",
+      "H": "Clear Body"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -32390,7 +32407,8 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "changesFrom": "Oricorio",
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Razbersky & Doodle"
   },
   "oricoriosensu": {
     "num": 741,
@@ -32408,13 +32426,14 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 70,
-      "spa": 98,
-      "spd": 70,
-      "spe": 93
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 100
     },
     "abilities": {
-      "0": "Dancer"
+      "0": "Dancer",
+      "H": "Big Pecks"
     },
     "heightm": 0.6,
     "weightkg": 3.4,
@@ -32423,7 +32442,8 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "changesFrom": "Oricorio",
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Razbersky & Doodle"
   },
   "cutiefly": {
     "num": 742,
@@ -36096,6 +36116,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Overgrow",
+      "1": "Defiant",
       "H": "Grassy Surge"
     },
     "heightm": 28,
@@ -36237,6 +36258,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Blaze",
+      "1": "Run Away",
       "H": "Libero"
     },
     "heightm": 27,
@@ -36675,12 +36697,12 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 45,
-      "def": 110,
-      "spa": 80,
-      "spd": 120,
-      "spe": 90
+      "hp": 70,
+      "atk": 55,
+      "def": 120,
+      "spa": 90,
+      "spd": 130,
+      "spe": 100
     },
     "abilities": {
       "0": "Swarm",
@@ -38702,9 +38724,9 @@ exports.BattlePokedex = {
       "Electric"
     ],
     "baseStats": {
-      "hp": 48,
-      "atk": 101,
-      "def": 95,
+      "hp": 62,
+      "atk": 107,
+      "def": 110,
       "spa": 91,
       "spd": 85,
       "spe": 15
@@ -38720,7 +38742,8 @@ exports.BattlePokedex = {
       "Water 1",
       "Amorphous"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Nacho"
   },
   "snom": {
     "num": 872,
@@ -40018,7 +40041,7 @@ exports.BattlePokedex = {
       "spe": 50
     },
     "abilities": {
-      "0": "As One (Glastrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 809.1,
@@ -40048,7 +40071,7 @@ exports.BattlePokedex = {
       "spe": 150
     },
     "abilities": {
-      "0": "As One (Spectrier)"
+      "0": "As One"
     },
     "heightm": 2.4,
     "weightkg": 53.6,
@@ -43007,7 +43030,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Serene Grace",
       "1": "Sand Rush",
-      "H": "Adaptability"
+      "H": "Earth Eater"
     },
     "heightm": 3.6,
     "weightkg": 39.2,
@@ -43048,7 +43071,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Serene Grace",
       "1": "Sand Rush",
-      "H": "Adaptability"
+      "H": "Earth Eater"
     },
     "heightm": 4.5,
     "weightkg": 47.4,
@@ -43371,10 +43394,10 @@ exports.BattlePokedex = {
     "gender": "N",
     "baseStats": {
       "hp": 94,
-      "atk": 80,
+      "atk": 74,
       "def": 86,
       "spa": 122,
-      "spd": 80,
+      "spd": 86,
       "spe": 108
     },
     "abilities": {
@@ -43389,7 +43412,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "Dread"
   },
   "ironmoth": {
     "num": 994,
@@ -44842,7 +44866,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Electric Surge"
     },
     "heightm": 1.2,
     "weightkg": 38,
@@ -45117,7 +45141,7 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 89,
+      "hp": 96,
       "atk": 159,
       "def": 105,
       "spa": 70,
@@ -45125,7 +45149,7 @@ exports.BattlePokedex = {
       "spe": 55
     },
     "abilities": {
-      "0": "No Guard"
+      "0": "Unseen Fist"
     },
     "heightm": 4,
     "weightkg": 330,
@@ -45339,7 +45363,7 @@ exports.BattlePokedex = {
       "spe": 101
     },
     "abilities": {
-      "0": "Merciless"
+      "0": "Adaptability"
     },
     "heightm": 2.8,
     "weightkg": 77,

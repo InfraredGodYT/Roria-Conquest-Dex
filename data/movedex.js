@@ -4099,15 +4099,16 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "slicing": 1,
     },
     "secondary": {
-      "chance": 50
+      "chance": 30
     },
     "target": "normal",
     "type": "Poison",
-    "desc": "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-    "shortDesc": "50% chance to sleep, poison, or paralyze target."
+    "desc": "Has a 30% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
+    "shortDesc": "30% chance to sleep, poison, or paralyze target."
   },
   "disable": {
     "num": 50,
@@ -9044,6 +9045,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Heal Order",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -12798,6 +12800,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Milk Drink",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -15962,6 +15965,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Recover",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -16184,7 +16188,7 @@ exports.BattleMovedex = {
   "revelationdance": {
     "num": 686,
     "accuracy": 100,
-    "basePower": 90,
+    "basePower": 100,
     "category": "Special",
     "name": "Revelation Dance",
     "pp": 15,
@@ -16634,6 +16638,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Roost",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -18095,6 +18100,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Slack Off",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -18579,6 +18585,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Soft-Boiled",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -19631,6 +19638,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Strength Sap",
+    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {

@@ -33560,6 +33560,12 @@ exports.BattleLearnsets = {
       ],
       "bulletpunch": [
         "9E"
+      ],
+      "swordsdance": [
+        "9L1"
+      ],
+      "machpunch": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -63066,9 +63072,6 @@ exports.BattleLearnsets = {
       "closecombat": [
         "9L1"
       ],
-      "swordsdance": [
-        "9M"
-      ],
       "teleport": [
         "9M"
       ],
@@ -85877,6 +85880,7 @@ exports.BattleLearnsets = {
       ],
       "roost": [
         "9M",
+        "9M",
         "9E"
       ],
       "round": [
@@ -88493,6 +88497,21 @@ exports.BattleLearnsets = {
       ],
       "woodhammer": [
         "9L1"
+      ],
+      "playrough": [
+        "9M"
+      ],
+      "wildcharge": [
+        "9M"
+      ],
+      "grassyglide": [
+        "9M"
+      ],
+      "zenheadbutt": [
+        "9M"
+      ],
+      "swordsdance": [
+        "9M"
       ]
     }
   },
@@ -100401,6 +100420,48 @@ exports.BattleLearnsets = {
       "hiddenpower": [
         "9M"
       ],
+      "calmmind": [
+        "9M"
+      ],
+      "focusblast": [
+        "9M"
+      ],
+      "moonblast": [
+        "9M"
+      ],
+      "moonlight": [
+        "9M"
+      ],
+      "mudshot": [
+        "9M"
+      ],
+      "harden": [
+        "9M"
+      ],
+      "snarl": [
+        "9M"
+      ],
+      "nightslash": [
+        "9E"
+      ],
+      "counter": [
+        "9E"
+      ],
+      "yawn": [
+        "9E"
+      ],
+      "seismictoss": [
+        "9E"
+      ],
+      "crosschop": [
+        "9E"
+      ],
+      "bellydrum": [
+        "9E"
+      ],
+      "furycutter": [
+        "9E"
+      ]
     }
   },
   "ursalunabloodmoon": {
@@ -102023,6 +102084,9 @@ exports.BattleLearnsets = {
       ],
       "freezedry": [
         "9E"
+      ],
+      "headlongrush": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -124259,9 +124323,6 @@ exports.BattleLearnsets = {
       "slackoff": [
         "9L1"
       ],
-      "nastyplot": [
-        "9L40"
-      ],
       "takedown": [
         "9E"
       ],
@@ -135428,6 +135489,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "dragondance": [
+        "9L45",
         "9M"
       ],
       "dragonpulse": [
@@ -149589,9 +149651,6 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "shiftgear": [
-        "9L1"
-      ],
-      "highhorsepower": [
         "9L1"
       ]
     },
@@ -173091,6 +173150,9 @@ exports.BattleLearnsets = {
       ],
       "willowisp": [
         "9M"
+      ],
+      "hurricane": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -207395,6 +207457,12 @@ exports.BattleLearnsets = {
       ],
       "acidspray": [
         "9E"
+      ],
+      "uturn": [
+        "9L1"
+      ],
+      "suckerpunch": [
+        "9L1"
       ]
     }
   },
@@ -213945,6 +214013,9 @@ exports.BattleLearnsets = {
       ],
       "zenheadbutt": [
         "9M"
+      ],
+      "headlongrush": [
+        "9L1"
       ]
     },
     "eventData": [
@@ -235078,12 +235149,6 @@ exports.BattleLearnsets = {
       "xscissor": [
         "9M"
       ],
-      "icespinner": [
-        "9L1"
-      ],
-      "iciclecrash": [
-        "9L1"
-      ],
       "aquajet": [
         "9L44"
       ],
@@ -235101,6 +235166,15 @@ exports.BattleLearnsets = {
       ],
       "switcheroo": [
         "9E"
+      ],
+      "closecombat": [
+        "9L1"
+      ],
+      "megapunch": [
+        "9L1"
+      ],
+      "megakick": [
+        "9L1"
       ]
     },
     "encounters": [
@@ -236992,6 +237066,9 @@ exports.BattleLearnsets = {
       ],
       "poisonfang": [
         "9E"
+      ],
+      "wildcharge": [
+        "9L1"
       ]
     }
   },
@@ -241632,6 +241709,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "highhorsepower": [
+        "9L1",
         "9M"
       ],
       "hyperbeam": [
@@ -241736,6 +241814,7 @@ exports.BattleLearnsets = {
         "9L1"
       ],
       "headlongrush": [
+        "9L1",
         "9M"
       ],
       "burningjealousy": [
@@ -241761,6 +241840,15 @@ exports.BattleLearnsets = {
       ],
       "auroraveil": [
         "9E"
+      ],
+      "iceshard": [
+        "9L1"
+      ],
+      "spikes": [
+        "9L1"
+      ],
+      "superpower": [
+        "9L1"
       ]
     }
   },
@@ -249908,6 +249996,9 @@ exports.BattleLearnsets = {
       ],
       "workup": [
         "9M"
+      ],
+      "razorwind": [
+        "9M"
       ]
     }
   },
@@ -251453,6 +251544,12 @@ exports.BattleLearnsets = {
       ],
       "happyhour": [
         "9M"
+      ],
+      "crushclaw": [
+        "9E"
+      ],
+      "thrash": [
+        "9E"
       ]
     }
   },
@@ -279576,13 +279673,14 @@ exports.BattleLearnsets = {
         "9L60"
       ],
       "electricterrain": [
-        "9L40",
+        "9L1",
         "9M"
       ],
       "electroball": [
         "9M"
       ],
       "electroweb": [
+        "9M",
         "9M"
       ],
       "endure": [
@@ -279607,6 +279705,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "liquidation": [
+        "9L40",
         "9M"
       ],
       "memento": [
@@ -279731,6 +279830,30 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "hiddenpower": [
+        "9M"
+      ],
+      "spikyshield": [
+        "9L1"
+      ],
+      "nuzzle": [
+        "9L1"
+      ],
+      "zippyzap": [
+        "9L65"
+      ],
+      "toxic": [
+        "9M"
+      ],
+      "voltswitch": [
+        "9M"
+      ],
+      "gunkshot": [
+        "9M"
+      ],
+      "explosion": [
+        "9M"
+      ],
+      "twineedle": [
         "9M"
       ]
     }
@@ -295581,6 +295704,7 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "dragondance": [
+        "9M",
         "9M"
       ],
       "dragonpulse": [
@@ -302641,6 +302765,15 @@ exports.BattleLearnsets = {
         "9M"
       ],
       "hiddenpower": [
+        "9M"
+      ],
+      "nastyplot": [
+        "9M"
+      ],
+      "defog": [
+        "9M"
+      ],
+      "roost": [
         "9M"
       ]
     },
