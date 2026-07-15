@@ -13308,7 +13308,7 @@ exports.BattleMovedex = {
   "muddywater": {
     "num": 330,
     "accuracy": 100,
-    "basePower": 90,
+    "basePower": 80,
     "category": "Special",
     "name": "Muddy Water",
     "pp": 10,

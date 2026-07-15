@@ -38721,7 +38721,8 @@ exports.BattlePokedex = {
     "num": 871,
     "name": "Pincurchin",
     "types": [
-      "Electric"
+      "Electric",
+      "Water"
     ],
     "baseStats": {
       "hp": 62,

@@ -205408,6 +205408,12 @@ exports.BattleLearnsets = {
       ],
       "pursuit": [
         "9E"
+      ],
+      "uturn": [
+        "9L1"
+      ],
+      "suckerpunch": [
+        "9L1"
       ]
     }
   },
@@ -207457,12 +207463,6 @@ exports.BattleLearnsets = {
       ],
       "acidspray": [
         "9E"
-      ],
-      "uturn": [
-        "9L1"
-      ],
-      "suckerpunch": [
-        "9L1"
       ]
     }
   },
