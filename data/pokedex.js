@@ -39892,7 +39892,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "Uber"
+    "tier": "OU"
   },
   "regidrago": {
     "num": 895,

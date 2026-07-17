@@ -302767,9 +302767,6 @@ exports.BattleLearnsets = {
       "hiddenpower": [
         "9M"
       ],
-      "nastyplot": [
-        "9M"
-      ],
       "defog": [
         "9M"
       ],
