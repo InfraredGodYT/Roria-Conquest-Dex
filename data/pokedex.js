@@ -693,7 +693,7 @@ exports.BattlePokedex = {
       "Flying"
     ],
     "baseStats": {
-      "hp": 110,
+      "hp": 60,
       "atk": 45,
       "def": 50,
       "spa": 90,
@@ -1766,7 +1766,7 @@ exports.BattlePokedex = {
       "spe": 90
     },
     "abilities": {
-      "0": "Thick Fat",
+      "0": "Static",
       "H": "Lightning Rod"
     },
     "heightm": 21,
@@ -3093,12 +3093,12 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 60,
-      "atk": 65,
-      "def": 55,
-      "spa": 60,
-      "spd": 60,
-      "spe": 110
+      "hp": 40,
+      "atk": 45,
+      "def": 35,
+      "spa": 40,
+      "spd": 40,
+      "spe": 90
     },
     "abilities": {
       "0": "Pickup",
@@ -3817,12 +3817,12 @@ exports.BattlePokedex = {
       "F": 0.25
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 140,
-      "def": 90,
-      "spa": 75,
-      "spd": 95,
-      "spe": 65
+      "hp": 90,
+      "atk": 130,
+      "def": 80,
+      "spa": 65,
+      "spd": 85,
+      "spe": 55
     },
     "abilities": {
       "0": "Guts",
@@ -5157,12 +5157,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 75,
-      "def": 70,
-      "spa": 140,
-      "spd": 85,
-      "spe": 120
+      "hp": 60,
+      "atk": 65,
+      "def": 60,
+      "spa": 130,
+      "spd": 75,
+      "spe": 110
     },
     "abilities": {
       "0": "Levitate"
@@ -6893,12 +6893,12 @@ exports.BattlePokedex = {
       "Ice"
     ],
     "baseStats": {
-      "hp": 140,
-      "atk": 95,
-      "def": 90,
-      "spa": 95,
-      "spd": 105,
-      "spe": 70
+      "hp": 130,
+      "atk": 85,
+      "def": 80,
+      "spa": 85,
+      "spd": 95,
+      "spe": 60
     },
     "abilities": {
       "0": "Water Absorb",
@@ -7039,12 +7039,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 75,
-      "atk": 75,
-      "def": 70,
-      "spa": 50,
-      "spd": 85,
-      "spe": 75
+      "hp": 65,
+      "atk": 55,
+      "def": 60,
+      "spa": 55,
+      "spd": 65,
+      "spe": 55
     },
     "abilities": {
       "0": "Run Away",
@@ -7459,16 +7459,16 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 170,
-      "atk": 120,
-      "def": 75,
-      "spa": 75,
-      "spd": 120,
-      "spe": 40
+      "hp": 160,
+      "atk": 110,
+      "def": 65,
+      "spa": 65,
+      "spd": 110,
+      "spe": 30
     },
     "abilities": {
-      "0": "Thick Fat",
-      "1": "Immunity",
+      "0": "Immunity",
+      "1": "Thick Fat",
       "H": "Gluttony"
     },
     "heightm": 35,
@@ -20156,12 +20156,11 @@ exports.BattlePokedex = {
     "prevo": "Piloswine",
     "evoType": "levelMove",
     "evoMove": "Ancient Power",
-    "credit": "Kirb",
+    "credit": "Jahim",
     "eggGroups": [
       "Field"
     ],
-    "tier": "UU",
-    "credit": "Jahim"
+    "tier": "UU"
   },
   "porygonz": {
     "num": 474,
@@ -24724,12 +24723,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 90,
-      "atk": 105,
-      "def": 92,
-      "spa": 70,
-      "spd": 92,
-      "spe": 85
+      "hp": 96,
+      "atk": 84,
+      "def": 82,
+      "spa": 101,
+      "spd": 82,
+      "spe": 55
     },
     "abilities": {
       "0": "Stench",
@@ -29102,7 +29101,7 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Undiscovered"
     ],
-    "tier": "UUber"
+    "tier": "OU"
   },
   "floettemega": {
     "num": 670,
@@ -35968,12 +35967,12 @@ exports.BattlePokedex = {
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 140,
-      "atk": 146,
-      "def": 146,
-      "spa": 90,
-      "spd": 75,
-      "spe": 44
+      "hp": 135,
+      "atk": 143,
+      "def": 143,
+      "spa": 80,
+      "spd": 65,
+      "spe": 34
     },
     "abilities": {
       "0": "Iron Fist"
@@ -36400,6 +36399,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Torrent",
+      "1": "Keen Eye",
       "H": "Competitive"
     },
     "heightm": 40,
@@ -36568,8 +36568,8 @@ exports.BattlePokedex = {
     "baseSpecies": "Corviknight",
     "forme": "Gmax",
     "types": [
-      "Steel",
-      "Flying"
+      "Flying",
+      "Steel"
     ],
     "baseStats": {
       "hp": 98,
@@ -36697,12 +36697,12 @@ exports.BattlePokedex = {
       "Psychic"
     ],
     "baseStats": {
-      "hp": 70,
-      "atk": 55,
-      "def": 120,
-      "spa": 90,
-      "spd": 130,
-      "spe": 100
+      "hp": 60,
+      "atk": 45,
+      "def": 110,
+      "spa": 80,
+      "spd": 120,
+      "spe": 90
     },
     "abilities": {
       "0": "Swarm",
@@ -36968,8 +36968,8 @@ exports.BattlePokedex = {
       "Rock"
     ],
     "baseStats": {
-      "hp": 110,
-      "atk": 120,
+      "hp": 90,
+      "atk": 115,
       "def": 90,
       "spa": 48,
       "spd": 68,
@@ -37151,9 +37151,9 @@ exports.BattlePokedex = {
       "Fire"
     ],
     "baseStats": {
-      "hp": 120,
+      "hp": 110,
       "atk": 80,
-      "def": 125,
+      "def": 120,
       "spa": 80,
       "spd": 90,
       "spe": 30
@@ -37249,12 +37249,12 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 80,
-      "atk": 120,
+      "hp": 70,
+      "atk": 110,
       "def": 80,
-      "spa": 100,
-      "spd": 65,
-      "spe": 75
+      "spa": 95,
+      "spd": 60,
+      "spe": 70
     },
     "abilities": {
       "0": "Ripen",
@@ -37407,12 +37407,12 @@ exports.BattlePokedex = {
       "Ground"
     ],
     "baseStats": {
-      "hp": 82,
-      "atk": 117,
-      "def": 135,
-      "spa": 75,
-      "spd": 80,
-      "spe": 81
+      "hp": 72,
+      "atk": 107,
+      "def": 125,
+      "spa": 65,
+      "spd": 70,
+      "spe": 71
     },
     "abilities": {
       "0": "Sand Spit",
@@ -37697,12 +37697,12 @@ exports.BattlePokedex = {
       "Poison"
     ],
     "baseStats": {
-      "hp": 85,
-      "atk": 108,
-      "def": 80,
-      "spa": 124,
-      "spd": 80,
-      "spe": 85
+      "hp": 75,
+      "atk": 98,
+      "def": 70,
+      "spa": 114,
+      "spd": 70,
+      "spe": 75
     },
     "abilities": {
       "0": "Punk Rock",
@@ -37818,12 +37818,12 @@ exports.BattlePokedex = {
     "baseSpecies": "Centiskorch",
     "forme": "Gmax",
     "types": [
-      "Bug",
-      "Fire"
+      "Fire",
+      "Bug"
     ],
     "baseStats": {
-      "hp": 115,
-      "atk": 120,
+      "hp": 100,
+      "atk": 115,
       "def": 65,
       "spa": 90,
       "spd": 90,
@@ -38283,12 +38283,12 @@ exports.BattlePokedex = {
     ],
     "gender": "M",
     "baseStats": {
-      "hp": 100,
+      "hp": 95,
       "atk": 120,
-      "def": 75,
-      "spa": 105,
-      "spd": 85,
-      "spe": 70
+      "def": 65,
+      "spa": 95,
+      "spd": 75,
+      "spe": 60
     },
     "abilities": {
       "0": "Prankster",
@@ -38630,7 +38630,7 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 110,
+      "hp": 65,
       "atk": 60,
       "def": 75,
       "spa": 110,
@@ -39097,8 +39097,8 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 130,
-      "atk": 135,
+      "hp": 122,
+      "atk": 130,
       "def": 69,
       "spa": 80,
       "spd": 69,
@@ -39277,10 +39277,10 @@ exports.BattlePokedex = {
       "Dragon"
     ],
     "baseStats": {
-      "hp": 85,
+      "hp": 70,
       "atk": 95,
-      "def": 120,
-      "spa": 125,
+      "def": 115,
+      "spa": 120,
       "spd": 50,
       "spe": 85
     },
