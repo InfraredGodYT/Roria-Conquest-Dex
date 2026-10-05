@@ -4,7 +4,7 @@ Roria Conquest Dex (forked from Pokémon Showdown Dex)
 Navigation: [Game Link][1] | [Discord Server][2] | [Community Group][3] | **Dex repository**
 
   [1]: http://pbblegacy.com/
-  [2]: https://discord.gg/robloxpokemon
+  [2]: https://pbblegacy.com/discord
   [3]: https://pbblegacy.com/group
 
 Introduction
