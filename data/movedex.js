@@ -4,6 +4,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 195,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "10,000,000 Volt Thunderbolt",
     "pp": 1,
     "priority": 0,
@@ -15,7 +16,7 @@ exports.BattleMovedex = {
     "type": "Electric",
     "contestType": "Cool",
     "desc": "Has a very high chance for a critical hit.",
-    "shortDesc": "Very 2x crit ratio."
+    "shortDesc": "Very 2x critical hit ratio."
   },
   "absorb": {
     "num": 71,
@@ -118,6 +119,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Acid Downpour",
     "pp": 1,
     "priority": 0,
@@ -227,8 +229,8 @@ exports.BattleMovedex = {
     "target": "any",
     "type": "Flying",
     "contestType": "Cool",
-    "desc": "This move does not check accuracy.",
-    "shortDesc": "This move does not check accuracy."
+    "desc": "This move ignores accuracy checks. Has a 10% chance to raise the user's Attack by 1 stage.",
+    "shortDesc": "No accuracy check. 10% chance to raise the user's Attack."
   },
   "aeroblast": {
     "num": 177,
@@ -250,8 +252,8 @@ exports.BattleMovedex = {
     "target": "any",
     "type": "Flying",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "afteryou": {
     "num": 495,
@@ -322,8 +324,8 @@ exports.BattleMovedex = {
     "target": "allAdjacentFoes",
     "type": "Flying",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio. Hits adjacent foes."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio. Hits adjacent foes."
   },
   "airslash": {
     "num": 403,
@@ -355,6 +357,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "All-Out Pummeling",
     "pp": 1,
     "priority": 0,
@@ -447,6 +450,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Anchor Shot",
     "pp": 20,
     "priority": 0,
@@ -499,7 +503,7 @@ exports.BattleMovedex = {
   "appleacid": {
     "num": 787,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 90,
     "category": "Special",
     "name": "Apple Acid",
     "pp": 10,
@@ -538,8 +542,31 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Water",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
+  },
+  "aquajaws": {
+    "num": 601,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "Aqua Jaws",
+    "isNonstandard": "RC",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bite": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Water",
+    "contestType": "Tough",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect."
   },
   "aquajet": {
     "num": 453,
@@ -694,6 +721,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Aromatherapy",
     "pp": 5,
     "priority": 0,
@@ -743,6 +771,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Assist",
     "pp": 20,
     "priority": 0,
@@ -844,8 +873,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Bug",
     "contestType": "Clever",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "attract": {
     "num": 213,
@@ -985,6 +1014,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Autotomize",
     "pp": 15,
     "priority": 0,
@@ -1040,7 +1070,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "hasCrashDamage": true,
     "secondary": {
@@ -1087,7 +1117,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Baddy Bad",
     "pp": 15,
     "priority": 0,
@@ -1162,6 +1191,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 25,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Barrage",
     "pp": 20,
     "priority": 0,
@@ -1187,6 +1217,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Barrier",
     "pp": 20,
     "priority": 0,
@@ -1233,7 +1264,7 @@ exports.BattleMovedex = {
   "beakblast": {
     "num": 690,
     "accuracy": 100,
-    "basePower": 100,
+    "basePower": 120,
     "category": "Physical",
     "name": "Beak Blast",
     "pp": 15,
@@ -1373,6 +1404,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Bestow",
     "pp": 15,
     "priority": 0,
@@ -1400,6 +1432,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Bide",
     "pp": 10,
     "priority": 1,
@@ -1526,6 +1559,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Black Hole Eclipse",
     "pp": 1,
     "priority": 0,
@@ -1575,7 +1609,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "critRatio": 2,
     "secondary": {
@@ -1586,7 +1620,7 @@ exports.BattleMovedex = {
     "type": "Fire",
     "contestType": "Cool",
     "desc": "Has a 10% chance to burn the target and a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio. 10% chance to burn."
+    "shortDesc": "2x critical hit ratio. 10% chance to burn."
   },
   "blazingtorque": {
     "num": 896,
@@ -1715,6 +1749,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Bloom Doom",
     "pp": 1,
     "priority": 0,
@@ -1801,6 +1836,7 @@ exports.BattleMovedex = {
     "basePower": 85,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Bolt Beak",
     "pp": 10,
     "priority": 0,
@@ -1845,6 +1881,7 @@ exports.BattleMovedex = {
     "accuracy": 85,
     "basePower": 65,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Bone Club",
     "pp": 20,
     "priority": 0,
@@ -1868,6 +1905,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Bonemerang",
     "pp": 10,
     "priority": 0,
@@ -1977,7 +2015,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Bouncy Bubble",
     "pp": 15,
     "priority": 0,
@@ -2071,6 +2108,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Breakneck Blitz",
     "pp": 1,
     "priority": 0,
@@ -2150,6 +2188,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 40,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Bubble",
     "pp": 30,
     "priority": 0,
@@ -2424,7 +2463,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Buzzy Buzz",
     "pp": 15,
     "priority": 0,
@@ -2473,6 +2511,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Camouflage",
     "pp": 20,
     "priority": 0,
@@ -2497,6 +2536,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Captivate",
     "pp": 20,
     "priority": 0,
@@ -2526,6 +2566,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 210,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Catastropika",
     "pp": 1,
     "priority": 0,
@@ -2647,8 +2688,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Electric",
     "contestType": "Beautiful",
-    "desc": "Raises the user's Special Attack by 1 stage.",
-    "shortDesc": "Raises the user's Sp. Atk by 1."
+    "desc": "Always raises the user's Special Attack by 1 stage.",
+    "shortDesc": "Always raises the user's Sp. Atk by 1."
   },
   "charm": {
     "num": 204,
@@ -2685,6 +2726,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Chatter",
     "pp": 20,
     "priority": 0,
@@ -2734,6 +2776,32 @@ exports.BattleMovedex = {
     "desc": "Has a 100% chance to lower the target's Attack by 1 stage.",
     "shortDesc": "100% chance to lower the target's Attack by 1."
   },
+  "chillingnibble": {
+    "num": 602,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "Chilling Nibble",
+    "isNonstandard": "RC",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bite": 1
+    },
+    "secondary": {
+      "chance": 100,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice",
+    "contestType": "Cute",
+    "desc": "Has a 100% chance to freeze the target.",
+    "shortDesc": "100% chance to freeze the target."
+  },
   "chillyreception": {
     "num": 881,
     "accuracy": true,
@@ -2760,6 +2828,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Chip Away",
     "pp": 20,
     "priority": 0,
@@ -2825,6 +2894,7 @@ exports.BattleMovedex = {
     "accuracy": 85,
     "basePower": 35,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Clamp",
     "pp": 15,
     "priority": 0,
@@ -2900,6 +2970,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 185,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Clangorous Soulblaze",
     "pp": 1,
     "priority": 0,
@@ -3074,6 +3145,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 25,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Comet Punch",
     "pp": 15,
     "priority": 0,
@@ -3204,6 +3276,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Constrict",
     "pp": 35,
     "priority": 0,
@@ -3230,6 +3303,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Continental Crush",
     "pp": 1,
     "priority": 0,
@@ -3326,6 +3400,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 100,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Core Enforcer",
     "pp": 10,
     "priority": 0,
@@ -3349,6 +3424,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Corkscrew Crash",
     "pp": 1,
     "priority": 0,
@@ -3553,14 +3629,15 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Water",
     "contestType": "Tough",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "craftyshield": {
     "num": 578,
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Crafty Shield",
     "pp": 10,
     "priority": 3,
@@ -3601,13 +3678,13 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Fighting",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "crosspoison": {
     "num": 440,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 80,
     "category": "Physical",
     "name": "Cross Poison",
     "pp": 20,
@@ -3628,7 +3705,7 @@ exports.BattleMovedex = {
     "type": "Poison",
     "contestType": "Cool",
     "desc": "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio. 10% chance to poison."
+    "shortDesc": "2x critical hit ratio. 10% chance to poison."
   },
   "crunch": {
     "num": 242,
@@ -4021,6 +4098,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Devastating Drake",
     "pp": 1,
     "priority": 0,
@@ -4100,15 +4178,15 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "slicing": 1,
+      "slicing": 1
     },
     "secondary": {
       "chance": 30
     },
     "target": "normal",
     "type": "Poison",
-    "desc": "Has a 30% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-    "shortDesc": "30% chance to sleep, poison, or paralyze target."
+    "desc": "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
+    "shortDesc": "50% chance to sleep, poison, or paralyze target."
   },
   "disable": {
     "num": 50,
@@ -4222,6 +4300,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Dizzy Punch",
     "pp": 10,
     "priority": 0,
@@ -4334,6 +4413,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Double Iron Bash",
     "pp": 5,
     "priority": 0,
@@ -4373,7 +4453,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "multihit": 2,
     "secondary": null,
@@ -4412,6 +4492,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 20,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Double Slap",
     "pp": 10,
     "priority": 0,
@@ -4663,8 +4744,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Dragon",
     "contestType": "Tough",
-    "desc": "This move becomes a special attack if the user's Attack is less than its Special Attack, including stat stage changes.",
-    "shortDesc": "Special if user's Atk < Sp. Atk."
+    "desc": "Special if the user's Sp. Atk > Atk.",
+    "shortDesc": "Becomes Special if the user's Sp. Atk is greater than their Attack (including stat changes)."
   },
   "dragonpulse": {
     "num": 406,
@@ -4694,6 +4775,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "damage": 40,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Dragon Rage",
     "pp": 10,
     "priority": 0,
@@ -4854,8 +4936,8 @@ exports.BattleMovedex = {
     "target": "any",
     "type": "Flying",
     "contestType": "Cool",
-    "desc": "This move has its crit ratio doubled.",
-    "shortDesc": "2x crit chance."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "drillrun": {
     "num": 529,
@@ -4876,8 +4958,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Ground",
     "contestType": "Tough",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "drumbeating": {
     "num": 778,
@@ -4907,6 +4989,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 40,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Dual Chop",
     "pp": 15,
     "priority": 0,
@@ -5129,6 +5212,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 100,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Egg Bomb",
     "pp": 10,
     "priority": 0,
@@ -5142,8 +5226,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Grass",
     "contestType": "Cute",
-    "desc": "If the target is an ally, this move restores 1/2 of its maximum HP, rounded down, instead of dealing damage.",
-    "shortDesc": "If the target is an ally, heals 50% of its max HP."
+    "desc": "If the target is an adjacent ally, this move heals the target by 1/2 of its maximum HP, rounded down. If targeting a foe, this move has 100 base power with no additional effect.",
+    "shortDesc": "Heals adjacent ally 1/2 max HP. 100 BP vs foes."
   },
   "electricterrain": {
     "num": 604,
@@ -5182,6 +5266,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Electrify",
     "pp": 20,
     "priority": 0,
@@ -5307,6 +5392,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Embargo",
     "pp": 15,
     "priority": 0,
@@ -5552,6 +5638,7 @@ exports.BattleMovedex = {
     "accuracy": 90,
     "basePower": 160,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Eternabeam",
     "pp": 5,
     "priority": 0,
@@ -5638,6 +5725,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Extreme Evoboost",
     "pp": 1,
     "priority": 0,
@@ -5834,7 +5922,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "slicing": 1
     },
     "onDamagePriority": -20,
     "secondary": null,
@@ -5901,6 +5990,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Feint Attack",
     "pp": 20,
     "priority": 0,
@@ -6235,6 +6325,7 @@ exports.BattleMovedex = {
     "basePower": 85,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Fishious Rend",
     "pp": 10,
     "priority": 0,
@@ -6312,6 +6403,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Flame Burst",
     "pp": 15,
     "priority": 0,
@@ -6438,12 +6530,12 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Flash",
     "pp": 20,
     "priority": 0,
     "flags": {
       "protect": 1,
-      "reflectable": 1,
       "mirror": 1,
       "metronome": 1
     },
@@ -6455,14 +6547,9 @@ exports.BattleMovedex = {
     },
     "target": "normal",
     "type": "Electric",
-    "zMove": {
-      "boost": {
-        "evasion": 1
-      }
-    },
     "contestType": "Beautiful",
-    "desc": "Has a 50% chance to lower the target's Sp. Atk by 1 stage.",
-    "shortDesc": "50% chance to lower the target's Sp. Atk by 1."
+    "desc": "Has a 50% chance to lower the target's Attack by 1 stage.",
+    "shortDesc": "50% chance to lower the target's Attack by 1."
   },
   "flashcannon": {
     "num": 430,
@@ -6593,7 +6680,6 @@ exports.BattleMovedex = {
     "accuracy": 95,
     "basePower": 90,
     "category": "Physical",
-    "isNonstandard": "LGPE",
     "name": "Floaty Fall",
     "pp": 15,
     "priority": 0,
@@ -6643,6 +6729,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Flower Shield",
     "pp": 10,
     "priority": 0,
@@ -6875,6 +6962,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Foresight",
     "pp": 40,
     "priority": 0,
@@ -7026,7 +7114,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Freezy Frost",
     "pp": 15,
     "priority": 0,
@@ -7093,6 +7180,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Frustration",
     "pp": 20,
     "priority": 0,
@@ -7290,6 +7378,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Gear Grind",
     "pp": 15,
     "priority": 0,
@@ -7318,6 +7407,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Gear Up",
     "pp": 20,
     "priority": 0,
@@ -7331,7 +7421,7 @@ exports.BattleMovedex = {
       "spa": 2
     },
     "secondary": null,
-    "target": "allySide",
+    "target": "adjacentAllyOrSelf",
     "type": "Steel",
     "zMove": {
       "boost": {
@@ -7339,14 +7429,15 @@ exports.BattleMovedex = {
       }
     },
     "contestType": "Clever",
-    "desc": "Raises the target's Attack and Special Attack by 2 stages.",
-    "shortDesc": "Raises the target's Attack and Sp. Atk by 2."
+    "desc": "Raises the Attack and Special Attack of Pokemon on the user's side by 2 stages.",
+    "shortDesc": "Raises Atk & Sp. Atk of any ally by 2."
   },
   "genesissupernova": {
     "num": 703,
     "accuracy": true,
     "basePower": 185,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Genesis Supernova",
     "pp": 1,
     "priority": 0,
@@ -7367,6 +7458,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Geomancy",
     "pp": 10,
     "priority": 0,
@@ -7473,6 +7565,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Gigavolt Havoc",
     "pp": 1,
     "priority": 0,
@@ -7523,8 +7616,8 @@ exports.BattleMovedex = {
     "target": "allAdjacentFoes",
     "type": "Ice",
     "contestType": "Beautiful",
-    "desc": "Has a 50% chance to freeze the opponent.",
-    "shortDesc": "50% chance to freeze the opponent."
+    "desc": "Has a 50% chance to freeze the target. Hits all adjacent opponents.",
+    "shortDesc": "50% chance to freeze the foe(s)."
   },
   "glaiverush": {
     "num": 862,
@@ -7585,7 +7678,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Glitzy Glow",
     "pp": 15,
     "priority": 0,
@@ -8322,6 +8414,7 @@ exports.BattleMovedex = {
     "accuracy": 55,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Grass Whistle",
     "pp": 15,
     "priority": 0,
@@ -8404,7 +8497,7 @@ exports.BattleMovedex = {
   "gravapple": {
     "num": 788,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 90,
     "category": "Physical",
     "name": "Grav Apple",
     "pp": 10,
@@ -8504,7 +8597,7 @@ exports.BattleMovedex = {
     },
     "secondary": null,
     "target": "self",
-    "type": "Normal",
+    "type": "Grass",
     "zMove": {
       "boost": {
         "spa": 1
@@ -8519,6 +8612,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Grudge",
     "pp": 5,
     "priority": 0,
@@ -8545,6 +8639,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Guardian of Alola",
     "pp": 1,
     "priority": 0,
@@ -8716,6 +8811,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Hail",
     "pp": 10,
     "priority": 0,
@@ -8732,8 +8828,8 @@ exports.BattleMovedex = {
       }
     },
     "contestType": "Beautiful",
-    "desc": "For 5 turns, the weather becomes Hail. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail/Snow.",
-    "shortDesc": "For 5 turns, hail falls. Ice: 1.5x Def."
+    "desc": "For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
+    "shortDesc": "For 5 turns, hail crashes down."
   },
   "hammerarm": {
     "num": 359,
@@ -8888,6 +8984,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 120,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Head Charge",
     "pp": 15,
     "priority": 0,
@@ -8989,6 +9086,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Heal Block",
     "pp": 15,
     "priority": 0,
@@ -9044,8 +9142,9 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
-    "name": "Heal Order",
+    "isNonstandard": "Past",
     "noPPBoosts": true,
+    "name": "Heal Order",
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -9099,6 +9198,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Heart Stamp",
     "pp": 25,
     "priority": 0,
@@ -9282,6 +9382,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Hidden Power",
     "pp": 15,
     "priority": 0,
@@ -9303,6 +9404,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Bug",
     "pp": 15,
     "priority": 0,
@@ -9321,6 +9423,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Dark",
     "pp": 15,
     "priority": 0,
@@ -9339,6 +9442,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Dragon",
     "pp": 15,
     "priority": 0,
@@ -9357,6 +9461,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Electric",
     "pp": 15,
     "priority": 0,
@@ -9375,6 +9480,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Fighting",
     "pp": 15,
     "priority": 0,
@@ -9393,6 +9499,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Fire",
     "pp": 15,
     "priority": 0,
@@ -9411,6 +9518,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Flying",
     "pp": 15,
     "priority": 0,
@@ -9429,6 +9537,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Ghost",
     "pp": 15,
     "priority": 0,
@@ -9447,6 +9556,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Grass",
     "pp": 15,
     "priority": 0,
@@ -9465,6 +9575,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Ground",
     "pp": 15,
     "priority": 0,
@@ -9483,6 +9594,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Ice",
     "pp": 15,
     "priority": 0,
@@ -9501,6 +9613,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Poison",
     "pp": 15,
     "priority": 0,
@@ -9519,6 +9632,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Psychic",
     "pp": 15,
     "priority": 0,
@@ -9537,6 +9651,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Rock",
     "pp": 15,
     "priority": 0,
@@ -9555,6 +9670,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Steel",
     "pp": 15,
     "priority": 0,
@@ -9573,6 +9689,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "category": "Special",
     "realMove": "Hidden Power",
+    "isNonstandard": "Past",
     "name": "Hidden Power Water",
     "pp": 15,
     "priority": 0,
@@ -9598,7 +9715,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": null,
     "target": "normal",
@@ -9621,7 +9738,7 @@ exports.BattleMovedex = {
       "mirror": 1,
       "gravity": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "hasCrashDamage": true,
     "secondary": null,
@@ -9911,6 +10028,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Hydro Vortex",
     "pp": 1,
     "priority": 0,
@@ -9971,6 +10089,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Hyper Fang",
     "pp": 15,
     "priority": 0,
@@ -10092,6 +10211,7 @@ exports.BattleMovedex = {
     "basePower": 30,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Ice Ball",
     "pp": 20,
     "priority": 0,
@@ -10467,6 +10587,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Inferno Overdrive",
     "pp": 1,
     "priority": 0,
@@ -10561,6 +10682,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Ion Deluge",
     "pp": 25,
     "priority": 1,
@@ -10676,8 +10798,8 @@ exports.BattleMovedex = {
     "secondary": null,
     "target": "normal",
     "type": "Grass",
-    "desc": "Has a higher chance for a critical hit. If the user is an Ogerpon, this move's type changes depending on its form. Water type for Wellspring Mask, Fire type for Hearthflame Mask, and Rock type for Cornerstone Mask.",
-    "shortDesc": "2x crit ratio. Type depends on user's form."
+    "desc": "Has a 2x chance for a critical hit. If the user is an Ogerpon, this move's type changes depending on its form. Water type for Wellspring Mask, Fire type for Hearthflame Mask, and Rock type for Cornerstone Mask.",
+    "shortDesc": "2x critical hit ratio. Type depends on user's form."
   },
   "jawlock": {
     "num": 746,
@@ -10746,6 +10868,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Jump Kick",
     "pp": 10,
     "priority": 0,
@@ -10755,7 +10878,7 @@ exports.BattleMovedex = {
       "mirror": 1,
       "gravity": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "hasCrashDamage": true,
     "secondary": null,
@@ -10789,6 +10912,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Karate Chop",
     "pp": 25,
     "priority": 0,
@@ -10803,14 +10927,15 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Fighting",
     "contestType": "Tough",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "kinesis": {
     "num": 134,
     "accuracy": 80,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Kinesis",
     "pp": 15,
     "priority": 0,
@@ -10840,6 +10965,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "King's Shield",
     "pp": 10,
     "priority": 4,
@@ -10911,6 +11037,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Land's Wrath",
     "pp": 10,
     "priority": 0,
@@ -10935,6 +11062,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Laser Focus",
     "pp": 30,
     "priority": 0,
@@ -11082,8 +11210,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Grass",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "leafstorm": {
     "num": 437,
@@ -11115,6 +11243,7 @@ exports.BattleMovedex = {
     "accuracy": 90,
     "basePower": 65,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Leaf Tornado",
     "pp": 10,
     "priority": 0,
@@ -11223,6 +11352,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 190,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Let's Snuggle Forever",
     "pp": 1,
     "priority": 0,
@@ -11342,6 +11472,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 200,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Light That Burns the Sky",
     "pp": 1,
     "priority": 0,
@@ -11416,6 +11547,7 @@ exports.BattleMovedex = {
     "accuracy": 75,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Lovely Kiss",
     "pp": 10,
     "priority": 0,
@@ -11452,7 +11584,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": null,
     "target": "normal",
@@ -11476,7 +11608,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "kick": 1
     },
     "secondary": {
       "chance": 100,
@@ -11495,6 +11628,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Lucky Chant",
     "pp": 30,
     "priority": 0,
@@ -11664,7 +11798,7 @@ exports.BattleMovedex = {
   "magicalleaf": {
     "num": 345,
     "accuracy": true,
-    "basePower": 60,
+    "basePower": 75,
     "category": "Special",
     "name": "Magical Leaf",
     "pp": 20,
@@ -11714,6 +11848,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Magic Coat",
     "pp": 15,
     "priority": 4,
@@ -11815,6 +11950,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 90,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Magnet Bomb",
     "pp": 15,
     "priority": 0,
@@ -11892,6 +12028,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Magnitude",
     "pp": 30,
     "priority": 0,
@@ -11943,6 +12080,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 180,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Malicious Moonsault",
     "pp": 1,
     "priority": 0,
@@ -11984,6 +12122,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Mat Block",
     "pp": 10,
     "priority": 0,
@@ -12045,6 +12184,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Airstream",
     "pp": 10,
     "priority": 0,
@@ -12062,6 +12202,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Darkness",
     "pp": 10,
     "priority": 0,
@@ -12079,6 +12220,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 100,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Flare",
     "pp": 10,
     "priority": 0,
@@ -12096,6 +12238,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Flutterby",
     "pp": 10,
     "priority": 0,
@@ -12113,6 +12256,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Geyser",
     "pp": 10,
     "priority": 0,
@@ -12130,6 +12274,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Max Guard",
     "pp": 10,
     "priority": 4,
@@ -12153,6 +12298,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Hailstorm",
     "pp": 10,
     "priority": 0,
@@ -12170,6 +12316,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Knuckle",
     "pp": 10,
     "priority": 0,
@@ -12187,6 +12334,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Lightning",
     "pp": 10,
     "priority": 0,
@@ -12204,6 +12352,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Mindstorm",
     "pp": 10,
     "priority": 0,
@@ -12221,6 +12370,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Ooze",
     "pp": 10,
     "priority": 0,
@@ -12238,6 +12388,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Overgrowth",
     "pp": 10,
     "priority": 0,
@@ -12255,6 +12406,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Phantasm",
     "pp": 10,
     "priority": 0,
@@ -12272,6 +12424,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Quake",
     "pp": 10,
     "priority": 0,
@@ -12289,6 +12442,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Rockfall",
     "pp": 10,
     "priority": 0,
@@ -12306,6 +12460,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Starfall",
     "pp": 10,
     "priority": 0,
@@ -12323,6 +12478,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Steelspike",
     "pp": 10,
     "priority": 0,
@@ -12340,6 +12496,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Strike",
     "pp": 10,
     "priority": 0,
@@ -12357,6 +12514,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 10,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Max Wyrmwind",
     "pp": 10,
     "priority": 0,
@@ -12399,6 +12557,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Meditate",
     "pp": 40,
     "priority": 0,
@@ -12426,6 +12585,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Me First",
     "pp": 20,
     "priority": 0,
@@ -12519,7 +12679,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": null,
     "target": "normal",
@@ -12583,6 +12743,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 200,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Menacing Moonraze Maelstrom",
     "pp": 1,
     "priority": 0,
@@ -12683,6 +12844,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 150,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Meteor Assault",
     "pp": 5,
     "priority": 0,
@@ -12723,7 +12885,7 @@ exports.BattleMovedex = {
   },
   "meteormash": {
     "num": 309,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
     "name": "Meteor Mash",
@@ -12858,6 +13020,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 150,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Mind Blown",
     "pp": 5,
     "priority": 0,
@@ -12878,6 +13041,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Mind Reader",
     "pp": 5,
     "priority": 0,
@@ -12932,6 +13096,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Miracle Eye",
     "pp": 40,
     "priority": 0,
@@ -12988,6 +13153,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Mirror Move",
     "pp": 20,
     "priority": 0,
@@ -13017,6 +13183,7 @@ exports.BattleMovedex = {
     "accuracy": 85,
     "basePower": 65,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Mirror Shot",
     "pp": 10,
     "priority": 0,
@@ -13260,7 +13427,7 @@ exports.BattleMovedex = {
   "mountaingale": {
     "num": 836,
     "accuracy": 85,
-    "basePower": 100,
+    "basePower": 120,
     "category": "Physical",
     "name": "Mountain Gale",
     "pp": 10,
@@ -13284,6 +13451,7 @@ exports.BattleMovedex = {
     "accuracy": 95,
     "basePower": 80,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Mud Bomb",
     "pp": 10,
     "priority": 0,
@@ -13302,8 +13470,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Ground",
     "contestType": "Cute",
-    "desc": "Has a 30% chance to lower the target's accuracy by 1 stage. This move becomes a special attack if the user's Attack is less than its Special Attack, including stat stage changes.",
-    "shortDesc": "30% chance to lower the target's accuracy by 1. Special if user's Atk < Sp. Atk."
+    "desc": "Physical if user's Atk > Sp. Atk. Has a 30% chance to lower the target's accuracy by 1 stage.",
+    "shortDesc": "Physical if user's Atk > Sp. Atk. 30% chance to lower the target's accuracy by 1."
   },
   "muddywater": {
     "num": 330,
@@ -13328,8 +13496,8 @@ exports.BattleMovedex = {
     "target": "allAdjacentFoes",
     "type": "Water",
     "contestType": "Tough",
-    "desc": "Has a 10% chance to lower the target's Speed by 1 stage.",
-    "shortDesc": "10% chance to lower the foe(s) Speed by 1."
+    "desc": "Has a 10% chance to lower the target's speed by 1 stage.",
+    "shortDesc": "10% chance to lower the foe(s) speed by 1."
   },
   "mudshot": {
     "num": 341,
@@ -13353,8 +13521,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Ground",
     "contestType": "Tough",
-    "desc": "Has a 100% chance to lower the target's Speed by 1 stage. This move becomes a special attack if the user's Attack is less than its Special Attack, including stat stage changes.",
-    "shortDesc": "100% chance to lower the target's Speed by 1. Special if user's Atk < Sp. Atk."
+    "desc": "Physical if user's Atk > Sp. Atk. Has a 100% chance to lower the target's Speed by 1 stage.",
+    "shortDesc": "Physical if user's Atk > Sp. Atk. 100% chance to lower the target's Speed by 1."
   },
   "mudslap": {
     "num": 189,
@@ -13378,14 +13546,15 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Ground",
     "contestType": "Cute",
-    "desc": "Has a 100% chance to lower the target's accuracy by 1 stage. This move becomes a special attack if the user's Attack is less than its Special Attack, including stat stage changes.",
-    "shortDesc": "100% chance to lower the target's accuracy by 1. Special if user's Atk < Sp. Atk."
+    "desc": "Physical if user's Atk > Sp. Atk. Has a 100% chance to lower the target's accuracy by 1 stage.",
+    "shortDesc": "Physical if user's Atk > Sp. Atk. 100% chance to lower the target's accuracy by 1."
   },
   "mudsport": {
     "num": 300,
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Mud Sport",
     "pp": 15,
     "priority": 0,
@@ -13417,6 +13586,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 120,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Multi-Attack",
     "pp": 10,
     "priority": 0,
@@ -13520,6 +13690,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Natural Gift",
     "pp": 15,
     "priority": 0,
@@ -13546,6 +13717,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Nature Power",
     "pp": 20,
     "priority": 0,
@@ -13570,6 +13742,7 @@ exports.BattleMovedex = {
     "accuracy": 90,
     "basePower": 0,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Nature's Madness",
     "pp": 10,
     "priority": 0,
@@ -13589,6 +13762,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Needle Arm",
     "pp": 15,
     "priority": 0,
@@ -13613,6 +13787,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Never-Ending Nightmare",
     "pp": 1,
     "priority": 0,
@@ -13655,6 +13830,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Nightmare",
     "pp": 15,
     "priority": 0,
@@ -13704,7 +13880,7 @@ exports.BattleMovedex = {
   "nightslash": {
     "num": 400,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 80,
     "category": "Physical",
     "name": "Night Slash",
     "pp": 15,
@@ -13721,15 +13897,14 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Dark",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "nihillight": {
     "num": 920,
     "accuracy": 100,
     "basePower": 100,
     "category": "Special",
-    "isNonstandard": "Future",
     "name": "Nihil Light",
     "pp": 10,
     "priority": 0,
@@ -13863,6 +14038,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 80,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Oblivion Wing",
     "pp": 10,
     "priority": 0,
@@ -13889,6 +14065,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Obstruct",
     "pp": 10,
     "priority": 4,
@@ -13912,6 +14089,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 195,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Oceanic Operetta",
     "pp": 1,
     "priority": 0,
@@ -13929,6 +14107,7 @@ exports.BattleMovedex = {
     "accuracy": 85,
     "basePower": 65,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Octazooka",
     "pp": 10,
     "priority": 0,
@@ -13955,6 +14134,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Octolock",
     "pp": 15,
     "priority": 0,
@@ -13978,6 +14158,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Odor Sleuth",
     "pp": 40,
     "priority": 0,
@@ -14007,6 +14188,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Ominous Wind",
     "pp": 5,
     "priority": 0,
@@ -14403,8 +14585,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Psychic",
     "contestType": "Cool",
-    "desc": "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
-    "shortDesc": "Physical if user's Atk > Sp. Atk. Ignores Abilities."
+    "desc": "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon. Hits all adjacent foes.",
+    "shortDesc": "Physical if user's Atk > Sp. Atk. Ignores Abilities. Hits adjacent foes."
   },
   "pikapapow": {
     "num": 732,
@@ -14412,7 +14594,6 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Pika Papow",
     "pp": 20,
     "priority": 0,
@@ -14462,6 +14643,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Plasma Fists",
     "pp": 15,
     "priority": 0,
@@ -14706,7 +14888,7 @@ exports.BattleMovedex = {
     "type": "Poison",
     "contestType": "Clever",
     "desc": "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio. 10% chance to poison."
+    "shortDesc": "2x critical hit ratio. 10% chance to poison."
   },
   "pollenpuff": {
     "num": 676,
@@ -14822,6 +15004,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Powder",
     "pp": 20,
     "priority": 1,
@@ -15023,6 +15206,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 40,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Power-Up Punch",
     "pp": 20,
     "priority": 0,
@@ -15104,8 +15288,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Normal",
     "contestType": "Cute",
-    "desc": "If the target is an ally, this move restores 1/2 of its maximum HP, rounded down, instead of dealing damage.",
-    "shortDesc": "If the target is an ally, heals 50% of its max HP."
+    "desc": "If the target is an adjacent ally, this move heals the target by 1/2 of its maximum HP, rounded down. If targeting a foe, this move has 80 base power with no additional effect.",
+    "shortDesc": "Heals adjacent ally 1/2 max HP. 80 BP vs foes."
   },
   "prismaticlaser": {
     "num": 711,
@@ -15351,14 +15535,15 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Psychic",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "psychoshift": {
     "num": 375,
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Psycho Shift",
     "pp": 10,
     "priority": 0,
@@ -15477,6 +15662,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Psywave",
     "pp": 15,
     "priority": 0,
@@ -15497,6 +15683,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 210,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Pulverizing Pancake",
     "pp": 1,
     "priority": 0,
@@ -15517,6 +15704,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Punishment",
     "pp": 5,
     "priority": 0,
@@ -15544,6 +15732,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Purify",
     "pp": 20,
     "priority": 0,
@@ -15575,6 +15764,7 @@ exports.BattleMovedex = {
     "basePower": 40,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Pursuit",
     "pp": 20,
     "priority": 0,
@@ -15607,7 +15797,7 @@ exports.BattleMovedex = {
       "mirror": 1,
       "defrost": 1,
       "bullet": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": {
       "chance": 10,
@@ -15724,6 +15914,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 20,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Rage",
     "pp": 20,
     "priority": 0,
@@ -15810,7 +16001,7 @@ exports.BattleMovedex = {
     },
     "secondary": null,
     "target": "normal",
-    "type": "Fighting",
+    "type": "Normal",
     "desc": "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
     "shortDesc": "Destroys screens. Type depends on user's form."
   },
@@ -15906,8 +16097,8 @@ exports.BattleMovedex = {
     "target": "allAdjacentFoes",
     "type": "Grass",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio. Hits adjacent foes."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio. Hits adjacent foes."
   },
   "razorshell": {
     "num": 534,
@@ -15941,23 +16132,22 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 80,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Razor Wind",
     "pp": 10,
     "priority": 0,
     "flags": {
       "protect": 1,
       "mirror": 1,
-      "metronome": 1,
-      "nosleeptalk": 1,
-      "failinstruct": 1
+      "metronome": 1
     },
     "critRatio": 2,
     "secondary": null,
     "target": "allAdjacentFoes",
     "type": "Flying",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit. Hits all adjacent foes.",
+    "shortDesc": "2x crit ratio. Hits all adjacent foes."
   },
   "recover": {
     "num": 105,
@@ -16072,6 +16262,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Refresh",
     "pp": 20,
     "priority": 0,
@@ -16120,6 +16311,7 @@ exports.BattleMovedex = {
     "category": "Status",
     "name": "Rest",
     "pp": 10,
+    "noPPBoosts": true,
     "priority": 0,
     "flags": {
       "snatch": 1,
@@ -16163,6 +16355,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Return",
     "pp": 20,
     "priority": 0,
@@ -16212,6 +16405,7 @@ exports.BattleMovedex = {
     "basePower": 60,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Revenge",
     "pp": 10,
     "priority": -4,
@@ -16391,6 +16585,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Rock Climb",
     "pp": 20,
     "priority": 0,
@@ -16584,6 +16779,7 @@ exports.BattleMovedex = {
     "accuracy": 85,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Rolling Kick",
     "pp": 15,
     "priority": 0,
@@ -16592,7 +16788,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": {
       "chance": 30,
@@ -16673,6 +16869,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Rototiller",
     "pp": 10,
     "priority": 0,
@@ -16715,6 +16912,24 @@ exports.BattleMovedex = {
     "contestType": "Beautiful",
     "desc": "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
     "shortDesc": "Power doubles if others used Round this turn."
+  },
+  "rubblerocket": {
+    "num": 6079,
+    "accuracy": 95,
+    "basePower": 95,
+    "category": "Physical",
+    "name": "Rubble Rocket",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "secondary": null,
+    "target": "normal",
+    "type": "Rock",
+    "desc": "Deals damage. If this move is successful and the user has not fainted, Stealth Rock is removed from both sides of the field.",
+    "shortDesc": "Removes Stealth Rock from both sides on hit."
   },
   "ruination": {
     "num": 877,
@@ -16941,7 +17156,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
-    "isNonstandard": "LGPE",
     "name": "Sappy Seed",
     "pp": 15,
     "priority": 0,
@@ -16962,6 +17176,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Savage Spin-Out",
     "pp": 1,
     "priority": 0,
@@ -17146,6 +17361,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 100,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Searing Shot",
     "pp": 5,
     "priority": 0,
@@ -17170,6 +17386,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 200,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Searing Sunraze Smash",
     "pp": 1,
     "priority": 0,
@@ -17190,6 +17407,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 70,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Secret Power",
     "pp": 20,
     "priority": 0,
@@ -17354,6 +17572,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 85,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Shadow Bone",
     "pp": 10,
     "priority": 0,
@@ -17386,15 +17605,16 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "slicing": 1
     },
     "critRatio": 2,
     "secondary": null,
     "target": "normal",
     "type": "Ghost",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "shadowforce": {
     "num": 467,
@@ -17428,10 +17648,10 @@ exports.BattleMovedex = {
   "shadowpunch": {
     "num": 325,
     "accuracy": true,
-    "basePower": 60,
+    "basePower": 80,
     "category": "Physical",
     "name": "Shadow Punch",
-    "pp": 20,
+    "pp": 15,
     "priority": 0,
     "flags": {
       "contact": 1,
@@ -17473,6 +17693,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Sharpen",
     "pp": 30,
     "priority": 0,
@@ -17500,6 +17721,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Shattered Psyche",
     "pp": 1,
     "priority": 0,
@@ -17616,6 +17838,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 150,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Shell Trap",
     "pp": 5,
     "priority": -3,
@@ -17687,7 +17910,7 @@ exports.BattleMovedex = {
   "shockwave": {
     "num": 351,
     "accuracy": true,
-    "basePower": 60,
+    "basePower": 75,
     "category": "Special",
     "name": "Shock Wave",
     "pp": 20,
@@ -17730,8 +17953,9 @@ exports.BattleMovedex = {
   "signalbeam": {
     "num": 324,
     "accuracy": 100,
-    "basePower": 75,
+    "basePower": 80,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Signal Beam",
     "pp": 15,
     "priority": 0,
@@ -17775,6 +17999,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Silver Wind",
     "pp": 5,
     "priority": 0,
@@ -17862,6 +18087,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 180,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Sinister Arrow Raid",
     "pp": 1,
     "priority": 0,
@@ -17879,7 +18105,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
-    "isNonstandard": "LGPE",
     "name": "Sizzly Slide",
     "pp": 15,
     "priority": 0,
@@ -17992,6 +18217,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 130,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Skull Bash",
     "pp": 10,
     "priority": 0,
@@ -18044,6 +18270,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Sky Drop",
     "pp": 10,
     "priority": 0,
@@ -18077,6 +18304,7 @@ exports.BattleMovedex = {
     "accuracy": 90,
     "basePower": 85,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Sky Uppercut",
     "pp": 15,
     "priority": 0,
@@ -18147,7 +18375,7 @@ exports.BattleMovedex = {
   "slash": {
     "num": 163,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 80,
     "category": "Physical",
     "name": "Slash",
     "pp": 20,
@@ -18164,8 +18392,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Normal",
     "contestType": "Cool",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "sleeppowder": {
     "num": 79,
@@ -18321,16 +18549,17 @@ exports.BattleMovedex = {
   "smartstrike": {
     "num": 684,
     "accuracy": true,
-    "basePower": 70,
+    "basePower": 80,
     "category": "Physical",
     "name": "Smart Strike",
-    "pp": 10,
+    "pp": 15,
     "priority": 0,
     "flags": {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "slicing": 1
     },
     "secondary": null,
     "target": "normal",
@@ -18345,6 +18574,7 @@ exports.BattleMovedex = {
     "basePower": 70,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Smelling Salts",
     "pp": 10,
     "priority": 0,
@@ -18418,6 +18648,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 40,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Snap Trap",
     "pp": 15,
     "priority": 0,
@@ -18464,6 +18695,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Snatch",
     "pp": 10,
     "priority": 4,
@@ -18508,8 +18740,8 @@ exports.BattleMovedex = {
     "secondary": null,
     "target": "normal",
     "type": "Water",
-    "desc": "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities. This move does not check accuracy.",
-    "shortDesc": "Always results in a critical hit; no accuracy check."
+    "desc": "Always crits and never misses. This move cannot be redirected to a different target by any effect.",
+    "shortDesc": "Always crits and never misses. Cannot be redirected."
   },
   "snore": {
     "num": 173,
@@ -18661,6 +18893,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "damage": 20,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Sonic Boom",
     "pp": 20,
     "priority": 0,
@@ -18681,6 +18914,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 195,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Soul-Stealing 7-Star Strike",
     "pp": 1,
     "priority": 0,
@@ -18713,8 +18947,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Dragon",
     "contestType": "Beautiful",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "spark": {
     "num": 209,
@@ -18770,7 +19004,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Sparkly Swirl",
     "pp": 15,
     "priority": 0,
@@ -18791,6 +19024,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Spectral Thief",
     "pp": 10,
     "priority": 0,
@@ -18863,6 +19097,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Spider Web",
     "pp": 10,
     "priority": 0,
@@ -18889,6 +19124,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 20,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Spike Cannon",
     "pp": 15,
     "priority": 0,
@@ -19021,7 +19257,7 @@ exports.BattleMovedex = {
   "spiritshackle": {
     "num": 662,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 90,
     "category": "Physical",
     "name": "Spirit Shackle",
     "pp": 10,
@@ -19109,11 +19345,32 @@ exports.BattleMovedex = {
     "desc": "No competitive use.",
     "shortDesc": "No competitive use."
   },
+  "splinteredrocks": {
+    "num": 605,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Splintered Rocks",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {},
+    "target": "normal",
+    "type": "Rock",
+    "contestType": "Cool",
+    "desc": "If this move is successful and the user has not fainted, Stealth Rock is set on the target's side of the field.",
+    "shortDesc": "Sets Stealth Rock on the foe's side."
+  },
   "splinteredstormshards": {
     "num": 727,
     "accuracy": true,
     "basePower": 190,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Splintered Stormshards",
     "pp": 1,
     "priority": 0,
@@ -19131,7 +19388,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Special",
-    "isNonstandard": "LGPE",
     "name": "Splishy Splash",
     "pp": 15,
     "priority": 0,
@@ -19180,6 +19436,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Spotlight",
     "pp": 15,
     "priority": 3,
@@ -19288,6 +19545,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 65,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Steamroller",
     "pp": 20,
     "priority": 0,
@@ -19348,11 +19606,11 @@ exports.BattleMovedex = {
   },
   "steelwing": {
     "num": 211,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
     "name": "Steel Wing",
-    "pp": 25,
+    "pp": 20,
     "priority": 0,
     "flags": {
       "contact": 1,
@@ -19431,6 +19689,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 175,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Stoked Sparksurfer",
     "pp": 1,
     "priority": 0,
@@ -19460,7 +19719,7 @@ exports.BattleMovedex = {
       "mirror": 1,
       "nonsky": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": {
       "chance": 30,
@@ -19485,7 +19744,8 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "metronome": 1
+      "metronome": 1,
+      "kick": 1
     },
     "secondary": null,
     "target": "normal",
@@ -19533,8 +19793,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Rock",
     "contestType": "Tough",
-    "desc": "Has a higher chance for a critical hit.",
-    "shortDesc": "2x crit ratio."
+    "desc": "Has a 2x chance for a critical hit.",
+    "shortDesc": "2x critical hit ratio."
   },
   "storedpower": {
     "num": 500,
@@ -19568,6 +19828,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 60,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Storm Throw",
     "pp": 10,
     "priority": 0,
@@ -19621,7 +19882,7 @@ exports.BattleMovedex = {
       "metronome": 1
     },
     "secondary": {
-      "chance": 50,
+      "chance": 10,
       "boosts": {
         "def": -1
       }
@@ -19638,7 +19899,6 @@ exports.BattleMovedex = {
     "basePower": 0,
     "category": "Status",
     "name": "Strength Sap",
-    "noPPBoosts": true,
     "pp": 10,
     "priority": 0,
     "flags": {
@@ -19791,9 +20051,10 @@ exports.BattleMovedex = {
   },
   "submission": {
     "num": 66,
-    "accuracy": 80,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Submission",
     "pp": 20,
     "priority": 0,
@@ -19846,6 +20107,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Subzero Slammer",
     "pp": 1,
     "priority": 0,
@@ -20027,6 +20289,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Supersonic Skystrike",
     "pp": 1,
     "priority": 0,
@@ -20274,6 +20537,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 120,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Synchronoise",
     "pp": 10,
     "priority": 0,
@@ -20573,6 +20837,27 @@ exports.BattleMovedex = {
     "desc": "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
     "shortDesc": "Target gets -1 Spe and becomes weaker to Fire."
   },
+  "tagout": {
+    "num": 6,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Tag Out",
+    "isNonstandard": "RC",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "metronome": 1
+    },
+    "self": {},
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "self",
+    "type": "Normal",
+    "contestType": "Cute",
+    "desc": "The user switches out of battle after using this move. Fails if no party member is available to switch in or if the user's movement is prevented.",
+    "shortDesc": "User switches out after using this move."
+  },
   "taunt": {
     "num": 269,
     "accuracy": 100,
@@ -20658,6 +20943,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 120,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Techno Blast",
     "pp": 5,
     "priority": 0,
@@ -20677,6 +20963,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Tectonic Rage",
     "pp": 1,
     "priority": 0,
@@ -20721,6 +21008,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Telekinesis",
     "pp": 15,
     "priority": 0,
@@ -20890,6 +21178,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Thousand Arrows",
     "pp": 10,
     "priority": 0,
@@ -20917,6 +21206,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 90,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Thousand Waves",
     "pp": 10,
     "priority": 0,
@@ -21113,7 +21403,7 @@ exports.BattleMovedex = {
       "contact": 1,
       "protect": 1,
       "mirror": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": {
       "chance": 100,
@@ -21232,6 +21522,33 @@ exports.BattleMovedex = {
     "contestType": "Cute",
     "desc": "Lowers the target's Attack and Defense by 1 stage.",
     "shortDesc": "Lowers the target's Attack and Defense by 1."
+  },
+  "tidebreaker": {
+    "num": 604,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "Tidebreaker",
+    "isNonstandard": "RC",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "type": "Water",
+    "contestType": "Tough",
+    "desc": "Has a 10% chance to lower the target's Defense by 1 stage. This move is super effective against Water-type Pokemon.",
+    "shortDesc": "10% chance to lower target's Defense by 1. Super effective vs Water."
   },
   "tidyup": {
     "num": 882,
@@ -21527,6 +21844,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Trick-or-Treat",
     "pp": 20,
     "priority": 0,
@@ -21628,7 +21946,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "multihit": 3,
     "multiaccuracy": true,
@@ -21679,7 +21997,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "multihit": 3,
     "multiaccuracy": true,
@@ -21699,7 +22017,7 @@ exports.BattleMovedex = {
   "tropkick": {
     "num": 688,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 85,
     "category": "Physical",
     "name": "Trop Kick",
     "pp": 15,
@@ -21709,7 +22027,7 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1,
       "metronome": 1,
-      "striker": 1
+      "kick": 1
     },
     "secondary": {
       "chance": 100,
@@ -21729,6 +22047,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Trump Card",
     "pp": 5,
     "noPPBoosts": true,
@@ -21777,6 +22096,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 50,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Twineedle",
     "pp": 20,
     "priority": 0,
@@ -21804,6 +22124,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 1,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Twinkle Tackle",
     "pp": 1,
     "priority": 0,
@@ -21974,7 +22295,6 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Physical",
-    "isNonstandard": "LGPE",
     "name": "Veevee Volley",
     "pp": 15,
     "priority": 0,
@@ -21995,6 +22315,7 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Venom Drench",
     "pp": 20,
     "priority": 0,
@@ -22035,6 +22356,26 @@ exports.BattleMovedex = {
     "contestType": "Beautiful",
     "desc": "Power doubles if the target is poisoned.",
     "shortDesc": "Power doubles if the target is poisoned."
+  },
+  "verdantrelay": {
+    "num": 6078,
+    "accuracy": 100,
+    "basePower": 80,
+    "isNonstandard": "RC",
+    "category": "Special",
+    "name": "Verdant Relay",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "selfSwitch": true,
+    "secondary": null,
+    "target": "normal",
+    "type": "Grass",
+    "desc": "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+    "shortDesc": "User switches out after damaging the target."
   },
   "victorydance": {
     "num": 837,
@@ -22107,6 +22448,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 70,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Vital Throw",
     "pp": 10,
     "priority": -1,
@@ -22178,6 +22520,7 @@ exports.BattleMovedex = {
     "basePower": 70,
     "basePowerCallback": true,
     "category": "Physical",
+    "isNonstandard": "Past",
     "name": "Wake-Up Slap",
     "pp": 10,
     "priority": 0,
@@ -22321,6 +22664,7 @@ exports.BattleMovedex = {
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
+    "isNonstandard": "Past",
     "name": "Water Sport",
     "pp": 15,
     "priority": 0,
@@ -22586,8 +22930,8 @@ exports.BattleMovedex = {
       "metronome": 1
     },
     "recoil": [
-      1,
-      3
+      33,
+      100
     ],
     "secondary": {
       "chance": 10,
@@ -22596,8 +22940,8 @@ exports.BattleMovedex = {
     "target": "normal",
     "type": "Electric",
     "contestType": "Tough",
-    "desc": "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded half up, but not less than 1 HP. This move has a 10% chance to paralyze opponent.",
-    "shortDesc": "Has 1/3 recoil. 10% chance to paralyze opponent."
+    "desc": "If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded half up, but not less than 1 HP. Has a 10% chance to paralyze the target.",
+    "shortDesc": "Has 1/3 recoil. 10% chance to paralyze the target."
   },
   "willowisp": {
     "num": 261,
@@ -22842,6 +23186,7 @@ exports.BattleMovedex = {
     "basePower": 0,
     "basePowerCallback": true,
     "category": "Special",
+    "isNonstandard": "Past",
     "name": "Wring Out",
     "pp": 5,
     "priority": 0,
@@ -22995,7 +23340,6 @@ exports.BattleMovedex = {
     "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
-    "isNonstandard": "LGPE",
     "name": "Zippy Zap",
     "pp": 15,
     "priority": 2,
@@ -23004,14 +23348,15 @@ exports.BattleMovedex = {
       "protect": 1,
       "mirror": 1
     },
+    "secondary": null,
     "target": "normal",
     "type": "Electric",
     "contestType": "Cool",
-    "desc": "Usually goes first.",
-    "shortDesc": "Goes first. +2 Priority"
+    "desc": "Goes first.",
+    "shortDesc": "Goes first."
   },
   "paleowave": {
-    "num": -1,
+    "num": 6055,
     "accuracy": 100,
     "basePower": 85,
     "category": "Special",
@@ -23036,7 +23381,7 @@ exports.BattleMovedex = {
     "shortDesc": "20% chance to lower the target's Attack by 1."
   },
   "shadowstrike": {
-    "num": -2,
+    "num": 6066,
     "accuracy": 95,
     "basePower": 80,
     "category": "Physical",
@@ -23062,7 +23407,7 @@ exports.BattleMovedex = {
     "shortDesc": "50% chance to lower the target's Defense by 1."
   },
   "polarflare": {
-    "num": -3,
+    "num": 6077,
     "accuracy": 100,
     "basePower": 75,
     "category": "Special",
@@ -23085,146 +23430,5 @@ exports.BattleMovedex = {
     "contestType": "Beautiful",
     "desc": "Has a 10% chance to freeze the target. This move cannot thaw a frozen target. If this move is successful on at least one target and the user is a Ramnarok, it changes to Radiant Forme if it is currently in Dormant Forme, or changes to Dormant Forme if it is currently in Radiant Forme. This forme change does not happen if the Ramnarok has the Sheer Force Ability. The Radiant Forme reverts to Dormant Forme when Ramnarok is not active.",
     "shortDesc": "10% chance to frz foe(s). Ramnarok transforms."
-  },
-  "tidebreaker": {
-    "num": -4,
-    "accuracy": 100,
-    "basePower": 70,
-    "category": "Physical",
-    "name": "Tidebreaker",
-    "pp": 20,
-    "priority": 0,
-    "flags": {
-      "protect": 1,
-      "contact": 1,
-      "mirror": 1,
-      "metronome": 1
-    },
-    "secondary": {
-      "chance": 10,
-      "boosts": {
-        "def": -1
-      }
-    },
-    "isNonstandard": "RC",
-    "target": "normal",
-    "type": "Water",
-    "contestType": "Beautiful",
-    "desc": "Has a 10% chance to lower the target's Defense by 1 stage. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
-    "shortDesc": "10% chance to lower the target's Defense by 1. Super effective on Water."
-  },
-  "tagout": {
-    "num": -5,
-    "accuracy": true,
-    "basePower": 0,
-    "category": "Status",
-    "name": "Tag Out",
-    "pp": 10,
-    "priority": 0,
-    "flags": {
-      "metronome": 1
-    },
-    "isNonstandard": "RC",
-    "self": {},
-    "selfSwitch": true,
-    "secondary": null,
-    "target": "self",
-    "type": "Normal",
-    "zMove": {
-      "effect": "clearnegativeboost"
-    },
-    "contestType": "Cute",
-    "desc": "The user is replaced with another Pokemon in its party.",
-    "shortDesc": "User switches."
-  },
-  "aquajaws": {
-    "num": -6,
-    "accuracy": 100,
-    "basePower": 75,
-    "category": "Physical",
-    "name": "Aqua Jaws",
-    "pp": 10,
-    "priority": 0,
-    "flags": {
-      "contact": 1,
-      "protect": 1,
-      "mirror": 1,
-      "metronome": 1,
-      "bite": 1
-    },
-    "isNonstandard": "RC",
-    "target": "normal",
-    "type": "Water",
-    "contestType": "Cool",
-    "desc": "No additional effects.",
-    "shortDesc": "No additional effects."
-  },
-  "chillingnibble": {
-    "num": -7,
-    "accuracy": 100,
-    "basePower": 20,
-    "category": "Physical",
-    "name": "Chilling Nibble",
-    "pp": 20,
-    "priority": 0,
-    "flags": {
-      "contact": 1,
-      "protect": 1,
-      "mirror": 1,
-      "metronome": 1
-    },
-    "secondary": {
-      "chance": 100,
-      "status": "frz"
-    },
-    "isNonstandard": "RC",
-    "target": "normal",
-    "type": "Ice",
-    "contestType": "Cute",
-    "desc": "Has a 100% chance to inflict frostbite on the target.",
-    "shortDesc": "100% chance to freeze the target."
-  },
-  "verdantrelay": {
-    "num": -8,
-    "accuracy": 100,
-    "basePower": 80,
-    "category": "Special",
-    "name": "Verdant Relay",
-    "pp": 10,
-    "priority": 0,
-    "flags": {
-      "protect": 1,
-      "mirror": 1,
-      "metronome": 1
-    },
-    "isNonstandard": "RC",
-    "selfSwitch": true,
-    "secondary": null,
-    "target": "normal",
-    "type": "Grass",
-    "contestType": "Cool",
-    "desc": "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
-    "shortDesc": "User switches out after damaging the target."
-  },
-  "rubblerocket": {
-    "num": -9,
-    "accuracy": 95,
-    "basePower": 95,
-    "category": "Physical",
-    "name": "Rubble Rocket",
-    "pp": 5,
-    "priority": 0,
-    "flags": {
-      "protect": 1,
-      "mirror": 1,
-      "metronome": 1
-    },
-    "isNonstandard": "RC",
-    "secondary": null,
-    "target": "normal",
-    "type": "Rock",
-    "contestType": "Tough",
-    "desc": "Deals damage. If this move is successful and the user has not fainted, Stealth Rock is removed from both sides of the field.",
-    "shortDesc": "Removes Stealth Rock from both sides on hit."
   }
-}
+};

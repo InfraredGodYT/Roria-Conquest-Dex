@@ -2415,12 +2415,12 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 84,
+      "hp": 79,
       "atk": 76,
-      "def": 89,
+      "def": 80,
       "spa": 105,
       "spd": 100,
-      "spe": 101
+      "spe": 100
     },
     "abilities": {
       "0": "Flash Fire",
@@ -2458,12 +2458,12 @@ exports.BattlePokedex = {
       "F": 0.75
     },
     "baseStats": {
-      "hp": 84,
+      "hp": 79,
       "atk": 67,
-      "def": 89,
+      "def": 80,
       "spa": 105,
       "spd": 100,
-      "spe": 110
+      "spe": 109
     },
     "abilities": {
       "0": "Snow Cloak",
@@ -3955,7 +3955,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Corrosion"
+      "0": "Innards Out"
     },
     "heightm": 4.5,
     "weightkg": 125.5,
@@ -4578,7 +4578,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Levitate"
+      "H": "Analytic"
     },
     "heightm": 0.3,
     "weightkg": 6,
@@ -4610,7 +4610,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Levitate"
+      "H": "Analytic"
     },
     "heightm": 1,
     "weightkg": 60,
@@ -5970,8 +5970,8 @@ exports.BattlePokedex = {
       "hp": 105,
       "atk": 130,
       "def": 120,
-      "spa": 15,
-      "spd": 70,
+      "spa": 45,
+      "spd": 45,
       "spe": 40
     },
     "abilities": {
@@ -8023,12 +8023,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 75,
+      "hp": 90,
+      "atk": 70,
       "def": 100,
-      "spa": 100,
+      "spa": 90,
       "spd": 105,
-      "spe": 55
+      "spe": 80
     },
     "abilities": {
       "0": "Overgrow",
@@ -8067,12 +8067,12 @@ exports.BattlePokedex = {
       "F": 0.125
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 107,
+      "hp": 90,
+      "atk": 92,
       "def": 115,
       "spa": 143,
       "spd": 115,
-      "spe": 55
+      "spe": 80
     },
     "abilities": {
       "0": "Mega Sol"
@@ -8400,7 +8400,7 @@ exports.BattlePokedex = {
       "spe": 20
     },
     "abilities": {
-      "0": "Adrenaline",
+      "0": "Run Away",
       "1": "Soundproof",
       "H": "Scrappy"
     },
@@ -8431,7 +8431,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Adrenaline",
+      "0": "Run Away",
       "1": "Soundproof",
       "H": "Scrappy"
     },
@@ -9456,12 +9456,12 @@ exports.BattlePokedex = {
       "Fire"
     ],
     "baseStats": {
-      "hp": 85,
-      "atk": 55,
-      "def": 75,
+      "hp": 75,
+      "atk": 75,
+      "def": 55,
       "spa": 105,
       "spd": 85,
-      "spe": 76
+      "spe": 30
     },
     "abilities": {
       "0": "Chlorophyll",
@@ -10560,9 +10560,9 @@ exports.BattlePokedex = {
       "hp": 90,
       "atk": 130,
       "def": 75,
-      "spa": 35,
+      "spa": 75,
       "spd": 75,
-      "spe": 95
+      "spe": 55
     },
     "abilities": {
       "0": "Guts",
@@ -12596,7 +12596,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Dancer"
+      "H": "Hydration"
     },
     "heightm": 0.5,
     "weightkg": 2.6,
@@ -12628,7 +12628,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Dancer"
+      "H": "Hydration"
     },
     "heightm": 1.2,
     "weightkg": 32.5,
@@ -12662,7 +12662,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Swift Swim",
       "1": "Rain Dish",
-      "H": "Dancer"
+      "H": "Hydration"
     },
     "heightm": 1.5,
     "weightkg": 55,
@@ -13169,9 +13169,7 @@ exports.BattlePokedex = {
       "spe": 30
     },
     "abilities": {
-      "0": "Truant",
-      "1": "Run Away",
-      "H": "Quick Feet"
+      "0": "Truant"
     },
     "heightm": 0.8,
     "weightkg": 24,
@@ -13223,17 +13221,15 @@ exports.BattlePokedex = {
       "Normal"
     ],
     "baseStats": {
-      "hp": 110,
-      "atk": 120,
+      "hp": 150,
+      "atk": 160,
       "def": 100,
-      "spa": 50,
-      "spd": 85,
+      "spa": 95,
+      "spd": 65,
       "spe": 100
     },
     "abilities": {
-      "0": "Truant",
-      "1": "Run Away",
-      "H": "Quick Feet"
+      "0": "Truant"
     },
     "heightm": 2,
     "weightkg": 130.5,
@@ -13406,11 +13402,11 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 104,
-      "atk": 51,
+      "atk": 91,
       "def": 83,
-      "spa": 106,
+      "spa": 91,
       "spd": 73,
-      "spe": 93
+      "spe": 68
     },
     "abilities": {
       "0": "Soundproof",
@@ -14698,14 +14694,14 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 50,
-      "atk": 70,
+      "atk": 80,
       "def": 50,
-      "spa": 70,
+      "spa": 80,
       "spd": 50,
       "spe": 80
     },
     "abilities": {
-      "0": "Tinted Lens",
+      "0": "Levitate",
       "1": "Sand Force",
       "H": "Shield Dust"
     },
@@ -14739,7 +14735,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Tinted Lens",
+      "0": "Levitate",
       "1": "Sand Force",
       "H": "Shield Dust"
     },
@@ -15780,9 +15776,9 @@ exports.BattlePokedex = {
     ],
     "baseStats": {
       "hp": 75,
-      "atk": 115,
+      "atk": 130,
       "def": 60,
-      "spa": 75,
+      "spa": 80,
       "spd": 60,
       "spe": 90
     },
@@ -15806,7 +15802,8 @@ exports.BattlePokedex = {
       "Absol-Mega",
       "Absol-Mega-Z"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "ArticunoFan"
   },
   "absolmega": {
     "num": 359,
@@ -18998,9 +18995,9 @@ exports.BattlePokedex = {
       "hp": 79,
       "atk": 65,
       "def": 59,
-      "spa": 99,
+      "spa": 92,
       "spd": 59,
-      "spe": 106
+      "spe": 91
     },
     "abilities": {
       "0": "Keen Eye",
@@ -19235,7 +19232,7 @@ exports.BattlePokedex = {
       "spe": 60
     },
     "abilities": {
-      "0": "Steadfast",
+      "0": "Iron Fist",
       "1": "Inner Focus",
       "H": "Prankster"
     },
@@ -19271,8 +19268,8 @@ exports.BattlePokedex = {
       "spe": 90
     },
     "abilities": {
-      "0": "Steadfast",
-      "1": "Iron Fist",
+      "0": "Iron Fist",
+      "1": "Inner Focus",
       "H": "Justified"
     },
     "heightm": 1.2,
@@ -19785,7 +19782,7 @@ exports.BattlePokedex = {
     "abilities": {
       "0": "Magnet Pull",
       "1": "Sturdy",
-      "H": "Levitate"
+      "H": "Analytic"
     },
     "heightm": 1.2,
     "weightkg": 180,
@@ -21917,9 +21914,9 @@ exports.BattlePokedex = {
       "hp": 65,
       "atk": 73,
       "def": 40,
-      "spa": 35,
+      "spa": 50,
       "spd": 45,
-      "spe": 60
+      "spe": 45
     },
     "abilities": {
       "0": "Blaze",
@@ -21951,10 +21948,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 90,
       "atk": 93,
-      "def": 50,
-      "spa": 45,
+      "def": 52,
+      "spa": 70,
       "spd": 55,
-      "spe": 82
+      "spe": 55
     },
     "abilities": {
       "0": "Blaze",
@@ -21989,9 +21986,9 @@ exports.BattlePokedex = {
       "hp": 110,
       "atk": 123,
       "def": 60,
-      "spa": 65,
+      "spa": 92,
       "spd": 65,
-      "spe": 112
+      "spe": 85
     },
     "abilities": {
       "0": "Blaze",
@@ -23744,7 +23741,7 @@ exports.BattlePokedex = {
     },
     "abilities": {
       "0": "Chlorophyll",
-      "1": "Adaptability",
+      "1": "Natural Cure",
       "H": "Leaf Guard"
     },
     "heightm": 1.1,
@@ -24373,7 +24370,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Shed Skin"
+      "0": "Intimidate"
     },
     "heightm": 1.1,
     "weightkg": 31,
@@ -24606,7 +24603,7 @@ exports.BattlePokedex = {
       "spe": 70
     },
     "abilities": {
-      "0": "Adrenaline"
+      "0": "Early Bird"
     },
     "heightm": 0.5,
     "weightkg": 9.5,
@@ -24640,7 +24637,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Adrenaline"
+      "0": "Early Bird"
     },
     "heightm": 1.4,
     "weightkg": 32,
@@ -25984,13 +25981,13 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 85,
       "atk": 145,
-      "def": 80,
+      "def": 90,
       "spa": 135,
-      "spd": 90,
-      "spe": 100
+      "spd": 100,
+      "spe": 80
     },
     "abilities": {
-      "0": "Levitate"
+      "0": "Eelevate"
     },
     "heightm": 3,
     "weightkg": 160,
@@ -26487,11 +26484,11 @@ exports.BattlePokedex = {
       "Steel"
     ],
     "baseStats": {
-      "hp": 117,
-      "atk": 94,
-      "def": 109,
-      "spa": 76,
-      "spd": 94,
+      "hp": 111,
+      "atk": 85,
+      "def": 100,
+      "spa": 60,
+      "spd": 87,
       "spe": 32
     },
     "abilities": {
@@ -28964,7 +28961,7 @@ exports.BattlePokedex = {
       "spe": 126
     },
     "abilities": {
-      "0": "Hubris"
+      "0": "Fire Mane"
     },
     "heightm": 1.5,
     "weightkg": 93.3,
@@ -29092,8 +29089,9 @@ exports.BattlePokedex = {
       "spe": 92
     },
     "abilities": {
-      "0": "Flower Veil",
-      "H": "Symbiosis"
+      "0": "Natural Cure",
+      "1": "Magic Guard",
+      "H": "Regenerator"
     },
     "heightm": 0.2,
     "weightkg": 0.9,
@@ -30360,7 +30358,7 @@ exports.BattlePokedex = {
       "spe": 118
     },
     "abilities": {
-      "0": "Mold Breaker"
+      "0": "No Guard"
     },
     "heightm": 1,
     "weightkg": 25,
@@ -31050,7 +31048,7 @@ exports.BattlePokedex = {
     "forme": "Hisui",
     "types": [
       "Ice",
-      "Rock"
+      "Ground"
     ],
     "baseStats": {
       "hp": 95,
@@ -32310,10 +32308,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 80,
-      "spa": 105,
-      "spd": 80,
-      "spe": 100
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
     },
     "abilities": {
       "0": "Dancer",
@@ -32355,10 +32353,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 80,
-      "spa": 105,
-      "spd": 80,
-      "spe": 100
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
     },
     "abilities": {
       "0": "Dancer",
@@ -32390,10 +32388,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 80,
-      "spa": 105,
-      "spd": 80,
-      "spe": 100
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
     },
     "abilities": {
       "0": "Dancer",
@@ -32425,10 +32423,10 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 70,
-      "def": 80,
-      "spa": 105,
-      "spd": 80,
-      "spe": 100
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
     },
     "abilities": {
       "0": "Dancer",
@@ -33383,7 +33381,7 @@ exports.BattlePokedex = {
     ],
     "gender": "F",
     "baseStats": {
-      "hp": 72,
+      "hp": 82,
       "atk": 120,
       "def": 98,
       "spa": 50,
@@ -33391,9 +33389,9 @@ exports.BattlePokedex = {
       "spe": 72
     },
     "abilities": {
-      "0": "Leaf Guard",
+      "0": "Scrappy",
       "1": "Queenly Majesty",
-      "H": "Sweet Veil"
+      "H": "Striker"
     },
     "heightm": 1.2,
     "weightkg": 21.4,
@@ -33404,7 +33402,8 @@ exports.BattlePokedex = {
     "eggGroups": [
       "Grass"
     ],
-    "tier": "UU"
+    "tier": "UU",
+    "credit": "DoodleLux"
   },
   "comfey": {
     "num": 764,
@@ -36355,9 +36354,9 @@ exports.BattlePokedex = {
     "baseStats": {
       "hp": 75,
       "atk": 85,
-      "def": 75,
+      "def": 65,
       "spa": 120,
-      "spd": 75,
+      "spd": 65,
       "spe": 125
     },
     "abilities": {
@@ -44897,7 +44896,7 @@ exports.BattlePokedex = {
       "spe": 130
     },
     "abilities": {
-      "0": "Lightning Rod"
+      "0": "No Guard"
     },
     "heightm": 1,
     "weightkg": 26,
@@ -44950,11 +44949,11 @@ exports.BattlePokedex = {
       "Ghost"
     ],
     "baseStats": {
-      "hp": 65,
+      "hp": 75,
       "atk": 154,
-      "def": 60,
+      "def": 70,
       "spa": 75,
-      "spd": 60,
+      "spd": 70,
       "spe": 151
     },
     "abilities": {
@@ -44988,7 +44987,7 @@ exports.BattlePokedex = {
       "spe": 110
     },
     "abilities": {
-      "0": "Reckless"
+      "0": "Contrary"
     },
     "heightm": 1.9,
     "weightkg": 50,
@@ -45052,7 +45051,7 @@ exports.BattlePokedex = {
       "spe": 151
     },
     "abilities": {
-      "0": "Mega Launcher"
+      "0": "Aura Guard"
     },
     "heightm": 1.3,
     "weightkg": 49.4,
@@ -45240,7 +45239,7 @@ exports.BattlePokedex = {
       "spe": 40
     },
     "abilities": {
-      "0": "Battle Armor"
+      "0": "Tough Claws"
     },
     "heightm": 2.3,
     "weightkg": 148,

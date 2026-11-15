@@ -383,7 +383,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				var vStat = vanillaMon.baseStats[stat];
 				var rcStat = pokemon.baseStats[stat];
 				if (vStat !== rcStat) {
-					statChanges += BattleStatNames[stat] + ': ' + vStat + ' <i class="fa fa-long-arrow-right"></i> ' + rcStat + '<br />';
+					var statClass = rcStat > vStat ? 'stat-up' : 'stat-down';
+					statChanges += BattleStatNames[stat] + ': ' + vStat + ' <i class="fa fa-long-arrow-right"></i> <span class="' + statClass + '">' + rcStat + '</span><br />';
 				}
 			}
 

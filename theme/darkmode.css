@@ -1,0 +1,365 @@
+/**
+ * Dark mode + the Lunatone/Solrock theme toggle.
+ *
+ * Dark mode is the `dark` class on <html> (the same class Showdown's
+ * utilichart.css already has a few dark rules for). It's set by the inline
+ * script in index.php's <head> and toggled by the topbar button.
+ */
+
+/* ---------- theme toggle ---------- */
+
+.theme-toggle {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	z-index: 20;
+	width: 52px;
+	height: 38px;
+	padding: 0;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	background: transparent;
+	cursor: pointer;
+	line-height: 0;
+}
+.theme-toggle:hover {
+	border-color: rgba(102, 42, 100, .35);
+	background: rgba(255, 255, 255, .45);
+}
+.theme-toggle:focus-visible {
+	outline: 2px solid #8a4a88;
+	outline-offset: 1px;
+}
+.theme-toggle .theme-icon {
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	transform: scale(1.15);
+	transition: transform .15s;
+}
+.theme-toggle:hover .theme-icon {
+	transform: scale(1.3);
+}
+/* keep the topbar buttons clear of the toggle when the header isn't centred */
+@media all and (max-width: 899px) {
+	.pfx-topbar .header {
+		margin-right: 62px;
+	}
+}
+
+/* ---------- dark mode ---------- */
+
+html.dark,
+html.dark body {
+	background: #1b1d22;
+	color: #dfe2e7;
+}
+
+html.dark a {
+	color: #9db6e0;
+}
+html.dark a:hover {
+	color: #c6d6f2;
+}
+html.dark a.subtle {
+	color: #e6e8ec;
+}
+html.dark a.subtle:hover {
+	color: #9db6e0;
+}
+
+/* topbar */
+html.dark .pfx-topbar {
+	background: #2e2234;
+	background: linear-gradient(to bottom, #382a40, #281e2d);
+	border-bottom-color: #8a4a88;
+	text-shadow: none;
+}
+html.dark .theme-toggle:hover {
+	border-color: rgba(220, 180, 230, .3);
+	background: rgba(255, 255, 255, .08);
+}
+html.dark .theme-toggle:focus-visible {
+	outline-color: #c79bd0;
+}
+
+/* panels */
+html.dark .pfx-panel {
+	background: #22252b;
+	border-left-color: #3b4250;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .35);
+}
+html.dark .pfx-go-left,
+html.dark .pfx-go-right {
+	background-color: #262a31;
+	border-left-color: #3b4250;
+}
+html.dark .pfx-go-left:hover,
+html.dark .pfx-go-right:hover {
+	background-color: #303642;
+}
+html.dark .pfx-go-left:active,
+html.dark .pfx-go-right:active {
+	background-color: #3a414e;
+}
+html.dark .pfx-loading {
+	background: #262a31;
+	border-color: #4a5266;
+	color: #9aa3c0;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+}
+html.dark .pfx-backbutton {
+	background: #2a2f37;
+	border-color: #4a5566;
+	color: #c9d3e3;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+}
+html.dark .pfx-backbutton:hover {
+	background: #333a44;
+	border-color: #66758c;
+	color: #e6ecf5;
+}
+html.dark .pfx-backbutton:active {
+	background: #3a414e;
+	color: #ffffff;
+}
+html.dark .pfx-popup-bg {
+	background: #111318;
+}
+html.dark .pfx-popup {
+	background: #262a31;
+	border-color: #4a5566;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+}
+html.dark .footer {
+	color: #80868f;
+}
+
+/* buttons */
+html.dark .button {
+	color: #e6e8ec;
+	border-color: #5b616b;
+	background: #3b4048;
+	background: linear-gradient(to bottom, #474c55, #383c44);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .4), inset 0 1px 0 rgba(255, 255, 255, .06);
+}
+html.dark .button:hover {
+	color: #ffffff;
+	border-color: #7c838e;
+	background: linear-gradient(to bottom, #525862, #41464f);
+}
+html.dark .button:active {
+	background: linear-gradient(to bottom, #33373e, #43474f);
+}
+html.dark .button:disabled,
+html.dark .button:disabled:hover {
+	color: #7c818a;
+	background: #2c2f35;
+}
+html.dark .button.cur,
+html.dark .button.cur:hover {
+	border-color: #7c838e;
+}
+/* topbar colour buttons: keep each button's hue, darken it */
+html.dark .colorbutton {
+	color: #f0f0f0;
+	background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), 33%), hsl(var(--btn-h), var(--btn-s), 27%));
+	border-color: hsl(var(--btn-h), var(--btn-s), 45%);
+}
+html.dark .colorbutton:hover {
+	background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), 39%), hsl(var(--btn-h), var(--btn-s), 32%));
+	border-color: hsl(var(--btn-h), var(--btn-s), 58%);
+}
+html.dark .colorbutton:active {
+	background: linear-gradient(to bottom, hsl(var(--btn-h), var(--btn-s), 25%), hsl(var(--btn-h), var(--btn-s), 31%));
+}
+
+/* text inputs */
+html.dark .textbox {
+	color: #e6e8ec;
+	background: #2a2e35;
+	border-color: #555c68;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .4);
+}
+html.dark .textbox:hover {
+	background: #2f343c;
+	border-color: #737b88;
+}
+html.dark .textbox:focus {
+	background: #2f343c;
+	border-color: #6a9fdc;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .4), 0 0 5px #2f6fb5;
+}
+
+/* dex pages */
+html.dark .pokedex h1 a {
+	color: #c9ccd2;
+}
+html.dark .dexentry h1 code,
+html.dark .dexentry dt,
+html.dark .dexentry .minor,
+html.dark table.stats .bst,
+html.dark .utilichart .notfound em {
+	color: #9aa0a9;
+}
+html.dark .dexentry .tier {
+	color: #c9ccd2;
+	border-color: #666c76;
+}
+html.dark .dexentry dl.ppentry dd,
+html.dark .movetag,
+html.dark table.stats .ministat,
+html.dark table.stats th.ministat {
+	color: #b4b9c1;
+}
+html.dark .dexentry .fa-mars {
+	color: #8fb3ff;
+}
+html.dark .dexentry .fa-venus {
+	color: #ff9ccc;
+}
+html.dark .warning {
+	background: #4a2e1c;
+	border-color: #c4621f;
+	color: #f3d9c6;
+}
+html.dark .tabbar:after {
+	background: #2a2e35;
+	border-color: #555c68;
+}
+html.dark .tabbar .button.cur,
+html.dark .tabbar .button.cur:hover {
+	color: #e6e8ec;
+	background: #2a2e35;
+	border-color: #555c68;
+}
+
+/* RC stat changes */
+html.dark .stat-up {
+	color: #5fd17d;
+}
+html.dark .stat-down {
+	color: #ff7b7b;
+}
+
+/* section headers ("RC Changes", "Level-up", result group headers). Replaces
+   utilichart.css's own dark style, which has bright top/bottom lines, a dark
+   inset shadow and no right border. */
+html.dark .utilichart h3,
+html.dark .dexentry h3,
+html.dark .resultheader h3 {
+	background: #323843;
+	color: #eef1f5;
+	border: 1px solid #4b5361;
+	text-shadow: none;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .05);
+	/* utilichart.css nudges headers 1px left, which hides the left border
+	   in result lists; on a dark page that missing edge shows */
+	margin-left: 0;
+}
+
+/* search results (utilichart.css from Showdown + the dex's overrides) */
+html.dark .utilichart li > a.cur {
+	border-color: #555c68;
+	background: #2f343c;
+}
+html.dark .utilichart a.active,
+html.dark .utilichart a.active:hover,
+html.dark .utilichart.nokbd a:hover {
+	border-color: #4a505b;
+	background: #2a2e35;
+}
+html.dark .utilichart dl a,
+html.dark .utilichart.nokbd dl a:hover {
+	border: 0;
+	background: transparent;
+}
+html.dark .utilichart a.sel,
+html.dark .utilichart a.sel:hover,
+html.dark .utilichart a.cur,
+html.dark .utilichart a.cur:hover {
+	border-color: #66707e;
+	background: #343a44;
+}
+html.dark .utilichart .namecol,
+html.dark .utilichart .pokemonnamecol,
+html.dark .utilichart .shortpokemonnamecol,
+html.dark .utilichart .movenamecol,
+html.dark .utilichart .shortmovenamecol,
+html.dark .utilichart .tagcol {
+	color: #f0f2f5;
+}
+html.dark .utilichart .tagcol {
+	border-right-color: #4a505b;
+}
+html.dark .utilichart .numcol,
+html.dark .utilichart .bstcol em,
+html.dark .utilichart .stattitlecol,
+html.dark .utilichart .movedesccol {
+	color: #9aa0a9;
+}
+html.dark .utilichart b {
+	color: #7fb2e6;
+}
+html.dark .utilichart .illegalcol em {
+	color: #ff8080;
+	border-color: #ff8080;
+}
+html.dark .utilichart .filtercol em {
+	color: #6fd86f;
+	border-color: #6fd86f;
+}
+html.dark .utilichart .sortrow {
+	background: #2f343c;
+	border-bottom-color: #555c68;
+	color: #e6e8ec;
+}
+html.dark .utilichart .sortcol {
+	color: #e6e8ec;
+}
+html.dark .utilichart .sortcol.cur {
+	background: #3a404a;
+}
+html.dark .utilichart .sortcol:hover {
+	background: #444b56;
+}
+html.dark .utilichart .sortcol.numsortcol.cur:hover {
+	background: #3a404a;
+}
+html.dark .searchboxwrapper .filter {
+	background: #343a44;
+	border-color: #66707e;
+	color: #e6e8ec;
+}
+html.dark .searchboxwrapper .filter:hover {
+	color: #9aa0a9;
+}
+html.dark .searchboxwrapper .filter.noclear:hover {
+	color: #e6e8ec;
+}
+
+/* articles */
+html.dark .ladder table,
+html.dark .ladder td,
+html.dark .ladder th {
+	border-color: #4a505b;
+}
+html.dark .ladder th {
+	background: #2f343c;
+}
+html.dark .linklist a {
+	background: #262a31;
+	border-color: #4a5566;
+	color: #9db6e0;
+	text-shadow: none;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+html.dark .linklist a:hover {
+	background: #2f343c;
+	border-color: #66758c;
+	color: #c6d6f2;
+}
+html.dark .linklist a small {
+	color: #7f9cc8;
+}

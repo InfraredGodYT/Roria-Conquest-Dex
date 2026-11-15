@@ -113,7 +113,7 @@ var Pokedex = Panels.App.extend({
 		for (let id in BattleAbilities) {
 			let a = BattleAbilities[id];
 			let v = window.BattleAbilitiesVanilla?.[id];
-			if (!a || !v && !a.flags.roria) continue;
+			if (!a || !a.flags || !v && !a.flags.roria) continue;
 
 			if (a.flags.roria || a.shortDesc !== v.shortDesc) {
 				let gen = a.gen || 9;

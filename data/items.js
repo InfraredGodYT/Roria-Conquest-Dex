@@ -14,41 +14,44 @@ exports.BattleItems = {
   "abomasite": {
     "name": "Abomasite",
     "spritenum": 575,
-    "megaStone": "Abomasnow-Mega",
-    "megaEvolves": "Abomasnow",
+    "megaStone": {
+      "Abomasnow": "Abomasnow-Mega"
+    },
     "itemUser": [
       "Abomasnow"
     ],
     "num": 674,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Abomasnow, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Abomasnow, this item allows it to Mega Evolve in battle."
   },
   "absolite": {
     "name": "Absolite",
     "spritenum": 576,
-    "megaStone": "Absol-Mega",
-    "megaEvolves": "Absol",
+    "megaStone": {
+      "Absol": "Absol-Mega"
+    },
     "itemUser": [
       "Absol"
     ],
     "num": 677,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Absol, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Absol, this item allows it to Mega Evolve in battle."
   },
-  absolitez: {
-      name: "Absolite Z",
-      spritenum: 576,
-      megaStone: {
-          Absol: "Absol-Mega-Z"
-      },
-      itemUser: ["Absol"],
-      num: 2588,
-      gen: 9,
-      isNonstandard: "Future"
+  "absolitez": {
+    "name": "Absolite Z",
+    "spritenum": 576,
+    "megaStone": {
+      "Absol": "Absol-Mega-Z"
+    },
+    "itemUser": [
+      "Absol"
+    ],
+    "num": 2588,
+    "gen": 9,
+    "desc": "If held by an Absol, this item allows it to Mega Evolve into Mega Absol Z in battle.",
+    "shortDesc": "If held by an Absol, this item allows it to Mega Evolve into Mega Absol Z in battle."
   },
   "absorbbulb": {
     "name": "Absorb Bulb",
@@ -109,28 +112,28 @@ exports.BattleItems = {
   "aerodactylite": {
     "name": "Aerodactylite",
     "spritenum": 577,
-    "megaStone": "Aerodactyl-Mega",
-    "megaEvolves": "Aerodactyl",
+    "megaStone": {
+      "Aerodactyl": "Aerodactyl-Mega"
+    },
     "itemUser": [
       "Aerodactyl"
     ],
     "num": 672,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Aerodactyl, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Aerodactyl, this item allows it to Mega Evolve in battle."
   },
   "aggronite": {
     "name": "Aggronite",
     "spritenum": 578,
-    "megaStone": "Aggron-Mega",
-    "megaEvolves": "Aggron",
+    "megaStone": {
+      "Aggron": "Aggron-Mega"
+    },
     "itemUser": [
       "Aggron"
     ],
     "num": 667,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Aggron, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Aggron, this item allows it to Mega Evolve in battle."
   },
@@ -161,14 +164,14 @@ exports.BattleItems = {
   "alakazite": {
     "name": "Alakazite",
     "spritenum": 579,
-    "megaStone": "Alakazam-Mega",
-    "megaEvolves": "Alakazam",
+    "megaStone": {
+      "Alakazam": "Alakazam-Mega"
+    },
     "itemUser": [
       "Alakazam"
     ],
     "num": 679,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Alakazam, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Alakazam, this item allows it to Mega Evolve in battle."
   },
@@ -183,35 +186,34 @@ exports.BattleItems = {
     ],
     "num": 803,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer.",
     "shortDesc": "If held by an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer."
   },
   "altarianite": {
     "name": "Altarianite",
     "spritenum": 615,
-    "megaStone": "Altaria-Mega",
-    "megaEvolves": "Altaria",
+    "megaStone": {
+      "Altaria": "Altaria-Mega"
+    },
     "itemUser": [
       "Altaria"
     ],
     "num": 755,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Altaria, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Altaria, this item allows it to Mega Evolve in battle."
   },
   "ampharosite": {
     "name": "Ampharosite",
     "spritenum": 580,
-    "megaStone": "Ampharos-Mega",
-    "megaEvolves": "Ampharos",
+    "megaStone": {
+      "Ampharos": "Ampharos-Mega"
+    },
     "itemUser": [
       "Ampharos"
     ],
     "num": 658,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Ampharos, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Ampharos, this item allows it to Mega Evolve in battle."
   },
@@ -236,7 +238,6 @@ exports.BattleItems = {
     },
     "num": 104,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Shieldon.",
     "shortDesc": "Can be revived into Shieldon."
   },
@@ -268,14 +269,14 @@ exports.BattleItems = {
   "audinite": {
     "name": "Audinite",
     "spritenum": 617,
-    "megaStone": "Audino-Mega",
-    "megaEvolves": "Audino",
+    "megaStone": {
+      "Audino": "Audino-Mega"
+    },
     "itemUser": [
       "Audino"
     ],
     "num": 757,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by an Audino, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Audino, this item allows it to Mega Evolve in battle."
   },
@@ -306,39 +307,42 @@ exports.BattleItems = {
   "banettite": {
     "name": "Banettite",
     "spritenum": 582,
-    "megaStone": "Banette-Mega",
-    "megaEvolves": "Banette",
+    "megaStone": {
+      "Banette": "Banette-Mega"
+    },
     "itemUser": [
       "Banette"
     ],
     "num": 668,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Banette, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Banette, this item allows it to Mega Evolve in battle."
   },
   "barbaracite": {
     "name": "Barbaracite",
     "spritenum": 564,
-    "megaStone": "Barbaracle-Mega",
-    "megaEvolves": "Barbaracle",
+    "megaStone": {
+      "Barbaracle": "Barbaracle-Mega"
+    },
     "itemUser": [
       "Barbaracle"
     ],
     "num": 2581,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Barbaracle, this item allows it to Mega Evolve in battle."
   },
   "baxcalibrite": {
     "name": "Baxcalibrite",
     "spritenum": 514,
-    "megaStone": "Baxcalibur-Mega",
-    "itemUser": ["Baxcalibur"],
-    "num": 2648,
+    "megaStone": {
+      "Baxcalibur": "Baxcalibur-Mega"
+    },
+    "itemUser": [
+      "Baxcalibur"
+    ],
+    "num": 2601,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Baxcalibur, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Baxcalibur, this item allows it to Mega Evolve in battle."
   },
@@ -354,14 +358,14 @@ exports.BattleItems = {
   "beedrillite": {
     "name": "Beedrillite",
     "spritenum": 628,
-    "megaStone": "Beedrill-Mega",
-    "megaEvolves": "Beedrill",
+    "megaStone": {
+      "Beedrill": "Beedrill-Mega"
+    },
     "itemUser": [
       "Beedrill"
     ],
     "num": 770,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Beedrill, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Beedrill, this item allows it to Mega Evolve in battle."
   },
@@ -376,7 +380,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 183,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -388,7 +391,6 @@ exports.BattleItems = {
     },
     "num": 43,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "Restores 20 HP when at 1/2 max HP or less. Single use.",
     "shortDesc": "Restores 20 HP when at 1/2 max HP or less. Single use."
   },
@@ -477,28 +479,28 @@ exports.BattleItems = {
   "blastoisinite": {
     "name": "Blastoisinite",
     "spritenum": 583,
-    "megaStone": "Blastoise-Mega",
-    "megaEvolves": "Blastoise",
+    "megaStone": {
+      "Blastoise": "Blastoise-Mega"
+    },
     "itemUser": [
       "Blastoise"
     ],
     "num": 661,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Blastoise, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Blastoise, this item allows it to Mega Evolve in battle."
   },
   "blazikenite": {
     "name": "Blazikenite",
     "spritenum": 584,
-    "megaStone": "Blaziken-Mega",
-    "megaEvolves": "Blaziken",
+    "megaStone": {
+      "Blaziken": "Blaziken-Mega"
+    },
     "itemUser": [
       "Blaziken"
     ],
     "num": 664,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Blaziken, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Blaziken, this item allows it to Mega Evolve in battle."
   },
@@ -512,7 +514,6 @@ exports.BattleItems = {
     "isPrimalOrb": true,
     "num": 535,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Kyogre, this item triggers its Primal Reversion in battle.",
     "shortDesc": "If held by a Kyogre, this item triggers its Primal Reversion in battle."
   },
@@ -527,7 +528,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 165,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -583,7 +583,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 558,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Bug-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Bug-type attack will have 1.3x power. Single use."
   },
@@ -597,7 +596,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Bug",
     "num": 787,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Bug move, this item allows it to use a Bug Z-Move.",
     "shortDesc": "If holder has a Bug move, this item allows it to use a Bug Z-Move."
   },
@@ -611,7 +609,6 @@ exports.BattleItems = {
     ],
     "num": 909,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Bug type.",
     "shortDesc": "Holder's Multi-Attack is Bug type."
   },
@@ -625,21 +622,20 @@ exports.BattleItems = {
     ],
     "num": 118,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's Techno Blast is Fire type.",
     "shortDesc": "Holder's Techno Blast is Fire type."
   },
   "cameruptite": {
     "name": "Cameruptite",
     "spritenum": 625,
-    "megaStone": "Camerupt-Mega",
-    "megaEvolves": "Camerupt",
+    "megaStone": {
+      "Camerupt": "Camerupt-Mega"
+    },
     "itemUser": [
       "Camerupt"
     ],
     "num": 767,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Camerupt, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Camerupt, this item allows it to Mega Evolve in battle."
   },
@@ -660,14 +656,14 @@ exports.BattleItems = {
   "chandelurite": {
     "name": "Chandelurite",
     "spritenum": 557,
-    "megaStone": "Chandelure-Mega",
-    "megaEvolves": "Chandelure",
+    "megaStone": {
+      "Chandelure": "Chandelure-Mega"
+    },
     "itemUser": [
       "Chandelure"
     ],
     "num": 2574,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Chandelure, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Chandelure, this item allows it to Mega Evolve in battle."
   },
@@ -686,28 +682,28 @@ exports.BattleItems = {
   "charizarditex": {
     "name": "Charizardite X",
     "spritenum": 585,
-    "megaStone": "Charizard-Mega-X",
-    "megaEvolves": "Charizard",
+    "megaStone": {
+      "Charizard": "Charizard-Mega-X"
+    },
     "itemUser": [
       "Charizard"
     ],
     "num": 660,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Charizard, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Charizard, this item allows it to Mega Evolve in battle."
   },
   "charizarditey": {
     "name": "Charizardite Y",
     "spritenum": 586,
-    "megaStone": "Charizard-Mega-Y",
-    "megaEvolves": "Charizard",
+    "megaStone": {
+      "Charizard": "Charizard-Mega-Y"
+    },
     "itemUser": [
       "Charizard"
     ],
     "num": 678,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Charizard, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Charizard, this item allows it to Mega Evolve in battle."
   },
@@ -750,14 +746,14 @@ exports.BattleItems = {
   "chesnaughtite": {
     "name": "Chesnaughtite",
     "spritenum": 558,
-    "megaStone": "Chesnaught-Mega",
-    "megaEvolves": "Chesnaught",
+    "megaStone": {
+      "Chesnaught": "Chesnaught-Mega"
+    },
     "itemUser": [
       "Chesnaught"
     ],
     "num": 2575,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Chesnaught, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Chesnaught, this item allows it to Mega Evolve in battle."
   },
@@ -797,22 +793,22 @@ exports.BattleItems = {
     ],
     "num": 119,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's Techno Blast is Ice type.",
     "shortDesc": "Holder's Techno Blast is Ice type."
   },
-  chimechite: {
-    name: "Chimechite",
-    spritenum: 498,
-    megaStone: {
-        Chimecho: "Chimecho-Mega"
+  "chimechite": {
+    "name": "Chimechite",
+    "spritenum": 498,
+    "megaStone": {
+      "Chimecho": "Chimecho-Mega"
     },
-    itemUser: ["Chimecho"],
-    num: 2587,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Chimecho, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Chimecho, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Chimecho"
+    ],
+    "num": 2587,
+    "gen": 9,
+    "desc": "If held by a Chimecho, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Chimecho, this item allows it to Mega Evolve in battle."
   },
   "chippedpot": {
     "name": "Chipped Pot",
@@ -884,7 +880,6 @@ exports.BattleItems = {
     },
     "num": 100,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Anorith.",
     "shortDesc": "Can be revived into Anorith."
   },
@@ -903,14 +898,14 @@ exports.BattleItems = {
   "clefablite": {
     "name": "Clefablite",
     "spritenum": 544,
-    "megaStone": "Clefable-Mega",
-    "megaEvolves": "Clefable",
+    "megaStone": {
+      "Clefable": "Clefable-Mega"
+    },
     "itemUser": [
       "Clefable"
     ],
     "num": 2559,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Clefable, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Clefable, this item allows it to Mega Evolve in battle."
   },
@@ -978,7 +973,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 175,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -990,7 +984,6 @@ exports.BattleItems = {
     },
     "num": 572,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Tirtouga.",
     "shortDesc": "Can be revived into Tirtouga."
   },
@@ -1005,18 +998,19 @@ exports.BattleItems = {
     "desc": "The holder is not affected by the secondary effect of another Pokemon's attack. Attacks with secondary effects that are prevented include those with a chance (even 100%) to paralyze, sleep, freeze, burn, poison, confuse, cause the holder to flinch, cause the holder's stat stages to be lowered, as well as Anchor Shot, Eerie Spell, Fling, Psychic Noise, Salt Cure, Spirit Shackle, Syrup Bomb, and Throat Chop. The effect of Sparkling Aria is prevented if the holder is the only target. Secondary effects added by King's Rock, Razor Fang, and the Poison Touch, Stench, and Toxic Chain Abilities are also prevented against the holder.",
     "shortDesc": "Holder is not affected by the secondary effect of another Pokemon's attack."
   },
-  crabominite: {
-    name: "Crabominite",
-    spritenum: 507,
-    megaStone: {
-        Crabominable: "Crabominable-Mega"
+  "crabominite": {
+    "name": "Crabominite",
+    "spritenum": 507,
+    "megaStone": {
+      "Crabominable": "Crabominable-Mega"
     },
-    itemUser: ["Crabominable"],
-    num: 2595,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Crabominable, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Crabominable, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Crabominable"
+    ],
+    "num": 2595,
+    "gen": 9,
+    "desc": "If held by a Crabominable, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Crabominable, this item allows it to Mega Evolve in battle."
   },
   "crackedpot": {
     "name": "Cracked Pot",
@@ -1060,7 +1054,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 562,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Dark-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Dark-type attack will have 1.3x power. Single use."
   },
@@ -1074,7 +1067,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Dark",
     "num": 791,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Dark move, this item allows it to use a Dark Z-Move.",
     "shortDesc": "If holder has a Dark move, this item allows it to use a Dark Z-Move."
   },
@@ -1088,22 +1080,22 @@ exports.BattleItems = {
     ],
     "num": 919,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Dark type.",
     "shortDesc": "Holder's Multi-Attack is Dark type."
   },
-  darkranite: {
-    name: "Darkranite",
-    spritenum: 0,
-    megaStone: {
-        Darkrai: "Darkrai-Mega"
+  "darkranite": {
+    "name": "Darkranite",
+    "spritenum": 504,
+    "megaStone": {
+      "Darkrai": "Darkrai-Mega"
     },
-    itemUser: ["Darkrai"],
-    num: 2593,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Darkrai, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Darkrai, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Darkrai"
+    ],
+    "num": 2593,
+    "gen": 9,
+    "desc": "If held by a Darkrai, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Darkrai, this item allows it to Mega Evolve in battle."
   },
   "dawnstone": {
     "name": "Dawn Stone",
@@ -1127,7 +1119,6 @@ exports.BattleItems = {
     ],
     "num": 798,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Decidueye with Spirit Shackle, it can use Sinister Arrow Raid.",
     "shortDesc": "If held by a Decidueye with Spirit Shackle, it can use Sinister Arrow Raid."
   },
@@ -1143,7 +1134,6 @@ exports.BattleItems = {
     ],
     "num": 227,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "If held by a Clamperl, its Sp. Def is doubled. Evolves Clamperl into Gorebyss when traded.",
     "shortDesc": "If held by a Clamperl, its Sp. Def is doubled."
   },
@@ -1159,21 +1149,20 @@ exports.BattleItems = {
     ],
     "num": 226,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
     "shortDesc": "If held by a Clamperl, its Sp. Atk is doubled."
   },
   "delphoxite": {
     "name": "Delphoxite",
     "spritenum": 559,
-    "megaStone": "Delphox-Mega",
-    "megaEvolves": "Delphox",
+    "megaStone": {
+      "Delphox": "Delphox-Mega"
+    },
     "itemUser": [
       "Delphox"
     ],
     "num": 2576,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Delphox, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Delphox, this item allows it to Mega Evolve in battle."
   },
@@ -1192,14 +1181,14 @@ exports.BattleItems = {
   "diancite": {
     "name": "Diancite",
     "spritenum": 624,
-    "megaStone": "Diancie-Mega",
-    "megaEvolves": "Diancie",
+    "megaStone": {
+      "Diancie": "Diancie-Mega"
+    },
     "itemUser": [
       "Diancie"
     ],
     "num": 764,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Diancie, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Diancie, this item allows it to Mega Evolve in battle."
   },
@@ -1220,7 +1209,6 @@ exports.BattleItems = {
     },
     "num": 102,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Kabuto.",
     "shortDesc": "Can be revived into Kabuto."
   },
@@ -1234,7 +1222,6 @@ exports.BattleItems = {
     ],
     "num": 116,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's Techno Blast is Water type.",
     "shortDesc": "Holder's Techno Blast is Water type."
   },
@@ -1252,14 +1239,14 @@ exports.BattleItems = {
   "dragalgite": {
     "name": "Dragalgite",
     "spritenum": 565,
-    "megaStone": "Dragalge-Mega",
-    "megaEvolves": "Dragalge",
+    "megaStone": {
+      "Dragalge": "Dragalge-Mega"
+    },
     "itemUser": [
       "Dragalge"
     ],
     "num": 2582,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Dragalge, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Dragalge, this item allows it to Mega Evolve in battle."
   },
@@ -1281,21 +1268,20 @@ exports.BattleItems = {
     "isGem": true,
     "num": 561,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Dragon-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Dragon-type attack will have 1.3x power. Single use."
   },
   "dragoninite": {
     "name": "Dragoninite",
     "spritenum": 547,
-    "megaStone": "Dragonite-Mega",
-    "megaEvolves": "Dragonite",
+    "megaStone": {
+      "Dragonite": "Dragonite-Mega"
+    },
     "itemUser": [
       "Dragonite"
     ],
     "num": 2562,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Dragonite, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Dragonite, this item allows it to Mega Evolve in battle."
   },
@@ -1309,7 +1295,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Dragon",
     "num": 790,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Dragon move, this item allows it to use a Dragon Z-Move.",
     "shortDesc": "If holder has a Dragon move, this item allows it to use a Dragon Z-Move."
   },
@@ -1323,7 +1308,6 @@ exports.BattleItems = {
     ],
     "num": 918,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Dragon type.",
     "shortDesc": "Holder's Multi-Attack is Dragon type."
   },
@@ -1341,14 +1325,14 @@ exports.BattleItems = {
   "drampanite": {
     "name": "Drampanite",
     "spritenum": 569,
-    "megaStone": "Drampa-Mega",
-    "megaEvolves": "Drampa",
+    "megaStone": {
+      "Drampa": "Drampa-Mega"
+    },
     "itemUser": [
       "Drampa"
     ],
     "num": 2585,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Drampa, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Drampa, this item allows it to Mega Evolve in battle."
   },
@@ -1394,7 +1378,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 182,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -1432,14 +1415,14 @@ exports.BattleItems = {
   "eelektrossite": {
     "name": "Eelektrossite",
     "spritenum": 556,
-    "megaStone": "Eelektross-Mega",
-    "megaEvolves": "Eelektross",
+    "megaStone": {
+      "Eelektross": "Eelektross-Mega"
+    },
     "itemUser": [
       "Eelektross"
     ],
     "num": 2573,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by an Eelektross, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Eelektross, this item allows it to Mega Evolve in battle."
   },
@@ -1454,7 +1437,6 @@ exports.BattleItems = {
     ],
     "num": 805,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by an Eevee with Last Resort, it can use Extreme Evoboost.",
     "shortDesc": "If held by an Eevee with Last Resort, it can use Extreme Evoboost."
   },
@@ -1500,7 +1482,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 550,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Electric-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Electric-type attack will have 1.3x power. Single use."
   },
@@ -1514,7 +1495,6 @@ exports.BattleItems = {
     ],
     "num": 915,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Electric type.",
     "shortDesc": "Holder's Multi-Attack is Electric type."
   },
@@ -1543,21 +1523,20 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Electric",
     "num": 779,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has an Electric move, this item allows it to use an Electric Z-Move.",
     "shortDesc": "If holder has an Electric move, this item allows it to use an Electric Z-Move."
   },
   "emboarite": {
     "name": "Emboarite",
     "spritenum": 552,
-    "megaStone": "Emboar-Mega",
-    "megaEvolves": "Emboar",
+    "megaStone": {
+      "Emboar": "Emboar-Mega"
+    },
     "itemUser": [
       "Emboar"
     ],
     "num": 2569,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by an Emboar, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Emboar, this item allows it to Mega Evolve in battle."
   },
@@ -1590,14 +1569,14 @@ exports.BattleItems = {
   "excadrite": {
     "name": "Excadrite",
     "spritenum": 553,
-    "megaStone": "Excadrill-Mega",
-    "megaEvolves": "Excadrill",
+    "megaStone": {
+      "Excadrill": "Excadrill-Mega"
+    },
     "itemUser": [
       "Excadrill"
     ],
     "num": 2570,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by an Excadrill, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Excadrill, this item allows it to Mega Evolve in battle."
   },
@@ -1622,7 +1601,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Fairy",
     "num": 793,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Fairy move, this item allows it to use a Fairy Z-Move.",
     "shortDesc": "If holder has a Fairy move, this item allows it to use a Fairy Z-Move."
   },
@@ -1644,7 +1622,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 715,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Fairy-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Fairy-type attack will have 1.3x power. Single use."
   },
@@ -1658,21 +1635,20 @@ exports.BattleItems = {
     ],
     "num": 920,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Fairy type.",
     "shortDesc": "Holder's Multi-Attack is Fairy type."
   },
   "falinksite": {
     "name": "Falinksite",
     "spritenum": 570,
-    "megaStone": "Falinks-Mega",
-    "megaEvolves": "Falinks",
+    "megaStone": {
+      "Falinks": "Falinks-Mega"
+    },
     "itemUser": [
       "Falinks"
     ],
     "num": 2586,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Falinks, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Falinks, this item allows it to Mega Evolve in battle."
   },
@@ -1688,14 +1664,14 @@ exports.BattleItems = {
   "feraligite": {
     "name": "Feraligite",
     "spritenum": 549,
-    "megaStone": "Feraligatr-Mega",
-    "megaEvolves": "Feraligatr",
+    "megaStone": {
+      "Feraligatr": "Feraligatr-Mega"
+    },
     "itemUser": [
       "Feraligatr"
     ],
     "num": 2564,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Feraligatr, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Feraligatr, this item allows it to Mega Evolve in battle."
   },
@@ -1705,7 +1681,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 553,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Fighting-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Fighting-type attack will have 1.3x power. Single use."
   },
@@ -1719,7 +1694,6 @@ exports.BattleItems = {
     ],
     "num": 904,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Fighting type.",
     "shortDesc": "Holder's Multi-Attack is Fighting type."
   },
@@ -1733,7 +1707,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Fighting",
     "num": 782,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Fighting move, this item allows it to use a Fighting Z-Move.",
     "shortDesc": "If holder has a Fighting move, this item allows it to use a Fighting Z-Move."
   },
@@ -1756,7 +1729,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 548,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Fire-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Fire-type attack will have 1.3x power. Single use."
   },
@@ -1770,7 +1742,6 @@ exports.BattleItems = {
     ],
     "num": 912,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Fire type.",
     "shortDesc": "Holder's Multi-Attack is Fire type."
   },
@@ -1795,7 +1766,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Fire",
     "num": 777,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Fire move, this item allows it to use a Fire Z-Move.",
     "shortDesc": "If holder has a Fire move, this item allows it to use a Fire Z-Move."
   },
@@ -1849,14 +1819,14 @@ exports.BattleItems = {
   "floettite": {
     "name": "Floettite",
     "spritenum": 562,
-    "megaStone": "Floette-Mega",
-    "megaEvolves": "Floette-Eternal",
+    "megaStone": {
+      "Floette-Eternal": "Floette-Mega"
+    },
     "itemUser": [
       "Floette-Eternal"
     ],
     "num": 2579,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by an Eternal Flower Floette, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by an Eternal Flower Floette, this item allows it to Mega Evolve in battle."
   },
@@ -1877,7 +1847,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 556,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Flying-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Flying-type attack will have 1.3x power. Single use."
   },
@@ -1891,7 +1860,6 @@ exports.BattleItems = {
     ],
     "num": 905,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Flying type.",
     "shortDesc": "Holder's Multi-Attack is Flying type."
   },
@@ -1905,7 +1873,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Flying",
     "num": 785,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Flying move, this item allows it to use a Flying Z-Move.",
     "shortDesc": "If holder has a Flying move, this item allows it to use a Flying Z-Move."
   },
@@ -1941,7 +1908,6 @@ exports.BattleItems = {
     },
     "num": 1105,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Can revive into Dracozolt with Fossilized Drake or Arctozolt with Fossilized Dino.",
     "shortDesc": "Can revive into Dracozolt with Fossilized Drake or Arctozolt with Fossilized Dino."
   },
@@ -1953,7 +1919,6 @@ exports.BattleItems = {
     },
     "num": 1108,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Can revive into Arctovish with Fossilized Fish or Arctozolt with Fossilized Bird.",
     "shortDesc": "Can revive into Arctovish with Fossilized Fish or Arctozolt with Fossilized Bird."
   },
@@ -1965,7 +1930,6 @@ exports.BattleItems = {
     },
     "num": 1107,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Can revive into Dracozolt with Fossilized Bird or Dracovish with Fossilized Fish.",
     "shortDesc": "Can revive into Dracozolt with Fossilized Bird or Dracovish with Fossilized Fish."
   },
@@ -1977,7 +1941,6 @@ exports.BattleItems = {
     },
     "num": 1106,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Can revive into Dracovish with Fossilized Drake or Arctovish with Fossilized Dino.",
     "shortDesc": "Can revive into Dracovish with Fossilized Drake or Arctovish with Fossilized Dino."
   },
@@ -1993,14 +1956,14 @@ exports.BattleItems = {
   "froslassite": {
     "name": "Froslassite",
     "spritenum": 551,
-    "megaStone": "Froslass-Mega",
-    "megaEvolves": "Froslass",
+    "megaStone": {
+      "Froslass": "Froslass-Mega"
+    },
     "itemUser": [
       "Froslass"
     ],
     "num": 2566,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Froslass, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Froslass, this item allows it to Mega Evolve in battle."
   },
@@ -2013,7 +1976,6 @@ exports.BattleItems = {
     "onFractionalPriority": -0.1,
     "num": 316,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Holder moves last in its priority bracket.",
     "shortDesc": "Holder moves last in its priority bracket."
   },
@@ -2042,14 +2004,14 @@ exports.BattleItems = {
   "galladite": {
     "name": "Galladite",
     "spritenum": 616,
-    "megaStone": "Gallade-Mega",
-    "megaEvolves": "Gallade",
+    "megaStone": {
+      "Gallade": "Gallade-Mega"
+    },
     "itemUser": [
       "Gallade"
     ],
     "num": 756,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Gallade, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Gallade, this item allows it to Mega Evolve in battle."
   },
@@ -2069,55 +2031,56 @@ exports.BattleItems = {
   "garchompite": {
     "name": "Garchompite",
     "spritenum": 573,
-    "megaStone": "Garchomp-Mega",
-    "megaEvolves": "Garchomp",
+    "megaStone": {
+      "Garchomp": "Garchomp-Mega"
+    },
     "itemUser": [
       "Garchomp"
     ],
     "num": 683,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Garchomp, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Garchomp, this item allows it to Mega Evolve in battle."
   },
-  garchompitez: {
-    name: "Garchompite Z",
-    spritenum: 501,
-    megaStone: {
-        Garchomp: "Garchomp-Mega-Z"
+  "garchompitez": {
+    "name": "Garchompite Z",
+    "spritenum": 501,
+    "megaStone": {
+      "Garchomp": "Garchomp-Mega-Z"
     },
-    itemUser: ["Garchomp"],
-    num: 2590,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z.",
-		shortDesc: "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z."
+    "itemUser": [
+      "Garchomp"
+    ],
+    "num": 2590,
+    "gen": 9,
+    "desc": "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z.",
+    "shortDesc": "If held by a Garchomp, this item allows it to Mega Evolve into Mega Garchomp Z."
   },
   "gardevoirite": {
     "name": "Gardevoirite",
     "spritenum": 587,
-    "megaStone": "Gardevoir-Mega",
-    "megaEvolves": "Gardevoir",
+    "megaStone": {
+      "Gardevoir": "Gardevoir-Mega"
+    },
     "itemUser": [
       "Gardevoir"
     ],
     "num": 657,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Gardevoir, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Gardevoir, this item allows it to Mega Evolve in battle."
   },
   "gengarite": {
     "name": "Gengarite",
     "spritenum": 588,
-    "megaStone": "Gengar-Mega",
-    "megaEvolves": "Gengar",
+    "megaStone": {
+      "Gengar": "Gengar-Mega"
+    },
     "itemUser": [
       "Gengar"
     ],
     "num": 656,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Gengar, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Gengar, this item allows it to Mega Evolve in battle."
   },
@@ -2127,7 +2090,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 560,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Ghost-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Ghost-type attack will have 1.3x power. Single use."
   },
@@ -2141,7 +2103,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Ghost",
     "num": 789,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Ghost move, this item allows it to use a Ghost Z-Move.",
     "shortDesc": "If holder has a Ghost move, this item allows it to use a Ghost Z-Move."
   },
@@ -2155,32 +2116,34 @@ exports.BattleItems = {
     ],
     "num": 910,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Ghost type.",
     "shortDesc": "Holder's Multi-Attack is Ghost type."
   },
   "glalitite": {
     "name": "Glalitite",
     "spritenum": 623,
-    "megaStone": "Glalie-Mega",
-    "megaEvolves": "Glalie",
+    "megaStone": {
+      "Glalie": "Glalie-Mega"
+    },
     "itemUser": [
       "Glalie"
     ],
     "num": 763,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Glalie, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Glalie, this item allows it to Mega Evolve in battle."
   },
   "glimmoranite": {
     "name": "Glimmoranite",
     "spritenum": 512,
-    "megaStone": "Glimmora-Mega",
-    "itemUser": ["Glimmora"],
-    "num": 2650,
+    "megaStone": {
+      "Glimmora": "Glimmora-Mega"
+    },
+    "itemUser": [
+      "Glimmora"
+    ],
+    "num": 2600,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Glimmora, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Glimmora, this item allows it to Mega Evolve in battle."
   },
@@ -2195,31 +2158,33 @@ exports.BattleItems = {
     "desc": "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",
     "shortDesc": "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31."
   },
-  golisopite: {
-    name: "Golisopite",
-    spritenum: 508,
-    megaStone: {
-        Golisopod: "Golisopod-Mega"
+  "golisopite": {
+    "name": "Golisopite",
+    "spritenum": 508,
+    "megaStone": {
+      "Golisopod": "Golisopod-Mega"
     },
-    itemUser: ["Golisopod"],
-    num: 2596,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Golisopod, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Golisopod, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Golisopod"
+    ],
+    "num": 2596,
+    "gen": 9,
+    "desc": "If held by a Golisopod, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Golisopod, this item allows it to Mega Evolve in battle."
   },
-  golurkite: {
-    name: "Golurkite",
-    spritenum: 505,
-    megaStone: {
-        Golurk: "Golurk-Mega"
+  "golurkite": {
+    "name": "Golurkite",
+    "spritenum": 505,
+    "megaStone": {
+      "Golurk": "Golurk-Mega"
     },
-    itemUser: ["Golurk"],
-    num: 2594,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Golurk, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Golurk, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Golurk"
+    ],
+    "num": 2594,
+    "gen": 9,
+    "desc": "If held by a Golurk, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Golurk, this item allows it to Mega Evolve in battle."
   },
   "grassgem": {
     "name": "Grass Gem",
@@ -2227,7 +2192,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 551,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Grass-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Grass-type attack will have 1.3x power. Single use."
   },
@@ -2241,7 +2205,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Grass",
     "num": 780,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Grass move, this item allows it to use a Grass Z-Move.",
     "shortDesc": "If holder has a Grass move, this item allows it to use a Grass Z-Move."
   },
@@ -2255,7 +2218,6 @@ exports.BattleItems = {
     ],
     "num": 914,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Grass type.",
     "shortDesc": "Holder's Multi-Attack is Grass type."
   },
@@ -2286,14 +2248,14 @@ exports.BattleItems = {
   "greninjite": {
     "name": "Greninjite",
     "spritenum": 560,
-    "megaStone": "Greninja-Mega",
-    "megaEvolves": "Greninja",
+    "megaStone": {
+      "Greninja": "Greninja-Mega"
+    },
     "itemUser": [
       "Greninja"
     ],
     "num": 2577,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Greninja, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Greninja, this item allows it to Mega Evolve in battle."
   },
@@ -2356,7 +2318,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 555,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Ground-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Ground-type attack will have 1.3x power. Single use."
   },
@@ -2370,7 +2331,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Ground",
     "num": 784,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Ground move, this item allows it to use a Ground Z-Move.",
     "shortDesc": "If holder has a Ground move, this item allows it to use a Ground Z-Move."
   },
@@ -2384,21 +2344,20 @@ exports.BattleItems = {
     ],
     "num": 907,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Ground type.",
     "shortDesc": "Holder's Multi-Attack is Ground type."
   },
   "gyaradosite": {
     "name": "Gyaradosite",
     "spritenum": 589,
-    "megaStone": "Gyarados-Mega",
-    "megaEvolves": "Gyarados",
+    "megaStone": {
+      "Gyarados": "Gyarados-Mega"
+    },
     "itemUser": [
       "Gyarados"
     ],
     "num": 676,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Gyarados, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Gyarados, this item allows it to Mega Evolve in battle."
   },
@@ -2430,14 +2389,14 @@ exports.BattleItems = {
   "hawluchanite": {
     "name": "Hawluchanite",
     "spritenum": 566,
-    "megaStone": "Hawlucha-Mega",
-    "megaEvolves": "Hawlucha",
+    "megaStone": {
+      "Hawlucha": "Hawlucha-Mega"
+    },
     "itemUser": [
       "Hawlucha"
     ],
     "num": 2583,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Hawlucha, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Hawlucha, this item allows it to Mega Evolve in battle."
   },
@@ -2467,16 +2426,19 @@ exports.BattleItems = {
     "shortDesc": "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect."
   },
   "heatranite": {
-		"name": "Heatranite",
+    "name": "Heatranite",
     "spritenum": 503,
-    "megaStone": "Heatran-Mega",
-    "itemUser": ["Heatran"],
-    "num": 2567,
+    "megaStone": {
+      "Heatran": "Heatran-Mega"
+    },
+    "itemUser": [
+      "Heatran"
+    ],
+    "num": 2592,
     "gen": 9,
-    "isNonstandard": "Future",
-		"shortDesc": "If held by a Heatran, this item allows it to Mega Evolve in battle.",
     "desc": "If held by a Heatran, this item allows it to Mega Evolve in battle.",
-	},
+    "shortDesc": "If held by a Heatran, this item allows it to Mega Evolve in battle."
+  },
   "heatrock": {
     "name": "Heat Rock",
     "spritenum": 193,
@@ -2516,21 +2478,20 @@ exports.BattleItems = {
     },
     "num": 101,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Omanyte.",
     "shortDesc": "Can be revived into Omanyte."
   },
   "heracronite": {
     "name": "Heracronite",
     "spritenum": 590,
-    "megaStone": "Heracross-Mega",
-    "megaEvolves": "Heracross",
+    "megaStone": {
+      "Heracross": "Heracross-Mega"
+    },
     "itemUser": [
       "Heracross"
     ],
     "num": 680,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Heracross, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Heracross, this item allows it to Mega Evolve in battle."
   },
@@ -2551,14 +2512,14 @@ exports.BattleItems = {
   "houndoominite": {
     "name": "Houndoominite",
     "spritenum": 591,
-    "megaStone": "Houndoom-Mega",
-    "megaEvolves": "Houndoom",
+    "megaStone": {
+      "Houndoom": "Houndoom-Mega"
+    },
     "itemUser": [
       "Houndoom"
     ],
     "num": 666,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Houndoom, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Houndoom, this item allows it to Mega Evolve in battle."
   },
@@ -2581,7 +2542,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 552,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Ice-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Ice-type attack will have 1.3x power. Single use."
   },
@@ -2595,7 +2555,6 @@ exports.BattleItems = {
     ],
     "num": 917,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Ice type.",
     "shortDesc": "Holder's Multi-Attack is Ice type."
   },
@@ -2631,7 +2590,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Ice",
     "num": 781,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has an Ice move, this item allows it to use an Ice Z-Move.",
     "shortDesc": "If holder has an Ice move, this item allows it to use an Ice Z-Move."
   },
@@ -2657,7 +2615,6 @@ exports.BattleItems = {
     ],
     "num": 799,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by an Incineroar with Darkest Lariat, it can use Malicious Moonsault.",
     "shortDesc": "If held by an Incineroar with Darkest Lariat, it can use Malicious Moonsault."
   },
@@ -2715,21 +2672,20 @@ exports.BattleItems = {
     },
     "num": 710,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Tyrunt.",
     "shortDesc": "Can be revived into Tyrunt."
   },
   "kangaskhanite": {
     "name": "Kangaskhanite",
     "spritenum": 592,
-    "megaStone": "Kangaskhan-Mega",
-    "megaEvolves": "Kangaskhan",
+    "megaStone": {
+      "Kangaskhan": "Kangaskhan-Mega"
+    },
     "itemUser": [
       "Kangaskhan"
     ],
     "num": 675,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Kangaskhan, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Kangaskhan, this item allows it to Mega Evolve in battle."
   },
@@ -2811,7 +2767,6 @@ exports.BattleItems = {
     ],
     "num": 926,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Kommo-o with Clanging Scales, it can use Clangorous Soulblaze.",
     "shortDesc": "If held by a Kommo-o with Clanging Scales, it can use Clangorous Soulblaze."
   },
@@ -2843,28 +2798,28 @@ exports.BattleItems = {
   "latiasite": {
     "name": "Latiasite",
     "spritenum": 629,
-    "megaStone": "Latias-Mega",
-    "megaEvolves": "Latias",
+    "megaStone": {
+      "Latias": "Latias-Mega"
+    },
     "itemUser": [
       "Latias"
     ],
     "num": 684,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Latias, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Latias, this item allows it to Mega Evolve in battle."
   },
   "latiosite": {
     "name": "Latiosite",
     "spritenum": 630,
-    "megaStone": "Latios-Mega",
-    "megaEvolves": "Latios",
+    "megaStone": {
+      "Latios": "Latios-Mega"
+    },
     "itemUser": [
       "Latios"
     ],
     "num": 685,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Latios, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Latios, this item allows it to Mega Evolve in battle."
   },
@@ -2877,7 +2832,6 @@ exports.BattleItems = {
     "onModifyAccuracyPriority": -2,
     "num": 255,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "The accuracy of attacks against the holder is 0.9x.",
     "shortDesc": "The accuracy of attacks against the holder is 0.9x."
   },
@@ -2905,7 +2859,6 @@ exports.BattleItems = {
     ],
     "num": 259,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages.",
     "shortDesc": "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages."
   },
@@ -3025,14 +2978,14 @@ exports.BattleItems = {
   "lopunnite": {
     "name": "Lopunnite",
     "spritenum": 626,
-    "megaStone": "Lopunny-Mega",
-    "megaEvolves": "Lopunny",
+    "megaStone": {
+      "Lopunny": "Lopunny-Mega"
+    },
     "itemUser": [
       "Lopunny"
     ],
     "num": 768,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Lopunny, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Lopunny, this item allows it to Mega Evolve in battle."
   },
@@ -3059,29 +3012,30 @@ exports.BattleItems = {
   "lucarionite": {
     "name": "Lucarionite",
     "spritenum": 594,
-    "megaStone": "Lucario-Mega",
-    "megaEvolves": "Lucario",
+    "megaStone": {
+      "Lucario": "Lucario-Mega"
+    },
     "itemUser": [
       "Lucario"
     ],
     "num": 673,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Lucario, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Lucario, this item allows it to Mega Evolve in battle."
   },
-  lucarionitez: {
-    name: "Lucarionite Z",
-    spritenum: 502,
-    megaStone: {
-        Lucario: "Lucario-Mega-Z"
+  "lucarionitez": {
+    "name": "Lucarionite Z",
+    "spritenum": 502,
+    "megaStone": {
+      "Lucario": "Lucario-Mega-Z"
     },
-    itemUser: ["Lucario"],
-    num: 2591,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle.",
-		shortDesc: "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle."
+    "itemUser": [
+      "Lucario"
+    ],
+    "num": 2591,
+    "gen": 9,
+    "desc": "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle.",
+    "shortDesc": "If held by a Lucario, this item allows it to Mega Evolve into Mega Lucario Z in battle."
   },
   "luckypunch": {
     "name": "Lucky Punch",
@@ -3094,7 +3048,6 @@ exports.BattleItems = {
     ],
     "num": 256,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "If held by a Chansey, its critical hit ratio is raised by 2 stages.",
     "shortDesc": "If held by a Chansey, its critical hit ratio is raised by 2 stages."
   },
@@ -3138,7 +3091,6 @@ exports.BattleItems = {
     ],
     "num": 922,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Lunala or Dawn Wings Necrozma with Moongeist Beam can use a special Z-Move.",
     "shortDesc": "Lunala or Dawn Wings Necrozma with Moongeist Beam can use a special Z-Move."
   },
@@ -3201,7 +3153,6 @@ exports.BattleItems = {
     ],
     "num": 925,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Lycanroc forme with Stone Edge, it can use Splintered Stormshards.",
     "shortDesc": "If held by a Lycanroc forme with Stone Edge, it can use Splintered Stormshards."
   },
@@ -3214,23 +3165,24 @@ exports.BattleItems = {
     },
     "num": 215,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
     "shortDesc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect."
   },
-  magearnite: {
-    name: "Magearnite",
-    spritenum: 509,
-    megaStone: {
-        Magearna: "Magearna-Mega",
-        "Magearna-Original": "Magearna-Original-Mega"
+  "magearnite": {
+    "name": "Magearnite",
+    "spritenum": 509,
+    "megaStone": {
+      "Magearna": "Magearna-Mega",
+      "Magearna-Original": "Magearna-Original-Mega"
     },
-    itemUser: ["Magearna", "Magearna-Original"],
-    num: 2597,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Magearna, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Magearna, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Magearna",
+      "Magearna-Original"
+    ],
+    "num": 2597,
+    "gen": 9,
+    "desc": "If held by a Magearna, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Magearna, this item allows it to Mega Evolve in battle."
   },
   "magmarizer": {
     "name": "Magmarizer",
@@ -3279,7 +3231,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 176,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -3288,21 +3239,20 @@ exports.BattleItems = {
     "spritenum": 403,
     "num": 137,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "Cannot be given to or taken from a Pokemon, except by Covet/Knock Off/Thief.",
     "shortDesc": "Cannot be given to or taken from a Pokemon, except by Covet/Knock Off/Thief."
   },
   "malamarite": {
     "name": "Malamarite",
     "spritenum": 563,
-    "megaStone": "Malamar-Mega",
-    "megaEvolves": "Malamar",
+    "megaStone": {
+      "Malamar": "Malamar-Mega"
+    },
     "itemUser": [
       "Malamar"
     ],
     "num": 2580,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Malamar, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Malamar, this item allows it to Mega Evolve in battle."
   },
@@ -3320,14 +3270,14 @@ exports.BattleItems = {
   "manectite": {
     "name": "Manectite",
     "spritenum": 596,
-    "megaStone": "Manectric-Mega",
-    "megaEvolves": "Manectric",
+    "megaStone": {
+      "Manectric": "Manectric-Mega"
+    },
     "itemUser": [
       "Manectric"
     ],
     "num": 682,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Manectric, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Manectric, this item allows it to Mega Evolve in battle."
   },
@@ -3355,7 +3305,6 @@ exports.BattleItems = {
     ],
     "num": 802,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by Marshadow with Spectral Thief, it can use Soul-Stealing 7-Star Strike.",
     "shortDesc": "If held by Marshadow with Spectral Thief, it can use Soul-Stealing 7-Star Strike."
   },
@@ -3382,14 +3331,14 @@ exports.BattleItems = {
   "mawilite": {
     "name": "Mawilite",
     "spritenum": 598,
-    "megaStone": "Mawile-Mega",
-    "megaEvolves": "Mawile",
+    "megaStone": {
+      "Mawile": "Mawile-Mega"
+    },
     "itemUser": [
       "Mawile"
     ],
     "num": 681,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Mawile, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Mawile, this item allows it to Mega Evolve in battle."
   },
@@ -3407,28 +3356,28 @@ exports.BattleItems = {
   "medichamite": {
     "name": "Medichamite",
     "spritenum": 599,
-    "megaStone": "Medicham-Mega",
-    "megaEvolves": "Medicham",
+    "megaStone": {
+      "Medicham": "Medicham-Mega"
+    },
     "itemUser": [
       "Medicham"
     ],
     "num": 665,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Medicham, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Medicham, this item allows it to Mega Evolve in battle."
   },
   "meganiumite": {
     "name": "Meganiumite",
     "spritenum": 548,
-    "megaStone": "Meganium-Mega",
-    "megaEvolves": "Meganium",
+    "megaStone": {
+      "Meganium": "Meganium-Mega"
+    },
     "itemUser": [
       "Meganium"
     ],
     "num": 2563,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Meganium, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Meganium, this item allows it to Mega Evolve in battle."
   },
@@ -3443,31 +3392,33 @@ exports.BattleItems = {
     "desc": "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use.",
     "shortDesc": "Cures holder of Attract, Disable, Encore, Heal Block, Taunt, Torment. Single use."
   },
-  meowsticite: {
-    name: "Meowsticite",
-    spritenum: 506,
-    megaStone: {
-        Meowstic: "Meowstic-M-Mega",
-        "Meowstic-F": "Meowstic-F-Mega"
+  "meowsticite": {
+    "name": "Meowsticite",
+    "spritenum": 506,
+    "megaStone": {
+      "Meowstic": "Meowstic-M-Mega",
+      "Meowstic-F": "Meowstic-M-Mega"
     },
-    itemUser: ["Meowstic", "Meowstic-F"],
-    num: 2594,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Meowstic, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Meowstic, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Meowstic",
+      "Meowstic-F"
+    ],
+    "num": 2594,
+    "gen": 9,
+    "desc": "If held by a Meowstic, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Meowstic, this item allows it to Mega Evolve in battle."
   },
   "metagrossite": {
     "name": "Metagrossite",
     "spritenum": 618,
-    "megaStone": "Metagross-Mega",
-    "megaEvolves": "Metagross",
+    "megaStone": {
+      "Metagross": "Metagross-Mega"
+    },
     "itemUser": [
       "Metagross"
     ],
     "num": 758,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Metagross, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Metagross, this item allows it to Mega Evolve in battle."
   },
@@ -3503,7 +3454,6 @@ exports.BattleItems = {
     ],
     "num": 257,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "If held by a Ditto that hasn't Transformed, its Defense is doubled.",
     "shortDesc": "If held by a Ditto that hasn't Transformed, its Defense is doubled."
   },
@@ -3532,35 +3482,34 @@ exports.BattleItems = {
     ],
     "num": 806,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Mew with Psychic, it can use Genesis Supernova.",
     "shortDesc": "If held by a Mew with Psychic, it can use Genesis Supernova."
   },
   "mewtwonitex": {
     "name": "Mewtwonite X",
     "spritenum": 600,
-    "megaStone": "Mewtwo-Mega-X",
-    "megaEvolves": "Mewtwo",
+    "megaStone": {
+      "Mewtwo": "Mewtwo-Mega-X"
+    },
     "itemUser": [
       "Mewtwo"
     ],
     "num": 662,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Mewtwo, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Mewtwo, this item allows it to Mega Evolve in battle."
   },
   "mewtwonitey": {
     "name": "Mewtwonite Y",
     "spritenum": 601,
-    "megaStone": "Mewtwo-Mega-Y",
-    "megaEvolves": "Mewtwo",
+    "megaStone": {
+      "Mewtwo": "Mewtwo-Mega-Y"
+    },
     "itemUser": [
       "Mewtwo"
     ],
     "num": 663,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Mewtwo, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Mewtwo, this item allows it to Mega Evolve in battle."
   },
@@ -3593,7 +3542,6 @@ exports.BattleItems = {
       "Mimikyu-Busted-Totem"
     ],
     "num": 924,
-    "isNonstandard": "Past",
     "gen": 7,
     "desc": "If held by a Mimikyu with Play Rough, it can use Let's Snuggle Forever.",
     "shortDesc": "If held by a Mimikyu with Play Rough, it can use Let's Snuggle Forever."
@@ -3704,7 +3652,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 166,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -3749,7 +3696,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 178,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -3770,7 +3716,6 @@ exports.BattleItems = {
     "zMoveType": "Normal",
     "num": 776,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Normal move, this item allows it to use a Normal Z-Move.",
     "shortDesc": "If holder has a Normal move, this item allows it to use a Normal Z-Move."
   },
@@ -3796,7 +3741,6 @@ exports.BattleItems = {
     "onBasePowerPriority": 15,
     "num": 314,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Holder's Psychic-type attacks have 1.2x power.",
     "shortDesc": "Holder's Psychic-type attacks have 1.2x power."
   },
@@ -3808,7 +3752,6 @@ exports.BattleItems = {
     },
     "num": 103,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Aerodactyl.",
     "shortDesc": "Can be revived into Aerodactyl."
   },
@@ -3847,7 +3790,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 180,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -3929,14 +3871,14 @@ exports.BattleItems = {
   "pidgeotite": {
     "name": "Pidgeotite",
     "spritenum": 622,
-    "megaStone": "Pidgeot-Mega",
-    "megaEvolves": "Pidgeot",
+    "megaStone": {
+      "Pidgeot": "Pidgeot-Mega"
+    },
     "itemUser": [
       "Pidgeot"
     ],
     "num": 762,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Pidgeot, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Pidgeot, this item allows it to Mega Evolve in battle."
   },
@@ -3951,7 +3893,6 @@ exports.BattleItems = {
     ],
     "num": 794,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Pikachu with Volt Tackle, it can use Catastropika.",
     "shortDesc": "If held by a Pikachu with Volt Tackle, it can use Catastropika."
   },
@@ -3971,7 +3912,6 @@ exports.BattleItems = {
       "Pikachu-Partner"
     ],
     "num": 836,
-    "isNonstandard": "Past",
     "gen": 7,
     "desc": "If held by cap Pikachu with Thunderbolt, it can use 10,000,000 Volt Thunderbolt.",
     "shortDesc": "If held by cap Pikachu with Thunderbolt, it can use 10,000,000 Volt Thunderbolt."
@@ -3987,21 +3927,20 @@ exports.BattleItems = {
     "onEat": false,
     "num": 168,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
   "pinsirite": {
     "name": "Pinsirite",
     "spritenum": 602,
-    "megaStone": "Pinsir-Mega",
-    "megaEvolves": "Pinsir",
+    "megaStone": {
+      "Pinsir": "Pinsir-Mega"
+    },
     "itemUser": [
       "Pinsir"
     ],
     "num": 671,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Pinsir, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Pinsir, this item allows it to Mega Evolve in battle."
   },
@@ -4024,7 +3963,6 @@ exports.BattleItems = {
     },
     "num": 573,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Archen.",
     "shortDesc": "Can be revived into Archen."
   },
@@ -4047,7 +3985,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 554,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Poison-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Poison-type attack will have 1.3x power. Single use."
   },
@@ -4061,7 +3998,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Poison",
     "num": 783,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Poison move, this item allows it to use a Poison Z-Move.",
     "shortDesc": "If holder has a Poison move, this item allows it to use a Poison Z-Move."
   },
@@ -4075,7 +4011,6 @@ exports.BattleItems = {
     ],
     "num": 906,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Poison type.",
     "shortDesc": "Holder's Multi-Attack is Poison type."
   },
@@ -4216,7 +4151,6 @@ exports.BattleItems = {
     ],
     "num": 800,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Primarina with Sparkling Aria, it can use Oceanic Operetta.",
     "shortDesc": "If held by a Primarina with Sparkling Aria, it can use Oceanic Operetta."
   },
@@ -4259,7 +4193,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 557,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Psychic-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Psychic-type attack will have 1.3x power. Single use."
   },
@@ -4273,7 +4206,6 @@ exports.BattleItems = {
     ],
     "num": 916,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Psychic type.",
     "shortDesc": "Holder's Multi-Attack is Psychic type."
   },
@@ -4302,7 +4234,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Psychic",
     "num": 786,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Psychic move, this item allows it to use a Psychic Z-Move.",
     "shortDesc": "If holder has a Psychic move, this item allows it to use a Psychic Z-Move."
   },
@@ -4322,14 +4253,14 @@ exports.BattleItems = {
   "pyroarite": {
     "name": "Pyroarite",
     "spritenum": 561,
-    "megaStone": "Pyroar-Mega",
-    "megaEvolves": "Pyroar",
+    "megaStone": {
+      "Pyroar": "Pyroar-Mega"
+    },
     "itemUser": [
       "Pyroar"
     ],
     "num": 2578,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Pyroar, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Pyroar, this item allows it to Mega Evolve in battle."
   },
@@ -4379,7 +4310,6 @@ exports.BattleItems = {
     ],
     "num": 274,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "If held by a Ditto that hasn't Transformed, its Speed is doubled.",
     "shortDesc": "If held by a Ditto that hasn't Transformed, its Speed is doubled."
   },
@@ -4394,35 +4324,36 @@ exports.BattleItems = {
     "onEat": false,
     "num": 177,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
-  raichunitex: {
-    name: "Raichunite X",
-    spritenum: 496,
-    megaStone: {
-        Raichu: "Raichu-Mega-X"
+  "raichunitex": {
+    "name": "Raichunite X",
+    "spritenum": 496,
+    "megaStone": {
+      "Raichu": "Raichu-Mega-X"
     },
-    itemUser: ["Raichu"],
-    num: 2585,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle.",
-		shortDesc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle."
+    "itemUser": [
+      "Raichu"
+    ],
+    "num": 2585,
+    "gen": 9,
+    "desc": "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle.",
+    "shortDesc": "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu X in battle."
   },
-  raichunitey: {
-    name: "Raichunite Y",
-    spritenum: 497,
-    megaStone: {
-        Raichu: "Raichu-Mega-Y"
+  "raichunitey": {
+    "name": "Raichunite Y",
+    "spritenum": 497,
+    "megaStone": {
+      "Raichu": "Raichu-Mega-Y"
     },
-    itemUser: ["Raichu"],
-    num: 2586,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle.",
-		shortDesc: "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle."
+    "itemUser": [
+      "Raichu"
+    ],
+    "num": 2586,
+    "gen": 9,
+    "desc": "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle.",
+    "shortDesc": "If held by a Raichu, this item allows it to Mega Evolve into Mega Raichu Y in battle."
   },
   "rarebone": {
     "name": "Rare Bone",
@@ -4483,7 +4414,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 164,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -4519,7 +4449,6 @@ exports.BattleItems = {
     "isPrimalOrb": true,
     "num": 534,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Groudon, this item triggers its Primal Reversion in battle.",
     "shortDesc": "If held by a Groudon, this item triggers its Primal Reversion in battle."
   },
@@ -4574,7 +4503,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 559,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Rock-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Rock-type attack will have 1.3x power. Single use."
   },
@@ -4587,7 +4515,6 @@ exports.BattleItems = {
     "onBasePowerPriority": 15,
     "num": 315,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Holder's Rock-type attacks have 1.2x power.",
     "shortDesc": "Holder's Rock-type attacks have 1.2x power."
   },
@@ -4601,7 +4528,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Rock",
     "num": 788,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Rock move, this item allows it to use a Rock Z-Move.",
     "shortDesc": "If holder has a Rock move, this item allows it to use a Rock Z-Move."
   },
@@ -4615,7 +4541,6 @@ exports.BattleItems = {
     ],
     "num": 908,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Rock type.",
     "shortDesc": "Holder's Multi-Attack is Rock type."
   },
@@ -4654,7 +4579,6 @@ exports.BattleItems = {
     },
     "num": 99,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Lileep.",
     "shortDesc": "Can be revived into Lileep."
   },
@@ -4667,7 +4591,6 @@ exports.BattleItems = {
     "onBasePowerPriority": 15,
     "num": 318,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Holder's Grass-type attacks have 1.2x power.",
     "shortDesc": "Holder's Grass-type attacks have 1.2x power."
   },
@@ -4722,14 +4645,14 @@ exports.BattleItems = {
   "sablenite": {
     "name": "Sablenite",
     "spritenum": 614,
-    "megaStone": "Sableye-Mega",
-    "megaEvolves": "Sableye",
+    "megaStone": {
+      "Sableye": "Sableye-Mega"
+    },
     "itemUser": [
       "Sableye"
     ],
     "num": 754,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Sableye, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Sableye, this item allows it to Mega Evolve in battle."
   },
@@ -4741,7 +4664,6 @@ exports.BattleItems = {
     },
     "num": 647,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "Evolves Spritzee into Aromatisse when traded.",
     "shortDesc": "Evolves Spritzee into Aromatisse when traded."
   },
@@ -4773,7 +4695,6 @@ exports.BattleItems = {
     },
     "num": 711,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Amaura.",
     "shortDesc": "Can be revived into Amaura."
   },
@@ -4793,56 +4714,56 @@ exports.BattleItems = {
   "salamencite": {
     "name": "Salamencite",
     "spritenum": 627,
-    "megaStone": "Salamence-Mega",
-    "megaEvolves": "Salamence",
+    "megaStone": {
+      "Salamence": "Salamence-Mega"
+    },
     "itemUser": [
       "Salamence"
     ],
     "num": 769,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Salamence, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Salamence, this item allows it to Mega Evolve in battle."
   },
   "sceptilite": {
     "name": "Sceptilite",
     "spritenum": 613,
-    "megaStone": "Sceptile-Mega",
-    "megaEvolves": "Sceptile",
+    "megaStone": {
+      "Sceptile": "Sceptile-Mega"
+    },
     "itemUser": [
       "Sceptile"
     ],
     "num": 753,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Sceptile, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Sceptile, this item allows it to Mega Evolve in battle."
   },
   "scizorite": {
     "name": "Scizorite",
     "spritenum": 605,
-    "megaStone": "Scizor-Mega",
-    "megaEvolves": "Scizor",
+    "megaStone": {
+      "Scizor": "Scizor-Mega"
+    },
     "itemUser": [
       "Scizor"
     ],
     "num": 670,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Scizor, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Scizor, this item allows it to Mega Evolve in battle."
   },
   "scolipite": {
     "name": "Scolipite",
     "spritenum": 554,
-    "megaStone": "Scolipede-Mega",
-    "megaEvolves": "Scolipede",
+    "megaStone": {
+      "Scolipede": "Scolipede-Mega"
+    },
     "itemUser": [
       "Scolipede"
     ],
     "num": 2571,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Scolipede, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Scolipede, this item allows it to Mega Evolve in battle."
   },
@@ -4857,30 +4778,31 @@ exports.BattleItems = {
     "desc": "Holder's critical hit ratio is raised by 1 stage.",
     "shortDesc": "Holder's critical hit ratio is raised by 1 stage."
   },
-  scovillainite: {
-    name: "Scovillainite",
-    spritenum: 511,
-    megaStone: {
-        Scovillain: "Scovillain-Mega"
+  "scovillainite": {
+    "name": "Scovillainite",
+    "spritenum": 511,
+    "megaStone": {
+      "Scovillain": "Scovillain-Mega"
     },
-    itemUser: ["Scovillain"],
-    num: 2599,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Scovillain, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Scovillain, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Scovillain"
+    ],
+    "num": 2599,
+    "gen": 9,
+    "desc": "If held by a Scovillain, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Scovillain, this item allows it to Mega Evolve in battle."
   },
   "scraftinite": {
     "name": "Scraftinite",
     "spritenum": 555,
-    "megaStone": "Scrafty-Mega",
-    "megaEvolves": "Scrafty",
+    "megaStone": {
+      "Scrafty": "Scrafty-Mega"
+    },
     "itemUser": [
       "Scrafty"
     ],
     "num": 2572,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Scrafty, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Scrafty, this item allows it to Mega Evolve in battle."
   },
@@ -4893,7 +4815,6 @@ exports.BattleItems = {
     "onBasePowerPriority": 15,
     "num": 254,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Holder's Water-type attacks have 1.2x power.",
     "shortDesc": "Holder's Water-type attacks have 1.2x power."
   },
@@ -4912,14 +4833,14 @@ exports.BattleItems = {
   "sharpedonite": {
     "name": "Sharpedonite",
     "spritenum": 619,
-    "megaStone": "Sharpedo-Mega",
-    "megaEvolves": "Sharpedo",
+    "megaStone": {
+      "Sharpedo": "Sharpedo-Mega"
+    },
     "itemUser": [
       "Sharpedo"
     ],
     "num": 759,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Sharpedo, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Sharpedo, this item allows it to Mega Evolve in battle."
   },
@@ -4969,7 +4890,6 @@ exports.BattleItems = {
     ],
     "num": 117,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's Techno Blast is Electric type.",
     "shortDesc": "Holder's Techno Blast is Electric type."
   },
@@ -5026,14 +4946,14 @@ exports.BattleItems = {
   "skarmorite": {
     "name": "Skarmorite",
     "spritenum": 550,
-    "megaStone": "Skarmory-Mega",
-    "megaEvolves": "Skarmory",
+    "megaStone": {
+      "Skarmory": "Skarmory-Mega"
+    },
     "itemUser": [
       "Skarmory"
     ],
     "num": 2565,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Skarmory, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Skarmory, this item allows it to Mega Evolve in battle."
   },
@@ -5045,7 +4965,6 @@ exports.BattleItems = {
     },
     "num": 105,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Can be revived into Cranidos.",
     "shortDesc": "Can be revived into Cranidos."
   },
@@ -5063,14 +4982,14 @@ exports.BattleItems = {
   "slowbronite": {
     "name": "Slowbronite",
     "spritenum": 620,
-    "megaStone": "Slowbro-Mega",
-    "megaEvolves": "Slowbro",
+    "megaStone": {
+      "Slowbro": "Slowbro-Mega"
+    },
     "itemUser": [
       "Slowbro"
     ],
     "num": 760,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Slowbro, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Slowbro, this item allows it to Mega Evolve in battle."
   },
@@ -5096,7 +5015,6 @@ exports.BattleItems = {
     ],
     "num": 804,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Snorlax with Giga Impact, it can use Pulverizing Pancake.",
     "shortDesc": "If held by a Snorlax with Giga Impact, it can use Pulverizing Pancake."
   },
@@ -5138,7 +5056,6 @@ exports.BattleItems = {
     ],
     "num": 921,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Solgaleo or Dusk Mane Necrozma with Sunsteel Strike can use a special Z-Move.",
     "shortDesc": "Solgaleo or Dusk Mane Necrozma with Sunsteel Strike can use a special Z-Move."
   },
@@ -5181,7 +5098,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 179,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -5216,18 +5132,19 @@ exports.BattleItems = {
     "desc": "A special Poke Ball for the Bug-Catching Contest.",
     "shortDesc": "A special Poke Ball for the Bug-Catching Contest."
   },
-  staraptite: {
-    name: "Staraptite",
-    spritenum: 500,
-    megaStone: {
-        Staraptor: "Staraptor-Mega"
+  "staraptite": {
+    "name": "Staraptite",
+    "spritenum": 500,
+    "megaStone": {
+      "Staraptor": "Staraptor-Mega"
     },
-    itemUser: ["Staraptor"],
-    num: 2589,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Staraptor, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Staraptor, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Staraptor"
+    ],
+    "num": 2589,
+    "gen": 9,
+    "desc": "If held by a Staraptor, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Staraptor, this item allows it to Mega Evolve in battle."
   },
   "starfberry": {
     "name": "Starf Berry",
@@ -5245,14 +5162,14 @@ exports.BattleItems = {
   "starminite": {
     "name": "Starminite",
     "spritenum": 546,
-    "megaStone": "Starmie-Mega",
-    "megaEvolves": "Starmie",
+    "megaStone": {
+      "Starmie": "Starmie-Mega"
+    },
     "itemUser": [
       "Starmie"
     ],
     "num": 2561,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Starmie, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Starmie, this item allows it to Mega Evolve in battle."
   },
@@ -5273,7 +5190,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 563,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Steel-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Steel-type attack will have 1.3x power. Single use."
   },
@@ -5287,21 +5203,20 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Steel",
     "num": 792,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Steel move, this item allows it to use a Steel Z-Move.",
     "shortDesc": "If holder has a Steel move, this item allows it to use a Steel Z-Move."
   },
   "steelixite": {
     "name": "Steelixite",
     "spritenum": 621,
-    "megaStone": "Steelix-Mega",
-    "megaEvolves": "Steelix",
+    "megaStone": {
+      "Steelix": "Steelix-Mega"
+    },
     "itemUser": [
       "Steelix"
     ],
     "num": 761,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Steelix, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Steelix, this item allows it to Mega Evolve in battle."
   },
@@ -5315,7 +5230,6 @@ exports.BattleItems = {
     ],
     "num": 911,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Steel type.",
     "shortDesc": "Holder's Multi-Attack is Steel type."
   },
@@ -5330,7 +5244,6 @@ exports.BattleItems = {
     ],
     "num": 259,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages.",
     "shortDesc": "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages."
   },
@@ -5393,14 +5306,14 @@ exports.BattleItems = {
   "swampertite": {
     "name": "Swampertite",
     "spritenum": 612,
-    "megaStone": "Swampert-Mega",
-    "megaEvolves": "Swampert",
+    "megaStone": {
+      "Swampert": "Swampert-Mega"
+    },
     "itemUser": [
       "Swampert"
     ],
     "num": 752,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Swampert, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Swampert, this item allows it to Mega Evolve in battle."
   },
@@ -5467,7 +5380,6 @@ exports.BattleItems = {
     ],
     "num": 801,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If held by a Tapu with Nature's Madness, it can use Guardian of Alola.",
     "shortDesc": "If held by a Tapu with Nature's Madness, it can use Guardian of Alola."
   },
@@ -5482,20 +5394,23 @@ exports.BattleItems = {
     "desc": "Evolves Applin into Flapple when used.",
     "shortDesc": "Evolves Applin into Flapple when used."
   },
-  tatsugirinite: {
-    name: "Tatsugirinite",
-    spritenum: 513,
-    megaStone: {
-        Tatsugiri: "Tatsugiri-Curly-Mega",
-        "Tatsugiri-Droopy": "Tatsugiri-Droopy-Mega",
-        "Tatsugiri-Stretchy": "Tatsugiri-Stretchy-Mega"
+  "tatsugirinite": {
+    "name": "Tatsugirinite",
+    "spritenum": 513,
+    "megaStone": {
+      "Tatsugiri": "Tatsugiri-Curly-Mega",
+      "Tatsugiri-Droopy": "Tatsugiri-Droopy-Mega",
+      "Tatsugiri-Stretchy": "Tatsugiri-Stretchy-Mega"
     },
-    itemUser: ["Tatsugiri", "Tatsugiri-Droopy", "Tatsugiri-Stretchy"],
-    num: 2601,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Tatsugiri, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Tatsugiri, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Tatsugiri",
+      "Tatsugiri-Droopy",
+      "Tatsugiri-Stretchy"
+    ],
+    "num": 2601,
+    "gen": 9,
+    "desc": "If held by a Tatsugiri, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Tatsugiri, this item allows it to Mega Evolve in battle."
   },
   "terrainextender": {
     "name": "Terrain Extender",
@@ -5523,7 +5438,6 @@ exports.BattleItems = {
     ],
     "num": 258,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "If held by a Cubone or a Marowak, its Attack is doubled.",
     "shortDesc": "If held by a Cubone or a Marowak, its Attack is doubled."
   },
@@ -5594,7 +5508,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1130,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Swords Dance. One use.",
     "shortDesc": "Teaches certain Pokemon the move Swords Dance. One use."
   },
@@ -5606,7 +5519,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1131,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Body Slam. One use.",
     "shortDesc": "Teaches certain Pokemon the move Body Slam. One use."
   },
@@ -5618,7 +5530,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1132,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Flamethrower. One use.",
     "shortDesc": "Teaches certain Pokemon the move Flamethrower. One use."
   },
@@ -5630,7 +5541,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1133,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Hydro Pump. One use.",
     "shortDesc": "Teaches certain Pokemon the move Hydro Pump. One use."
   },
@@ -5642,7 +5552,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1134,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Surf. One use.",
     "shortDesc": "Teaches certain Pokemon the move Surf. One use."
   },
@@ -5654,7 +5563,6 @@ exports.BattleItems = {
     "spritenum": 735,
     "num": 1135,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Ice Beam. One use.",
     "shortDesc": "Teaches certain Pokemon the move Ice Beam. One use."
   },
@@ -5666,7 +5574,6 @@ exports.BattleItems = {
     "spritenum": 735,
     "num": 1136,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Blizzard. One use.",
     "shortDesc": "Teaches certain Pokemon the move Blizzard. One use."
   },
@@ -5678,7 +5585,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1137,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Low Kick. One use.",
     "shortDesc": "Teaches certain Pokemon the move Low Kick. One use."
   },
@@ -5690,7 +5596,6 @@ exports.BattleItems = {
     "spritenum": 733,
     "num": 1138,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Thunderbolt. One use.",
     "shortDesc": "Teaches certain Pokemon the move Thunderbolt. One use."
   },
@@ -5702,7 +5607,6 @@ exports.BattleItems = {
     "spritenum": 733,
     "num": 1139,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Thunder. One use.",
     "shortDesc": "Teaches certain Pokemon the move Thunder. One use."
   },
@@ -5714,7 +5618,6 @@ exports.BattleItems = {
     "spritenum": 725,
     "num": 1140,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Earthquake. One use.",
     "shortDesc": "Teaches certain Pokemon the move Earthquake. One use."
   },
@@ -5726,7 +5629,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1141,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Psychic. One use.",
     "shortDesc": "Teaches certain Pokemon the move Psychic. One use."
   },
@@ -5738,7 +5640,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1142,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Agility. One use.",
     "shortDesc": "Teaches certain Pokemon the move Agility. One use."
   },
@@ -5750,7 +5651,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1143,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Focus Energy. One use.",
     "shortDesc": "Teaches certain Pokemon the move Focus Energy. One use."
   },
@@ -5762,7 +5662,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1144,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Metronome. One use.",
     "shortDesc": "Teaches certain Pokemon the move Metronome. One use."
   },
@@ -5774,7 +5673,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1145,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Fire Blast. One use.",
     "shortDesc": "Teaches certain Pokemon the move Fire Blast. One use."
   },
@@ -5786,7 +5684,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1146,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Waterfall. One use.",
     "shortDesc": "Teaches certain Pokemon the move Waterfall. One use."
   },
@@ -5798,7 +5695,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1147,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Amnesia. One use.",
     "shortDesc": "Teaches certain Pokemon the move Amnesia. One use."
   },
@@ -5810,7 +5706,6 @@ exports.BattleItems = {
     "spritenum": 727,
     "num": 1148,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Leech Life. One use.",
     "shortDesc": "Teaches certain Pokemon the move Leech Life. One use."
   },
@@ -5822,7 +5717,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1149,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Tri Attack. One use.",
     "shortDesc": "Teaches certain Pokemon the move Tri Attack. One use."
   },
@@ -5834,7 +5728,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1150,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Substitute. One use.",
     "shortDesc": "Teaches certain Pokemon the move Substitute. One use."
   },
@@ -5846,7 +5739,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1151,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Reversal. One use.",
     "shortDesc": "Teaches certain Pokemon the move Reversal. One use."
   },
@@ -5858,7 +5750,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1152,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Sludge Bomb. One use.",
     "shortDesc": "Teaches certain Pokemon the move Sludge Bomb. One use."
   },
@@ -5870,7 +5761,6 @@ exports.BattleItems = {
     "spritenum": 725,
     "num": 1153,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Spikes. One use.",
     "shortDesc": "Teaches certain Pokemon the move Spikes. One use."
   },
@@ -5882,7 +5772,6 @@ exports.BattleItems = {
     "spritenum": 736,
     "num": 1154,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Outrage. One use.",
     "shortDesc": "Teaches certain Pokemon the move Outrage. One use."
   },
@@ -5894,7 +5783,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1155,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Psyshock. One use.",
     "shortDesc": "Teaches certain Pokemon the move Psyshock. One use."
   },
@@ -5906,7 +5794,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1156,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Endure. One use.",
     "shortDesc": "Teaches certain Pokemon the move Endure. One use."
   },
@@ -5918,7 +5805,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1157,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Sleep Talk. One use.",
     "shortDesc": "Teaches certain Pokemon the move Sleep Talk. One use."
   },
@@ -5930,7 +5816,6 @@ exports.BattleItems = {
     "spritenum": 727,
     "num": 1158,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Megahorn. One use.",
     "shortDesc": "Teaches certain Pokemon the move Megahorn. One use."
   },
@@ -5942,7 +5827,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1159,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Baton Pass. One use.",
     "shortDesc": "Teaches certain Pokemon the move Baton Pass. One use."
   },
@@ -5954,7 +5838,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1160,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Encore. One use.",
     "shortDesc": "Teaches certain Pokemon the move Encore. One use."
   },
@@ -5966,7 +5849,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1161,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Iron Tail. One use.",
     "shortDesc": "Teaches certain Pokemon the move Iron Tail. One use."
   },
@@ -5978,7 +5860,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1162,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Crunch. One use.",
     "shortDesc": "Teaches certain Pokemon the move Crunch. One use."
   },
@@ -5990,7 +5871,6 @@ exports.BattleItems = {
     "spritenum": 728,
     "num": 1163,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Shadow Ball. One use.",
     "shortDesc": "Teaches certain Pokemon the move Shadow Ball. One use."
   },
@@ -6002,7 +5882,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1164,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Future Sight. One use.",
     "shortDesc": "Teaches certain Pokemon the move Future Sight. One use."
   },
@@ -6014,7 +5893,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1165,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Uproar. One use.",
     "shortDesc": "Teaches certain Pokemon the move Uproar. One use."
   },
@@ -6026,7 +5904,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1166,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Heat Wave. One use.",
     "shortDesc": "Teaches certain Pokemon the move Heat Wave. One use."
   },
@@ -6038,7 +5915,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1167,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Taunt. One use.",
     "shortDesc": "Teaches certain Pokemon the move Taunt. One use."
   },
@@ -6050,7 +5926,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1168,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Trick. One use.",
     "shortDesc": "Teaches certain Pokemon the move Trick. One use."
   },
@@ -6062,7 +5937,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1169,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Superpower. One use.",
     "shortDesc": "Teaches certain Pokemon the move Superpower. One use."
   },
@@ -6074,7 +5948,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1170,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Skill Swap. One use.",
     "shortDesc": "Teaches certain Pokemon the move Skill Swap. One use."
   },
@@ -6086,7 +5959,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1171,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Blaze Kick. One use.",
     "shortDesc": "Teaches certain Pokemon the move Blaze Kick. One use."
   },
@@ -6098,7 +5970,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1172,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Hyper Voice. One use.",
     "shortDesc": "Teaches certain Pokemon the move Hyper Voice. One use."
   },
@@ -6110,7 +5981,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1173,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Overheat. One use.",
     "shortDesc": "Teaches certain Pokemon the move Overheat. One use."
   },
@@ -6122,7 +5992,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1174,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Cosmic Power. One use.",
     "shortDesc": "Teaches certain Pokemon the move Cosmic Power. One use."
   },
@@ -6134,7 +6003,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1175,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Muddy Water. One use.",
     "shortDesc": "Teaches certain Pokemon the move Muddy Water. One use."
   },
@@ -6146,7 +6014,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1176,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Iron Defense. One use.",
     "shortDesc": "Teaches certain Pokemon the move Iron Defense. One use."
   },
@@ -6158,7 +6025,6 @@ exports.BattleItems = {
     "spritenum": 736,
     "num": 1177,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Dragon Claw. One use.",
     "shortDesc": "Teaches certain Pokemon the move Dragon Claw. One use."
   },
@@ -6170,7 +6036,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1178,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Bulk Up. One use.",
     "shortDesc": "Teaches certain Pokemon the move Bulk Up. One use."
   },
@@ -6182,7 +6047,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1179,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Calm Mind. One use.",
     "shortDesc": "Teaches certain Pokemon the move Calm Mind. One use."
   },
@@ -6194,7 +6058,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1180,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Leaf Blade. One use.",
     "shortDesc": "Teaches certain Pokemon the move Leaf Blade. One use."
   },
@@ -6206,7 +6069,6 @@ exports.BattleItems = {
     "spritenum": 736,
     "num": 1181,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Dragon Dance. One use.",
     "shortDesc": "Teaches certain Pokemon the move Dragon Dance. One use."
   },
@@ -6218,7 +6080,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1182,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Gyro Ball. One use.",
     "shortDesc": "Teaches certain Pokemon the move Gyro Ball. One use."
   },
@@ -6230,7 +6091,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1183,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Close Combat. One use.",
     "shortDesc": "Teaches certain Pokemon the move Close Combat. One use."
   },
@@ -6242,7 +6102,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1184,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Toxic Spikes. One use.",
     "shortDesc": "Teaches certain Pokemon the move Toxic Spikes. One use."
   },
@@ -6254,7 +6113,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1185,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Flare Blitz. One use.",
     "shortDesc": "Teaches certain Pokemon the move Flare Blitz. One use."
   },
@@ -6266,7 +6124,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1186,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Aura Sphere. One use.",
     "shortDesc": "Teaches certain Pokemon the move Aura Sphere. One use."
   },
@@ -6278,7 +6135,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1187,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Poison Jab. One use.",
     "shortDesc": "Teaches certain Pokemon the move Poison Jab. One use."
   },
@@ -6290,7 +6146,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1188,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Dark Pulse. One use.",
     "shortDesc": "Teaches certain Pokemon the move Dark Pulse. One use."
   },
@@ -6302,7 +6157,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1189,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Seed Bomb. One use.",
     "shortDesc": "Teaches certain Pokemon the move Seed Bomb. One use."
   },
@@ -6314,7 +6168,6 @@ exports.BattleItems = {
     "spritenum": 727,
     "num": 1190,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move X-Scissor. One use.",
     "shortDesc": "Teaches certain Pokemon the move X-Scissor. One use."
   },
@@ -6326,7 +6179,6 @@ exports.BattleItems = {
     "spritenum": 727,
     "num": 1191,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Bug Buzz. One use.",
     "shortDesc": "Teaches certain Pokemon the move Bug Buzz. One use."
   },
@@ -6338,7 +6190,6 @@ exports.BattleItems = {
     "spritenum": 736,
     "num": 1192,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Dragon Pulse. One use.",
     "shortDesc": "Teaches certain Pokemon the move Dragon Pulse. One use."
   },
@@ -6350,7 +6201,6 @@ exports.BattleItems = {
     "spritenum": 726,
     "num": 1193,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Power Gem. One use.",
     "shortDesc": "Teaches certain Pokemon the move Power Gem. One use."
   },
@@ -6362,7 +6212,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1194,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Focus Blast. One use.",
     "shortDesc": "Teaches certain Pokemon the move Focus Blast. One use."
   },
@@ -6374,7 +6223,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1195,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Energy Ball. One use.",
     "shortDesc": "Teaches certain Pokemon the move Energy Ball. One use."
   },
@@ -6386,7 +6234,6 @@ exports.BattleItems = {
     "spritenum": 723,
     "num": 1196,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Brave Bird. One use.",
     "shortDesc": "Teaches certain Pokemon the move Brave Bird. One use."
   },
@@ -6398,7 +6245,6 @@ exports.BattleItems = {
     "spritenum": 725,
     "num": 1197,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Earth Power. One use.",
     "shortDesc": "Teaches certain Pokemon the move Earth Power. One use."
   },
@@ -6410,7 +6256,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1198,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Nasty Plot. One use.",
     "shortDesc": "Teaches certain Pokemon the move Nasty Plot. One use."
   },
@@ -6422,7 +6267,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1199,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Zen Headbutt. One use.",
     "shortDesc": "Teaches certain Pokemon the move Zen Headbutt. One use."
   },
@@ -6434,7 +6278,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1200,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Flash Cannon. One use.",
     "shortDesc": "Teaches certain Pokemon the move Flash Cannon. One use."
   },
@@ -6446,7 +6289,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1201,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Leaf Storm. One use.",
     "shortDesc": "Teaches certain Pokemon the move Leaf Storm. One use."
   },
@@ -6458,7 +6300,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1202,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Power Whip. One use.",
     "shortDesc": "Teaches certain Pokemon the move Power Whip. One use."
   },
@@ -6470,7 +6311,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1203,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Gunk Shot. One use.",
     "shortDesc": "Teaches certain Pokemon the move Gunk Shot. One use."
   },
@@ -6482,7 +6322,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1204,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Iron Head. One use.",
     "shortDesc": "Teaches certain Pokemon the move Iron Head. One use."
   },
@@ -6494,7 +6333,6 @@ exports.BattleItems = {
     "spritenum": 726,
     "num": 1205,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Stone Edge. One use.",
     "shortDesc": "Teaches certain Pokemon the move Stone Edge. One use."
   },
@@ -6506,7 +6344,6 @@ exports.BattleItems = {
     "spritenum": 726,
     "num": 1206,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Stealth Rock. One use.",
     "shortDesc": "Teaches certain Pokemon the move Stealth Rock. One use."
   },
@@ -6518,7 +6355,6 @@ exports.BattleItems = {
     "spritenum": 732,
     "num": 1207,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Grass Knot. One use.",
     "shortDesc": "Teaches certain Pokemon the move Grass Knot. One use."
   },
@@ -6530,7 +6366,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1208,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Sludge Wave. One use.",
     "shortDesc": "Teaches certain Pokemon the move Sludge Wave. One use."
   },
@@ -6542,7 +6377,6 @@ exports.BattleItems = {
     "spritenum": 729,
     "num": 1209,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Heavy Slam. One use.",
     "shortDesc": "Teaches certain Pokemon the move Heavy Slam. One use."
   },
@@ -6554,7 +6388,6 @@ exports.BattleItems = {
     "spritenum": 733,
     "num": 1210,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Electro Ball. One use.",
     "shortDesc": "Teaches certain Pokemon the move Electro Ball. One use."
   },
@@ -6566,7 +6399,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1211,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Foul Play. One use.",
     "shortDesc": "Teaches certain Pokemon the move Foul Play. One use."
   },
@@ -6578,7 +6410,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1212,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Stored Power. One use.",
     "shortDesc": "Teaches certain Pokemon the move Stored Power. One use."
   },
@@ -6590,7 +6421,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1213,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Ally Switch. One use.",
     "shortDesc": "Teaches certain Pokemon the move Ally Switch. One use."
   },
@@ -6602,7 +6432,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1214,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Scald. One use.",
     "shortDesc": "Teaches certain Pokemon the move Scald. One use."
   },
@@ -6614,7 +6443,6 @@ exports.BattleItems = {
     "spritenum": 721,
     "num": 1215,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Work Up. One use.",
     "shortDesc": "Teaches certain Pokemon the move Work Up. One use."
   },
@@ -6626,7 +6454,6 @@ exports.BattleItems = {
     "spritenum": 733,
     "num": 1216,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Wild Charge. One use.",
     "shortDesc": "Teaches certain Pokemon the move Wild Charge. One use."
   },
@@ -6638,7 +6465,6 @@ exports.BattleItems = {
     "spritenum": 725,
     "num": 1217,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Drill Run. One use.",
     "shortDesc": "Teaches certain Pokemon the move Drill Run. One use."
   },
@@ -6650,7 +6476,6 @@ exports.BattleItems = {
     "spritenum": 730,
     "num": 1218,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Heat Crash. One use.",
     "shortDesc": "Teaches certain Pokemon the move Heat Crash. One use."
   },
@@ -6662,7 +6487,6 @@ exports.BattleItems = {
     "spritenum": 723,
     "num": 1219,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Hurricane. One use.",
     "shortDesc": "Teaches certain Pokemon the move Hurricane. One use."
   },
@@ -6674,7 +6498,6 @@ exports.BattleItems = {
     "spritenum": 738,
     "num": 1220,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Play Rough. One use.",
     "shortDesc": "Teaches certain Pokemon the move Play Rough. One use."
   },
@@ -6686,7 +6509,6 @@ exports.BattleItems = {
     "spritenum": 724,
     "num": 1221,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Venom Drench. One use.",
     "shortDesc": "Teaches certain Pokemon the move Venom Drench. One use."
   },
@@ -6698,7 +6520,6 @@ exports.BattleItems = {
     "spritenum": 738,
     "num": 1222,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Dazzling Gleam. One use.",
     "shortDesc": "Teaches certain Pokemon the move Dazzling Gleam. One use."
   },
@@ -6710,7 +6531,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1223,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Darkest Lariat. One use.",
     "shortDesc": "Teaches certain Pokemon the move Darkest Lariat. One use."
   },
@@ -6722,7 +6542,6 @@ exports.BattleItems = {
     "spritenum": 725,
     "num": 1224,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move High Horsepower. One use.",
     "shortDesc": "Teaches certain Pokemon the move High Horsepower. One use."
   },
@@ -6734,7 +6553,6 @@ exports.BattleItems = {
     "spritenum": 737,
     "num": 1225,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Throat Chop. One use.",
     "shortDesc": "Teaches certain Pokemon the move Throat Chop. One use."
   },
@@ -6746,7 +6564,6 @@ exports.BattleItems = {
     "spritenum": 727,
     "num": 1226,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Pollen Puff. One use.",
     "shortDesc": "Teaches certain Pokemon the move Pollen Puff. One use."
   },
@@ -6758,7 +6575,6 @@ exports.BattleItems = {
     "spritenum": 734,
     "num": 1227,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Psychic Fangs. One use.",
     "shortDesc": "Teaches certain Pokemon the move Psychic Fangs. One use."
   },
@@ -6770,7 +6586,6 @@ exports.BattleItems = {
     "spritenum": 731,
     "num": 1228,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Liquidation. One use.",
     "shortDesc": "Teaches certain Pokemon the move Liquidation. One use."
   },
@@ -6782,7 +6597,6 @@ exports.BattleItems = {
     "spritenum": 722,
     "num": 1229,
     "gen": 8,
-    "isNonstandard": "Past",
     "desc": "Teaches certain Pokemon the move Body Press. One use.",
     "shortDesc": "Teaches certain Pokemon the move Body Press. One use."
   },
@@ -6801,14 +6615,14 @@ exports.BattleItems = {
   "tyranitarite": {
     "name": "Tyranitarite",
     "spritenum": 607,
-    "megaStone": "Tyranitar-Mega",
-    "megaEvolves": "Tyranitar",
+    "megaStone": {
+      "Tyranitar": "Tyranitar-Mega"
+    },
     "itemUser": [
       "Tyranitar"
     ],
     "num": 669,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Tyranitar, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Tyranitar, this item allows it to Mega Evolve in battle."
   },
@@ -6832,7 +6646,6 @@ exports.BattleItems = {
     ],
     "num": 923,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Dusk Mane/Dawn Wings Necrozma: Ultra Burst, then Z-Move w/ Photon Geyser.",
     "shortDesc": "Dusk Mane/Dawn Wings Necrozma: Ultra Burst, then Z-Move w/ Photon Geyser."
   },
@@ -6872,28 +6685,28 @@ exports.BattleItems = {
   "venusaurite": {
     "name": "Venusaurite",
     "spritenum": 608,
-    "megaStone": "Venusaur-Mega",
-    "megaEvolves": "Venusaur",
+    "megaStone": {
+      "Venusaur": "Venusaur-Mega"
+    },
     "itemUser": [
       "Venusaur"
     ],
     "num": 659,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "If held by a Venusaur, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Venusaur, this item allows it to Mega Evolve in battle."
   },
   "victreebelite": {
     "name": "Victreebelite",
     "spritenum": 545,
-    "megaStone": "Victreebel-Mega",
-    "megaEvolves": "Victreebel",
+    "megaStone": {
+      "Victreebel": "Victreebel-Mega"
+    },
     "itemUser": [
       "Victreebel"
     ],
     "num": 2560,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Victreebel, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Victreebel, this item allows it to Mega Evolve in battle."
   },
@@ -6916,7 +6729,6 @@ exports.BattleItems = {
     "isGem": true,
     "num": 549,
     "gen": 5,
-    "isNonstandard": "Past",
     "desc": "Holder's first successful Water-type attack will have 1.3x power. Single use.",
     "shortDesc": "Holder's first successful Water-type attack will have 1.3x power. Single use."
   },
@@ -6930,7 +6742,6 @@ exports.BattleItems = {
     "forcedForme": "Arceus-Water",
     "num": 778,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "If holder has a Water move, this item allows it to use a Water Z-Move.",
     "shortDesc": "If holder has a Water move, this item allows it to use a Water Z-Move."
   },
@@ -6944,7 +6755,6 @@ exports.BattleItems = {
     ],
     "num": 913,
     "gen": 7,
-    "isNonstandard": "Past",
     "desc": "Holder's Multi-Attack is Water type.",
     "shortDesc": "Holder's Multi-Attack is Water type."
   },
@@ -6970,7 +6780,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 181,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -6983,7 +6792,6 @@ exports.BattleItems = {
     "onBasePowerPriority": 15,
     "num": 317,
     "gen": 4,
-    "isNonstandard": "Past",
     "desc": "Holder's Water-type attacks have 1.2x power.",
     "shortDesc": "Holder's Water-type attacks have 1.2x power."
   },
@@ -7029,7 +6837,6 @@ exports.BattleItems = {
     "onEat": false,
     "num": 167,
     "gen": 3,
-    "isNonstandard": "Past",
     "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
     "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck."
   },
@@ -7041,7 +6848,6 @@ exports.BattleItems = {
     },
     "num": 646,
     "gen": 6,
-    "isNonstandard": "Past",
     "desc": "Evolves Swirlix into Slurpuff when traded.",
     "shortDesc": "Evolves Swirlix into Slurpuff when traded."
   },
@@ -7119,18 +6925,19 @@ exports.BattleItems = {
     "desc": "Holder's Electric-type attacks have 1.2x power. Judgment is Electric type.",
     "shortDesc": "Holder's Electric-type attacks have 1.2x power. Judgment is Electric type."
   },
-  zeraorite: {
-    name: "Zeraorite",
-    spritenum: 510,
-    megaStone: {
-        Zeraora: "Zeraora-Mega"
+  "zeraorite": {
+    "name": "Zeraorite",
+    "spritenum": 510,
+    "megaStone": {
+      "Zeraora": "Zeraora-Mega"
     },
-    itemUser: ["Zeraora"],
-    num: 2598,
-    gen: 9,
-    isNonstandard: "Future",
-    desc: "If held by a Zeraora, this item allows it to Mega Evolve in battle.",
-		shortDesc: "If held by a Zeraora, this item allows it to Mega Evolve in battle."
+    "itemUser": [
+      "Zeraora"
+    ],
+    "num": 2598,
+    "gen": 9,
+    "desc": "If held by a Zeraora, this item allows it to Mega Evolve in battle.",
+    "shortDesc": "If held by a Zeraora, this item allows it to Mega Evolve in battle."
   },
   "zoomlens": {
     "name": "Zoom Lens",
@@ -7147,14 +6954,14 @@ exports.BattleItems = {
   "zygardite": {
     "name": "Zygardite",
     "spritenum": 568,
-    "megaStone": "Zygarde-Mega",
-    "megaEvolves": "Zygarde-Complete",
+    "megaStone": {
+      "Zygarde-Complete": "Zygarde-Mega"
+    },
     "itemUser": [
       "Zygarde-Complete"
     ],
     "num": 2584,
     "gen": 9,
-    "isNonstandard": "Future",
     "desc": "If held by a Zygarde in Complete Forme, this item allows it to Mega Evolve in battle.",
     "shortDesc": "If held by a Zygarde in Complete Forme, this item allows it to Mega Evolve in battle."
   },
@@ -7169,7 +6976,6 @@ exports.BattleItems = {
     "onResidualOrder": 10,
     "num": 155,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Restores 10 HP when at 1/2 max HP or less. Single use.",
     "shortDesc": "(Gen 2) Restores 10 HP when at 1/2 max HP or less. Single use."
   },
@@ -7181,7 +6987,6 @@ exports.BattleItems = {
     },
     "num": 0,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) On switch-in, raises holder's Attack by 2 and confuses it. Single use.",
     "shortDesc": "(Gen 2) On switch-in, raises holder's Attack by 2 and confuses it. Single use."
   },
@@ -7195,7 +7000,6 @@ exports.BattleItems = {
     },
     "num": 156,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder is cured if it is confused. Single use.",
     "shortDesc": "(Gen 2) Holder is cured if it is confused. Single use."
   },
@@ -7209,7 +7013,6 @@ exports.BattleItems = {
     },
     "num": 153,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder is cured if it is frozen. Single use.",
     "shortDesc": "(Gen 2) Holder is cured if it is frozen. Single use."
   },
@@ -7224,7 +7027,6 @@ exports.BattleItems = {
     "onResidualOrder": 10,
     "num": 158,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Restores 30 HP when at 1/2 max HP or less. Single use.",
     "shortDesc": "(Gen 2) Restores 30 HP when at 1/2 max HP or less. Single use."
   },
@@ -7238,7 +7040,6 @@ exports.BattleItems = {
     },
     "num": 152,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder is cured if it is burned. Single use.",
     "shortDesc": "(Gen 2) Holder is cured if it is burned. Single use."
   },
@@ -7252,7 +7053,6 @@ exports.BattleItems = {
     },
     "num": 150,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder wakes up if it is asleep. Single use.",
     "shortDesc": "(Gen 2) Holder wakes up if it is asleep. Single use."
   },
@@ -7266,7 +7066,6 @@ exports.BattleItems = {
     },
     "num": 157,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder cures itself if it is confused or has a status condition. Single use.",
     "shortDesc": "(Gen 2) Holder cures itself if it is confused or has a status condition. Single use."
   },
@@ -7280,7 +7079,6 @@ exports.BattleItems = {
     },
     "num": 154,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Restores 5 PP to the first of the holder's moves to reach 0 PP. Single use.",
     "shortDesc": "(Gen 2) Restores 5 PP to the first of the holder's moves to reach 0 PP. Single use."
   },
@@ -7289,7 +7087,6 @@ exports.BattleItems = {
     "spritenum": 444,
     "num": 251,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder's Normal-type attacks have 1.1x power.",
     "shortDesc": "(Gen 2) Holder's Normal-type attacks have 1.1x power."
   },
@@ -7298,7 +7095,6 @@ exports.BattleItems = {
     "spritenum": 444,
     "num": 251,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder's Normal-type attacks have 1.1x power.",
     "shortDesc": "(Gen 2) Holder's Normal-type attacks have 1.1x power."
   },
@@ -7312,7 +7108,6 @@ exports.BattleItems = {
     },
     "num": 149,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder cures itself if it is paralyzed. Single use.",
     "shortDesc": "(Gen 2) Holder cures itself if it is paralyzed. Single use."
   },
@@ -7326,15 +7121,15 @@ exports.BattleItems = {
     },
     "num": 151,
     "gen": 2,
-    "isNonstandard": "Past",
     "desc": "(Gen 2) Holder is cured if it is poisoned. Single use.",
     "shortDesc": "(Gen 2) Holder is cured if it is poisoned. Single use."
   },
   "crucibellite": {
     "name": "Crucibellite",
     "spritenum": 577,
-    "megaStone": "Crucibelle-Mega",
-    "megaEvolves": "Crucibelle",
+    "megaStone": {
+      "Crucibelle": "Crucibelle-Mega"
+    },
     "itemUser": [
       "Crucibelle"
     ],

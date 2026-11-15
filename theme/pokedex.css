@@ -504,3 +504,7 @@ a.subtle:hover {
 .tabbar .button.nav-last {
 	border-top-right-radius: 5px;
 }
+
+/* RC stat changes: RC stat higher/lower than vanilla */
+.stat-up{color:#1e8e3e;font-weight:bold;}
+.stat-down{color:#d32f2f;font-weight:bold;}
