@@ -508,3 +508,87 @@ a.subtle:hover {
 /* RC stat changes: RC stat higher/lower than vanilla */
 .stat-up{color:#1e8e3e;font-weight:bold;}
 .stat-down{color:#d32f2f;font-weight:bold;}
+
+/* RC Change Index: sticky section nav */
+.rc-nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px 14px;
+	margin: 0 0 12px;
+	padding: 8px 0;
+	background: #ffffff;
+	border-bottom: 1px solid transparent;
+	transition: border-color .15s, box-shadow .15s;
+}
+.rc-nav.stuck {
+	border-bottom-color: #c8cfdc;
+	box-shadow: 0 3px 6px -3px rgba(0, 0, 0, .25);
+}
+.rc-nav-group {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.rc-nav-label {
+	font-size: 8pt;
+	font-weight: bold;
+	letter-spacing: .06em;
+	text-transform: uppercase;
+	color: #6a7487;
+}
+/* segmented control: joined pills */
+.rc-nav-seg {
+	display: inline-flex;
+	border: 1px solid #b9c2d2;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #f4f6fa;
+}
+.rc-nav-seg a {
+	display: block;
+	min-width: 14px;
+	padding: 3px 8px;
+	text-align: center;
+	font-size: 9pt;
+	line-height: 16px;
+	color: #2a3a58;
+	text-decoration: none;
+}
+.rc-nav-seg a + a {
+	border-left: 1px solid #d3d9e4;
+}
+.rc-nav-seg a:hover {
+	background: #e3e9f3;
+	color: #12203a;
+}
+.rc-nav-seg a.cur,
+.rc-nav-seg a.cur:hover {
+	background: #4a6596;
+	color: #ffffff;
+}
+.rc-nav-top {
+	margin-left: auto;
+	padding: 3px 10px;
+	font: inherit;
+	font-size: 9pt;
+	line-height: 16px;
+	color: #2a3a58;
+	background: #f4f6fa;
+	border: 1px solid #b9c2d2;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.rc-nav-top:hover {
+	background: #e3e9f3;
+	color: #12203a;
+}
+.rc-nav-seg a:focus-visible,
+.rc-nav-top:focus-visible {
+	outline: 2px solid #4a6596;
+	outline-offset: -2px;
+}

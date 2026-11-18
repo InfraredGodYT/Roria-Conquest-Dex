@@ -6,6 +6,41 @@ Dex.escapeHTML = function (str, jsEscapeToo) {
 	return str;
 };
 
+/**
+ * An entry as it was in a past gen of the *vanilla* games.
+ *
+ * Showdown's Dex.forGen(gen) starts from the current dex entry (here the RC-modified
+ * one) and layers each older gen's overrides on top, so anything that never changed
+ * between gens comes out with RC's value, e.g. Rock Tomb's Gen 6 accuracy showing as
+ * RC's 100% rather than vanilla's 95%. This does the same layering, starting from
+ * the vanilla entry instead. Entries with no vanilla version (RC customs) fall back
+ * to Dex.forGen.
+ *
+ * kind: 'moves' | 'items' | 'abilities' | 'species'
+ */
+var VANILLA_PAST_GEN_SOURCES = {
+	moves: ['BattleMovedexVanilla', 'overrideMoveData'],
+	items: ['BattleItemsVanilla', 'overrideItemData'],
+	abilities: ['BattleAbilitiesVanilla', 'overrideAbilityData'],
+	species: ['BattlePokedexVanilla', 'overrideSpeciesData']
+};
+function getVanillaForGen(kind, id, gen) {
+	var source = VANILLA_PAST_GEN_SOURCES[kind];
+	var vanilla = window[source[0]] && window[source[0]][id];
+	if (!vanilla) return Dex.forGen(gen)[kind].get(id);
+
+	var data = Object.assign({}, vanilla);
+	for (var i = Dex.gen - 1; i >= gen; i--) {
+		var table = window.BattleTeambuilderTable && BattleTeambuilderTable['gen' + i];
+		var overrides = table && table[source[1]];
+		if (overrides && id in overrides) Object.assign(data, overrides[id]);
+	}
+	// same per-gen adjustments Dex.forGen makes
+	if (kind === 'moves' && gen <= 3 && data.category !== 'Status') data.category = Dex.getGen3Category(data.type);
+	if (kind === 'species' && gen < 3) data.abilities = {0: 'No Ability'};
+	return data;
+}
+
 var Topbar = Panels.Topbar.extend({
 	height: 51
 });
@@ -33,12 +68,9 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 		// past gens
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= item.gen; genNum--) {
-			var nextGenItem = Dex.forGen(genNum + 1).items.get(id);
-			var curGenItem = Dex.forGen(genNum).items.get(id);
+			var nextGenItem = getVanillaForGen('items', id, genNum + 1);
+			var curGenItem = getVanillaForGen('items', id, genNum);
 			var changes = '';
-
-			if (nextGenItem.desc == item.desc && vanillaItem) nextGenItem = vanillaItem;
-			if (curGenItem.desc == item.desc && vanillaItem) curGenItem = vanillaItem;
 
 			if (curGenItem && nextGenItem && curGenItem.shortDesc !== nextGenItem.shortDesc) {
 				changes += curGenItem.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenItem.shortDesc + '<br />';
@@ -100,14 +132,9 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 		// past gens
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= ability.gen; genNum--) {
-			var nextGenAbility = Dex.forGen(genNum + 1).abilities.get(id);
-			var curGenAbility = Dex.forGen(genNum).abilities.get(id);
+			var nextGenAbility = getVanillaForGen('abilities', id, genNum + 1);
+			var curGenAbility = getVanillaForGen('abilities', id, genNum);
 			var changes = '';
-
-			if (nextGenAbility.desc == ability.desc && vanillaAbility) nextGenAbility = vanillaAbility;
-			if (curGenAbility.desc == ability.desc && vanillaAbility) curGenAbility = vanillaAbility;
-			if (nextGenAbility.shortDesc == ability.shortDesc && vanillaAbility) nextGenAbility = vanillaAbility;
-			if (curGenAbility.shortDesc == ability.shortDesc && vanillaAbility) curGenAbility = vanillaAbility;
 
 			if (curGenAbility && nextGenAbility && curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
 				changes += curGenAbility.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility.shortDesc + '<br />';
@@ -367,7 +394,7 @@ var PokedexTagPanel = PokedexResultPanel.extend({
 		},
 		striker: {
 			name: 'Kicking',
-			tag: 'striker',
+			tag: 'kick',
 			desc: 'Boosted 1.3x by <a href="/abilities/striker" data-target="push">Striker</a>.'
 		},
 		pulse: {
@@ -483,6 +510,18 @@ var PokedexTagPanel = PokedexResultPanel.extend({
 		} else if (this.id === 'zmove') {
 			for (var moveid in BattleMovedex) {
 				if (BattleMovedex[moveid].isZ) {
+					results.push(moveid);
+				}
+			}
+		} else if (this.id === 'maxmove') {
+			for (var moveid in BattleMovedex) {
+				if (BattleMovedex[moveid].isMax === true) {
+					results.push(moveid);
+				}
+			}
+		} else if (this.id === 'gmaxmove') {
+			for (var moveid in BattleMovedex) {
+				if (typeof BattleMovedex[moveid].isMax === 'string') {
 					results.push(moveid);
 				}
 			}
@@ -1003,8 +1042,8 @@ for (const [group, ids] of Object.entries(ArticleGroups)) {
 var PokedexArticlesPanel = Panels.Panel.extend({
 	initialize: function () {
 		var buf = '<div class="pfx-body">';
-		buf += '<a href="/" class="pfx-backbutton"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<h1>Articles</h1>';
+		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<h1><a href="/articles/" data-target="push" class="subtle">Articles</a></h1>';
 
 		// Group articles
 		const grouped = {};
@@ -1043,21 +1082,22 @@ var PokedexArticlesPanel = Panels.Panel.extend({
 var PokedexRCChangesPanel = Panels.Panel.extend({
 	initialize: function () {
 		let buf = '<div class="pfx-body dexentry">';
-		buf += '<a href="/" class="pfx-backbutton"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
-		buf += '<h1>RC Change Index</h1>';
+		buf += '<a href="/" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
+		buf += '<h1><a href="/rcchanges" data-target="push" class="subtle">RC Change Index</a></h1>';
 		buf += '<p>This is a list of everything changed in Roria Conquest.</p>'
-		buf += `<div class="rc-nav">`;
-		buf += `<b>Pokémon:</b> `;
+		buf += `<nav class="rc-nav">`;
+		buf += `<div class="rc-nav-group"><span class="rc-nav-label">Gen</span><span class="rc-nav-seg">`;
 		for (let gen in RCChangeIndex.pokemon) {
-			buf += `<a class="button" href="#pokemon-gen${gen}">Gen ${gen}</a> `;
+			buf += `<a href="#pokemon-gen${gen}" title="Pokémon - Gen ${gen}">${gen}</a>`;
 		}
-		buf += `<br />`;
-
-		buf += `<b>Other:</b> `;
-		buf += `<a class="button" href="#moves">Moves</a> `;
-		buf += `<a class="button" href="#abilities">Abilities</a> `;
-		buf += `<a class="button" href="#items">Items</a>`;
-		buf += `</div>`;
+		buf += `</span></div>`;
+		buf += `<div class="rc-nav-group"><span class="rc-nav-seg">`;
+		buf += `<a href="#moves">Moves</a>`;
+		buf += `<a href="#abilities">Abilities</a>`;
+		buf += `<a href="#items">Items</a>`;
+		buf += `</span></div>`;
+		buf += `<button type="button" class="rc-nav-top" title="Back to top"><i class="fa fa-arrow-up" aria-hidden="true"></i> Top</button>`;
+		buf += `</nav>`;
 
 		function renderSection(title, data, renderFn) {
 			let sectionId = title.toLowerCase();
@@ -1100,16 +1140,60 @@ var PokedexRCChangesPanel = Panels.Panel.extend({
 
 		buf += '</div>';
 		this.html(buf);
-		this.$el.on('click', 'a[href^="#"]', function (e) {
+		// this.el is the scrolling element; the nav is sticky inside it
+		const panel = this.el;
+		const nav = panel.querySelector('.rc-nav');
+		const links = Array.from(nav.querySelectorAll('a[href^="#"]'));
+		const sections = links.map(a => panel.querySelector(a.getAttribute('href')));
+		// position within the panel's scrolled content, regardless of offsetParent
+		const topOf = el => el.getBoundingClientRect().top - panel.getBoundingClientRect().top + panel.scrollTop;
+		const navAnchor = nav.previousElementSibling; // the intro <p>; not sticky, so its position is stable
+		const scrollToY = y => {
+			panel.scrollTop = y;
+		};
+
+		// a clicked section stays highlighted until the user scrolls away from where
+		// the jump landed (sections near the end can't scroll up to the nav line)
+		let pinned = -1;
+		let pinnedScrollTop = 0;
+
+		$(nav).on('click', 'a[href^="#"]', function (e) {
 			e.preventDefault();
-
-			let targetId = this.getAttribute('href').slice(1);
-			let target = document.getElementById(targetId);
+			let target = panel.querySelector(this.getAttribute('href'));
 			if (!target) return;
+			scrollToY(topOf(target) - nav.offsetHeight - 6);
+			pinned = links.indexOf(this);
+			pinnedScrollTop = panel.scrollTop;
+			updateActive();
+		});
+		$(nav).on('click', '.rc-nav-top', function () {
+			scrollToY(0);
+		});
 
-			// Scroll inside the panel
-			let panel = document.querySelector('.pfx-panel');
-			panel.scrollTop = target.offsetTop - 20;
+		// highlight the section currently in view
+		let ticking = false;
+		const updateActive = () => {
+			ticking = false;
+			let active = -1;
+			if (pinned >= 0 && Math.abs(panel.scrollTop - pinnedScrollTop) < 2) {
+				active = pinned;
+			} else {
+				pinned = -1;
+				let atBottom = panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 2;
+				// at the bottom, the furthest section with its heading on screen counts as current
+				let line = atBottom ? panel.scrollTop + panel.clientHeight - 40 : panel.scrollTop + nav.offsetHeight + 12;
+				for (let i = 0; i < sections.length; i++) {
+					if (sections[i] && topOf(sections[i]) <= line) active = i;
+				}
+			}
+			links.forEach((a, i) => a.classList.toggle('cur', i === active));
+			nav.classList.toggle('stuck', panel.scrollTop > topOf(navAnchor) + navAnchor.offsetHeight);
+		};
+		this.$el.on('scroll', () => {
+			if (!ticking) {
+				ticking = true;
+				requestAnimationFrame(updateActive);
+			}
 		});
 	}
 });

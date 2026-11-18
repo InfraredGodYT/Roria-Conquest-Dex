@@ -258,6 +258,42 @@ if (!Function.prototype.bind) {
 			this.scrollIntoView(loc, true);
 			this.updateURL();
 		},
+		closeRightPanel: function() {
+			// remove the rightmost visible panel (and anything after it), leaving
+			// the panel to its left on its own
+			if (this.i <= 0 || this.j >= this.i) return;
+			var loc = this.i - 1;
+			delete this.goLoc;
+
+			// remember where the closing panels are, so they can slide out to the right
+			var closing = [];
+			for (var k = loc + 1; k < this.panels.length; k++) {
+				var p = this.panels[k];
+				closing.push({panel: p, width: p.hidden ? 0 : this.getPanelWidth(p)});
+			}
+			// take them out of the layout first, so the new layout is computed as if
+			// they were never opened (no go-right gap reserved for them)
+			this.panels.length = loc + 1;
+			this.i = loc;
+			if (this.j > loc) this.j = loc;
+
+			// normal layout for the now-rightmost panel: same as before the closed one was opened
+			this.calculateLayout(loc);
+			this.commitLayout(false);
+			this.updateURL();
+
+			var offscreenLeft = this.targetWidth - this.targetRightGap;
+			for (var c = 0; c < closing.length; c++) {
+				var item = closing[c];
+				if (!item.width) {
+					item.panel.remove();
+					continue;
+				}
+				item.panel.moveTo([offscreenLeft, item.width, 'auto'], {hide: true, time: this.goLeftRightDelay}, false);
+				offscreenLeft += item.width;
+				setTimeout(item.panel.remove.bind(item.panel), this.goLeftRightDelay + 50);
+			}
+		},
 		setPanelSource: function() {
 			var source = leftPanel.$('a[href="'+this.root+rightPanel.fragment+'"]');
 			// console.log('sources: a[href="'+this.root+rightPanel.fragment+'"] ('+source.length+')');
@@ -646,6 +682,10 @@ if (!Function.prototype.bind) {
 					e.preventDefault(); e.stopPropagation();
 					this.go($(e.currentTarget).attr('href'));
 				}.bind(this));
+				this.goLeftRightElem.on('click', '.pfx-close-panel', function(e){
+					e.preventDefault(); e.stopPropagation();
+					this.closeRightPanel();
+				}.bind(this));
 			}
 			var buffer = '';
 			if (this.targetLeftGap) {
@@ -653,6 +693,10 @@ if (!Function.prototype.bind) {
 			}
 			if (this.targetRightGap) {
 				buffer += '<a class="pfx-go-right" style="width:'+(this.targetRightGap+this.goRightWidthOffset)+'px" href="'+this.root+this.panels[this.i+1].fragment+'"></a>';
+			}
+			if (this.j < this.i) {
+				// more than one panel visible: offer a close button on the rightmost one
+				buffer += '<button type="button" class="pfx-close-panel" title="Close this panel" aria-label="Close this panel" style="top:'+(this.topbarHeight+8)+'px;right:'+(this.targetRightGap+24)+'px"><i class="fa fa-times" aria-hidden="true"></i></button>';
 			}
 			if (buffer) {
 				if (instant) {

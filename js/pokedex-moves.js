@@ -49,6 +49,9 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			case 'RC':
 				buf += 'This is a custom move only available in Roria Conquest.';
 				break;
+			default:
+				buf += 'This is a non-standard move.';
+				break;
 			}
 			buf += '</div>';
 		}
@@ -404,14 +407,11 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		var vanillaMove = window.BattleMovedexVanilla?.[id];
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= move.gen; genNum--) {
-			var nextGenMove = Dex.forGen(genNum + 1).moves.get(id);
-			var curGenMove = Dex.forGen(genNum).moves.get(id);
-			var changes = '';
-			
 			if (move.isNonstandard && move.isNonstandard == 'RC') break;
+			var nextGenMove = getVanillaForGen('moves', id, genNum + 1);
+			var curGenMove = getVanillaForGen('moves', id, genNum);
+			var changes = '';
 			if (!nextGenMove || !curGenMove) continue;
-			if (nextGenMove == move && vanillaMove) continue;
-			if (curGenMove == move && vanillaMove) continue;
 
 			var nextGenType = nextGenMove.type;
 			var curGenType = curGenMove.type;
@@ -463,22 +463,32 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		var rcChanges = '';
 
 		if (vanillaMove) {
+			// green if RC raised the value, red if it lowered it (same as Pokemon base stats)
+			var rcValue = function (vanillaValue, rcVal, text) {
+				var statClass = rcVal > vanillaValue ? 'stat-up' : 'stat-down';
+				return '<span class="' + statClass + '">' + text + '</span>';
+			};
+			// never-miss beats any accuracy
+			var accRank = function (acc) {
+				return acc === true ? Infinity : acc;
+			};
+
 			if (vanillaMove.type !== move.type) {
 				rcChanges += 'Type: ' + vanillaMove.type + ' <i class="fa fa-long-arrow-right"></i> ' + move.type + '<br />';
 			}
 
 			if (vanillaMove.basePower !== move.basePower) {
-				rcChanges += 'Base Power: ' + vanillaMove.basePower + ' <i class="fa fa-long-arrow-right"></i> ' + move.basePower + '<br />';
+				rcChanges += 'Base Power: ' + vanillaMove.basePower + ' <i class="fa fa-long-arrow-right"></i> ' + rcValue(vanillaMove.basePower, move.basePower, move.basePower) + '<br />';
 			}
 
 			if (vanillaMove.pp !== move.pp) {
-				rcChanges += 'PP: ' + vanillaMove.pp + ' <i class="fa fa-long-arrow-right"></i> ' + move.pp + '<br />';
+				rcChanges += 'PP: ' + vanillaMove.pp + ' <i class="fa fa-long-arrow-right"></i> ' + rcValue(vanillaMove.pp, move.pp, move.pp) + '<br />';
 			}
 
 			if (vanillaMove.accuracy !== move.accuracy) {
 				var vAcc = (vanillaMove.accuracy === true ? 'nevermiss' : vanillaMove.accuracy + '%');
 				var mAcc = (move.accuracy === true ? 'nevermiss' : move.accuracy + '%');
-				rcChanges += 'Accuracy: ' + vAcc + ' <i class="fa fa-long-arrow-right"></i> ' + mAcc + '<br />';
+				rcChanges += 'Accuracy: ' + vAcc + ' <i class="fa fa-long-arrow-right"></i> ' + rcValue(accRank(vanillaMove.accuracy), accRank(move.accuracy), mAcc) + '<br />';
 			}
 
 			if (vanillaMove.category !== move.category) {

@@ -94,7 +94,23 @@
 		this.q = this.engine.query;
 		this.resultSet = this.engine.results;
 
-		if (!this.q && !this.filters && !this.engine.typedSearch?.searchType) {
+		// Dex number search: "25" or "#25" lists every Pokemon (and forme) with that number
+		var numMatch = /^#?\s*(\d+)$/.exec(String(query || '').trim());
+		if (numMatch && !this.filters) {
+			var num = parseInt(numMatch[1], 10);
+			var numRows = [];
+			for (var speciesid in window.BattlePokedex) {
+				if (BattlePokedex[speciesid].num === num) numRows.push(['pokemon', speciesid]);
+			}
+			if (numRows.length) {
+				// replace the engine's results: a bare number never matches a name, so it would only
+				// add "No exact match found" plus alphabetically-closest junk
+				this.resultSet = [['header', 'Pok&eacute;dex #' + num]].concat(numRows);
+				this.exactMatch = false;
+			}
+		}
+
+		if (!this.q &&!this.filters && !this.engine.typedSearch?.searchType) {
 			const articles = [];
 
 			articles.push(['header', 'Articles']);

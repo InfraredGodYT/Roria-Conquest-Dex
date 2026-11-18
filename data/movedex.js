@@ -546,7 +546,7 @@ exports.BattleMovedex = {
     "shortDesc": "2x critical hit ratio."
   },
   "aquajaws": {
-    "num": 601,
+    "num": 6082,
     "accuracy": 100,
     "basePower": 75,
     "category": "Physical",
@@ -2777,7 +2777,7 @@ exports.BattleMovedex = {
     "shortDesc": "100% chance to lower the target's Attack by 1."
   },
   "chillingnibble": {
-    "num": 602,
+    "num": 6083,
     "accuracy": 100,
     "basePower": 20,
     "category": "Physical",
@@ -16919,6 +16919,7 @@ exports.BattleMovedex = {
     "basePower": 95,
     "category": "Physical",
     "name": "Rubble Rocket",
+    "isNonstandard": "RC",
     "pp": 5,
     "priority": 0,
     "flags": {
@@ -20838,7 +20839,7 @@ exports.BattleMovedex = {
     "shortDesc": "Target gets -1 Spe and becomes weaker to Fire."
   },
   "tagout": {
-    "num": 6,
+    "num": 6080,
     "accuracy": true,
     "basePower": 0,
     "category": "Status",
@@ -21524,7 +21525,7 @@ exports.BattleMovedex = {
     "shortDesc": "Lowers the target's Attack and Defense by 1."
   },
   "tidebreaker": {
-    "num": 604,
+    "num": 6081,
     "accuracy": 100,
     "basePower": 70,
     "category": "Physical",

@@ -363,3 +363,63 @@ html.dark .linklist a:hover {
 html.dark .linklist a small {
 	color: #7f9cc8;
 }
+
+/* RC Change Index sticky nav */
+html.dark .rc-nav {
+	background: #22252b;
+}
+html.dark .rc-nav.stuck {
+	border-bottom-color: #3b4250;
+	box-shadow: 0 3px 6px -3px rgba(0, 0, 0, .6);
+}
+html.dark .rc-nav-label {
+	color: #8c94a3;
+}
+html.dark .rc-nav-seg,
+html.dark .rc-nav-top {
+	background: #2a2e35;
+	border-color: #4a5566;
+}
+html.dark .rc-nav-seg a,
+html.dark .rc-nav-top {
+	color: #c9d3e3;
+}
+html.dark .rc-nav-seg a + a {
+	border-left-color: #3b4250;
+}
+html.dark .rc-nav-seg a:hover,
+html.dark .rc-nav-top:hover {
+	background: #343a44;
+	color: #ffffff;
+}
+html.dark .rc-nav-seg a.cur,
+html.dark .rc-nav-seg a.cur:hover {
+	background: #4a6596;
+	color: #ffffff;
+}
+html.dark .rc-nav-seg a:focus-visible,
+html.dark .rc-nav-top:focus-visible {
+	outline-color: #9db6e0;
+}
+
+/* native scrollbars, form controls etc. follow the dark theme */
+html.dark {
+	color-scheme: dark;
+	scrollbar-color: #4a5160 #22252b;
+}
+
+/* panel close button */
+html.dark .pfx-close-panel {
+	background: #2a2e35;
+	border-color: #4a5566;
+	color: #b8c1d1;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+html.dark .pfx-close-panel:hover,
+html.dark .pfx-close-panel:focus-visible {
+	background: #3a414e;
+	color: #ffffff;
+}
+html.dark .pfx-close-panel:focus-visible {
+	outline-color: #9db6e0;
+}

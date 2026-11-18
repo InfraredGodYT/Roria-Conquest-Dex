@@ -274,33 +274,14 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 
 		var vanillaMon = window.BattlePokedexVanilla?.[id];
-		function sameAsRC(monObject) {
-			let pokeString = JSON.stringify(pokemon);
-			let vanillaString = JSON.stringify(vanillaMon);
-			if (pokeString === vanillaString) return false;
-			const properties = ["types", "baseStats", "types"];
-			for (property of properties) {
-				let propStr1 = JSON.stringify(monObject[property]);
-				let propStr2 = JSON.stringify(pokemon[property]);
-
-				if (propStr1 == propStr2) return true;
-			}
-			return false;
-		}
 
 		// past gens
 		var pastGenChanges = false;
 		for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
-			var nextGenSpecies = Dex.forGen(genNum + 1).species.get(id);
-			var curGenSpecies = Dex.forGen(genNum).species.get(id);
+			var nextGenSpecies = getVanillaForGen('species', id, genNum + 1);
+			var curGenSpecies = getVanillaForGen('species', id, genNum);
 			var changes = '';
-
-			let pokeString = JSON.stringify(pokemon);
-			
 			if (!nextGenSpecies || !curGenSpecies) continue;
-			if (sameAsRC(nextGenSpecies) || sameAsRC(curGenSpecies)) continue;
-			if (JSON.stringify(nextGenSpecies) == pokeString && vanillaMon) continue;
-			if (JSON.stringify(curGenSpecies) == pokeString && vanillaMon) continue;
 
 			var nextGenTypes = nextGenSpecies.types.join('/');
 			var curGenTypes = curGenSpecies.types.join('/');
